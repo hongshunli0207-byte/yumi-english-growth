@@ -418,6 +418,28 @@
     speakBrowser(spoken, setting);
   }
 
+
+  function waitMs(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
+
+  async function speakDictationPrompt(word) {
+    const target = String(word.audioText || word.word || "").replace("/", " or ");
+    const example = Array.isArray(word.examples) && word.examples.length ? word.examples[0] : word.example;
+
+    // Weekday new words + Sunday/week wrong review: example → pause → target word.
+    // Saturday weekly test: target word only, to keep the test strict.
+    const withExample = currentPlan && currentPlan.mode !== "saturday" && example;
+
+    if (withExample) {
+      await speak(example);
+      await waitMs(850);
+      await speak(target);
+    } else {
+      await speak(target);
+    }
+  }
+
   function normalize(str) { return String(str || "").trim().toLowerCase().replace(/\s+/g, "").replace(/-/g, ""); }
   function checkAnswer(input, word) { return normalize(input) === normalize(word.word); }
 
@@ -626,12 +648,12 @@ function renderDictation() {
 
     box.innerHTML = `
       <div class="muted">第 ${st.index + 1} / ${st.words.length} 个</div>
-      <div style="margin: 10px 0;">${badge(word)}</div>
+      <div style="margin: 10px 0;">${badge(word)}</div><div class="dictation-mode-note">${currentPlan && currentPlan.mode === "saturday" ? "考试模式：只念单词" : "学习模式：例句 + 单词"}</div>
       <div class="dictation-audio-only">
         <div class="dictation-icon">🔊</div>
-        <div class="muted">请听发音，然后输入英文拼写</div>
+        <div class="muted">${currentPlan && currentPlan.mode === "saturday" ? "周六测试：只听单词，然后输入拼写" : "学习听写：先听例句，再听目标单词"}</div>
       </div>
-      <button class="secondary full" data-speak="${esc(word.audioText || word.word)}">发音</button>
+      <button class="secondary full" id="playDictationPromptBtn">发音</button>
 
       <div class="handwriting-card">
         <div class="handwriting-head">
@@ -810,6 +832,7 @@ function renderDictation() {
       }
       const removeBtn = e.target.closest("[data-remove-wrong]");
       if (removeBtn) return removeWrong(removeBtn.dataset.removeWrong);
+      if (e.target.id === "playDictationPromptBtn") return speakDictationPrompt(dictationState.words[dictationState.index]);
       if (e.target.id === "prevDictationBtn") return prevDictation();
       if (e.target.id === "checkDictationBtn") return checkDictation();
       if (e.target.id === "nextDictationBtn") return nextDictation();

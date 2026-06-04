@@ -144,3 +144,15 @@
     height: 180px;
   }
 }
+
+
+.dictation-mode-note {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  background: #EAF1FF;
+  color: #315CA8;
+  font-size: 13px;
+  font-weight: 850;
+}
