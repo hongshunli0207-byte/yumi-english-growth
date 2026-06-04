@@ -475,6 +475,7 @@
       checked: false,
       isRight: false,
       feedback: "",
+      handwritingById: {},
       resultsById: {},
       finished: false,
       words: currentPlan.dictationWords
@@ -482,7 +483,127 @@
     renderDictation();
   }
 
-  function renderDictation() {
+  
+  function setupHandwritingCanvas() {
+    const canvas = $("handwritingCanvas");
+    if (!canvas || !dictationState) return;
+
+    const word = dictationState.words[dictationState.index];
+    const ctx = canvas.getContext("2d");
+    const dpr = window.devicePixelRatio || 1;
+
+    function resizeCanvas() {
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      redrawSaved();
+    }
+
+    function drawPaper() {
+      const rect = canvas.getBoundingClientRect();
+      ctx.clearRect(0, 0, rect.width, rect.height);
+      ctx.fillStyle = "#fffdf8";
+      ctx.fillRect(0, 0, rect.width, rect.height);
+
+      ctx.strokeStyle = "rgba(181, 106, 51, 0.16)";
+      ctx.lineWidth = 1;
+      const rows = 3;
+      for (let i = 1; i <= rows; i++) {
+        const y = (rect.height / (rows + 1)) * i;
+        ctx.beginPath();
+        ctx.moveTo(14, y);
+        ctx.lineTo(rect.width - 14, y);
+        ctx.stroke();
+      }
+
+      ctx.strokeStyle = "rgba(91, 67, 160, 0.18)";
+      ctx.setLineDash([6, 6]);
+      ctx.beginPath();
+      ctx.moveTo(18, rect.height * 0.5);
+      ctx.lineTo(rect.width - 18, rect.height * 0.5);
+      ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    function redrawSaved() {
+      drawPaper();
+      const data = dictationState.handwritingById[word.id];
+      if (data) {
+        const img = new Image();
+        img.onload = () => {
+          const rect = canvas.getBoundingClientRect();
+          ctx.drawImage(img, 0, 0, rect.width, rect.height);
+        };
+        img.src = data;
+      }
+    }
+
+    resizeCanvas();
+
+    let drawing = false;
+    let last = null;
+
+    function pointFromEvent(e) {
+      const rect = canvas.getBoundingClientRect();
+      const p = e.touches ? e.touches[0] : e;
+      return {
+        x: p.clientX - rect.left,
+        y: p.clientY - rect.top
+      };
+    }
+
+    function startDraw(e) {
+      e.preventDefault();
+      drawing = true;
+      last = pointFromEvent(e);
+    }
+
+    function moveDraw(e) {
+      if (!drawing) return;
+      e.preventDefault();
+      const p = pointFromEvent(e);
+      ctx.strokeStyle = "#2F2A25";
+      ctx.lineWidth = 4.2;
+      ctx.lineCap = "round";
+      ctx.lineJoin = "round";
+      ctx.beginPath();
+      ctx.moveTo(last.x, last.y);
+      ctx.lineTo(p.x, p.y);
+      ctx.stroke();
+      last = p;
+    }
+
+    function endDraw(e) {
+      if (!drawing) return;
+      e && e.preventDefault && e.preventDefault();
+      drawing = false;
+      last = null;
+      try {
+        dictationState.handwritingById[word.id] = canvas.toDataURL("image/png");
+      } catch {}
+    }
+
+    canvas.addEventListener("pointerdown", startDraw);
+    canvas.addEventListener("pointermove", moveDraw);
+    canvas.addEventListener("pointerup", endDraw);
+    canvas.addEventListener("pointercancel", endDraw);
+    canvas.addEventListener("touchstart", startDraw, { passive: false });
+    canvas.addEventListener("touchmove", moveDraw, { passive: false });
+    canvas.addEventListener("touchend", endDraw, { passive: false });
+
+    const clearBtn = $("clearHandwritingBtn");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        delete dictationState.handwritingById[word.id];
+        drawPaper();
+      });
+    }
+
+    window.addEventListener("resize", resizeCanvas, { once: true });
+  }
+
+function renderDictation() {
     const box = $("dictationBox");
     const st = dictationState || { words: [] };
 
@@ -511,6 +632,18 @@
         <div class="muted">请听发音，然后输入英文拼写</div>
       </div>
       <button class="secondary full" data-speak="${esc(word.audioText || word.word)}">发音</button>
+
+      <div class="handwriting-card">
+        <div class="handwriting-head">
+          <div>
+            <div class="handwriting-title">手写板</div>
+            <div class="muted">可以用 Apple Pencil 或手指先写在这里，再输入拼写。</div>
+          </div>
+          <button class="mini-action" id="clearHandwritingBtn">清空</button>
+        </div>
+        <canvas id="handwritingCanvas" class="handwriting-canvas" data-word-id="${esc(word.id)}"></canvas>
+      </div>
+
       <input id="dictationInput" class="input" autocomplete="off" autocapitalize="none" placeholder="请输入英文拼写" value="${esc(st.input)}" />
       ${st.feedback === "wrong" ? `<div class="bad">还差一点。请改正后再继续。</div><div class="muted">正确答案：${esc(word.word)}</div>` : ""}
       ${st.checked && st.isRight ? `<div class="ok">正确！</div>` : ""}
@@ -537,6 +670,8 @@
         }
       });
     }
+
+    setupHandwritingCanvas();
   }
 
   function checkDictation() {
@@ -552,7 +687,8 @@
       cn: word.cn,
       input: st.input,
       isRight,
-      hadWrong: previous.hadWrong || !isRight
+      hadWrong: previous.hadWrong || !isRight,
+      handwriting: st.handwritingById[word.id] || previous.handwriting || ""
     };
 
     if (!isRight && !previous.hadWrong) addWrong(word, st.input);
