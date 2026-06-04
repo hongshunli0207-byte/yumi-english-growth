@@ -6,12 +6,16 @@
     learned: "YUMI_PWA_LEARNED",
     wrongbook: "YUMI_PWA_WRONGBOOK",
     logs: "YUMI_PWA_DICTATION_LOGS",
+    rewards: "YUMI_PWA_REWARD_LOGS",
+    mathLogs: "YUMI_PWA_MATH_LOGS",
     seeded: "YUMI_PWA_SEEDED_WRONGBOOK_V3_20260604",
     contentMigrated: "YUMI_PWA_CONTENT_MIGRATED_V6"
   };
 
   let currentPlan = null;
   let dictationState = null;
+  let mathState = null;
+  let studyState = null;
 
   const VOICE_KEYS = {
     provider: "YUMI_PWA_TTS_PROVIDER",
@@ -466,6 +470,448 @@
     toast.timer = setTimeout(() => el.classList.add("hidden"), 1800);
   }
 
+
+  function seededNumber(seed) {
+    let h = 2166136261;
+    for (let i = 0; i < seed.length; i++) {
+      h ^= seed.charCodeAt(i);
+      h += (h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24);
+    }
+    return Math.abs(h >>> 0);
+  }
+
+  function rng(seed) {
+    let s = seededNumber(seed) || 1;
+    return () => {
+      s = (s * 1664525 + 1013904223) >>> 0;
+      return s / 4294967296;
+    };
+  }
+
+  function awardRandomPoints(source, wordOrQuestion) {
+    const roll = Math.random();
+    let points = 0;
+    if (roll < 0.05) points = 5;
+    else if (roll < 0.25) points = 2;
+    else if (roll < 0.65) points = 1;
+
+    const logs = getStore(KEYS.rewards, []);
+    const entry = {
+      dateKey: currentPlan ? currentPlan.dateKey : dateKey(),
+      source,
+      item: wordOrQuestion,
+      points,
+      createdAt: new Date().toISOString()
+    };
+    logs.unshift(entry);
+    setStore(KEYS.rewards, logs.slice(0, 300));
+
+    if (points > 0) showRewardEffect(points);
+    return points;
+  }
+
+  function todayRewardTotal(dk = dateKey()) {
+    return getStore(KEYS.rewards, [])
+      .filter(x => x.dateKey === dk)
+      .reduce((sum, x) => sum + (x.points || 0), 0);
+  }
+
+  function showRewardEffect(points) {
+    const layer = document.createElement("div");
+    layer.className = "reward-burst";
+    layer.innerHTML = `
+      <div class="reward-card">
+        <div class="reward-stars">✨ ⭐ ✨</div>
+        <div class="reward-points">中奖 +${points} 分</div>
+      </div>
+    `;
+    document.body.appendChild(layer);
+
+    for (let i = 0; i < 18; i++) {
+      const dot = document.createElement("span");
+      dot.className = "confetti-dot";
+      dot.style.left = (50 + (Math.random() * 50 - 25)) + "%";
+      dot.style.top = (46 + (Math.random() * 20 - 10)) + "%";
+      dot.style.setProperty("--dx", (Math.random() * 180 - 90) + "px");
+      dot.style.setProperty("--dy", (Math.random() * -160 - 40) + "px");
+      dot.style.animationDelay = (Math.random() * 120) + "ms";
+      layer.appendChild(dot);
+    }
+
+    setTimeout(() => layer.remove(), 1400);
+  }
+
+  function showDaySummary() {
+    const dk = currentPlan ? currentPlan.dateKey : dateKey();
+    const logs = getStore(KEYS.logs, []);
+    const todayLogs = logs.filter(x => x.dateKey === dk);
+    const reward = todayRewardTotal(dk);
+    const mathLogs = getStore(KEYS.mathLogs, []);
+    const todayMath = mathLogs.find(x => x.dateKey === dk);
+
+    const lastDictation = todayLogs[0];
+    const dictLine = lastDictation
+      ? `英语听写：${lastDictation.rightCount}/${lastDictation.total} 最终正确，曾经错过 ${lastDictation.wrongCount} 个。`
+      : "英语听写：今天还没有完成记录。";
+
+    const mathLine = todayMath
+      ? `数学：${todayMath.rightCount}/${todayMath.total} 最终正确，订正过 ${todayMath.wrongCount} 题。`
+      : "数学：今天还没有完成记录。";
+
+    $("daySummaryContent").innerHTML = `
+      <div class="summary-line">${dictLine}</div>
+      <div class="summary-line">${mathLine}</div>
+      <div class="summary-reward">今日中奖积分：<strong>${reward}</strong> 分</div>
+      <div class="muted">这个分数可以加到你的家庭积分系统里。</div>
+    `;
+    $("daySummaryDialog").showModal();
+  }
+
+  function generateMathQuestions(dk = dateKey()) {
+    const rand = rng("math-" + dk);
+    const questions = [];
+
+    for (let i = 0; i < 3; i++) {
+      const a = 2 + Math.floor(rand() * 8);
+      const b = 2 + Math.floor(rand() * 8);
+      questions.push({
+        id: `mul-${dk}-${i}`,
+        type: "multiplication",
+        title: "个位数乘法",
+        a, b,
+        op: "×",
+        answer: a * b,
+        prompt: `${a} × ${b} = ?`,
+        hint: "可以先想乘法口诀，再写答案。"
+      });
+    }
+
+    // 5 addition/subtraction, subtraction more: 3 subtraction + 2 addition
+    for (let i = 0; i < 3; i++) {
+      const a = 1000 + Math.floor(rand() * 900);   // 1000-1899
+      const b = 100 + Math.floor(rand() * 900);    // 100-999
+      questions.push({
+        id: `sub-${dk}-${i}`,
+        type: "subtraction",
+        title: "三位数/四位数退位减法",
+        a, b,
+        op: "-",
+        answer: a - b,
+        prompt: `${a} - ${b} = ?`,
+        hint: "列竖式时，个位不够向十位借，十位不够向百位借，百位不够向千位借。"
+      });
+    }
+
+    for (let i = 0; i < 2; i++) {
+      const a = 100 + Math.floor(rand() * 900);
+      const b = 100 + Math.floor(rand() * 900);
+      questions.push({
+        id: `add-${dk}-${i}`,
+        type: "addition",
+        title: "三位数进位加法",
+        a, b,
+        op: "+",
+        answer: a + b,
+        prompt: `${a} + ${b} = ?`,
+        hint: "列竖式时，从个位开始算，满十向前一位进 1。"
+      });
+    }
+
+    // Fixed order: multiply first, then mixed add/sub with more subtraction.
+    return questions;
+  }
+
+  function startMath() {
+    const logs = getStore(KEYS.mathLogs, []);
+    const old = logs.find(x => x.dateKey === dateKey());
+    mathState = {
+      index: 0,
+      input: "",
+      feedback: "",
+      checked: false,
+      isRight: false,
+      workById: {},
+      resultsById: {},
+      finished: false,
+      questions: generateMathQuestions(dateKey())
+    };
+
+    if (old && old.results) {
+      old.results.forEach(r => {
+        mathState.resultsById[r.id] = r;
+      });
+    }
+
+    renderMath();
+  }
+
+  function renderMath() {
+    const box = $("mathBox");
+    if (!box) return;
+    const st = mathState || { questions: [] };
+
+    if (!st.questions.length) {
+      box.innerHTML = `<div class="empty">今天没有数学题。</div>`;
+      return;
+    }
+
+    if (st.finished) {
+      const results = Object.values(st.resultsById || {});
+      const right = results.filter(r => r.isRight).length;
+      const wrong = results.filter(r => r.hadWrong).length;
+      box.innerHTML = `
+        <div class="section-title">数学完成啦 🎉</div>
+        <p class="muted">本次数学 ${st.questions.length} 题，最终正确 ${right} 题，订正过 ${wrong} 题。</p>
+        <button class="primary full" id="showDaySummaryBtn">查看今日总结</button>
+      `;
+      return;
+    }
+
+    const q = st.questions[st.index];
+    const old = st.resultsById[q.id];
+    if (old && !st.input) st.input = old.input || "";
+
+    box.innerHTML = `
+      <div class="muted">第 ${st.index + 1} / ${st.questions.length} 题</div>
+      <span class="badge week">${q.title}</span>
+      <div class="math-problem">${q.prompt}</div>
+      <div class="math-hint">${q.hint}</div>
+
+      <div class="math-work-card">
+        <div class="handwriting-head">
+          <div>
+            <div class="handwriting-title">竖式草稿区</div>
+            <div class="muted">在这里列竖式、写进位/退位过程。</div>
+          </div>
+          <button class="mini-action" id="clearMathWorkBtn">清空</button>
+        </div>
+        <canvas id="mathCanvas" class="math-canvas" data-question-id="${esc(q.id)}"></canvas>
+      </div>
+
+      <input id="mathInput" class="input" inputmode="numeric" autocomplete="off" placeholder="请输入答案" value="${esc(st.input)}" />
+
+      ${st.feedback === "wrong" ? `<div class="bad">还差一点。请看竖式再改正。</div><div class="muted">正确答案：${q.answer}</div>` : ""}
+      ${st.checked && st.isRight ? `<div class="ok">正确！</div>` : ""}
+
+      <div class="dictation-nav">
+        <button class="secondary" id="prevMathBtn" ${st.index === 0 ? "disabled" : ""}>上一个</button>
+        ${st.checked && st.isRight ? `<button class="primary" id="nextMathBtn">${st.index + 1 >= st.questions.length ? "完成数学" : "下一个"}</button>` : `<button class="primary" id="checkMathBtn">${st.feedback === "wrong" ? "我改好了，再检查" : "提交"}</button>`}
+      </div>
+    `;
+
+    const input = $("mathInput");
+    if (input) {
+      input.focus();
+      input.addEventListener("input", e => {
+        st.input = e.target.value.replace(/[^\d-]/g, "");
+        e.target.value = st.input;
+        if (st.feedback === "wrong") {
+          st.checked = false;
+          st.isRight = false;
+        }
+      });
+      input.addEventListener("keydown", e => {
+        if (e.key === "Enter") {
+          if (st.checked && st.isRight) nextMath();
+          else checkMath();
+        }
+      });
+    }
+
+    setupMathCanvas();
+  }
+
+  function setupMathCanvas() {
+    const canvas = $("mathCanvas");
+    if (!canvas || !mathState) return;
+
+    const q = mathState.questions[mathState.index];
+    const ctx = canvas.getContext("2d");
+    const dpr = window.devicePixelRatio || 1;
+
+    function resizeCanvas() {
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      redrawSaved();
+    }
+
+    function drawPaper() {
+      const rect = canvas.getBoundingClientRect();
+      ctx.clearRect(0, 0, rect.width, rect.height);
+      ctx.fillStyle = "#fffdf8";
+      ctx.fillRect(0, 0, rect.width, rect.height);
+
+      ctx.strokeStyle = "rgba(181, 106, 51, 0.14)";
+      ctx.lineWidth = 1;
+      const gap = 38;
+      for (let y = gap; y < rect.height; y += gap) {
+        ctx.beginPath();
+        ctx.moveTo(12, y);
+        ctx.lineTo(rect.width - 12, y);
+        ctx.stroke();
+      }
+      for (let x = gap; x < rect.width; x += gap) {
+        ctx.beginPath();
+        ctx.moveTo(x, 12);
+        ctx.lineTo(x, rect.height - 12);
+        ctx.stroke();
+      }
+    }
+
+    function redrawSaved() {
+      drawPaper();
+      const data = mathState.workById[q.id];
+      if (data) {
+        const img = new Image();
+        img.onload = () => {
+          const rect = canvas.getBoundingClientRect();
+          ctx.drawImage(img, 0, 0, rect.width, rect.height);
+        };
+        img.src = data;
+      }
+    }
+
+    resizeCanvas();
+
+    let drawing = false;
+    let last = null;
+
+    function pointFromEvent(e) {
+      const rect = canvas.getBoundingClientRect();
+      const p = e.touches ? e.touches[0] : e;
+      return { x: p.clientX - rect.left, y: p.clientY - rect.top };
+    }
+
+    function startDraw(e) {
+      e.preventDefault();
+      drawing = true;
+      last = pointFromEvent(e);
+    }
+
+    function moveDraw(e) {
+      if (!drawing) return;
+      e.preventDefault();
+      const p = pointFromEvent(e);
+      ctx.strokeStyle = "#2F2A25";
+      ctx.lineWidth = 4.2;
+      ctx.lineCap = "round";
+      ctx.lineJoin = "round";
+      ctx.beginPath();
+      ctx.moveTo(last.x, last.y);
+      ctx.lineTo(p.x, p.y);
+      ctx.stroke();
+      last = p;
+    }
+
+    function endDraw(e) {
+      if (!drawing) return;
+      e && e.preventDefault && e.preventDefault();
+      drawing = false;
+      last = null;
+      try {
+        mathState.workById[q.id] = canvas.toDataURL("image/png");
+      } catch {}
+    }
+
+    canvas.addEventListener("pointerdown", startDraw);
+    canvas.addEventListener("pointermove", moveDraw);
+    canvas.addEventListener("pointerup", endDraw);
+    canvas.addEventListener("pointercancel", endDraw);
+    canvas.addEventListener("touchstart", startDraw, { passive: false });
+    canvas.addEventListener("touchmove", moveDraw, { passive: false });
+    canvas.addEventListener("touchend", endDraw, { passive: false });
+
+    const clearBtn = $("clearMathWorkBtn");
+    if (clearBtn) {
+      clearBtn.addEventListener("click", () => {
+        delete mathState.workById[q.id];
+        drawPaper();
+      });
+    }
+
+    window.addEventListener("resize", resizeCanvas, { once: true });
+  }
+
+  function checkMath() {
+    const st = mathState;
+    const q = st.questions[st.index];
+    const answer = parseInt(st.input, 10);
+    const isRight = answer === q.answer;
+    const previous = st.resultsById[q.id] || {};
+    const result = {
+      id: q.id,
+      prompt: q.prompt,
+      type: q.type,
+      answer: q.answer,
+      input: st.input,
+      isRight,
+      hadWrong: previous.hadWrong || !isRight,
+      work: st.workById[q.id] || previous.work || ""
+    };
+
+    st.resultsById[q.id] = result;
+
+    if (!isRight) {
+      st.checked = false;
+      st.isRight = false;
+      st.feedback = "wrong";
+      renderMath();
+      return;
+    }
+
+    st.checked = true;
+    st.isRight = true;
+    st.feedback = "right";
+    awardRandomPoints("math", q.prompt);
+    renderMath();
+  }
+
+  function nextMath() {
+    const st = mathState;
+    if (st.index + 1 >= st.questions.length) {
+      st.finished = true;
+      const results = Object.values(st.resultsById || {});
+      const rightCount = results.filter(r => r.isRight).length;
+      const wrongCount = results.filter(r => r.hadWrong).length;
+      const logs = getStore(KEYS.mathLogs, []).filter(x => x.dateKey !== dateKey());
+      logs.unshift({
+        dateKey: dateKey(),
+        total: st.questions.length,
+        rightCount,
+        wrongCount,
+        results,
+        createdAt: new Date().toISOString()
+      });
+      setStore(KEYS.mathLogs, logs.slice(0, 100));
+      renderMath();
+      return;
+    }
+
+    st.index += 1;
+    const q = st.questions[st.index];
+    const old = (st.resultsById || {})[q.id];
+    st.input = old ? (old.input || "") : "";
+    st.checked = !!(old && old.isRight);
+    st.isRight = !!(old && old.isRight);
+    st.feedback = st.checked ? "right" : "";
+    renderMath();
+  }
+
+  function prevMath() {
+    const st = mathState;
+    if (!st || st.index <= 0) return;
+    st.index -= 1;
+    const q = st.questions[st.index];
+    const old = (st.resultsById || {})[q.id];
+    st.input = old ? (old.input || "") : "";
+    st.checked = !!(old && old.isRight);
+    st.isRight = !!(old && old.isRight);
+    st.feedback = st.checked ? "right" : "";
+    renderMath();
+  }
+
   function renderHeader() {
     $("todayLine").textContent = currentPlan.dateKey;
     $("planTitle").textContent = currentPlan.title;
@@ -484,10 +930,62 @@
   }
 
   function renderStudy() {
-    $("studyCards").innerHTML = currentPlan.words.length
-      ? currentPlan.words.map(w => `<div class="card">${wordItem(w, true)}</div>`).join("")
-      : `<div class="card empty">今天没有可复习错词。</div>`;
-    $("finishStudyBtn").style.display = currentPlan.words.length ? "block" : "none";
+    const words = currentPlan.words || [];
+
+    if (!words.length) {
+      $("studyCards").innerHTML = `<div class="card empty">今天没有可学习或复习的词。</div>`;
+      $("finishStudyBtn").style.display = "none";
+      return;
+    }
+
+    if (!studyState || studyState.dateKey !== currentPlan.dateKey) {
+      studyState = { dateKey: currentPlan.dateKey, index: 0, handwritingById: {} };
+    }
+
+    if (studyState.index >= words.length) studyState.index = words.length - 1;
+    if (studyState.index < 0) studyState.index = 0;
+
+    const word = words[studyState.index];
+    const examples = Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean);
+    const exampleHtml = examples.length
+      ? `<div class="examples"><div class="example-title">例句：</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
+      : "";
+    const pattern = word.pattern ? `<div class="muted">拼写提示：${esc(word.pattern)}</div>` : "";
+
+    $("studyCards").innerHTML = `
+      <div class="card study-pager-card">
+        <div class="study-progress">第 ${studyState.index + 1} / ${words.length} 个</div>
+        ${badge(word)}
+        <div class="word study-big-word">${esc(word.word)}</div>
+        <div class="cn">${esc(word.cn)}</div>
+        ${pattern}
+        ${exampleHtml}
+
+        <div class="card-actions">
+          <button class="mini-action" data-speak="${esc(word.audioText || word.word)}">🔊 单词发音</button>
+          <button class="mini-action" data-wrong="${esc(word.id)}">加入错题本</button>
+        </div>
+
+        <div class="study-handwriting-card">
+          <div class="handwriting-head">
+            <div>
+              <div class="handwriting-title">手写练习</div>
+              <div class="muted">在这里写一遍这个单词，加强拼写记忆。</div>
+            </div>
+            <button class="mini-action" id="clearStudyHandwritingBtn">清空</button>
+          </div>
+          <canvas id="studyCanvas" class="study-canvas" data-word-id="${esc(word.id)}"></canvas>
+        </div>
+
+        <div class="study-nav">
+          <button class="secondary" id="prevStudyBtn" ${studyState.index === 0 ? "disabled" : ""}>上一个</button>
+          <button class="primary" id="nextStudyBtn">${studyState.index + 1 >= words.length ? "完成学习" : "下一个"}</button>
+        </div>
+      </div>
+    `;
+
+    $("finishStudyBtn").style.display = "none";
+    setupStudyCanvas();
   }
 
   function startDictation() {
@@ -506,6 +1004,119 @@
   }
 
   
+  
+  function setupStudyCanvas() {
+    const canvas = $("studyCanvas");
+    if (!canvas || !studyState || !currentPlan) return;
+    const word = (currentPlan.words || [])[studyState.index];
+    if (!word) return;
+
+    const ctx = canvas.getContext("2d");
+    const dpr = window.devicePixelRatio || 1;
+
+    function resizeCanvas() {
+      const rect = canvas.getBoundingClientRect();
+      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
+      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      redrawSaved();
+    }
+
+    function drawPaper() {
+      const rect = canvas.getBoundingClientRect();
+      ctx.clearRect(0, 0, rect.width, rect.height);
+      ctx.fillStyle = "#fffdf8";
+      ctx.fillRect(0, 0, rect.width, rect.height);
+      ctx.strokeStyle = "rgba(181, 106, 51, 0.16)";
+      ctx.lineWidth = 1;
+      const baseY = rect.height * 0.64;
+      const midY = rect.height * 0.42;
+      ctx.beginPath(); ctx.moveTo(16, baseY); ctx.lineTo(rect.width - 16, baseY); ctx.stroke();
+      ctx.setLineDash([6, 6]);
+      ctx.beginPath(); ctx.moveTo(16, midY); ctx.lineTo(rect.width - 16, midY); ctx.stroke();
+      ctx.setLineDash([]);
+    }
+
+    function redrawSaved() {
+      drawPaper();
+      const data = studyState.handwritingById[word.id];
+      if (data) {
+        const img = new Image();
+        img.onload = () => {
+          const rect = canvas.getBoundingClientRect();
+          ctx.drawImage(img, 0, 0, rect.width, rect.height);
+        };
+        img.src = data;
+      }
+    }
+
+    resizeCanvas();
+    let drawing = false;
+    let last = null;
+
+    function pointFromEvent(e) {
+      const rect = canvas.getBoundingClientRect();
+      const p = e.touches ? e.touches[0] : e;
+      return { x: p.clientX - rect.left, y: p.clientY - rect.top };
+    }
+
+    function startDraw(e) { e.preventDefault(); drawing = true; last = pointFromEvent(e); }
+    function moveDraw(e) {
+      if (!drawing) return;
+      e.preventDefault();
+      const p = pointFromEvent(e);
+      ctx.strokeStyle = "#2F2A25";
+      ctx.lineWidth = 4.2;
+      ctx.lineCap = "round";
+      ctx.lineJoin = "round";
+      ctx.beginPath(); ctx.moveTo(last.x, last.y); ctx.lineTo(p.x, p.y); ctx.stroke();
+      last = p;
+    }
+    function endDraw(e) {
+      if (!drawing) return;
+      e && e.preventDefault && e.preventDefault();
+      drawing = false;
+      last = null;
+      try { studyState.handwritingById[word.id] = canvas.toDataURL("image/png"); } catch {}
+    }
+
+    canvas.addEventListener("pointerdown", startDraw);
+    canvas.addEventListener("pointermove", moveDraw);
+    canvas.addEventListener("pointerup", endDraw);
+    canvas.addEventListener("pointercancel", endDraw);
+    canvas.addEventListener("touchstart", startDraw, { passive: false });
+    canvas.addEventListener("touchmove", moveDraw, { passive: false });
+    canvas.addEventListener("touchend", endDraw, { passive: false });
+
+    const clearBtn = $("clearStudyHandwritingBtn");
+    if (clearBtn) clearBtn.addEventListener("click", () => {
+      delete studyState.handwritingById[word.id];
+      drawPaper();
+    });
+
+    window.addEventListener("resize", resizeCanvas, { once: true });
+  }
+
+  function nextStudyWord() {
+    if (!studyState || !currentPlan) return;
+    const words = currentPlan.words || [];
+    if (studyState.index + 1 >= words.length) {
+      markLearned();
+      switchView("home");
+      return;
+    }
+    studyState.index += 1;
+    renderStudy();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
+  function prevStudyWord() {
+    if (!studyState || studyState.index <= 0) return;
+    studyState.index -= 1;
+    renderStudy();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   function setupHandwritingCanvas() {
     const canvas = $("handwritingCanvas");
     if (!canvas || !dictationState) return;
@@ -638,7 +1249,7 @@ function renderDictation() {
       const results = Object.values(st.resultsById || {});
       const right = results.filter(r => r.isRight).length;
       const wrong = results.filter(r => r.hadWrong).length;
-      box.innerHTML = `<div class="section-title">完成啦 🎉</div><p class="muted">本次听写 ${st.words.length} 个，最终正确 ${right} 个，曾经错过 ${wrong} 个。</p><button class="primary full" data-jump="home">回到首页</button><button class="secondary full" data-jump="wrongbook">查看错题本</button>`;
+      box.innerHTML = `<div class="section-title">完成啦 🎉</div><p class="muted">本次听写 ${st.words.length} 个，最终正确 ${right} 个，曾经错过 ${wrong} 个。</p><button class="primary full" id="showDaySummaryBtn">查看今日总结</button><button class="secondary full" data-jump="wrongbook">查看错题本</button>`;
       return;
     }
 
@@ -727,6 +1338,10 @@ function renderDictation() {
     st.checked = true;
     st.isRight = true;
     st.feedback = "right";
+    if (!previous.rewardChecked) {
+      const reward = awardRandomPoints("english", word.word);
+      st.resultsById[word.id] = { ...st.resultsById[word.id], rewardChecked: true, rewardPoints: reward };
+    }
     renderDictation();
   }
 
@@ -813,6 +1428,7 @@ function renderDictation() {
     $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.view === view));
     $$(".view").forEach(v => v.classList.toggle("active", v.id === `view-${view}`));
     if (view === "dictation") startDictation();
+    if (view === "math") startMath();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -836,6 +1452,12 @@ function renderDictation() {
       if (e.target.id === "prevDictationBtn") return prevDictation();
       if (e.target.id === "checkDictationBtn") return checkDictation();
       if (e.target.id === "nextDictationBtn") return nextDictation();
+      if (e.target.id === "prevStudyBtn") return prevStudyWord();
+      if (e.target.id === "nextStudyBtn") return nextStudyWord();
+      if (e.target.id === "prevMathBtn") return prevMath();
+      if (e.target.id === "checkMathBtn") return checkMath();
+      if (e.target.id === "nextMathBtn") return nextMath();
+      if (e.target.id === "showDaySummaryBtn") return showDaySummary();
     });
 
     $("finishStudyBtn").addEventListener("click", markLearned);
@@ -895,6 +1517,7 @@ function renderDictation() {
     });
     $("installHelpBtn").addEventListener("click", () => $("installDialog").showModal());
     $("closeInstallDialog").addEventListener("click", () => $("installDialog").close());
+    if ($("closeDaySummaryDialog")) $("closeDaySummaryDialog").addEventListener("click", () => $("daySummaryDialog").close());
   }
 
   if ("serviceWorker" in navigator) {
