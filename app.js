@@ -6,7 +6,8 @@
     learned: "YUMI_PWA_LEARNED",
     wrongbook: "YUMI_PWA_WRONGBOOK",
     logs: "YUMI_PWA_DICTATION_LOGS",
-    seeded: "YUMI_PWA_SEEDED_WRONGBOOK_V3_20260604"
+    seeded: "YUMI_PWA_SEEDED_WRONGBOOK_V3_20260604",
+    contentMigrated: "YUMI_PWA_CONTENT_MIGRATED_V6"
   };
 
   let currentPlan = null;
@@ -87,6 +88,38 @@
     });
     setWrongbook(wrongbook);
     localStorage.setItem(KEYS.seeded, "1");
+  }
+
+
+  function migrateWordContent() {
+    if (localStorage.getItem(KEYS.contentMigrated)) return;
+    const byId = {};
+    const byWord = {};
+    (COURSE.schedule || []).forEach(day => {
+      (day.words || []).forEach(w => {
+        byId[w.id] = w;
+        byWord[String(w.word || "").toLowerCase()] = w;
+      });
+    });
+    const wrongbook = getWrongbook();
+    let changed = false;
+    Object.keys(wrongbook).forEach(id => {
+      const old = wrongbook[id];
+      const fresh = byId[id] || byWord[String(old.word || "").toLowerCase()];
+      if (fresh) {
+        wrongbook[id] = {
+          ...old,
+          cn: fresh.cn,
+          pattern: fresh.pattern,
+          examples: fresh.examples,
+          example: fresh.example,
+          audioText: fresh.audioText || old.audioText
+        };
+        changed = true;
+      }
+    });
+    if (changed) setWrongbook(wrongbook);
+    localStorage.setItem(KEYS.contentMigrated, "1");
   }
 
   function removeWrong(id) {
@@ -216,7 +249,7 @@
   function wordItem(word, withActions = false) {
     const examples = Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean);
     const exampleHtml = examples.length
-      ? `<div class="examples"><div class="example-title">例句：</div><ol>${examples.map(ex => `<li>${esc(ex)}</li>`).join("")}</ol></div>`
+      ? `<div class="examples"><div class="example-title">例句：</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
       : "";
     const pattern = word.pattern ? `<div class="muted">拼写提示：${esc(word.pattern)}</div>` : "";
 
@@ -386,7 +419,7 @@
   }
 
   function normalize(str) { return String(str || "").trim().toLowerCase().replace(/\s+/g, "").replace(/-/g, ""); }
-  function checkAnswer(input, word) { return String(word.word).split("/").map(normalize).includes(normalize(input)); }
+  function checkAnswer(input, word) { return normalize(input) === normalize(word.word); }
 
   function markLearned() {
     const learned = getStore(KEYS.learned, {});
@@ -436,7 +469,16 @@
   }
 
   function startDictation() {
-    dictationState = { index: 0, input: "", checked: false, isRight: false, right: 0, wrong: 0, results: [], finished: false, words: currentPlan.dictationWords };
+    dictationState = {
+      index: 0,
+      input: "",
+      checked: false,
+      isRight: false,
+      feedback: "",
+      resultsById: {},
+      finished: false,
+      words: currentPlan.dictationWords
+    };
     renderDictation();
   }
 
@@ -450,11 +492,17 @@
     }
 
     if (st.finished) {
-      box.innerHTML = `<div class="section-title">完成啦 🎉</div><p class="muted">本次听写 ${st.words.length} 个，正确 ${st.right} 个，错误 ${st.wrong} 个。</p><button class="primary full" data-jump="home">回到首页</button><button class="secondary full" data-jump="wrongbook">查看错题本</button>`;
+      const results = Object.values(st.resultsById || {});
+      const right = results.filter(r => r.isRight).length;
+      const wrong = results.filter(r => r.hadWrong).length;
+      box.innerHTML = `<div class="section-title">完成啦 🎉</div><p class="muted">本次听写 ${st.words.length} 个，最终正确 ${right} 个，曾经错过 ${wrong} 个。</p><button class="primary full" data-jump="home">回到首页</button><button class="secondary full" data-jump="wrongbook">查看错题本</button>`;
       return;
     }
 
     const word = st.words[st.index];
+    const old = (st.resultsById || {})[word.id];
+    if (old && !st.input) st.input = old.input || "";
+
     box.innerHTML = `
       <div class="muted">第 ${st.index + 1} / ${st.words.length} 个</div>
       <div style="margin: 10px 0;">${badge(word)}</div>
@@ -464,22 +512,27 @@
       </div>
       <button class="secondary full" data-speak="${esc(word.audioText || word.word)}">发音</button>
       <input id="dictationInput" class="input" autocomplete="off" autocapitalize="none" placeholder="请输入英文拼写" value="${esc(st.input)}" />
-      ${st.checked ? `
-        <div class="${st.isRight ? "ok" : "bad"}">${st.isRight ? "正确！" : "还差一点"}</div>
-        ${st.isRight ? "" : `<div class="muted">正确答案：${esc(word.word)}</div>`}
-        <button class="primary full" id="nextDictationBtn">${st.index + 1 >= st.words.length ? "完成" : "下一个"}</button>
-      ` : `
-        <button class="primary full" id="checkDictationBtn">提交</button>
-      `}
+      ${st.feedback === "wrong" ? `<div class="bad">还差一点。请改正后再继续。</div><div class="muted">正确答案：${esc(word.word)}</div>` : ""}
+      ${st.checked && st.isRight ? `<div class="ok">正确！</div>` : ""}
+      <div class="dictation-nav">
+        <button class="secondary" id="prevDictationBtn" ${st.index === 0 ? "disabled" : ""}>上一个</button>
+        ${st.checked && st.isRight ? `<button class="primary" id="nextDictationBtn">${st.index + 1 >= st.words.length ? "完成" : "下一个"}</button>` : `<button class="primary" id="checkDictationBtn">${st.feedback === "wrong" ? "我改好了，再检查" : "提交"}</button>`}
+      </div>
     `;
 
     const input = $("dictationInput");
     if (input) {
       input.focus();
-      input.addEventListener("input", e => st.input = e.target.value);
+      input.addEventListener("input", e => {
+        st.input = e.target.value;
+        if (st.feedback === "wrong") {
+          st.checked = false;
+          st.isRight = false;
+        }
+      });
       input.addEventListener("keydown", e => {
         if (e.key === "Enter") {
-          if (st.checked) nextDictation();
+          if (st.checked && st.isRight) nextDictation();
           else checkDictation();
         }
       });
@@ -490,13 +543,32 @@
     const st = dictationState;
     const word = st.words[st.index];
     const isRight = checkAnswer(st.input, word);
-    const result = { id: word.id, word: word.word, level: word.level, taskType: word.taskType, cn: word.cn, input: st.input, isRight };
-    if (!isRight) addWrong(word, st.input);
+    const previous = st.resultsById[word.id] || {};
+    const result = {
+      id: word.id,
+      word: word.word,
+      level: word.level,
+      taskType: word.taskType,
+      cn: word.cn,
+      input: st.input,
+      isRight,
+      hadWrong: previous.hadWrong || !isRight
+    };
+
+    if (!isRight && !previous.hadWrong) addWrong(word, st.input);
+    st.resultsById[word.id] = result;
+
+    if (!isRight) {
+      st.checked = false;
+      st.isRight = false;
+      st.feedback = "wrong";
+      renderDictation();
+      return;
+    }
+
     st.checked = true;
-    st.isRight = isRight;
-    st.right += isRight ? 1 : 0;
-    st.wrong += isRight ? 0 : 1;
-    st.results.push(result);
+    st.isRight = true;
+    st.feedback = "right";
     renderDictation();
   }
 
@@ -504,15 +576,34 @@
     const st = dictationState;
     if (st.index + 1 >= st.words.length) {
       st.finished = true;
-      saveLog({ dateKey: currentPlan.dateKey, weekKey: currentPlan.weekKey, mode: currentPlan.mode, title: currentPlan.title, total: st.words.length, rightCount: st.right, wrongCount: st.wrong, results: st.results });
+      const results = Object.values(st.resultsById || {});
+      const rightCount = results.filter(r => r.isRight).length;
+      const wrongCount = results.filter(r => r.hadWrong).length;
+      saveLog({ dateKey: currentPlan.dateKey, weekKey: currentPlan.weekKey, mode: currentPlan.mode, title: currentPlan.title, total: st.words.length, rightCount, wrongCount, results });
       renderAll(false);
       renderDictation();
       return;
     }
     st.index += 1;
-    st.input = "";
-    st.checked = false;
-    st.isRight = false;
+    const word = st.words[st.index];
+    const old = (st.resultsById || {})[word.id];
+    st.input = old ? (old.input || "") : "";
+    st.checked = !!(old && old.isRight);
+    st.isRight = !!(old && old.isRight);
+    st.feedback = st.checked ? "right" : "";
+    renderDictation();
+  }
+
+  function prevDictation() {
+    const st = dictationState;
+    if (!st || st.index <= 0) return;
+    st.index -= 1;
+    const word = st.words[st.index];
+    const old = (st.resultsById || {})[word.id];
+    st.input = old ? (old.input || "") : "";
+    st.checked = !!(old && old.isRight);
+    st.isRight = !!(old && old.isRight);
+    st.feedback = st.checked ? "right" : "";
     renderDictation();
   }
 
@@ -583,6 +674,7 @@
       }
       const removeBtn = e.target.closest("[data-remove-wrong]");
       if (removeBtn) return removeWrong(removeBtn.dataset.removeWrong);
+      if (e.target.id === "prevDictationBtn") return prevDictation();
       if (e.target.id === "checkDictationBtn") return checkDictation();
       if (e.target.id === "nextDictationBtn") return nextDictation();
     });
@@ -653,6 +745,7 @@
   }
 
   seedInitialWrongbook();
+  migrateWordContent();
   bindEvents();
   renderAll();
 })();

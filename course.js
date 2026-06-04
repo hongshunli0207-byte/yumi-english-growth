@@ -18,11 +18,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "about",
           "examples": [
-            "I can spell about.",
-            "Please say about again.",
-            "I can use about in a sentence."
+            "I see the word about.",
+            "I can read about.",
+            "Please spell about."
           ],
-          "example": "I can spell about."
+          "example": "I see the word about."
         },
         {
           "id": "w01d1n02",
@@ -36,11 +36,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "baby",
           "examples": [
-            "I can spell baby.",
-            "Please say baby again.",
-            "I can use baby in a sentence."
+            "I see the word baby.",
+            "I can read baby.",
+            "Please spell baby."
           ],
-          "example": "I can spell baby."
+          "example": "I see the word baby."
         },
         {
           "id": "w01d1n03",
@@ -50,15 +50,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "cage",
           "level": "basic",
-          "cn": "",
+          "cn": "笼子",
           "pattern": "听音拼写",
           "audioText": "cage",
           "examples": [
-            "I can spell cage.",
-            "Please say cage again.",
-            "I can use cage in a sentence."
+            "I see the word cage.",
+            "I can read cage.",
+            "Please spell cage."
           ],
-          "example": "I can spell cage."
+          "example": "I see the word cage."
         },
         {
           "id": "w01d1n04",
@@ -72,11 +72,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dad",
           "examples": [
-            "I can spell dad.",
-            "Please say dad again.",
-            "I can use dad in a sentence."
+            "I see the word dad.",
+            "I can read dad.",
+            "Please spell dad."
           ],
-          "example": "I can spell dad."
+          "example": "I see the word dad."
         },
         {
           "id": "w01d1n05",
@@ -90,11 +90,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "ear",
           "examples": [
-            "I can spell ear.",
-            "Please say ear again.",
-            "I can use ear in a sentence."
+            "I see the word ear.",
+            "I can read ear.",
+            "Please spell ear."
           ],
-          "example": "I can spell ear."
+          "example": "I see the word ear."
         },
         {
           "id": "w01d1n06",
@@ -108,11 +108,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "face",
           "examples": [
-            "I can spell face.",
-            "Please say face again.",
-            "I can use face in a sentence."
+            "I see the word face.",
+            "I can read face.",
+            "Please spell face."
           ],
-          "example": "I can spell face."
+          "example": "I see the word face."
         },
         {
           "id": "w01d1n07",
@@ -126,11 +126,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "game",
           "examples": [
-            "I can spell game.",
-            "Please say game again.",
-            "I can use game in a sentence."
+            "I see the word game.",
+            "I can read game.",
+            "Please spell game."
           ],
-          "example": "I can spell game."
+          "example": "I see the word game."
         },
         {
           "id": "w01d1n08",
@@ -140,15 +140,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "ability",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | ab-il-it-y",
           "audioText": "ability",
           "examples": [
-            "The word ability is important in this lesson.",
-            "I can spell ability slowly.",
-            "I can use ability in a sentence."
+            "The word ability is in my spelling list.",
+            "I say ability slowly and clearly.",
+            "I can learn ability step by step."
           ],
-          "example": "The word ability is important in this lesson."
+          "example": "The word ability is in my spelling list."
         },
         {
           "id": "w01d1n09",
@@ -162,11 +162,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | bas-eb-all",
           "audioText": "baseball",
           "examples": [
-            "The word baseball is important in this lesson.",
-            "I can spell baseball slowly.",
-            "I can use baseball in a sentence."
+            "This is my baseball.",
+            "I put the baseball on the desk.",
+            "Please find the baseball."
           ],
-          "example": "The word baseball is important in this lesson."
+          "example": "This is my baseball."
         },
         {
           "id": "w01d1n10",
@@ -176,15 +176,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "cancer",
           "level": "challenge",
-          "cn": "",
+          "cn": "癌症",
           "pattern": "后缀 -er | canc-er",
           "audioText": "cancer",
           "examples": [
-            "The word cancer is important in this lesson.",
-            "I can spell cancer slowly.",
-            "I can use cancer in a sentence."
+            "The word cancer is in my spelling list.",
+            "I say cancer slowly and clearly.",
+            "I can learn cancer step by step."
           ],
-          "example": "The word cancer is important in this lesson."
+          "example": "The word cancer is in my spelling list."
         }
       ]
     },
@@ -205,11 +205,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "hair",
           "examples": [
-            "I can spell hair.",
-            "Please say hair again.",
-            "I can use hair in a sentence."
+            "I see the word hair.",
+            "I can read hair.",
+            "Please spell hair."
           ],
-          "example": "I can spell hair."
+          "example": "I see the word hair."
         },
         {
           "id": "w01d2n02",
@@ -219,15 +219,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "if",
           "level": "basic",
-          "cn": "",
+          "cn": "如果",
           "pattern": "听音拼写",
           "audioText": "if",
           "examples": [
-            "I can spell if.",
-            "Please say if again.",
-            "I can use if in a sentence."
+            "I see the word if.",
+            "I can read if.",
+            "Please spell if."
           ],
-          "example": "I can spell if."
+          "example": "I see the word if."
         },
         {
           "id": "w01d2n03",
@@ -241,11 +241,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "kettle",
           "examples": [
-            "I can spell kettle.",
-            "Please say kettle again.",
-            "I can use kettle in a sentence."
+            "This is my kettle.",
+            "I put the kettle on the desk.",
+            "Please find the kettle."
           ],
-          "example": "I can spell kettle."
+          "example": "This is my kettle."
         },
         {
           "id": "w01d2n04",
@@ -255,15 +255,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "ladder",
           "level": "basic",
-          "cn": "",
+          "cn": "梯子",
           "pattern": "后缀 -er | ladd-er",
           "audioText": "ladder",
           "examples": [
-            "I can spell ladder.",
-            "Please say ladder again.",
-            "I can use ladder in a sentence."
+            "I see the word ladder.",
+            "I can read ladder.",
+            "Please spell ladder."
           ],
-          "example": "I can spell ladder."
+          "example": "I see the word ladder."
         },
         {
           "id": "w01d2n05",
@@ -273,15 +273,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "make",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "make",
           "examples": [
-            "I can spell make.",
-            "Please say make again.",
-            "I can use make in a sentence."
+            "I can make now.",
+            "Please make with me.",
+            "We make after class."
           ],
-          "example": "I can spell make."
+          "example": "I can make now."
         },
         {
           "id": "w01d2n06",
@@ -291,15 +291,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "nail",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "nail",
           "examples": [
-            "I can spell nail.",
-            "Please say nail again.",
-            "I can use nail in a sentence."
+            "I see the word nail.",
+            "I can read nail.",
+            "Please spell nail."
           ],
-          "example": "I can spell nail."
+          "example": "I see the word nail."
         },
         {
           "id": "w01d2n07",
@@ -309,15 +309,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "of",
           "level": "basic",
-          "cn": "",
+          "cn": "……的",
           "pattern": "听音拼写",
           "audioText": "of",
           "examples": [
-            "I can spell of.",
-            "Please say of again.",
-            "I can use of in a sentence."
+            "I see the word of.",
+            "I can read of.",
+            "Please spell of."
           ],
-          "example": "I can spell of."
+          "example": "I see the word of."
         },
         {
           "id": "w01d2n08",
@@ -331,11 +331,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dance",
           "examples": [
-            "The word dance is important in this lesson.",
-            "I can spell dance slowly.",
-            "I can use dance in a sentence."
+            "I can dance now.",
+            "Please dance with me.",
+            "We dance after class."
           ],
-          "example": "The word dance is important in this lesson."
+          "example": "I can dance now."
         },
         {
           "id": "w01d2n09",
@@ -345,15 +345,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "education",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | educa-tion",
           "audioText": "education",
           "examples": [
-            "The word education is important in this lesson.",
-            "I can spell education slowly.",
-            "I can use education in a sentence."
+            "The word education is in my spelling list.",
+            "I say education slowly and clearly.",
+            "I can learn education step by step."
           ],
-          "example": "The word education is important in this lesson."
+          "example": "The word education is in my spelling list."
         },
         {
           "id": "w01d2n10",
@@ -363,15 +363,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "factory",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | fact-or-y",
           "audioText": "factory",
           "examples": [
-            "The word factory is important in this lesson.",
-            "I can spell factory slowly.",
-            "I can use factory in a sentence."
+            "The word factory is in my spelling list.",
+            "I say factory slowly and clearly.",
+            "I can learn factory step by step."
           ],
-          "example": "The word factory is important in this lesson."
+          "example": "The word factory is in my spelling list."
         }
       ]
     },
@@ -388,15 +388,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "pack",
           "level": "basic",
-          "cn": "",
+          "cn": "打包；一包",
           "pattern": "听音拼写",
           "audioText": "pack",
           "examples": [
-            "I can spell pack.",
-            "Please say pack again.",
-            "I can use pack in a sentence."
+            "I can pack now.",
+            "Please pack with me.",
+            "We pack after class."
           ],
-          "example": "I can spell pack."
+          "example": "I can pack now."
         },
         {
           "id": "w01d3n02",
@@ -410,11 +410,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "queen",
           "examples": [
-            "I can spell queen.",
-            "Please say queen again.",
-            "I can use queen in a sentence."
+            "I see the word queen.",
+            "I can read queen.",
+            "Please spell queen."
           ],
-          "example": "I can spell queen."
+          "example": "I see the word queen."
         },
         {
           "id": "w01d3n03",
@@ -428,11 +428,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "rabbit",
           "examples": [
-            "I can spell rabbit.",
-            "Please say rabbit again.",
-            "I can use rabbit in a sentence."
+            "I see a rabbit at the zoo.",
+            "The rabbit is in my picture.",
+            "The rabbit can move fast."
           ],
-          "example": "I can spell rabbit."
+          "example": "I see a rabbit at the zoo."
         },
         {
           "id": "w01d3n04",
@@ -446,11 +446,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "sad",
           "examples": [
-            "I can spell sad.",
-            "Please say sad again.",
-            "I can use sad in a sentence."
+            "I feel sad today.",
+            "The word sad is useful.",
+            "Can you make a sentence with sad?"
           ],
-          "example": "I can spell sad."
+          "example": "I feel sad today."
         },
         {
           "id": "w01d3n05",
@@ -464,11 +464,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "tail",
           "examples": [
-            "I can spell tail.",
-            "Please say tail again.",
-            "I can use tail in a sentence."
+            "I see the word tail.",
+            "I can read tail.",
+            "Please spell tail."
           ],
-          "example": "I can spell tail."
+          "example": "I see the word tail."
         },
         {
           "id": "w01d3n06",
@@ -478,15 +478,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "umpire",
           "level": "basic",
-          "cn": "",
+          "cn": "裁判",
           "pattern": "听音拼写",
           "audioText": "umpire",
           "examples": [
-            "I can spell umpire.",
-            "Please say umpire again.",
-            "I can use umpire in a sentence."
+            "I see the word umpire.",
+            "I can read umpire.",
+            "Please spell umpire."
           ],
-          "example": "I can spell umpire."
+          "example": "I see the word umpire."
         },
         {
           "id": "w01d3n07",
@@ -500,11 +500,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "van",
           "examples": [
-            "I can spell van.",
-            "Please say van again.",
-            "I can use van in a sentence."
+            "I see the word van.",
+            "I can read van.",
+            "Please spell van."
           ],
-          "example": "I can spell van."
+          "example": "I see the word van."
         },
         {
           "id": "w01d3n08",
@@ -514,15 +514,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "galactic",
           "level": "challenge",
-          "cn": "",
+          "cn": "银河的",
           "pattern": "听音拼写 | gal-act-ic",
           "audioText": "galactic",
           "examples": [
-            "The word galactic is important in this lesson.",
-            "I can spell galactic slowly.",
-            "I can use galactic in a sentence."
+            "The word galactic is in my spelling list.",
+            "I say galactic slowly and clearly.",
+            "I can learn galactic step by step."
           ],
-          "example": "The word galactic is important in this lesson."
+          "example": "The word galactic is in my spelling list."
         },
         {
           "id": "w01d3n09",
@@ -536,11 +536,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | hamburg-er",
           "audioText": "hamburger",
           "examples": [
-            "The word hamburger is important in this lesson.",
-            "I can spell hamburger slowly.",
-            "I can use hamburger in a sentence."
+            "I eat hamburger for lunch.",
+            "The hamburger is on the table.",
+            "Do you like hamburger?"
           ],
-          "example": "The word hamburger is important in this lesson."
+          "example": "I eat hamburger for lunch."
         },
         {
           "id": "w01d3n10",
@@ -550,15 +550,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "immersion",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | immer-sion",
           "audioText": "immersion",
           "examples": [
-            "The word immersion is important in this lesson.",
-            "I can spell immersion slowly.",
-            "I can use immersion in a sentence."
+            "The word immersion is in my spelling list.",
+            "I say immersion slowly and clearly.",
+            "I can learn immersion step by step."
           ],
-          "example": "The word immersion is important in this lesson."
+          "example": "The word immersion is in my spelling list."
         }
       ]
     },
@@ -579,11 +579,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "wait",
           "examples": [
-            "I can spell wait.",
-            "Please say wait again.",
-            "I can use wait in a sentence."
+            "I can wait now.",
+            "Please wait with me.",
+            "We wait after class."
           ],
-          "example": "I can spell wait."
+          "example": "I can wait now."
         },
         {
           "id": "w01d4n02",
@@ -597,11 +597,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "yacht",
           "examples": [
-            "I can spell yacht.",
-            "Please say yacht again.",
-            "I can use yacht in a sentence."
+            "I see the word yacht.",
+            "I can read yacht.",
+            "Please spell yacht."
           ],
-          "example": "I can spell yacht."
+          "example": "I see the word yacht."
         },
         {
           "id": "w01d4n03",
@@ -615,11 +615,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "zebra",
           "examples": [
-            "I can spell zebra.",
-            "Please say zebra again.",
-            "I can use zebra in a sentence."
+            "I see a zebra at the zoo.",
+            "The zebra is in my picture.",
+            "The zebra can move fast."
           ],
-          "example": "I can spell zebra."
+          "example": "I see a zebra at the zoo."
         },
         {
           "id": "w01d4n04",
@@ -633,11 +633,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "above",
           "examples": [
-            "I can spell above.",
-            "Please say above again.",
-            "I can use above in a sentence."
+            "I see the word above.",
+            "I can read above.",
+            "Please spell above."
           ],
-          "example": "I can spell above."
+          "example": "I see the word above."
         },
         {
           "id": "w01d4n05",
@@ -651,11 +651,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "back",
           "examples": [
-            "I can spell back.",
-            "Please say back again.",
-            "I can use back in a sentence."
+            "I see the word back.",
+            "I can read back.",
+            "Please spell back."
           ],
-          "example": "I can spell back."
+          "example": "I see the word back."
         },
         {
           "id": "w01d4n06",
@@ -669,11 +669,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cake",
           "examples": [
-            "I can spell cake.",
-            "Please say cake again.",
-            "I can use cake in a sentence."
+            "I eat cake for lunch.",
+            "The cake is on the table.",
+            "Do you like cake?"
           ],
-          "example": "I can spell cake."
+          "example": "I eat cake for lunch."
         },
         {
           "id": "w01d4n07",
@@ -687,11 +687,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "day",
           "examples": [
-            "I can spell day.",
-            "Please say day again.",
-            "I can use day in a sentence."
+            "I see the word day.",
+            "I can read day.",
+            "Please spell day."
           ],
-          "example": "I can spell day."
+          "example": "I see the word day."
         },
         {
           "id": "w01d4n08",
@@ -705,11 +705,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | kang-ar-oo",
           "audioText": "kangaroo",
           "examples": [
-            "The word kangaroo is important in this lesson.",
-            "I can spell kangaroo slowly.",
-            "I can use kangaroo in a sentence."
+            "I see a kangaroo at the zoo.",
+            "The kangaroo is in my picture.",
+            "The kangaroo can move fast."
           ],
-          "example": "The word kangaroo is important in this lesson."
+          "example": "I see a kangaroo at the zoo."
         },
         {
           "id": "w01d4n09",
@@ -717,17 +717,17 @@ window.YUMI_COURSE = {
           "dayIndex": 3,
           "dayName": "周四",
           "num": 9,
-          "word": "labor/labour",
+          "word": "labor",
           "level": "challenge",
-          "cn": "",
+          "cn": "劳动",
           "pattern": "英/美拼写变体",
-          "audioText": "labor or labour",
+          "audioText": "labor",
           "examples": [
-            "The word labor is important in this lesson.",
-            "I can spell labor slowly.",
-            "I can use labor in a sentence."
+            "The word labor is in my spelling list.",
+            "I say labor slowly and clearly.",
+            "I can learn labor step by step."
           ],
-          "example": "The word labor is important in this lesson."
+          "example": "The word labor is in my spelling list."
         },
         {
           "id": "w01d4n10",
@@ -737,15 +737,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "magician",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | mag-ic-ian",
           "audioText": "magician",
           "examples": [
-            "The word magician is important in this lesson.",
-            "I can spell magician slowly.",
-            "I can use magician in a sentence."
+            "The word magician is in my spelling list.",
+            "I say magician slowly and clearly.",
+            "I can learn magician step by step."
           ],
-          "example": "The word magician is important in this lesson."
+          "example": "The word magician is in my spelling list."
         }
       ]
     },
@@ -766,11 +766,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "earth",
           "examples": [
-            "I can spell earth.",
-            "Please say earth again.",
-            "I can use earth in a sentence."
+            "I see the word earth.",
+            "I can read earth.",
+            "Please spell earth."
           ],
-          "example": "I can spell earth."
+          "example": "I see the word earth."
         },
         {
           "id": "w01d5n02",
@@ -780,15 +780,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "factor",
           "level": "basic",
-          "cn": "",
+          "cn": "因素",
           "pattern": "听音拼写",
           "audioText": "factor",
           "examples": [
-            "I can spell factor.",
-            "Please say factor again.",
-            "I can use factor in a sentence."
+            "I see the word factor.",
+            "I can read factor.",
+            "Please spell factor."
           ],
-          "example": "I can spell factor."
+          "example": "I see the word factor."
         },
         {
           "id": "w01d5n03",
@@ -798,15 +798,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "garbage",
           "level": "basic",
-          "cn": "",
+          "cn": "垃圾",
           "pattern": "听音拼写 | garb-ag-e",
           "audioText": "garbage",
           "examples": [
-            "I can spell garbage.",
-            "Please say garbage again.",
-            "I can use garbage in a sentence."
+            "I see the word garbage.",
+            "I can read garbage.",
+            "Please spell garbage."
           ],
-          "example": "I can spell garbage."
+          "example": "I see the word garbage."
         },
         {
           "id": "w01d5n04",
@@ -816,15 +816,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "halve",
           "level": "basic",
-          "cn": "",
+          "cn": "平分；减半",
           "pattern": "听音拼写",
           "audioText": "halve",
           "examples": [
-            "I can spell halve.",
-            "Please say halve again.",
-            "I can use halve in a sentence."
+            "I see the word halve.",
+            "I can read halve.",
+            "Please spell halve."
           ],
-          "example": "I can spell halve."
+          "example": "I see the word halve."
         },
         {
           "id": "w01d5n05",
@@ -838,11 +838,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "igloo",
           "examples": [
-            "I can spell igloo.",
-            "Please say igloo again.",
-            "I can use igloo in a sentence."
+            "I see the word igloo.",
+            "I can read igloo.",
+            "Please spell igloo."
           ],
-          "example": "I can spell igloo."
+          "example": "I see the word igloo."
         },
         {
           "id": "w01d5n06",
@@ -856,11 +856,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "key",
           "examples": [
-            "I can spell key.",
-            "Please say key again.",
-            "I can use key in a sentence."
+            "I see the word key.",
+            "I can read key.",
+            "Please spell key."
           ],
-          "example": "I can spell key."
+          "example": "I see the word key."
         },
         {
           "id": "w01d5n07",
@@ -874,11 +874,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "lake",
           "examples": [
-            "I can spell lake.",
-            "Please say lake again.",
-            "I can use lake in a sentence."
+            "I go to the lake.",
+            "The lake is near my home.",
+            "We talk about the lake."
           ],
-          "example": "I can spell lake."
+          "example": "I go to the lake."
         },
         {
           "id": "w01d5n08",
@@ -888,15 +888,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "nationality",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | nat-ion-al-it-y",
           "audioText": "nationality",
           "examples": [
-            "The word nationality is important in this lesson.",
-            "I can spell nationality slowly.",
-            "I can use nationality in a sentence."
+            "The word nationality is in my spelling list.",
+            "I say nationality slowly and clearly.",
+            "I can learn nationality step by step."
           ],
-          "example": "The word nationality is important in this lesson."
+          "example": "The word nationality is in my spelling list."
         },
         {
           "id": "w01d5n09",
@@ -906,15 +906,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "obscurity",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | obsc-ur-it-y",
           "audioText": "obscurity",
           "examples": [
-            "The word obscurity is important in this lesson.",
-            "I can spell obscurity slowly.",
-            "I can use obscurity in a sentence."
+            "The word obscurity is in my spelling list.",
+            "I say obscurity slowly and clearly.",
+            "I can learn obscurity step by step."
           ],
-          "example": "The word obscurity is important in this lesson."
+          "example": "The word obscurity is in my spelling list."
         },
         {
           "id": "w01d5n10",
@@ -924,15 +924,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "paintbrush",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | paintbr-ush",
           "audioText": "paintbrush",
           "examples": [
-            "The word paintbrush is important in this lesson.",
-            "I can spell paintbrush slowly.",
-            "I can use paintbrush in a sentence."
+            "This is my paintbrush.",
+            "I put the paintbrush on the desk.",
+            "Please find the paintbrush."
           ],
-          "example": "The word paintbrush is important in this lesson."
+          "example": "This is my paintbrush."
         }
       ]
     },
@@ -949,15 +949,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "mall",
           "level": "basic",
-          "cn": "",
+          "cn": "商场",
           "pattern": "听音拼写",
           "audioText": "mall",
           "examples": [
-            "I can spell mall.",
-            "Please say mall again.",
-            "I can use mall in a sentence."
+            "I go to the mall.",
+            "The mall is near my home.",
+            "We talk about the mall."
           ],
-          "example": "I can spell mall."
+          "example": "I go to the mall."
         },
         {
           "id": "w02d1n02",
@@ -971,11 +971,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "name",
           "examples": [
-            "I can spell name.",
-            "Please say name again.",
-            "I can use name in a sentence."
+            "I see the word name.",
+            "I can read name.",
+            "Please spell name."
           ],
-          "example": "I can spell name."
+          "example": "I see the word name."
         },
         {
           "id": "w02d1n03",
@@ -985,15 +985,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "offer",
           "level": "basic",
-          "cn": "",
+          "cn": "提供",
           "pattern": "后缀 -er",
           "audioText": "offer",
           "examples": [
-            "I can spell offer.",
-            "Please say offer again.",
-            "I can use offer in a sentence."
+            "I see the word offer.",
+            "I can read offer.",
+            "Please spell offer."
           ],
-          "example": "I can spell offer."
+          "example": "I see the word offer."
         },
         {
           "id": "w02d1n04",
@@ -1003,15 +1003,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "packet",
           "level": "basic",
-          "cn": "",
+          "cn": "小包",
           "pattern": "听音拼写",
           "audioText": "packet",
           "examples": [
-            "I can spell packet.",
-            "Please say packet again.",
-            "I can use packet in a sentence."
+            "I see the word packet.",
+            "I can read packet.",
+            "Please spell packet."
           ],
-          "example": "I can spell packet."
+          "example": "I see the word packet."
         },
         {
           "id": "w02d1n05",
@@ -1025,11 +1025,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "quiet",
           "examples": [
-            "I can spell quiet.",
-            "Please say quiet again.",
-            "I can use quiet in a sentence."
+            "I feel quiet today.",
+            "The word quiet is useful.",
+            "Can you make a sentence with quiet?"
           ],
-          "example": "I can spell quiet."
+          "example": "I feel quiet today."
         },
         {
           "id": "w02d1n06",
@@ -1039,15 +1039,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "radius",
           "level": "basic",
-          "cn": "",
+          "cn": "半径",
           "pattern": "听音拼写",
           "audioText": "radius",
           "examples": [
-            "I can spell radius.",
-            "Please say radius again.",
-            "I can use radius in a sentence."
+            "I see the word radius.",
+            "I can read radius.",
+            "Please spell radius."
           ],
-          "example": "I can spell radius."
+          "example": "I see the word radius."
         },
         {
           "id": "w02d1n07",
@@ -1057,15 +1057,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "sail",
           "level": "basic",
-          "cn": "",
+          "cn": "航行；帆",
           "pattern": "元音组合",
           "audioText": "sail",
           "examples": [
-            "I can spell sail.",
-            "Please say sail again.",
-            "I can use sail in a sentence."
+            "I can sail now.",
+            "Please sail with me.",
+            "We sail after class."
           ],
-          "example": "I can spell sail."
+          "example": "I can sail now."
         },
         {
           "id": "w02d1n08",
@@ -1075,15 +1075,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "quarrel",
           "level": "challenge",
-          "cn": "",
+          "cn": "争吵",
           "pattern": "听音拼写 | quarr-el",
           "audioText": "quarrel",
           "examples": [
-            "The word quarrel is important in this lesson.",
-            "I can spell quarrel slowly.",
-            "I can use quarrel in a sentence."
+            "The word quarrel is in my spelling list.",
+            "I say quarrel slowly and clearly.",
+            "I can learn quarrel step by step."
           ],
-          "example": "The word quarrel is important in this lesson."
+          "example": "The word quarrel is in my spelling list."
         },
         {
           "id": "w02d1n09",
@@ -1093,15 +1093,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "railway",
           "level": "challenge",
-          "cn": "",
+          "cn": "铁路",
           "pattern": "元音组合 | railw-ay",
           "audioText": "railway",
           "examples": [
-            "The word railway is important in this lesson.",
-            "I can spell railway slowly.",
-            "I can use railway in a sentence."
+            "The word railway is in my spelling list.",
+            "I say railway slowly and clearly.",
+            "I can learn railway step by step."
           ],
-          "example": "The word railway is important in this lesson."
+          "example": "The word railway is in my spelling list."
         },
         {
           "id": "w02d1n10",
@@ -1111,15 +1111,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "sailfish",
           "level": "challenge",
-          "cn": "",
+          "cn": "旗鱼",
           "pattern": "元音组合 | sailf-ish",
           "audioText": "sailfish",
           "examples": [
-            "The word sailfish is important in this lesson.",
-            "I can spell sailfish slowly.",
-            "I can use sailfish in a sentence."
+            "The word sailfish is in my spelling list.",
+            "I say sailfish slowly and clearly.",
+            "I can learn sailfish step by step."
           ],
-          "example": "The word sailfish is important in this lesson."
+          "example": "The word sailfish is in my spelling list."
         }
       ]
     },
@@ -1140,11 +1140,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "talk",
           "examples": [
-            "I can spell talk.",
-            "Please say talk again.",
-            "I can use talk in a sentence."
+            "I can talk now.",
+            "Please talk with me.",
+            "We talk after class."
           ],
-          "example": "I can spell talk."
+          "example": "I can talk now."
         },
         {
           "id": "w02d2n02",
@@ -1158,11 +1158,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "uncle",
           "examples": [
-            "I can spell uncle.",
-            "Please say uncle again.",
-            "I can use uncle in a sentence."
+            "I see the word uncle.",
+            "I can read uncle.",
+            "Please spell uncle."
           ],
-          "example": "I can spell uncle."
+          "example": "I see the word uncle."
         },
         {
           "id": "w02d2n03",
@@ -1172,15 +1172,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "vary",
           "level": "basic",
-          "cn": "",
+          "cn": "变化",
           "pattern": "听音拼写",
           "audioText": "vary",
           "examples": [
-            "I can spell vary.",
-            "Please say vary again.",
-            "I can use vary in a sentence."
+            "I see the word vary.",
+            "I can read vary.",
+            "Please spell vary."
           ],
-          "example": "I can spell vary."
+          "example": "I see the word vary."
         },
         {
           "id": "w02d2n04",
@@ -1194,11 +1194,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "walk",
           "examples": [
-            "I can spell walk.",
-            "Please say walk again.",
-            "I can use walk in a sentence."
+            "I can walk now.",
+            "Please walk with me.",
+            "We walk after class."
           ],
-          "example": "I can spell walk."
+          "example": "I can walk now."
         },
         {
           "id": "w02d2n05",
@@ -1212,11 +1212,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "yam",
           "examples": [
-            "I can spell yam.",
-            "Please say yam again.",
-            "I can use yam in a sentence."
+            "I eat yam for lunch.",
+            "The yam is on the table.",
+            "Do you like yam?"
           ],
-          "example": "I can spell yam."
+          "example": "I eat yam for lunch."
         },
         {
           "id": "w02d2n06",
@@ -1230,11 +1230,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "zoo",
           "examples": [
-            "I can spell zoo.",
-            "Please say zoo again.",
-            "I can use zoo in a sentence."
+            "I go to the zoo.",
+            "The zoo is near my home.",
+            "We talk about the zoo."
           ],
-          "example": "I can spell zoo."
+          "example": "I go to the zoo."
         },
         {
           "id": "w02d2n07",
@@ -1248,11 +1248,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "accept",
           "examples": [
-            "I can spell accept.",
-            "Please say accept again.",
-            "I can use accept in a sentence."
+            "I can accept now.",
+            "Please accept with me.",
+            "We accept after class."
           ],
-          "example": "I can spell accept."
+          "example": "I can accept now."
         },
         {
           "id": "w02d2n08",
@@ -1266,11 +1266,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "table",
           "examples": [
-            "The word table is important in this lesson.",
-            "I can spell table slowly.",
-            "I can use table in a sentence."
+            "This is my table.",
+            "I put the table on the desk.",
+            "Please find the table."
           ],
-          "example": "The word table is important in this lesson."
+          "example": "This is my table."
         },
         {
           "id": "w02d2n09",
@@ -1284,11 +1284,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | umbr-ell-a",
           "audioText": "umbrella",
           "examples": [
-            "The word umbrella is important in this lesson.",
-            "I can spell umbrella slowly.",
-            "I can use umbrella in a sentence."
+            "This is my umbrella.",
+            "I put the umbrella on the desk.",
+            "Please find the umbrella."
           ],
-          "example": "The word umbrella is important in this lesson."
+          "example": "This is my umbrella."
         },
         {
           "id": "w02d2n10",
@@ -1298,15 +1298,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "vascular",
           "level": "challenge",
-          "cn": "",
+          "cn": "血管的",
           "pattern": "听音拼写 | vasc-ul-ar",
           "audioText": "vascular",
           "examples": [
-            "The word vascular is important in this lesson.",
-            "I can spell vascular slowly.",
-            "I can use vascular in a sentence."
+            "The word vascular is in my spelling list.",
+            "I say vascular slowly and clearly.",
+            "I can learn vascular step by step."
           ],
-          "example": "The word vascular is important in this lesson."
+          "example": "The word vascular is in my spelling list."
         }
       ]
     },
@@ -1327,11 +1327,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bacon",
           "examples": [
-            "I can spell bacon.",
-            "Please say bacon again.",
-            "I can use bacon in a sentence."
+            "I eat bacon for lunch.",
+            "The bacon is on the table.",
+            "Do you like bacon?"
           ],
-          "example": "I can spell bacon."
+          "example": "I eat bacon for lunch."
         },
         {
           "id": "w02d3n02",
@@ -1341,15 +1341,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "call",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "call",
           "examples": [
-            "I can spell call.",
-            "Please say call again.",
-            "I can use call in a sentence."
+            "I can call now.",
+            "Please call with me.",
+            "We call after class."
           ],
-          "example": "I can spell call."
+          "example": "I can call now."
         },
         {
           "id": "w02d3n03",
@@ -1363,11 +1363,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "dear",
           "examples": [
-            "I can spell dear.",
-            "Please say dear again.",
-            "I can use dear in a sentence."
+            "I see the word dear.",
+            "I can read dear.",
+            "Please spell dear."
           ],
-          "example": "I can spell dear."
+          "example": "I see the word dear."
         },
         {
           "id": "w02d3n04",
@@ -1381,11 +1381,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "east",
           "examples": [
-            "I can spell east.",
-            "Please say east again.",
-            "I can use east in a sentence."
+            "I see the word east.",
+            "I can read east.",
+            "Please spell east."
           ],
-          "example": "I can spell east."
+          "example": "I see the word east."
         },
         {
           "id": "w02d3n05",
@@ -1395,15 +1395,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "fail",
           "level": "basic",
-          "cn": "",
+          "cn": "失败",
           "pattern": "元音组合",
           "audioText": "fail",
           "examples": [
-            "I can spell fail.",
-            "Please say fail again.",
-            "I can use fail in a sentence."
+            "I can fail now.",
+            "Please fail with me.",
+            "We fail after class."
           ],
-          "example": "I can spell fail."
+          "example": "I can fail now."
         },
         {
           "id": "w02d3n06",
@@ -1417,11 +1417,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "garden",
           "examples": [
-            "I can spell garden.",
-            "Please say garden again.",
-            "I can use garden in a sentence."
+            "I go to the garden.",
+            "The garden is near my home.",
+            "We talk about the garden."
           ],
-          "example": "I can spell garden."
+          "example": "I go to the garden."
         },
         {
           "id": "w02d3n07",
@@ -1435,11 +1435,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hand",
           "examples": [
-            "I can spell hand.",
-            "Please say hand again.",
-            "I can use hand in a sentence."
+            "I see the word hand.",
+            "I can read hand.",
+            "Please spell hand."
           ],
-          "example": "I can spell hand."
+          "example": "I see the word hand."
         },
         {
           "id": "w02d3n08",
@@ -1453,11 +1453,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | wat-erm-el-on",
           "audioText": "watermelon",
           "examples": [
-            "The word watermelon is important in this lesson.",
-            "I can spell watermelon slowly.",
-            "I can use watermelon in a sentence."
+            "I eat watermelon for lunch.",
+            "The watermelon is on the table.",
+            "Do you like watermelon?"
           ],
-          "example": "The word watermelon is important in this lesson."
+          "example": "I eat watermelon for lunch."
         },
         {
           "id": "w02d3n09",
@@ -1471,11 +1471,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | yours-elf",
           "audioText": "yourself",
           "examples": [
-            "The word yourself is important in this lesson.",
-            "I can spell yourself slowly.",
-            "I can use yourself in a sentence."
+            "The word yourself is in my spelling list.",
+            "I say yourself slowly and clearly.",
+            "I can learn yourself step by step."
           ],
-          "example": "The word yourself is important in this lesson."
+          "example": "The word yourself is in my spelling list."
         },
         {
           "id": "w02d3n10",
@@ -1485,15 +1485,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "zeppelin",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | zepp-el-in",
           "audioText": "zeppelin",
           "examples": [
-            "The word zeppelin is important in this lesson.",
-            "I can spell zeppelin slowly.",
-            "I can use zeppelin in a sentence."
+            "The word zeppelin is in my spelling list.",
+            "I say zeppelin slowly and clearly.",
+            "I can learn zeppelin step by step."
           ],
-          "example": "The word zeppelin is important in this lesson."
+          "example": "The word zeppelin is in my spelling list."
         }
       ]
     },
@@ -1510,15 +1510,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "ignore",
           "level": "basic",
-          "cn": "",
+          "cn": "忽视",
           "pattern": "听音拼写",
           "audioText": "ignore",
           "examples": [
-            "I can spell ignore.",
-            "Please say ignore again.",
-            "I can use ignore in a sentence."
+            "I can ignore now.",
+            "Please ignore with me.",
+            "We ignore after class."
           ],
-          "example": "I can spell ignore."
+          "example": "I can ignore now."
         },
         {
           "id": "w02d4n02",
@@ -1528,15 +1528,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "kick",
           "level": "basic",
-          "cn": "",
+          "cn": "踢",
           "pattern": "听音拼写",
           "audioText": "kick",
           "examples": [
-            "I can spell kick.",
-            "Please say kick again.",
-            "I can use kick in a sentence."
+            "I can kick now.",
+            "Please kick with me.",
+            "We kick after class."
           ],
-          "example": "I can spell kick."
+          "example": "I can kick now."
         },
         {
           "id": "w02d4n03",
@@ -1550,11 +1550,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "lamb",
           "examples": [
-            "I can spell lamb.",
-            "Please say lamb again.",
-            "I can use lamb in a sentence."
+            "I see a lamb at the zoo.",
+            "The lamb is in my picture.",
+            "The lamb can move fast."
           ],
-          "example": "I can spell lamb."
+          "example": "I see a lamb at the zoo."
         },
         {
           "id": "w02d4n04",
@@ -1568,11 +1568,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "man",
           "examples": [
-            "I can spell man.",
-            "Please say man again.",
-            "I can use man in a sentence."
+            "I see the word man.",
+            "I can read man.",
+            "Please spell man."
           ],
-          "example": "I can spell man."
+          "example": "I see the word man."
         },
         {
           "id": "w02d4n05",
@@ -1582,15 +1582,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "nap",
           "level": "basic",
-          "cn": "",
+          "cn": "小睡",
           "pattern": "听音拼写",
           "audioText": "nap",
           "examples": [
-            "I can spell nap.",
-            "Please say nap again.",
-            "I can use nap in a sentence."
+            "I see the word nap.",
+            "I can read nap.",
+            "Please spell nap."
           ],
-          "example": "I can spell nap."
+          "example": "I see the word nap."
         },
         {
           "id": "w02d4n06",
@@ -1604,11 +1604,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "oil",
           "examples": [
-            "I can spell oil.",
-            "Please say oil again.",
-            "I can use oil in a sentence."
+            "I see the word oil.",
+            "I can read oil.",
+            "Please spell oil."
           ],
-          "example": "I can spell oil."
+          "example": "I see the word oil."
         },
         {
           "id": "w02d4n07",
@@ -1618,15 +1618,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "pad",
           "level": "basic",
-          "cn": "",
+          "cn": "垫子；便签本",
           "pattern": "听音拼写",
           "audioText": "pad",
           "examples": [
-            "I can spell pad.",
-            "Please say pad again.",
-            "I can use pad in a sentence."
+            "I see the word pad.",
+            "I can read pad.",
+            "Please spell pad."
           ],
-          "example": "I can spell pad."
+          "example": "I see the word pad."
         },
         {
           "id": "w02d4n08",
@@ -1636,15 +1636,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "able",
           "level": "challenge",
-          "cn": "能够",
+          "cn": "能够的",
           "pattern": "听音拼写",
           "audioText": "able",
           "examples": [
-            "The word able is important in this lesson.",
-            "I can spell able slowly.",
-            "I can use able in a sentence."
+            "The word able is in my spelling list.",
+            "I say able slowly and clearly.",
+            "I can learn able step by step."
           ],
-          "example": "The word able is important in this lesson."
+          "example": "The word able is in my spelling list."
         },
         {
           "id": "w02d4n09",
@@ -1658,11 +1658,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | bask-etb-all",
           "audioText": "basketball",
           "examples": [
-            "The word basketball is important in this lesson.",
-            "I can spell basketball slowly.",
-            "I can use basketball in a sentence."
+            "This is my basketball.",
+            "I put the basketball on the desk.",
+            "Please find the basketball."
           ],
-          "example": "The word basketball is important in this lesson."
+          "example": "This is my basketball."
         },
         {
           "id": "w02d4n10",
@@ -1670,17 +1670,17 @@ window.YUMI_COURSE = {
           "dayIndex": 3,
           "dayName": "周四",
           "num": 10,
-          "word": "center/centre",
+          "word": "center",
           "level": "challenge",
           "cn": "中心",
           "pattern": "英/美拼写变体 | cent-er",
-          "audioText": "center or centre",
+          "audioText": "center",
           "examples": [
-            "The word center is important in this lesson.",
-            "I can spell center slowly.",
-            "I can use center in a sentence."
+            "The word center is in my spelling list.",
+            "I say center slowly and clearly.",
+            "I can learn center step by step."
           ],
-          "example": "The word center is important in this lesson."
+          "example": "The word center is in my spelling list."
         }
       ]
     },
@@ -1701,11 +1701,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "quilt",
           "examples": [
-            "I can spell quilt.",
-            "Please say quilt again.",
-            "I can use quilt in a sentence."
+            "This is my quilt.",
+            "I put the quilt on the desk.",
+            "Please find the quilt."
           ],
-          "example": "I can spell quilt."
+          "example": "This is my quilt."
         },
         {
           "id": "w02d5n02",
@@ -1719,11 +1719,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "rain",
           "examples": [
-            "I can spell rain.",
-            "Please say rain again.",
-            "I can use rain in a sentence."
+            "I see the word rain.",
+            "I can read rain.",
+            "Please spell rain."
           ],
-          "example": "I can spell rain."
+          "example": "I see the word rain."
         },
         {
           "id": "w02d5n03",
@@ -1733,15 +1733,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "sale",
           "level": "basic",
-          "cn": "",
+          "cn": "出售；降价",
           "pattern": "听音拼写",
           "audioText": "sale",
           "examples": [
-            "I can spell sale.",
-            "Please say sale again.",
-            "I can use sale in a sentence."
+            "I see the word sale.",
+            "I can read sale.",
+            "Please spell sale."
           ],
-          "example": "I can spell sale."
+          "example": "I see the word sale."
         },
         {
           "id": "w02d5n04",
@@ -1755,11 +1755,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "tall",
           "examples": [
-            "I can spell tall.",
-            "Please say tall again.",
-            "I can use tall in a sentence."
+            "I feel tall today.",
+            "The word tall is useful.",
+            "Can you make a sentence with tall?"
           ],
-          "example": "I can spell tall."
+          "example": "I feel tall today."
         },
         {
           "id": "w02d5n05",
@@ -1769,15 +1769,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "under",
           "level": "basic",
-          "cn": "",
+          "cn": "在……下面",
           "pattern": "后缀 -er",
           "audioText": "under",
           "examples": [
-            "I can spell under.",
-            "Please say under again.",
-            "I can use under in a sentence."
+            "I see the word under.",
+            "I can read under.",
+            "Please spell under."
           ],
-          "example": "I can spell under."
+          "example": "I see the word under."
         },
         {
           "id": "w02d5n06",
@@ -1787,15 +1787,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "vein",
           "level": "basic",
-          "cn": "",
+          "cn": "静脉",
           "pattern": "听音拼写",
           "audioText": "vein",
           "examples": [
-            "I can spell vein.",
-            "Please say vein again.",
-            "I can use vein in a sentence."
+            "I see the word vein.",
+            "I can read vein.",
+            "Please spell vein."
           ],
-          "example": "I can spell vein."
+          "example": "I see the word vein."
         },
         {
           "id": "w02d5n07",
@@ -1805,15 +1805,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "walkman",
           "level": "basic",
-          "cn": "",
+          "cn": "随身听",
           "pattern": "听音拼写 | walkm-an",
           "audioText": "walkman",
           "examples": [
-            "I can spell walkman.",
-            "Please say walkman again.",
-            "I can use walkman in a sentence."
+            "I see the word walkman.",
+            "I can read walkman.",
+            "Please spell walkman."
           ],
-          "example": "I can spell walkman."
+          "example": "I see the word walkman."
         },
         {
           "id": "w02d5n08",
@@ -1827,11 +1827,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | dang-er-ous",
           "audioText": "dangerous",
           "examples": [
-            "The word dangerous is important in this lesson.",
-            "I can spell dangerous slowly.",
-            "I can use dangerous in a sentence."
+            "I feel dangerous today.",
+            "The word dangerous is useful.",
+            "Can you make a sentence with dangerous?"
           ],
-          "example": "The word dangerous is important in this lesson."
+          "example": "I feel dangerous today."
         },
         {
           "id": "w02d5n09",
@@ -1841,15 +1841,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "effort",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "effort",
           "examples": [
-            "The word effort is important in this lesson.",
-            "I can spell effort slowly.",
-            "I can use effort in a sentence."
+            "The word effort is in my spelling list.",
+            "I say effort slowly and clearly.",
+            "I can learn effort step by step."
           ],
-          "example": "The word effort is important in this lesson."
+          "example": "The word effort is in my spelling list."
         },
         {
           "id": "w02d5n10",
@@ -1859,15 +1859,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "familiar",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | fam-il-iar",
           "audioText": "familiar",
           "examples": [
-            "The word familiar is important in this lesson.",
-            "I can spell familiar slowly.",
-            "I can use familiar in a sentence."
+            "I feel familiar today.",
+            "The word familiar is useful.",
+            "Can you make a sentence with familiar?"
           ],
-          "example": "The word familiar is important in this lesson."
+          "example": "I feel familiar today."
         }
       ]
     },
@@ -1888,11 +1888,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "yellow",
           "examples": [
-            "I can spell yellow.",
-            "Please say yellow again.",
-            "I can use yellow in a sentence."
+            "The flower is yellow.",
+            "I use a yellow pencil.",
+            "What is yellow in your room?"
           ],
-          "example": "I can spell yellow."
+          "example": "The flower is yellow."
         },
         {
           "id": "w03d1n02",
@@ -1902,15 +1902,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "account",
           "level": "basic",
-          "cn": "",
+          "cn": "账户；叙述",
           "pattern": "听音拼写 | acc-ount",
           "audioText": "account",
           "examples": [
-            "I can spell account.",
-            "Please say account again.",
-            "I can use account in a sentence."
+            "I see the word account.",
+            "I can read account.",
+            "Please spell account."
           ],
-          "example": "I can spell account."
+          "example": "I see the word account."
         },
         {
           "id": "w03d1n03",
@@ -1924,11 +1924,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bad",
           "examples": [
-            "I can spell bad.",
-            "Please say bad again.",
-            "I can use bad in a sentence."
+            "I feel bad today.",
+            "The word bad is useful.",
+            "Can you make a sentence with bad?"
           ],
-          "example": "I can spell bad."
+          "example": "I feel bad today."
         },
         {
           "id": "w03d1n04",
@@ -1942,11 +1942,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "camera",
           "examples": [
-            "I can spell camera.",
-            "Please say camera again.",
-            "I can use camera in a sentence."
+            "This is my camera.",
+            "I put the camera on the desk.",
+            "Please find the camera."
           ],
-          "example": "I can spell camera."
+          "example": "This is my camera."
         },
         {
           "id": "w03d1n05",
@@ -1956,15 +1956,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "decide",
           "level": "basic",
-          "cn": "",
+          "cn": "决定",
           "pattern": "听音拼写",
           "audioText": "decide",
           "examples": [
-            "I can spell decide.",
-            "Please say decide again.",
-            "I can use decide in a sentence."
+            "I can decide now.",
+            "Please decide with me.",
+            "We decide after class."
           ],
-          "example": "I can spell decide."
+          "example": "I can decide now."
         },
         {
           "id": "w03d1n06",
@@ -1978,11 +1978,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "easy",
           "examples": [
-            "I can spell easy.",
-            "Please say easy again.",
-            "I can use easy in a sentence."
+            "I feel easy today.",
+            "The word easy is useful.",
+            "Can you make a sentence with easy?"
           ],
-          "example": "I can spell easy."
+          "example": "I feel easy today."
         },
         {
           "id": "w03d1n07",
@@ -1996,11 +1996,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ly | fami-ly",
           "audioText": "family",
           "examples": [
-            "I can spell family.",
-            "Please say family again.",
-            "I can use family in a sentence."
+            "I see the word family.",
+            "I can read family.",
+            "Please spell family."
           ],
-          "example": "I can spell family."
+          "example": "I see the word family."
         },
         {
           "id": "w03d1n08",
@@ -2010,15 +2010,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "gasoline",
           "level": "challenge",
-          "cn": "",
+          "cn": "汽油",
           "pattern": "听音拼写 | gas-ol-in-e",
           "audioText": "gasoline",
           "examples": [
-            "The word gasoline is important in this lesson.",
-            "I can spell gasoline slowly.",
-            "I can use gasoline in a sentence."
+            "The word gasoline is in my spelling list.",
+            "I say gasoline slowly and clearly.",
+            "I can learn gasoline step by step."
           ],
-          "example": "The word gasoline is important in this lesson."
+          "example": "The word gasoline is in my spelling list."
         },
         {
           "id": "w03d1n09",
@@ -2028,15 +2028,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "happiness",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | happi-ness",
           "audioText": "happiness",
           "examples": [
-            "The word happiness is important in this lesson.",
-            "I can spell happiness slowly.",
-            "I can use happiness in a sentence."
+            "The word happiness is in my spelling list.",
+            "I say happiness slowly and clearly.",
+            "I can learn happiness step by step."
           ],
-          "example": "The word happiness is important in this lesson."
+          "example": "The word happiness is in my spelling list."
         },
         {
           "id": "w03d1n10",
@@ -2046,15 +2046,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "importance",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | imp-ort-anc-e",
           "audioText": "importance",
           "examples": [
-            "The word importance is important in this lesson.",
-            "I can spell importance slowly.",
-            "I can use importance in a sentence."
+            "The word importance is in my spelling list.",
+            "I say importance slowly and clearly.",
+            "I can learn importance step by step."
           ],
-          "example": "The word importance is important in this lesson."
+          "example": "The word importance is in my spelling list."
         }
       ]
     },
@@ -2071,15 +2071,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "get",
           "level": "basic",
-          "cn": "",
+          "cn": "得到；变得",
           "pattern": "听音拼写",
           "audioText": "get",
           "examples": [
-            "I can spell get.",
-            "Please say get again.",
-            "I can use get in a sentence."
+            "I see the word get.",
+            "I can read get.",
+            "Please spell get."
           ],
-          "example": "I can spell get."
+          "example": "I see the word get."
         },
         {
           "id": "w03d2n02",
@@ -2089,15 +2089,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "handbag",
           "level": "basic",
-          "cn": "",
+          "cn": "手提包",
           "pattern": "听音拼写 | handb-ag",
           "audioText": "handbag",
           "examples": [
-            "I can spell handbag.",
-            "Please say handbag again.",
-            "I can use handbag in a sentence."
+            "I see the word handbag.",
+            "I can read handbag.",
+            "Please spell handbag."
           ],
-          "example": "I can spell handbag."
+          "example": "I see the word handbag."
         },
         {
           "id": "w03d2n03",
@@ -2111,11 +2111,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "ill",
           "examples": [
-            "I can spell ill.",
-            "Please say ill again.",
-            "I can use ill in a sentence."
+            "I see the word ill.",
+            "I can read ill.",
+            "Please spell ill."
           ],
-          "example": "I can spell ill."
+          "example": "I see the word ill."
         },
         {
           "id": "w03d2n04",
@@ -2129,11 +2129,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "kid",
           "examples": [
-            "I can spell kid.",
-            "Please say kid again.",
-            "I can use kid in a sentence."
+            "I see the word kid.",
+            "I can read kid.",
+            "Please spell kid."
           ],
-          "example": "I can spell kid."
+          "example": "I see the word kid."
         },
         {
           "id": "w03d2n05",
@@ -2147,11 +2147,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "lamp",
           "examples": [
-            "I can spell lamp.",
-            "Please say lamp again.",
-            "I can use lamp in a sentence."
+            "This is my lamp.",
+            "I put the lamp on the desk.",
+            "Please find the lamp."
           ],
-          "example": "I can spell lamp."
+          "example": "This is my lamp."
         },
         {
           "id": "w03d2n06",
@@ -2161,15 +2161,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "mane",
           "level": "basic",
-          "cn": "",
+          "cn": "鬃毛",
           "pattern": "听音拼写",
           "audioText": "mane",
           "examples": [
-            "I can spell mane.",
-            "Please say mane again.",
-            "I can use mane in a sentence."
+            "I see the word mane.",
+            "I can read mane.",
+            "Please spell mane."
           ],
-          "example": "I can spell mane."
+          "example": "I see the word mane."
         },
         {
           "id": "w03d2n07",
@@ -2179,15 +2179,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "near",
           "level": "basic",
-          "cn": "附近",
+          "cn": "附近的",
           "pattern": "元音组合",
           "audioText": "near",
           "examples": [
-            "I can spell near.",
-            "Please say near again.",
-            "I can use near in a sentence."
+            "I see the word near.",
+            "I can read near.",
+            "Please spell near."
           ],
-          "example": "I can spell near."
+          "example": "I see the word near."
         },
         {
           "id": "w03d2n08",
@@ -2201,11 +2201,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | keyb-oard",
           "audioText": "keyboard",
           "examples": [
-            "The word keyboard is important in this lesson.",
-            "I can spell keyboard slowly.",
-            "I can use keyboard in a sentence."
+            "This is my keyboard.",
+            "I put the keyboard on the desk.",
+            "Please find the keyboard."
           ],
-          "example": "The word keyboard is important in this lesson."
+          "example": "This is my keyboard."
         },
         {
           "id": "w03d2n09",
@@ -2219,11 +2219,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | lang-uag-e",
           "audioText": "language",
           "examples": [
-            "The word language is important in this lesson.",
-            "I can spell language slowly.",
-            "I can use language in a sentence."
+            "The word language is in my spelling list.",
+            "I say language slowly and clearly.",
+            "I can learn language step by step."
           ],
-          "example": "The word language is important in this lesson."
+          "example": "The word language is in my spelling list."
         },
         {
           "id": "w03d2n10",
@@ -2233,15 +2233,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "maintain",
           "level": "challenge",
-          "cn": "",
+          "cn": "维持；维护",
           "pattern": "元音组合 | maint-ain",
           "audioText": "maintain",
           "examples": [
-            "The word maintain is important in this lesson.",
-            "I can spell maintain slowly.",
-            "I can use maintain in a sentence."
+            "The word maintain is in my spelling list.",
+            "I say maintain slowly and clearly.",
+            "I can learn maintain step by step."
           ],
-          "example": "The word maintain is important in this lesson."
+          "example": "The word maintain is in my spelling list."
         }
       ]
     },
@@ -2258,15 +2258,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "ok",
           "level": "basic",
-          "cn": "",
+          "cn": "好的",
           "pattern": "听音拼写",
           "audioText": "ok",
           "examples": [
-            "I can spell ok.",
-            "Please say ok again.",
-            "I can use ok in a sentence."
+            "I see the word ok.",
+            "I can read ok.",
+            "Please spell ok."
           ],
-          "example": "I can spell ok."
+          "example": "I see the word ok."
         },
         {
           "id": "w03d3n02",
@@ -2276,15 +2276,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "paid",
           "level": "basic",
-          "cn": "",
+          "cn": "已付款的",
           "pattern": "元音组合",
           "audioText": "paid",
           "examples": [
-            "I can spell paid.",
-            "Please say paid again.",
-            "I can use paid in a sentence."
+            "I see the word paid.",
+            "I can read paid.",
+            "Please spell paid."
           ],
-          "example": "I can spell paid."
+          "example": "I see the word paid."
         },
         {
           "id": "w03d3n03",
@@ -2298,11 +2298,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "quiz",
           "examples": [
-            "I can spell quiz.",
-            "Please say quiz again.",
-            "I can use quiz in a sentence."
+            "I see the word quiz.",
+            "I can read quiz.",
+            "Please spell quiz."
           ],
-          "example": "I can spell quiz."
+          "example": "I see the word quiz."
         },
         {
           "id": "w03d3n04",
@@ -2312,15 +2312,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "rainy",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "rainy",
           "examples": [
-            "I can spell rainy.",
-            "Please say rainy again.",
-            "I can use rainy in a sentence."
+            "I see the word rainy.",
+            "I can read rainy.",
+            "Please spell rainy."
           ],
-          "example": "I can spell rainy."
+          "example": "I see the word rainy."
         },
         {
           "id": "w03d3n05",
@@ -2330,15 +2330,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "salon",
           "level": "basic",
-          "cn": "",
+          "cn": "沙龙；美发店",
           "pattern": "听音拼写",
           "audioText": "salon",
           "examples": [
-            "I can spell salon.",
-            "Please say salon again.",
-            "I can use salon in a sentence."
+            "I see the word salon.",
+            "I can read salon.",
+            "Please spell salon."
           ],
-          "example": "I can spell salon."
+          "example": "I see the word salon."
         },
         {
           "id": "w03d3n06",
@@ -2348,15 +2348,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "tap",
           "level": "basic",
-          "cn": "",
+          "cn": "轻拍；水龙头",
           "pattern": "听音拼写",
           "audioText": "tap",
           "examples": [
-            "I can spell tap.",
-            "Please say tap again.",
-            "I can use tap in a sentence."
+            "I see the word tap.",
+            "I can read tap.",
+            "Please spell tap."
           ],
-          "example": "I can spell tap."
+          "example": "I see the word tap."
         },
         {
           "id": "w03d3n07",
@@ -2370,11 +2370,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "unit",
           "examples": [
-            "I can spell unit.",
-            "Please say unit again.",
-            "I can use unit in a sentence."
+            "I see the word unit.",
+            "I can read unit.",
+            "Please spell unit."
           ],
-          "example": "I can spell unit."
+          "example": "I see the word unit."
         },
         {
           "id": "w03d3n08",
@@ -2384,15 +2384,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "natural",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | nat-ur-al",
           "audioText": "natural",
           "examples": [
-            "The word natural is important in this lesson.",
-            "I can spell natural slowly.",
-            "I can use natural in a sentence."
+            "I feel natural today.",
+            "The word natural is useful.",
+            "Can you make a sentence with natural?"
           ],
-          "example": "The word natural is important in this lesson."
+          "example": "I feel natural today."
         },
         {
           "id": "w03d3n09",
@@ -2402,15 +2402,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "occupancy",
           "level": "challenge",
-          "cn": "",
+          "cn": "占用；入住",
           "pattern": "长词: 分音节背 | occ-up-anc-y",
           "audioText": "occupancy",
           "examples": [
-            "The word occupancy is important in this lesson.",
-            "I can spell occupancy slowly.",
-            "I can use occupancy in a sentence."
+            "The word occupancy is in my spelling list.",
+            "I say occupancy slowly and clearly.",
+            "I can learn occupancy step by step."
           ],
-          "example": "The word occupancy is important in this lesson."
+          "example": "The word occupancy is in my spelling list."
         },
         {
           "id": "w03d3n10",
@@ -2420,15 +2420,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "passenger",
           "level": "challenge",
-          "cn": "",
+          "cn": "乘客",
           "pattern": "长词: 分音节背 | passeng-er",
           "audioText": "passenger",
           "examples": [
-            "The word passenger is important in this lesson.",
-            "I can spell passenger slowly.",
-            "I can use passenger in a sentence."
+            "The word passenger is in my spelling list.",
+            "I say passenger slowly and clearly.",
+            "I can learn passenger step by step."
           ],
-          "example": "The word passenger is important in this lesson."
+          "example": "The word passenger is in my spelling list."
         }
       ]
     },
@@ -2449,11 +2449,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "very",
           "examples": [
-            "I can spell very.",
-            "Please say very again.",
-            "I can use very in a sentence."
+            "I see the word very.",
+            "I can read very.",
+            "Please spell very."
           ],
-          "example": "I can spell very."
+          "example": "I see the word very."
         },
         {
           "id": "w03d4n02",
@@ -2467,11 +2467,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "wall",
           "examples": [
-            "I can spell wall.",
-            "Please say wall again.",
-            "I can use wall in a sentence."
+            "I see the word wall.",
+            "I can read wall.",
+            "Please spell wall."
           ],
-          "example": "I can spell wall."
+          "example": "I see the word wall."
         },
         {
           "id": "w03d4n03",
@@ -2481,15 +2481,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "yet",
           "level": "basic",
-          "cn": "",
+          "cn": "还；尚",
           "pattern": "听音拼写",
           "audioText": "yet",
           "examples": [
-            "I can spell yet.",
-            "Please say yet again.",
-            "I can use yet in a sentence."
+            "I see the word yet.",
+            "I can read yet.",
+            "Please spell yet."
           ],
-          "example": "I can spell yet."
+          "example": "I see the word yet."
         },
         {
           "id": "w03d4n04",
@@ -2503,11 +2503,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "acorn",
           "examples": [
-            "I can spell acorn.",
-            "Please say acorn again.",
-            "I can use acorn in a sentence."
+            "I see the word acorn.",
+            "I can read acorn.",
+            "Please spell acorn."
           ],
-          "example": "I can spell acorn."
+          "example": "I see the word acorn."
         },
         {
           "id": "w03d4n05",
@@ -2521,11 +2521,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bag",
           "examples": [
-            "I can spell bag.",
-            "Please say bag again.",
-            "I can use bag in a sentence."
+            "This is my bag.",
+            "I put the bag on the desk.",
+            "Please find the bag."
           ],
-          "example": "I can spell bag."
+          "example": "This is my bag."
         },
         {
           "id": "w03d4n06",
@@ -2535,15 +2535,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "can",
           "level": "basic",
-          "cn": "能/罐头",
+          "cn": "能够；罐头",
           "pattern": "听音拼写",
           "audioText": "can",
           "examples": [
-            "I can spell can.",
-            "Please say can again.",
-            "I can use can in a sentence."
+            "I see the word can.",
+            "I can read can.",
+            "Please spell can."
           ],
-          "example": "I can spell can."
+          "example": "I see the word can."
         },
         {
           "id": "w03d4n07",
@@ -2553,15 +2553,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "deep",
           "level": "basic",
-          "cn": "",
+          "cn": "深的",
           "pattern": "元音组合",
           "audioText": "deep",
           "examples": [
-            "I can spell deep.",
-            "Please say deep again.",
-            "I can use deep in a sentence."
+            "I see the word deep.",
+            "I can read deep.",
+            "Please spell deep."
           ],
-          "example": "I can spell deep."
+          "example": "I see the word deep."
         },
         {
           "id": "w03d4n08",
@@ -2571,15 +2571,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "quarter",
           "level": "challenge",
-          "cn": "",
+          "cn": "四分之一；一刻钟",
           "pattern": "后缀 -er | quart-er",
           "audioText": "quarter",
           "examples": [
-            "The word quarter is important in this lesson.",
-            "I can spell quarter slowly.",
-            "I can use quarter in a sentence."
+            "The word quarter is in my spelling list.",
+            "I say quarter slowly and clearly.",
+            "I can learn quarter step by step."
           ],
-          "example": "The word quarter is important in this lesson."
+          "example": "The word quarter is in my spelling list."
         },
         {
           "id": "w03d4n09",
@@ -2593,11 +2593,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | rainb-ow",
           "audioText": "rainbow",
           "examples": [
-            "The word rainbow is important in this lesson.",
-            "I can spell rainbow slowly.",
-            "I can use rainbow in a sentence."
+            "The word rainbow is in my spelling list.",
+            "I say rainbow slowly and clearly.",
+            "I can learn rainbow step by step."
           ],
-          "example": "The word rainbow is important in this lesson."
+          "example": "The word rainbow is in my spelling list."
         },
         {
           "id": "w03d4n10",
@@ -2611,11 +2611,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "salad",
           "examples": [
-            "The word salad is important in this lesson.",
-            "I can spell salad slowly.",
-            "I can use salad in a sentence."
+            "I eat salad for lunch.",
+            "The salad is on the table.",
+            "Do you like salad?"
           ],
-          "example": "The word salad is important in this lesson."
+          "example": "I eat salad for lunch."
         }
       ]
     },
@@ -2636,11 +2636,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "eat",
           "examples": [
-            "I can spell eat.",
-            "Please say eat again.",
-            "I can use eat in a sentence."
+            "I can eat now.",
+            "Please eat with me.",
+            "We eat after class."
           ],
-          "example": "I can spell eat."
+          "example": "I can eat now."
         },
         {
           "id": "w03d5n02",
@@ -2650,15 +2650,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "fan",
           "level": "basic",
-          "cn": "",
+          "cn": "风扇；粉丝",
           "pattern": "听音拼写",
           "audioText": "fan",
           "examples": [
-            "I can spell fan.",
-            "Please say fan again.",
-            "I can use fan in a sentence."
+            "I see the word fan.",
+            "I can read fan.",
+            "Please spell fan."
           ],
-          "example": "I can spell fan."
+          "example": "I see the word fan."
         },
         {
           "id": "w03d5n03",
@@ -2668,15 +2668,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "giant",
           "level": "basic",
-          "cn": "",
+          "cn": "巨大的；巨人",
           "pattern": "听音拼写",
           "audioText": "giant",
           "examples": [
-            "I can spell giant.",
-            "Please say giant again.",
-            "I can use giant in a sentence."
+            "I see the word giant.",
+            "I can read giant.",
+            "Please spell giant."
           ],
-          "example": "I can spell giant."
+          "example": "I see the word giant."
         },
         {
           "id": "w03d5n04",
@@ -2686,15 +2686,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "hanger",
           "level": "basic",
-          "cn": "",
+          "cn": "衣架",
           "pattern": "后缀 -er | hang-er",
           "audioText": "hanger",
           "examples": [
-            "I can spell hanger.",
-            "Please say hanger again.",
-            "I can use hanger in a sentence."
+            "I see the word hanger.",
+            "I can read hanger.",
+            "Please spell hanger."
           ],
-          "example": "I can spell hanger."
+          "example": "I see the word hanger."
         },
         {
           "id": "w03d5n05",
@@ -2708,11 +2708,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "image",
           "examples": [
-            "I can spell image.",
-            "Please say image again.",
-            "I can use image in a sentence."
+            "I see the word image.",
+            "I can read image.",
+            "Please spell image."
           ],
-          "example": "I can spell image."
+          "example": "I see the word image."
         },
         {
           "id": "w03d5n06",
@@ -2726,11 +2726,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ing",
           "audioText": "king",
           "examples": [
-            "I can spell king.",
-            "Please say king again.",
-            "I can use king in a sentence."
+            "I see the word king.",
+            "I can read king.",
+            "Please spell king."
           ],
-          "example": "I can spell king."
+          "example": "I see the word king."
         },
         {
           "id": "w03d5n07",
@@ -2744,11 +2744,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "land",
           "examples": [
-            "I can spell land.",
-            "Please say land again.",
-            "I can use land in a sentence."
+            "I see the word land.",
+            "I can read land.",
+            "Please spell land."
           ],
-          "example": "I can spell land."
+          "example": "I see the word land."
         },
         {
           "id": "w03d5n08",
@@ -2758,15 +2758,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "teammate",
           "level": "challenge",
-          "cn": "",
+          "cn": "队友",
           "pattern": "元音组合 | teamm-at-e",
           "audioText": "teammate",
           "examples": [
-            "The word teammate is important in this lesson.",
-            "I can spell teammate slowly.",
-            "I can use teammate in a sentence."
+            "The word teammate is in my spelling list.",
+            "I say teammate slowly and clearly.",
+            "I can learn teammate step by step."
           ],
-          "example": "The word teammate is important in this lesson."
+          "example": "The word teammate is in my spelling list."
         },
         {
           "id": "w03d5n09",
@@ -2776,15 +2776,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "unavoidable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | unavoid-able",
           "audioText": "unavoidable",
           "examples": [
-            "The word unavoidable is important in this lesson.",
-            "I can spell unavoidable slowly.",
-            "I can use unavoidable in a sentence."
+            "The word unavoidable is in my spelling list.",
+            "I say unavoidable slowly and clearly.",
+            "I can learn unavoidable step by step."
           ],
-          "example": "The word unavoidable is important in this lesson."
+          "example": "The word unavoidable is in my spelling list."
         },
         {
           "id": "w03d5n10",
@@ -2798,11 +2798,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | veget-able",
           "audioText": "vegetable",
           "examples": [
-            "The word vegetable is important in this lesson.",
-            "I can spell vegetable slowly.",
-            "I can use vegetable in a sentence."
+            "I eat vegetable for lunch.",
+            "The vegetable is on the table.",
+            "Do you like vegetable?"
           ],
-          "example": "The word vegetable is important in this lesson."
+          "example": "I eat vegetable for lunch."
         }
       ]
     },
@@ -2819,15 +2819,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "manner",
           "level": "basic",
-          "cn": "",
+          "cn": "方式；礼貌",
           "pattern": "后缀 -er | mann-er",
           "audioText": "manner",
           "examples": [
-            "I can spell manner.",
-            "Please say manner again.",
-            "I can use manner in a sentence."
+            "I see the word manner.",
+            "I can read manner.",
+            "Please spell manner."
           ],
-          "example": "I can spell manner."
+          "example": "I see the word manner."
         },
         {
           "id": "w04d1n02",
@@ -2837,15 +2837,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "nearly",
           "level": "basic",
-          "cn": "",
+          "cn": "几乎",
           "pattern": "后缀 -ly | near-ly",
           "audioText": "nearly",
           "examples": [
-            "I can spell nearly.",
-            "Please say nearly again.",
-            "I can use nearly in a sentence."
+            "I see the word nearly.",
+            "I can read nearly.",
+            "Please spell nearly."
           ],
-          "example": "I can spell nearly."
+          "example": "I see the word nearly."
         },
         {
           "id": "w04d1n03",
@@ -2855,15 +2855,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "old",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "old",
           "examples": [
-            "I can spell old.",
-            "Please say old again.",
-            "I can use old in a sentence."
+            "I feel old today.",
+            "The word old is useful.",
+            "Can you make a sentence with old?"
           ],
-          "example": "I can spell old."
+          "example": "I feel old today."
         },
         {
           "id": "w04d1n04",
@@ -2873,15 +2873,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "paint",
           "level": "basic",
-          "cn": "",
+          "cn": "绘画；油漆",
           "pattern": "元音组合",
           "audioText": "paint",
           "examples": [
-            "I can spell paint.",
-            "Please say paint again.",
-            "I can use paint in a sentence."
+            "I can paint now.",
+            "Please paint with me.",
+            "We paint after class."
           ],
-          "example": "I can spell paint."
+          "example": "I can paint now."
         },
         {
           "id": "w04d1n05",
@@ -2891,15 +2891,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "raisin",
           "level": "basic",
-          "cn": "",
+          "cn": "葡萄干",
           "pattern": "元音组合",
           "audioText": "raisin",
           "examples": [
-            "I can spell raisin.",
-            "Please say raisin again.",
-            "I can use raisin in a sentence."
+            "I eat raisin for lunch.",
+            "The raisin is on the table.",
+            "Do you like raisin?"
           ],
-          "example": "I can spell raisin."
+          "example": "I eat raisin for lunch."
         },
         {
           "id": "w04d1n06",
@@ -2909,15 +2909,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "salty",
           "level": "basic",
-          "cn": "",
+          "cn": "咸的",
           "pattern": "听音拼写",
           "audioText": "salty",
           "examples": [
-            "I can spell salty.",
-            "Please say salty again.",
-            "I can use salty in a sentence."
+            "I feel salty today.",
+            "The word salty is useful.",
+            "Can you make a sentence with salty?"
           ],
-          "example": "I can spell salty."
+          "example": "I feel salty today."
         },
         {
           "id": "w04d1n07",
@@ -2927,15 +2927,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "tape",
           "level": "basic",
-          "cn": "",
+          "cn": "胶带",
           "pattern": "听音拼写",
           "audioText": "tape",
           "examples": [
-            "I can spell tape.",
-            "Please say tape again.",
-            "I can use tape in a sentence."
+            "I see the word tape.",
+            "I can read tape.",
+            "Please spell tape."
           ],
-          "example": "I can spell tape."
+          "example": "I see the word tape."
         },
         {
           "id": "w04d1n08",
@@ -2945,15 +2945,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "weapon",
           "level": "challenge",
-          "cn": "",
+          "cn": "武器",
           "pattern": "元音组合",
           "audioText": "weapon",
           "examples": [
-            "The word weapon is important in this lesson.",
-            "I can spell weapon slowly.",
-            "I can use weapon in a sentence."
+            "The word weapon is in my spelling list.",
+            "I say weapon slowly and clearly.",
+            "I can learn weapon step by step."
           ],
-          "example": "The word weapon is important in this lesson."
+          "example": "The word weapon is in my spelling list."
         },
         {
           "id": "w04d1n09",
@@ -2963,15 +2963,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "zipper",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | zipp-er",
           "audioText": "zipper",
           "examples": [
-            "The word zipper is important in this lesson.",
-            "I can spell zipper slowly.",
-            "I can use zipper in a sentence."
+            "This is my zipper.",
+            "I put the zipper on the desk.",
+            "Please find the zipper."
           ],
-          "example": "The word zipper is important in this lesson."
+          "example": "This is my zipper."
         },
         {
           "id": "w04d1n10",
@@ -2985,11 +2985,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | acc-id-ent",
           "audioText": "accident",
           "examples": [
-            "The word accident is important in this lesson.",
-            "I can spell accident slowly.",
-            "I can use accident in a sentence."
+            "The word accident is in my spelling list.",
+            "I say accident slowly and clearly.",
+            "I can learn accident step by step."
           ],
-          "example": "The word accident is important in this lesson."
+          "example": "The word accident is in my spelling list."
         }
       ]
     },
@@ -3006,15 +3006,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "unite",
           "level": "basic",
-          "cn": "",
+          "cn": "联合",
           "pattern": "听音拼写",
           "audioText": "unite",
           "examples": [
-            "I can spell unite.",
-            "Please say unite again.",
-            "I can use unite in a sentence."
+            "I can unite now.",
+            "Please unite with me.",
+            "We unite after class."
           ],
-          "example": "I can spell unite."
+          "example": "I can unite now."
         },
         {
           "id": "w04d2n02",
@@ -3024,15 +3024,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "vest",
           "level": "basic",
-          "cn": "",
+          "cn": "背心",
           "pattern": "听音拼写",
           "audioText": "vest",
           "examples": [
-            "I can spell vest.",
-            "Please say vest again.",
-            "I can use vest in a sentence."
+            "I see the word vest.",
+            "I can read vest.",
+            "Please spell vest."
           ],
-          "example": "I can spell vest."
+          "example": "I see the word vest."
         },
         {
           "id": "w04d2n03",
@@ -3046,11 +3046,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "want",
           "examples": [
-            "I can spell want.",
-            "Please say want again.",
-            "I can use want in a sentence."
+            "I can want now.",
+            "Please want with me.",
+            "We want after class."
           ],
-          "example": "I can spell want."
+          "example": "I can want now."
         },
         {
           "id": "w04d2n04",
@@ -3060,15 +3060,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "yolk",
           "level": "basic",
-          "cn": "",
+          "cn": "蛋黄",
           "pattern": "听音拼写",
           "audioText": "yolk",
           "examples": [
-            "I can spell yolk.",
-            "Please say yolk again.",
-            "I can use yolk in a sentence."
+            "I see the word yolk.",
+            "I can read yolk.",
+            "Please spell yolk."
           ],
-          "example": "I can spell yolk."
+          "example": "I see the word yolk."
         },
         {
           "id": "w04d2n05",
@@ -3082,11 +3082,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "again",
           "examples": [
-            "I can spell again.",
-            "Please say again again.",
-            "I can use again in a sentence."
+            "I see the word again.",
+            "I can read again.",
+            "Please spell again."
           ],
-          "example": "I can spell again."
+          "example": "I see the word again."
         },
         {
           "id": "w04d2n06",
@@ -3100,11 +3100,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "ball",
           "examples": [
-            "I can spell ball.",
-            "Please say ball again.",
-            "I can use ball in a sentence."
+            "I see the word ball.",
+            "I can read ball.",
+            "Please spell ball."
           ],
-          "example": "I can spell ball."
+          "example": "I see the word ball."
         },
         {
           "id": "w04d2n07",
@@ -3114,15 +3114,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "canada",
           "level": "basic",
-          "cn": "",
+          "cn": "加拿大",
           "pattern": "听音拼写",
           "audioText": "canada",
           "examples": [
-            "I can spell canada.",
-            "Please say canada again.",
-            "I can use canada in a sentence."
+            "I see the word canada.",
+            "I can read canada.",
+            "Please spell canada."
           ],
-          "example": "I can spell canada."
+          "example": "I see the word canada."
         },
         {
           "id": "w04d2n08",
@@ -3136,11 +3136,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | bathr-oom",
           "audioText": "bathroom",
           "examples": [
-            "The word bathroom is important in this lesson.",
-            "I can spell bathroom slowly.",
-            "I can use bathroom in a sentence."
+            "I go to the bathroom.",
+            "The bathroom is near my home.",
+            "We talk about the bathroom."
           ],
-          "example": "The word bathroom is important in this lesson."
+          "example": "I go to the bathroom."
         },
         {
           "id": "w04d2n09",
@@ -3150,15 +3150,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "central",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | centr-al",
           "audioText": "central",
           "examples": [
-            "The word central is important in this lesson.",
-            "I can spell central slowly.",
-            "I can use central in a sentence."
+            "The word central is in my spelling list.",
+            "I say central slowly and clearly.",
+            "I can learn central step by step."
           ],
-          "example": "The word central is important in this lesson."
+          "example": "The word central is in my spelling list."
         },
         {
           "id": "w04d2n10",
@@ -3172,11 +3172,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "date",
           "examples": [
-            "The word date is important in this lesson.",
-            "I can spell date slowly.",
-            "I can use date in a sentence."
+            "The word date is in my spelling list.",
+            "I say date slowly and clearly.",
+            "I can learn date step by step."
           ],
-          "example": "The word date is important in this lesson."
+          "example": "The word date is in my spelling list."
         }
       ]
     },
@@ -3193,15 +3193,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "desert",
           "level": "basic",
-          "cn": "",
+          "cn": "沙漠",
           "pattern": "听音拼写",
           "audioText": "desert",
           "examples": [
-            "I can spell desert.",
-            "Please say desert again.",
-            "I can use desert in a sentence."
+            "I see the word desert.",
+            "I can read desert.",
+            "Please spell desert."
           ],
-          "example": "I can spell desert."
+          "example": "I see the word desert."
         },
         {
           "id": "w04d3n02",
@@ -3215,11 +3215,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "egg",
           "examples": [
-            "I can spell egg.",
-            "Please say egg again.",
-            "I can use egg in a sentence."
+            "I eat egg for lunch.",
+            "The egg is on the table.",
+            "Do you like egg?"
           ],
-          "example": "I can spell egg."
+          "example": "I eat egg for lunch."
         },
         {
           "id": "w04d3n03",
@@ -3229,15 +3229,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "far",
           "level": "basic",
-          "cn": "",
+          "cn": "远的",
           "pattern": "听音拼写",
           "audioText": "far",
           "examples": [
-            "I can spell far.",
-            "Please say far again.",
-            "I can use far in a sentence."
+            "I see the word far.",
+            "I can read far.",
+            "Please spell far."
           ],
-          "example": "I can spell far."
+          "example": "I see the word far."
         },
         {
           "id": "w04d3n04",
@@ -3251,11 +3251,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "girl",
           "examples": [
-            "I can spell girl.",
-            "Please say girl again.",
-            "I can use girl in a sentence."
+            "I see the word girl.",
+            "I can read girl.",
+            "Please spell girl."
           ],
-          "example": "I can spell girl."
+          "example": "I see the word girl."
         },
         {
           "id": "w04d3n05",
@@ -3269,11 +3269,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "happy",
           "examples": [
-            "I can spell happy.",
-            "Please say happy again.",
-            "I can use happy in a sentence."
+            "I feel happy today.",
+            "The word happy is useful.",
+            "Can you make a sentence with happy?"
           ],
-          "example": "I can spell happy."
+          "example": "I feel happy today."
         },
         {
           "id": "w04d3n06",
@@ -3283,15 +3283,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "in",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "in",
           "examples": [
-            "I can spell in.",
-            "Please say in again.",
-            "I can use in in a sentence."
+            "I see the word in.",
+            "I can read in.",
+            "Please spell in."
           ],
-          "example": "I can spell in."
+          "example": "I see the word in."
         },
         {
           "id": "w04d3n07",
@@ -3305,11 +3305,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | kitch-en",
           "audioText": "kitchen",
           "examples": [
-            "I can spell kitchen.",
-            "Please say kitchen again.",
-            "I can use kitchen in a sentence."
+            "I go to the kitchen.",
+            "The kitchen is near my home.",
+            "We talk about the kitchen."
           ],
-          "example": "I can spell kitchen."
+          "example": "I go to the kitchen."
         },
         {
           "id": "w04d3n08",
@@ -3319,15 +3319,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "eggplant",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | eggpl-ant",
           "audioText": "eggplant",
           "examples": [
-            "The word eggplant is important in this lesson.",
-            "I can spell eggplant slowly.",
-            "I can use eggplant in a sentence."
+            "I eat eggplant for lunch.",
+            "The eggplant is on the table.",
+            "Do you like eggplant?"
           ],
-          "example": "The word eggplant is important in this lesson."
+          "example": "I eat eggplant for lunch."
         },
         {
           "id": "w04d3n09",
@@ -3337,15 +3337,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "fantasy",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | fant-as-y",
           "audioText": "fantasy",
           "examples": [
-            "The word fantasy is important in this lesson.",
-            "I can spell fantasy slowly.",
-            "I can use fantasy in a sentence."
+            "The word fantasy is in my spelling list.",
+            "I say fantasy slowly and clearly.",
+            "I can learn fantasy step by step."
           ],
-          "example": "The word fantasy is important in this lesson."
+          "example": "The word fantasy is in my spelling list."
         },
         {
           "id": "w04d3n10",
@@ -3359,11 +3359,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "give",
           "examples": [
-            "The word give is important in this lesson.",
-            "I can spell give slowly.",
-            "I can use give in a sentence."
+            "I can give now.",
+            "Please give with me.",
+            "We give after class."
           ],
-          "example": "The word give is important in this lesson."
+          "example": "I can give now."
         }
       ]
     },
@@ -3380,15 +3380,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "lap",
           "level": "basic",
-          "cn": "",
+          "cn": "大腿；一圈",
           "pattern": "听音拼写",
           "audioText": "lap",
           "examples": [
-            "I can spell lap.",
-            "Please say lap again.",
-            "I can use lap in a sentence."
+            "I see the word lap.",
+            "I can read lap.",
+            "Please spell lap."
           ],
-          "example": "I can spell lap."
+          "example": "I see the word lap."
         },
         {
           "id": "w04d4n02",
@@ -3398,15 +3398,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "many",
           "level": "basic",
-          "cn": "",
+          "cn": "许多",
           "pattern": "听音拼写",
           "audioText": "many",
           "examples": [
-            "I can spell many.",
-            "Please say many again.",
-            "I can use many in a sentence."
+            "I see the word many.",
+            "I can read many.",
+            "Please spell many."
           ],
-          "example": "I can spell many."
+          "example": "I see the word many."
         },
         {
           "id": "w04d4n03",
@@ -3416,15 +3416,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "nest",
           "level": "basic",
-          "cn": "",
+          "cn": "鸟巢",
           "pattern": "听音拼写",
           "audioText": "nest",
           "examples": [
-            "I can spell nest.",
-            "Please say nest again.",
-            "I can use nest in a sentence."
+            "I see the word nest.",
+            "I can read nest.",
+            "Please spell nest."
           ],
-          "example": "I can spell nest."
+          "example": "I see the word nest."
         },
         {
           "id": "w04d4n04",
@@ -3434,15 +3434,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "on",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "on",
           "examples": [
-            "I can spell on.",
-            "Please say on again.",
-            "I can use on in a sentence."
+            "I see the word on.",
+            "I can read on.",
+            "Please spell on."
           ],
-          "example": "I can spell on."
+          "example": "I see the word on."
         },
         {
           "id": "w04d4n05",
@@ -3452,15 +3452,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "palace",
           "level": "basic",
-          "cn": "",
+          "cn": "宫殿",
           "pattern": "听音拼写",
           "audioText": "palace",
           "examples": [
-            "I can spell palace.",
-            "Please say palace again.",
-            "I can use palace in a sentence."
+            "I go to the palace.",
+            "The palace is near my home.",
+            "We talk about the palace."
           ],
-          "example": "I can spell palace."
+          "example": "I go to the palace."
         },
         {
           "id": "w04d4n06",
@@ -3470,15 +3470,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "rap",
           "level": "basic",
-          "cn": "",
+          "cn": "说唱；轻敲",
           "pattern": "听音拼写",
           "audioText": "rap",
           "examples": [
-            "I can spell rap.",
-            "Please say rap again.",
-            "I can use rap in a sentence."
+            "I see the word rap.",
+            "I can read rap.",
+            "Please spell rap."
           ],
-          "example": "I can spell rap."
+          "example": "I see the word rap."
         },
         {
           "id": "w04d4n07",
@@ -3488,15 +3488,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "salute",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "salute",
           "examples": [
-            "I can spell salute.",
-            "Please say salute again.",
-            "I can use salute in a sentence."
+            "I see the word salute.",
+            "I can read salute.",
+            "Please spell salute."
           ],
-          "example": "I can spell salute."
+          "example": "I see the word salute."
         },
         {
           "id": "w04d4n08",
@@ -3506,15 +3506,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "harmonious",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | harm-on-ious",
           "audioText": "harmonious",
           "examples": [
-            "The word harmonious is important in this lesson.",
-            "I can spell harmonious slowly.",
-            "I can use harmonious in a sentence."
+            "The word harmonious is in my spelling list.",
+            "I say harmonious slowly and clearly.",
+            "I can learn harmonious step by step."
           ],
-          "example": "The word harmonious is important in this lesson."
+          "example": "The word harmonious is in my spelling list."
         },
         {
           "id": "w04d4n09",
@@ -3524,15 +3524,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "imposition",
           "level": "challenge",
-          "cn": "",
+          "cn": "强加；负担",
           "pattern": "长词: 分音节背 | imposi-tion",
           "audioText": "imposition",
           "examples": [
-            "The word imposition is important in this lesson.",
-            "I can spell imposition slowly.",
-            "I can use imposition in a sentence."
+            "The word imposition is in my spelling list.",
+            "I say imposition slowly and clearly.",
+            "I can learn imposition step by step."
           ],
-          "example": "The word imposition is important in this lesson."
+          "example": "The word imposition is in my spelling list."
         },
         {
           "id": "w04d4n10",
@@ -3540,17 +3540,17 @@ window.YUMI_COURSE = {
           "dayIndex": 3,
           "dayName": "周四",
           "num": 10,
-          "word": "kilogram/kilogramme",
+          "word": "kilogram",
           "level": "challenge",
-          "cn": "",
+          "cn": "千克",
           "pattern": "英/美拼写变体 | kil-ogr-am",
-          "audioText": "kilogram or kilogramme",
+          "audioText": "kilogram",
           "examples": [
-            "The word kilogram is important in this lesson.",
-            "I can spell kilogram slowly.",
-            "I can use kilogram in a sentence."
+            "The word kilogram is in my spelling list.",
+            "I say kilogram slowly and clearly.",
+            "I can learn kilogram step by step."
           ],
-          "example": "The word kilogram is important in this lesson."
+          "example": "The word kilogram is in my spelling list."
         }
       ]
     },
@@ -3567,15 +3567,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "taproot",
           "level": "basic",
-          "cn": "",
+          "cn": "主根",
           "pattern": "元音组合 | tapr-oot",
           "audioText": "taproot",
           "examples": [
-            "I can spell taproot.",
-            "Please say taproot again.",
-            "I can use taproot in a sentence."
+            "I see the word taproot.",
+            "I can read taproot.",
+            "Please spell taproot."
           ],
-          "example": "I can spell taproot."
+          "example": "I see the word taproot."
         },
         {
           "id": "w04d5n02",
@@ -3589,11 +3589,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "up",
           "examples": [
-            "I can spell up.",
-            "Please say up again.",
-            "I can use up in a sentence."
+            "I see the word up.",
+            "I can read up.",
+            "Please spell up."
           ],
-          "example": "I can spell up."
+          "example": "I see the word up."
         },
         {
           "id": "w04d5n03",
@@ -3607,11 +3607,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | vill-ag-e",
           "audioText": "village",
           "examples": [
-            "I can spell village.",
-            "Please say village again.",
-            "I can use village in a sentence."
+            "I go to the village.",
+            "The village is near my home.",
+            "We talk about the village."
           ],
-          "example": "I can spell village."
+          "example": "I go to the village."
         },
         {
           "id": "w04d5n04",
@@ -3625,11 +3625,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "warm",
           "examples": [
-            "I can spell warm.",
-            "Please say warm again.",
-            "I can use warm in a sentence."
+            "I feel warm today.",
+            "The word warm is useful.",
+            "Can you make a sentence with warm?"
           ],
-          "example": "I can spell warm."
+          "example": "I feel warm today."
         },
         {
           "id": "w04d5n05",
@@ -3643,11 +3643,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "you",
           "examples": [
-            "I can spell you.",
-            "Please say you again.",
-            "I can use you in a sentence."
+            "I see the word you.",
+            "I can read you.",
+            "Please spell you."
           ],
-          "example": "I can spell you."
+          "example": "I see the word you."
         },
         {
           "id": "w04d5n06",
@@ -3657,15 +3657,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "against",
           "level": "basic",
-          "cn": "反对/靠着",
+          "cn": "反对；靠着",
           "pattern": "元音组合 | ag-ainst",
           "audioText": "against",
           "examples": [
-            "I can spell against.",
-            "Please say against again.",
-            "I can use against in a sentence."
+            "I see the word against.",
+            "I can read against.",
+            "Please spell against."
           ],
-          "example": "I can spell against."
+          "example": "I see the word against."
         },
         {
           "id": "w04d5n07",
@@ -3679,11 +3679,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | ball-oon",
           "audioText": "balloon",
           "examples": [
-            "I can spell balloon.",
-            "Please say balloon again.",
-            "I can use balloon in a sentence."
+            "I see the word balloon.",
+            "I can read balloon.",
+            "Please spell balloon."
           ],
-          "example": "I can spell balloon."
+          "example": "I see the word balloon."
         },
         {
           "id": "w04d5n08",
@@ -3693,15 +3693,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "laughter",
           "level": "challenge",
-          "cn": "",
+          "cn": "笑声",
           "pattern": "后缀 -er | laught-er",
           "audioText": "laughter",
           "examples": [
-            "The word laughter is important in this lesson.",
-            "I can spell laughter slowly.",
-            "I can use laughter in a sentence."
+            "The word laughter is in my spelling list.",
+            "I say laughter slowly and clearly.",
+            "I can learn laughter step by step."
           ],
-          "example": "The word laughter is important in this lesson."
+          "example": "The word laughter is in my spelling list."
         },
         {
           "id": "w04d5n09",
@@ -3711,15 +3711,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "management",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | manage-ment",
           "audioText": "management",
           "examples": [
-            "The word management is important in this lesson.",
-            "I can spell management slowly.",
-            "I can use management in a sentence."
+            "The word management is in my spelling list.",
+            "I say management slowly and clearly.",
+            "I can learn management step by step."
           ],
-          "example": "The word management is important in this lesson."
+          "example": "The word management is in my spelling list."
         },
         {
           "id": "w04d5n10",
@@ -3729,15 +3729,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "neither",
           "level": "challenge",
-          "cn": "",
+          "cn": "两者都不",
           "pattern": "后缀 -er | neith-er",
           "audioText": "neither",
           "examples": [
-            "The word neither is important in this lesson.",
-            "I can spell neither slowly.",
-            "I can use neither in a sentence."
+            "The word neither is in my spelling list.",
+            "I say neither slowly and clearly.",
+            "I can learn neither step by step."
           ],
-          "example": "The word neither is important in this lesson."
+          "example": "The word neither is in my spelling list."
         }
       ]
     },
@@ -3754,15 +3754,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "candle",
           "level": "basic",
-          "cn": "",
+          "cn": "蜡烛",
           "pattern": "听音拼写",
           "audioText": "candle",
           "examples": [
-            "I can spell candle.",
-            "Please say candle again.",
-            "I can use candle in a sentence."
+            "I see the word candle.",
+            "I can read candle.",
+            "Please spell candle."
           ],
-          "example": "I can spell candle."
+          "example": "I see the word candle."
         },
         {
           "id": "w05d1n02",
@@ -3776,11 +3776,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "desk",
           "examples": [
-            "I can spell desk.",
-            "Please say desk again.",
-            "I can use desk in a sentence."
+            "This is my desk.",
+            "I put the desk on the desk.",
+            "Please find the desk."
           ],
-          "example": "I can spell desk."
+          "example": "This is my desk."
         },
         {
           "id": "w05d1n03",
@@ -3794,11 +3794,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "eight",
           "examples": [
-            "I can spell eight.",
-            "Please say eight again.",
-            "I can use eight in a sentence."
+            "I can count to eight.",
+            "The answer is eight.",
+            "Please write eight."
           ],
-          "example": "I can spell eight."
+          "example": "I can count to eight."
         },
         {
           "id": "w05d1n04",
@@ -3812,11 +3812,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "farm",
           "examples": [
-            "I can spell farm.",
-            "Please say farm again.",
-            "I can use farm in a sentence."
+            "I go to the farm.",
+            "The farm is near my home.",
+            "We talk about the farm."
           ],
-          "example": "I can spell farm."
+          "example": "I go to the farm."
         },
         {
           "id": "w05d1n05",
@@ -3826,15 +3826,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "glass",
           "level": "basic",
-          "cn": "玻璃/杯子",
+          "cn": "玻璃；杯子",
           "pattern": "听音拼写",
           "audioText": "glass",
           "examples": [
-            "I can spell glass.",
-            "Please say glass again.",
-            "I can use glass in a sentence."
+            "I see the word glass.",
+            "I can read glass.",
+            "Please spell glass."
           ],
-          "example": "I can spell glass."
+          "example": "I see the word glass."
         },
         {
           "id": "w05d1n06",
@@ -3844,15 +3844,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "hard",
           "level": "basic",
-          "cn": "",
+          "cn": "硬的；困难的",
           "pattern": "听音拼写",
           "audioText": "hard",
           "examples": [
-            "I can spell hard.",
-            "Please say hard again.",
-            "I can use hard in a sentence."
+            "I feel hard today.",
+            "The word hard is useful.",
+            "Can you make a sentence with hard?"
           ],
-          "example": "I can spell hard."
+          "example": "I feel hard today."
         },
         {
           "id": "w05d1n07",
@@ -3866,11 +3866,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "insect",
           "examples": [
-            "I can spell insect.",
-            "Please say insect again.",
-            "I can use insect in a sentence."
+            "I see the word insect.",
+            "I can read insect.",
+            "Please spell insect."
           ],
-          "example": "I can spell insect."
+          "example": "I see the word insect."
         },
         {
           "id": "w05d1n08",
@@ -3884,11 +3884,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | oct-op-us",
           "audioText": "octopus",
           "examples": [
-            "The word octopus is important in this lesson.",
-            "I can spell octopus slowly.",
-            "I can use octopus in a sentence."
+            "I see a octopus at the zoo.",
+            "The octopus is in my picture.",
+            "The octopus can move fast."
           ],
-          "example": "The word octopus is important in this lesson."
+          "example": "I see a octopus at the zoo."
         },
         {
           "id": "w05d1n09",
@@ -3898,15 +3898,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "pastry",
           "level": "challenge",
-          "cn": "",
+          "cn": "油酥点心",
           "pattern": "听音拼写",
           "audioText": "pastry",
           "examples": [
-            "The word pastry is important in this lesson.",
-            "I can spell pastry slowly.",
-            "I can use pastry in a sentence."
+            "I eat pastry for lunch.",
+            "The pastry is on the table.",
+            "Do you like pastry?"
           ],
-          "example": "The word pastry is important in this lesson."
+          "example": "I eat pastry for lunch."
         },
         {
           "id": "w05d1n10",
@@ -3920,11 +3920,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | rainc-oat",
           "audioText": "raincoat",
           "examples": [
-            "The word raincoat is important in this lesson.",
-            "I can spell raincoat slowly.",
-            "I can use raincoat in a sentence."
+            "The word raincoat is in my spelling list.",
+            "I say raincoat slowly and clearly.",
+            "I can learn raincoat step by step."
           ],
-          "example": "The word raincoat is important in this lesson."
+          "example": "The word raincoat is in my spelling list."
         }
       ]
     },
@@ -3945,11 +3945,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "kite",
           "examples": [
-            "I can spell kite.",
-            "Please say kite again.",
-            "I can use kite in a sentence."
+            "I see the word kite.",
+            "I can read kite.",
+            "Please spell kite."
           ],
-          "example": "I can spell kite."
+          "example": "I see the word kite."
         },
         {
           "id": "w05d2n02",
@@ -3963,11 +3963,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "laugh",
           "examples": [
-            "I can spell laugh.",
-            "Please say laugh again.",
-            "I can use laugh in a sentence."
+            "I can laugh now.",
+            "Please laugh with me.",
+            "We laugh after class."
           ],
-          "example": "I can spell laugh."
+          "example": "I can laugh now."
         },
         {
           "id": "w05d2n03",
@@ -3981,11 +3981,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "map",
           "examples": [
-            "I can spell map.",
-            "Please say map again.",
-            "I can use map in a sentence."
+            "I see the word map.",
+            "I can read map.",
+            "Please spell map."
           ],
-          "example": "I can spell map."
+          "example": "I see the word map."
         },
         {
           "id": "w05d2n04",
@@ -3999,11 +3999,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er",
           "audioText": "never",
           "examples": [
-            "I can spell never.",
-            "Please say never again.",
-            "I can use never in a sentence."
+            "I see the word never.",
+            "I can read never.",
+            "Please spell never."
           ],
-          "example": "I can spell never."
+          "example": "I see the word never."
         },
         {
           "id": "w05d2n05",
@@ -4013,15 +4013,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "once",
           "level": "basic",
-          "cn": "",
+          "cn": "一次；曾经",
           "pattern": "听音拼写",
           "audioText": "once",
           "examples": [
-            "I can spell once.",
-            "Please say once again.",
-            "I can use once in a sentence."
+            "I see the word once.",
+            "I can read once.",
+            "Please spell once."
           ],
-          "example": "I can spell once."
+          "example": "I see the word once."
         },
         {
           "id": "w05d2n06",
@@ -4035,11 +4035,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "panda",
           "examples": [
-            "I can spell panda.",
-            "Please say panda again.",
-            "I can use panda in a sentence."
+            "I see a panda at the zoo.",
+            "The panda is in my picture.",
+            "The panda can move fast."
           ],
-          "example": "I can spell panda."
+          "example": "I see a panda at the zoo."
         },
         {
           "id": "w05d2n07",
@@ -4049,15 +4049,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "rapid",
           "level": "basic",
-          "cn": "",
+          "cn": "快速的",
           "pattern": "听音拼写",
           "audioText": "rapid",
           "examples": [
-            "I can spell rapid.",
-            "Please say rapid again.",
-            "I can use rapid in a sentence."
+            "I see the word rapid.",
+            "I can read rapid.",
+            "Please spell rapid."
           ],
-          "example": "I can spell rapid."
+          "example": "I see the word rapid."
         },
         {
           "id": "w05d2n08",
@@ -4067,15 +4067,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "sandcastle",
           "level": "challenge",
-          "cn": "",
+          "cn": "沙堡",
           "pattern": "长词: 分音节背 | sandc-astl-e",
           "audioText": "sandcastle",
           "examples": [
-            "The word sandcastle is important in this lesson.",
-            "I can spell sandcastle slowly.",
-            "I can use sandcastle in a sentence."
+            "The word sandcastle is in my spelling list.",
+            "I say sandcastle slowly and clearly.",
+            "I can learn sandcastle step by step."
           ],
-          "example": "The word sandcastle is important in this lesson."
+          "example": "The word sandcastle is in my spelling list."
         },
         {
           "id": "w05d2n09",
@@ -4085,15 +4085,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "technology",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | techn-ol-og-y",
           "audioText": "technology",
           "examples": [
-            "The word technology is important in this lesson.",
-            "I can spell technology slowly.",
-            "I can use technology in a sentence."
+            "The word technology is in my spelling list.",
+            "I say technology slowly and clearly.",
+            "I can learn technology step by step."
           ],
-          "example": "The word technology is important in this lesson."
+          "example": "The word technology is in my spelling list."
         },
         {
           "id": "w05d2n10",
@@ -4103,15 +4103,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "undeniable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | undeni-able",
           "audioText": "undeniable",
           "examples": [
-            "The word undeniable is important in this lesson.",
-            "I can spell undeniable slowly.",
-            "I can use undeniable in a sentence."
+            "The word undeniable is in my spelling list.",
+            "I say undeniable slowly and clearly.",
+            "I can learn undeniable step by step."
           ],
-          "example": "The word undeniable is important in this lesson."
+          "example": "The word undeniable is in my spelling list."
         }
       ]
     },
@@ -4128,15 +4128,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "same",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "same",
           "examples": [
-            "I can spell same.",
-            "Please say same again.",
-            "I can use same in a sentence."
+            "I see the word same.",
+            "I can read same.",
+            "Please spell same."
           ],
-          "example": "I can spell same."
+          "example": "I see the word same."
         },
         {
           "id": "w05d3n02",
@@ -4146,15 +4146,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "tax",
           "level": "basic",
-          "cn": "",
+          "cn": "税",
           "pattern": "听音拼写",
           "audioText": "tax",
           "examples": [
-            "I can spell tax.",
-            "Please say tax again.",
-            "I can use tax in a sentence."
+            "I see the word tax.",
+            "I can read tax.",
+            "Please spell tax."
           ],
-          "example": "I can spell tax."
+          "example": "I see the word tax."
         },
         {
           "id": "w05d3n03",
@@ -4164,15 +4164,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "upon",
           "level": "basic",
-          "cn": "",
+          "cn": "在……之上",
           "pattern": "听音拼写",
           "audioText": "upon",
           "examples": [
-            "I can spell upon.",
-            "Please say upon again.",
-            "I can use upon in a sentence."
+            "I see the word upon.",
+            "I can read upon.",
+            "Please spell upon."
           ],
-          "example": "I can spell upon."
+          "example": "I see the word upon."
         },
         {
           "id": "w05d3n04",
@@ -4182,15 +4182,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "warn",
           "level": "basic",
-          "cn": "",
+          "cn": "警告",
           "pattern": "听音拼写",
           "audioText": "warn",
           "examples": [
-            "I can spell warn.",
-            "Please say warn again.",
-            "I can use warn in a sentence."
+            "I see the word warn.",
+            "I can read warn.",
+            "Please spell warn."
           ],
-          "example": "I can spell warn."
+          "example": "I see the word warn."
         },
         {
           "id": "w05d3n05",
@@ -4204,11 +4204,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "young",
           "examples": [
-            "I can spell young.",
-            "Please say young again.",
-            "I can use young in a sentence."
+            "I feel young today.",
+            "The word young is useful.",
+            "Can you make a sentence with young?"
           ],
-          "example": "I can spell young."
+          "example": "I feel young today."
         },
         {
           "id": "w05d3n06",
@@ -4222,11 +4222,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "age",
           "examples": [
-            "I can spell age.",
-            "Please say age again.",
-            "I can use age in a sentence."
+            "I see the word age.",
+            "I can read age.",
+            "Please spell age."
           ],
-          "example": "I can spell age."
+          "example": "I see the word age."
         },
         {
           "id": "w05d3n07",
@@ -4236,15 +4236,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "banan",
           "level": "basic",
-          "cn": "",
+          "cn": "香蕉（疑似 banana）",
           "pattern": "听音拼写",
           "audioText": "banan",
           "examples": [
-            "I can spell banan.",
-            "Please say banan again.",
-            "I can use banan in a sentence."
+            "I see the word banan.",
+            "I can read banan.",
+            "Please spell banan."
           ],
-          "example": "I can spell banan."
+          "example": "I see the word banan."
         },
         {
           "id": "w05d3n08",
@@ -4254,15 +4254,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "vinegar",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | vin-eg-ar",
           "audioText": "vinegar",
           "examples": [
-            "The word vinegar is important in this lesson.",
-            "I can spell vinegar slowly.",
-            "I can use vinegar in a sentence."
+            "I eat vinegar for lunch.",
+            "The vinegar is on the table.",
+            "Do you like vinegar?"
           ],
-          "example": "The word vinegar is important in this lesson."
+          "example": "I eat vinegar for lunch."
         },
         {
           "id": "w05d3n09",
@@ -4276,11 +4276,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | weath-er",
           "audioText": "weather",
           "examples": [
-            "The word weather is important in this lesson.",
-            "I can spell weather slowly.",
-            "I can use weather in a sentence."
+            "The word weather is in my spelling list.",
+            "I say weather slowly and clearly.",
+            "I can learn weather step by step."
           ],
-          "example": "The word weather is important in this lesson."
+          "example": "The word weather is in my spelling list."
         },
         {
           "id": "w05d3n10",
@@ -4290,15 +4290,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "accompaniment",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | accompani-ment",
           "audioText": "accompaniment",
           "examples": [
-            "The word accompaniment is important in this lesson.",
-            "I can spell accompaniment slowly.",
-            "I can use accompaniment in a sentence."
+            "The word accompaniment is in my spelling list.",
+            "I say accompaniment slowly and clearly.",
+            "I can learn accompaniment step by step."
           ],
-          "example": "The word accompaniment is important in this lesson."
+          "example": "The word accompaniment is in my spelling list."
         }
       ]
     },
@@ -4319,11 +4319,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "candy",
           "examples": [
-            "I can spell candy.",
-            "Please say candy again.",
-            "I can use candy in a sentence."
+            "I eat candy for lunch.",
+            "The candy is on the table.",
+            "Do you like candy?"
           ],
-          "example": "I can spell candy."
+          "example": "I eat candy for lunch."
         },
         {
           "id": "w05d4n02",
@@ -4333,15 +4333,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "dew",
           "level": "basic",
-          "cn": "",
+          "cn": "露水",
           "pattern": "听音拼写",
           "audioText": "dew",
           "examples": [
-            "I can spell dew.",
-            "Please say dew again.",
-            "I can use dew in a sentence."
+            "I see the word dew.",
+            "I can read dew.",
+            "Please spell dew."
           ],
-          "example": "I can spell dew."
+          "example": "I see the word dew."
         },
         {
           "id": "w05d4n03",
@@ -4351,15 +4351,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "eighty",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "eighty",
           "examples": [
-            "I can spell eighty.",
-            "Please say eighty again.",
-            "I can use eighty in a sentence."
+            "I can count to eighty.",
+            "The answer is eighty.",
+            "Please write eighty."
           ],
-          "example": "I can spell eighty."
+          "example": "I can count to eighty."
         },
         {
           "id": "w05d4n04",
@@ -4373,11 +4373,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | farm-er",
           "audioText": "farmer",
           "examples": [
-            "I can spell farmer.",
-            "Please say farmer again.",
-            "I can use farmer in a sentence."
+            "I see the word farmer.",
+            "I can read farmer.",
+            "Please spell farmer."
           ],
-          "example": "I can spell farmer."
+          "example": "I see the word farmer."
         },
         {
           "id": "w05d4n05",
@@ -4387,15 +4387,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "glasses",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | glass-es",
           "audioText": "glasses",
           "examples": [
-            "I can spell glasses.",
-            "Please say glasses again.",
-            "I can use glasses in a sentence."
+            "This is my glasses.",
+            "I put the glasses on the desk.",
+            "Please find the glasses."
           ],
-          "example": "I can spell glasses."
+          "example": "This is my glasses."
         },
         {
           "id": "w05d4n06",
@@ -4405,15 +4405,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "hardly",
           "level": "basic",
-          "cn": "",
+          "cn": "几乎不",
           "pattern": "后缀 -ly | hard-ly",
           "audioText": "hardly",
           "examples": [
-            "I can spell hardly.",
-            "Please say hardly again.",
-            "I can use hardly in a sentence."
+            "I see the word hardly.",
+            "I can read hardly.",
+            "Please spell hardly."
           ],
-          "example": "I can spell hardly."
+          "example": "I see the word hardly."
         },
         {
           "id": "w05d4n07",
@@ -4423,15 +4423,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "into",
           "level": "basic",
-          "cn": "",
+          "cn": "进入",
           "pattern": "听音拼写",
           "audioText": "into",
           "examples": [
-            "I can spell into.",
-            "Please say into again.",
-            "I can use into in a sentence."
+            "I see the word into.",
+            "I can read into.",
+            "Please spell into."
           ],
-          "example": "I can spell into."
+          "example": "I see the word into."
         },
         {
           "id": "w05d4n08",
@@ -4445,11 +4445,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | beauti-ful",
           "audioText": "beautiful",
           "examples": [
-            "The word beautiful is important in this lesson.",
-            "I can spell beautiful slowly.",
-            "I can use beautiful in a sentence."
+            "I feel beautiful today.",
+            "The word beautiful is useful.",
+            "Can you make a sentence with beautiful?"
           ],
-          "example": "The word beautiful is important in this lesson."
+          "example": "I feel beautiful today."
         },
         {
           "id": "w05d4n09",
@@ -4459,15 +4459,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "century",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | cent-ur-y",
           "audioText": "century",
           "examples": [
-            "The word century is important in this lesson.",
-            "I can spell century slowly.",
-            "I can use century in a sentence."
+            "The word century is in my spelling list.",
+            "I say century slowly and clearly.",
+            "I can learn century step by step."
           ],
-          "example": "The word century is important in this lesson."
+          "example": "The word century is in my spelling list."
         },
         {
           "id": "w05d4n10",
@@ -4481,11 +4481,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | daught-er",
           "audioText": "daughter",
           "examples": [
-            "The word daughter is important in this lesson.",
-            "I can spell daughter slowly.",
-            "I can use daughter in a sentence."
+            "The word daughter is in my spelling list.",
+            "I say daughter slowly and clearly.",
+            "I can learn daughter step by step."
           ],
-          "example": "The word daughter is important in this lesson."
+          "example": "The word daughter is in my spelling list."
         }
       ]
     },
@@ -4506,11 +4506,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "kitten",
           "examples": [
-            "I can spell kitten.",
-            "Please say kitten again.",
-            "I can use kitten in a sentence."
+            "I see a kitten at the zoo.",
+            "The kitten is in my picture.",
+            "The kitten can move fast."
           ],
-          "example": "I can spell kitten."
+          "example": "I see a kitten at the zoo."
         },
         {
           "id": "w05d5n02",
@@ -4520,15 +4520,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "law",
           "level": "basic",
-          "cn": "",
+          "cn": "法律",
           "pattern": "听音拼写",
           "audioText": "law",
           "examples": [
-            "I can spell law.",
-            "Please say law again.",
-            "I can use law in a sentence."
+            "I see the word law.",
+            "I can read law.",
+            "Please spell law."
           ],
-          "example": "I can spell law."
+          "example": "I see the word law."
         },
         {
           "id": "w05d5n03",
@@ -4538,15 +4538,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "march",
           "level": "basic",
-          "cn": "",
+          "cn": "三月；行进",
           "pattern": "听音拼写",
           "audioText": "march",
           "examples": [
-            "I can spell march.",
-            "Please say march again.",
-            "I can use march in a sentence."
+            "I see the word march.",
+            "I can read march.",
+            "Please spell march."
           ],
-          "example": "I can spell march."
+          "example": "I see the word march."
         },
         {
           "id": "w05d5n04",
@@ -4560,11 +4560,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "new",
           "examples": [
-            "I can spell new.",
-            "Please say new again.",
-            "I can use new in a sentence."
+            "I feel new today.",
+            "The word new is useful.",
+            "Can you make a sentence with new?"
           ],
-          "example": "I can spell new."
+          "example": "I feel new today."
         },
         {
           "id": "w05d5n05",
@@ -4578,11 +4578,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "one",
           "examples": [
-            "I can spell one.",
-            "Please say one again.",
-            "I can use one in a sentence."
+            "I can count to one.",
+            "The answer is one.",
+            "Please write one."
           ],
-          "example": "I can spell one."
+          "example": "I can count to one."
         },
         {
           "id": "w05d5n06",
@@ -4592,15 +4592,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "pants",
           "level": "basic",
-          "cn": "",
+          "cn": "裤子",
           "pattern": "听音拼写",
           "audioText": "pants",
           "examples": [
-            "I can spell pants.",
-            "Please say pants again.",
-            "I can use pants in a sentence."
+            "This is my pants.",
+            "I put the pants on the desk.",
+            "Please find the pants."
           ],
-          "example": "I can spell pants."
+          "example": "This is my pants."
         },
         {
           "id": "w05d5n07",
@@ -4610,15 +4610,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "rat",
           "level": "basic",
-          "cn": "",
+          "cn": "老鼠",
           "pattern": "听音拼写",
           "audioText": "rat",
           "examples": [
-            "I can spell rat.",
-            "Please say rat again.",
-            "I can use rat in a sentence."
+            "I see the word rat.",
+            "I can read rat.",
+            "Please spell rat."
           ],
-          "example": "I can spell rat."
+          "example": "I see the word rat."
         },
         {
           "id": "w05d5n08",
@@ -4628,15 +4628,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "eighteen",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | eight-een",
           "audioText": "eighteen",
           "examples": [
-            "The word eighteen is important in this lesson.",
-            "I can spell eighteen slowly.",
-            "I can use eighteen in a sentence."
+            "I can count to eighteen.",
+            "The answer is eighteen.",
+            "Please write eighteen."
           ],
-          "example": "The word eighteen is important in this lesson."
+          "example": "I can count to eighteen."
         },
         {
           "id": "w05d5n09",
@@ -4646,15 +4646,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "festival",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | fest-iv-al",
           "audioText": "festival",
           "examples": [
-            "The word festival is important in this lesson.",
-            "I can spell festival slowly.",
-            "I can use festival in a sentence."
+            "The word festival is in my spelling list.",
+            "I say festival slowly and clearly.",
+            "I can learn festival step by step."
           ],
-          "example": "The word festival is important in this lesson."
+          "example": "The word festival is in my spelling list."
         },
         {
           "id": "w05d5n10",
@@ -4664,15 +4664,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "government",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | govern-ment",
           "audioText": "government",
           "examples": [
-            "The word government is important in this lesson.",
-            "I can spell government slowly.",
-            "I can use government in a sentence."
+            "The word government is in my spelling list.",
+            "I say government slowly and clearly.",
+            "I can learn government step by step."
           ],
-          "example": "The word government is important in this lesson."
+          "example": "The word government is in my spelling list."
         }
       ]
     },
@@ -4693,11 +4693,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "sand",
           "examples": [
-            "I can spell sand.",
-            "Please say sand again.",
-            "I can use sand in a sentence."
+            "I see the word sand.",
+            "I can read sand.",
+            "Please spell sand."
           ],
-          "example": "I can spell sand."
+          "example": "I see the word sand."
         },
         {
           "id": "w06d1n02",
@@ -4711,11 +4711,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "taxi",
           "examples": [
-            "I can spell taxi.",
-            "Please say taxi again.",
-            "I can use taxi in a sentence."
+            "I see the word taxi.",
+            "I can read taxi.",
+            "Please spell taxi."
           ],
-          "example": "I can spell taxi."
+          "example": "I see the word taxi."
         },
         {
           "id": "w06d1n03",
@@ -4729,11 +4729,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "us",
           "examples": [
-            "I can spell us.",
-            "Please say us again.",
-            "I can use us in a sentence."
+            "I see the word us.",
+            "I can read us.",
+            "Please spell us."
           ],
-          "example": "I can spell us."
+          "example": "I see the word us."
         },
         {
           "id": "w06d1n04",
@@ -4747,11 +4747,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "wash",
           "examples": [
-            "I can spell wash.",
-            "Please say wash again.",
-            "I can use wash in a sentence."
+            "I can wash now.",
+            "Please wash with me.",
+            "We wash after class."
           ],
-          "example": "I can spell wash."
+          "example": "I can wash now."
         },
         {
           "id": "w06d1n05",
@@ -4761,15 +4761,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "your",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "your",
           "examples": [
-            "I can spell your.",
-            "Please say your again.",
-            "I can use your in a sentence."
+            "I see the word your.",
+            "I can read your.",
+            "Please spell your."
           ],
-          "example": "I can spell your."
+          "example": "I see the word your."
         },
         {
           "id": "w06d1n06",
@@ -4783,11 +4783,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "agree",
           "examples": [
-            "I can spell agree.",
-            "Please say agree again.",
-            "I can use agree in a sentence."
+            "I can agree now.",
+            "Please agree with me.",
+            "We agree after class."
           ],
-          "example": "I can spell agree."
+          "example": "I can agree now."
         },
         {
           "id": "w06d1n07",
@@ -4801,11 +4801,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bank",
           "examples": [
-            "I can spell bank.",
-            "Please say bank again.",
-            "I can use bank in a sentence."
+            "I see the word bank.",
+            "I can read bank.",
+            "Please spell bank."
           ],
-          "example": "I can spell bank."
+          "example": "I see the word bank."
         },
         {
           "id": "w06d1n08",
@@ -4815,15 +4815,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "headteacher",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | headteach-er",
           "audioText": "headteacher",
           "examples": [
-            "The word headteacher is important in this lesson.",
-            "I can spell headteacher slowly.",
-            "I can use headteacher in a sentence."
+            "The word headteacher is in my spelling list.",
+            "I say headteacher slowly and clearly.",
+            "I can learn headteacher step by step."
           ],
-          "example": "The word headteacher is important in this lesson."
+          "example": "The word headteacher is in my spelling list."
         },
         {
           "id": "w06d1n09",
@@ -4833,15 +4833,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "impossible",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | imposs-ible",
           "audioText": "impossible",
           "examples": [
-            "The word impossible is important in this lesson.",
-            "I can spell impossible slowly.",
-            "I can use impossible in a sentence."
+            "The word impossible is in my spelling list.",
+            "I say impossible slowly and clearly.",
+            "I can learn impossible step by step."
           ],
-          "example": "The word impossible is important in this lesson."
+          "example": "The word impossible is in my spelling list."
         },
         {
           "id": "w06d1n10",
@@ -4851,15 +4851,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "knight",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "knight",
           "examples": [
-            "The word knight is important in this lesson.",
-            "I can spell knight slowly.",
-            "I can use knight in a sentence."
+            "The word knight is in my spelling list.",
+            "I say knight slowly and clearly.",
+            "I can learn knight step by step."
           ],
-          "example": "The word knight is important in this lesson."
+          "example": "The word knight is in my spelling list."
         }
       ]
     },
@@ -4876,15 +4876,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "cane",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cane",
           "examples": [
-            "I can spell cane.",
-            "Please say cane again.",
-            "I can use cane in a sentence."
+            "I see the word cane.",
+            "I can read cane.",
+            "Please spell cane."
           ],
-          "example": "I can spell cane."
+          "example": "I see the word cane."
         },
         {
           "id": "w06d2n02",
@@ -4894,15 +4894,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "diamond",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | diam-ond",
           "audioText": "diamond",
           "examples": [
-            "I can spell diamond.",
-            "Please say diamond again.",
-            "I can use diamond in a sentence."
+            "I see the word diamond.",
+            "I can read diamond.",
+            "Please spell diamond."
           ],
-          "example": "I can spell diamond."
+          "example": "I see the word diamond."
         },
         {
           "id": "w06d2n03",
@@ -4912,15 +4912,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "elastic",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | el-ast-ic",
           "audioText": "elastic",
           "examples": [
-            "I can spell elastic.",
-            "Please say elastic again.",
-            "I can use elastic in a sentence."
+            "I see the word elastic.",
+            "I can read elastic.",
+            "Please spell elastic."
           ],
-          "example": "I can spell elastic."
+          "example": "I see the word elastic."
         },
         {
           "id": "w06d2n04",
@@ -4934,11 +4934,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "fast",
           "examples": [
-            "I can spell fast.",
-            "Please say fast again.",
-            "I can use fast in a sentence."
+            "I feel fast today.",
+            "The word fast is useful.",
+            "Can you make a sentence with fast?"
           ],
-          "example": "I can spell fast."
+          "example": "I feel fast today."
         },
         {
           "id": "w06d2n05",
@@ -4948,15 +4948,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "globe",
           "level": "basic",
-          "cn": "",
+          "cn": "地球仪；球体",
           "pattern": "听音拼写",
           "audioText": "globe",
           "examples": [
-            "I can spell globe.",
-            "Please say globe again.",
-            "I can use globe in a sentence."
+            "I see the word globe.",
+            "I can read globe.",
+            "Please spell globe."
           ],
-          "example": "I can spell globe."
+          "example": "I see the word globe."
         },
         {
           "id": "w06d2n06",
@@ -4970,11 +4970,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hat",
           "examples": [
-            "I can spell hat.",
-            "Please say hat again.",
-            "I can use hat in a sentence."
+            "This is my hat.",
+            "I put the hat on the desk.",
+            "Please find the hat."
           ],
-          "example": "I can spell hat."
+          "example": "This is my hat."
         },
         {
           "id": "w06d2n07",
@@ -4984,15 +4984,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "involve",
           "level": "basic",
-          "cn": "",
+          "cn": "涉及；包含",
           "pattern": "听音拼写 | inv-olv-e",
           "audioText": "involve",
           "examples": [
-            "I can spell involve.",
-            "Please say involve again.",
-            "I can use involve in a sentence."
+            "I can involve now.",
+            "Please involve with me.",
+            "We involve after class."
           ],
-          "example": "I can spell involve."
+          "example": "I can involve now."
         },
         {
           "id": "w06d2n08",
@@ -5002,15 +5002,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "liberty",
           "level": "challenge",
-          "cn": "",
+          "cn": "自由",
           "pattern": "听音拼写 | lib-ert-y",
           "audioText": "liberty",
           "examples": [
-            "The word liberty is important in this lesson.",
-            "I can spell liberty slowly.",
-            "I can use liberty in a sentence."
+            "The word liberty is in my spelling list.",
+            "I say liberty slowly and clearly.",
+            "I can learn liberty step by step."
           ],
-          "example": "The word liberty is important in this lesson."
+          "example": "The word liberty is in my spelling list."
         },
         {
           "id": "w06d2n09",
@@ -5020,15 +5020,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "manager",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | manag-er",
           "audioText": "manager",
           "examples": [
-            "The word manager is important in this lesson.",
-            "I can spell manager slowly.",
-            "I can use manager in a sentence."
+            "The word manager is in my spelling list.",
+            "I say manager slowly and clearly.",
+            "I can learn manager step by step."
           ],
-          "example": "The word manager is important in this lesson."
+          "example": "The word manager is in my spelling list."
         },
         {
           "id": "w06d2n10",
@@ -5038,15 +5038,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "nineteen",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | nin-et-een",
           "audioText": "nineteen",
           "examples": [
-            "The word nineteen is important in this lesson.",
-            "I can spell nineteen slowly.",
-            "I can use nineteen in a sentence."
+            "I can count to nineteen.",
+            "The answer is nineteen.",
+            "Please write nineteen."
           ],
-          "example": "The word nineteen is important in this lesson."
+          "example": "I can count to nineteen."
         }
       ]
     },
@@ -5067,11 +5067,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "knee",
           "examples": [
-            "I can spell knee.",
-            "Please say knee again.",
-            "I can use knee in a sentence."
+            "I see the word knee.",
+            "I can read knee.",
+            "Please spell knee."
           ],
-          "example": "I can spell knee."
+          "example": "I see the word knee."
         },
         {
           "id": "w06d3n02",
@@ -5081,15 +5081,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "lazy",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "lazy",
           "examples": [
-            "I can spell lazy.",
-            "Please say lazy again.",
-            "I can use lazy in a sentence."
+            "I see the word lazy.",
+            "I can read lazy.",
+            "Please spell lazy."
           ],
-          "example": "I can spell lazy."
+          "example": "I see the word lazy."
         },
         {
           "id": "w06d3n03",
@@ -5099,15 +5099,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "mast",
           "level": "basic",
-          "cn": "",
+          "cn": "桅杆",
           "pattern": "听音拼写",
           "audioText": "mast",
           "examples": [
-            "I can spell mast.",
-            "Please say mast again.",
-            "I can use mast in a sentence."
+            "I see the word mast.",
+            "I can read mast.",
+            "Please spell mast."
           ],
-          "example": "I can spell mast."
+          "example": "I see the word mast."
         },
         {
           "id": "w06d3n04",
@@ -5117,15 +5117,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "news",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "news",
           "examples": [
-            "I can spell news.",
-            "Please say news again.",
-            "I can use news in a sentence."
+            "I see the word news.",
+            "I can read news.",
+            "Please spell news."
           ],
-          "example": "I can spell news."
+          "example": "I see the word news."
         },
         {
           "id": "w06d3n05",
@@ -5139,11 +5139,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "onion",
           "examples": [
-            "I can spell onion.",
-            "Please say onion again.",
-            "I can use onion in a sentence."
+            "I eat onion for lunch.",
+            "The onion is on the table.",
+            "Do you like onion?"
           ],
-          "example": "I can spell onion."
+          "example": "I eat onion for lunch."
         },
         {
           "id": "w06d3n06",
@@ -5157,11 +5157,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er",
           "audioText": "paper",
           "examples": [
-            "I can spell paper.",
-            "Please say paper again.",
-            "I can use paper in a sentence."
+            "This is my paper.",
+            "I put the paper on the desk.",
+            "Please find the paper."
           ],
-          "example": "I can spell paper."
+          "example": "This is my paper."
         },
         {
           "id": "w06d3n07",
@@ -5171,15 +5171,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "reach",
           "level": "basic",
-          "cn": "",
+          "cn": "到达；伸手够",
           "pattern": "元音组合",
           "audioText": "reach",
           "examples": [
-            "I can spell reach.",
-            "Please say reach again.",
-            "I can use reach in a sentence."
+            "I can reach now.",
+            "Please reach with me.",
+            "We reach after class."
           ],
-          "example": "I can spell reach."
+          "example": "I can reach now."
         },
         {
           "id": "w06d3n08",
@@ -5193,11 +5193,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "office",
           "examples": [
-            "The word office is important in this lesson.",
-            "I can spell office slowly.",
-            "I can use office in a sentence."
+            "I go to the office.",
+            "The office is near my home.",
+            "We talk about the office."
           ],
-          "example": "The word office is important in this lesson."
+          "example": "I go to the office."
         },
         {
           "id": "w06d3n09",
@@ -5207,15 +5207,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "pattern",
           "level": "challenge",
-          "cn": "",
+          "cn": "图案；模式",
           "pattern": "听音拼写 | patt-ern",
           "audioText": "pattern",
           "examples": [
-            "The word pattern is important in this lesson.",
-            "I can spell pattern slowly.",
-            "I can use pattern in a sentence."
+            "The word pattern is in my spelling list.",
+            "I say pattern slowly and clearly.",
+            "I can learn pattern step by step."
           ],
-          "example": "The word pattern is important in this lesson."
+          "example": "The word pattern is in my spelling list."
         },
         {
           "id": "w06d3n10",
@@ -5225,15 +5225,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "ravage",
           "level": "challenge",
-          "cn": "",
+          "cn": "毁坏",
           "pattern": "听音拼写",
           "audioText": "ravage",
           "examples": [
-            "The word ravage is important in this lesson.",
-            "I can spell ravage slowly.",
-            "I can use ravage in a sentence."
+            "The word ravage is in my spelling list.",
+            "I say ravage slowly and clearly.",
+            "I can learn ravage step by step."
           ],
-          "example": "The word ravage is important in this lesson."
+          "example": "The word ravage is in my spelling list."
         }
       ]
     },
@@ -5250,15 +5250,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "sauce",
           "level": "basic",
-          "cn": "",
+          "cn": "酱汁",
           "pattern": "听音拼写",
           "audioText": "sauce",
           "examples": [
-            "I can spell sauce.",
-            "Please say sauce again.",
-            "I can use sauce in a sentence."
+            "I eat sauce for lunch.",
+            "The sauce is on the table.",
+            "Do you like sauce?"
           ],
-          "example": "I can spell sauce."
+          "example": "I eat sauce for lunch."
         },
         {
           "id": "w06d4n02",
@@ -5272,11 +5272,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "tea",
           "examples": [
-            "I can spell tea.",
-            "Please say tea again.",
-            "I can use tea in a sentence."
+            "I eat tea for lunch.",
+            "The tea is on the table.",
+            "Do you like tea?"
           ],
-          "example": "I can spell tea."
+          "example": "I eat tea for lunch."
         },
         {
           "id": "w06d4n03",
@@ -5286,15 +5286,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "wasp",
           "level": "basic",
-          "cn": "",
+          "cn": "黄蜂",
           "pattern": "听音拼写",
           "audioText": "wasp",
           "examples": [
-            "I can spell wasp.",
-            "Please say wasp again.",
-            "I can use wasp in a sentence."
+            "I see a wasp at the zoo.",
+            "The wasp is in my picture.",
+            "The wasp can move fast."
           ],
-          "example": "I can spell wasp."
+          "example": "I see a wasp at the zoo."
         },
         {
           "id": "w06d4n04",
@@ -5304,15 +5304,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "yours",
           "level": "basic",
-          "cn": "",
+          "cn": "你的东西",
           "pattern": "听音拼写",
           "audioText": "yours",
           "examples": [
-            "I can spell yours.",
-            "Please say yours again.",
-            "I can use yours in a sentence."
+            "I see the word yours.",
+            "I can read yours.",
+            "Please spell yours."
           ],
-          "example": "I can spell yours."
+          "example": "I see the word yours."
         },
         {
           "id": "w06d4n05",
@@ -5326,11 +5326,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "air",
           "examples": [
-            "I can spell air.",
-            "Please say air again.",
-            "I can use air in a sentence."
+            "I see the word air.",
+            "I can read air.",
+            "Please spell air."
           ],
-          "example": "I can spell air."
+          "example": "I see the word air."
         },
         {
           "id": "w06d4n06",
@@ -5344,11 +5344,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bath",
           "examples": [
-            "I can spell bath.",
-            "Please say bath again.",
-            "I can use bath in a sentence."
+            "I see the word bath.",
+            "I can read bath.",
+            "Please spell bath."
           ],
-          "example": "I can spell bath."
+          "example": "I see the word bath."
         },
         {
           "id": "w06d4n07",
@@ -5362,11 +5362,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cap",
           "examples": [
-            "I can spell cap.",
-            "Please say cap again.",
-            "I can use cap in a sentence."
+            "I see the word cap.",
+            "I can read cap.",
+            "Please spell cap."
           ],
-          "example": "I can spell cap."
+          "example": "I see the word cap."
         },
         {
           "id": "w06d4n08",
@@ -5380,11 +5380,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | sandw-ich",
           "audioText": "sandwich",
           "examples": [
-            "The word sandwich is important in this lesson.",
-            "I can spell sandwich slowly.",
-            "I can use sandwich in a sentence."
+            "The word sandwich is in my spelling list.",
+            "I say sandwich slowly and clearly.",
+            "I can learn sandwich step by step."
           ],
-          "example": "The word sandwich is important in this lesson."
+          "example": "The word sandwich is in my spelling list."
         },
         {
           "id": "w06d4n09",
@@ -5398,11 +5398,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | tel-eph-on-e",
           "audioText": "telephone",
           "examples": [
-            "The word telephone is important in this lesson.",
-            "I can spell telephone slowly.",
-            "I can use telephone in a sentence."
+            "The word telephone is in my spelling list.",
+            "I say telephone slowly and clearly.",
+            "I can learn telephone step by step."
           ],
-          "example": "The word telephone is important in this lesson."
+          "example": "The word telephone is in my spelling list."
         },
         {
           "id": "w06d4n10",
@@ -5412,15 +5412,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "underside",
           "level": "challenge",
-          "cn": "",
+          "cn": "底面",
           "pattern": "长词: 分音节背 | und-ers-id-e",
           "audioText": "underside",
           "examples": [
-            "The word underside is important in this lesson.",
-            "I can spell underside slowly.",
-            "I can use underside in a sentence."
+            "The word underside is in my spelling list.",
+            "I say underside slowly and clearly.",
+            "I can learn underside step by step."
           ],
-          "example": "The word underside is important in this lesson."
+          "example": "The word underside is in my spelling list."
         }
       ]
     },
@@ -5441,11 +5441,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | dinn-er",
           "audioText": "dinner",
           "examples": [
-            "I can spell dinner.",
-            "Please say dinner again.",
-            "I can use dinner in a sentence."
+            "I see the word dinner.",
+            "I can read dinner.",
+            "Please spell dinner."
           ],
-          "example": "I can spell dinner."
+          "example": "I see the word dinner."
         },
         {
           "id": "w06d5n02",
@@ -5455,15 +5455,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "elbow",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "elbow",
           "examples": [
-            "I can spell elbow.",
-            "Please say elbow again.",
-            "I can use elbow in a sentence."
+            "I see the word elbow.",
+            "I can read elbow.",
+            "Please spell elbow."
           ],
-          "example": "I can spell elbow."
+          "example": "I see the word elbow."
         },
         {
           "id": "w06d5n03",
@@ -5473,15 +5473,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "fat",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "fat",
           "examples": [
-            "I can spell fat.",
-            "Please say fat again.",
-            "I can use fat in a sentence."
+            "I see the word fat.",
+            "I can read fat.",
+            "Please spell fat."
           ],
-          "example": "I can spell fat."
+          "example": "I see the word fat."
         },
         {
           "id": "w06d5n04",
@@ -5491,15 +5491,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "gloss",
           "level": "basic",
-          "cn": "",
+          "cn": "光泽；注释",
           "pattern": "听音拼写",
           "audioText": "gloss",
           "examples": [
-            "I can spell gloss.",
-            "Please say gloss again.",
-            "I can use gloss in a sentence."
+            "I see the word gloss.",
+            "I can read gloss.",
+            "Please spell gloss."
           ],
-          "example": "I can spell gloss."
+          "example": "I see the word gloss."
         },
         {
           "id": "w06d5n05",
@@ -5509,15 +5509,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "have",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "have",
           "examples": [
-            "I can spell have.",
-            "Please say have again.",
-            "I can use have in a sentence."
+            "I see the word have.",
+            "I can read have.",
+            "Please spell have."
           ],
-          "example": "I can spell have."
+          "example": "I see the word have."
         },
         {
           "id": "w06d5n06",
@@ -5527,15 +5527,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "it",
           "level": "basic",
-          "cn": "",
+          "cn": "它",
           "pattern": "听音拼写",
           "audioText": "it",
           "examples": [
-            "I can spell it.",
-            "Please say it again.",
-            "I can use it in a sentence."
+            "I see the word it.",
+            "I can read it.",
+            "Please spell it."
           ],
-          "example": "I can spell it."
+          "example": "I see the word it."
         },
         {
           "id": "w06d5n07",
@@ -5549,11 +5549,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "knife",
           "examples": [
-            "I can spell knife.",
-            "Please say knife again.",
-            "I can use knife in a sentence."
+            "This is my knife.",
+            "I put the knife on the desk.",
+            "Please find the knife."
           ],
-          "example": "I can spell knife."
+          "example": "This is my knife."
         },
         {
           "id": "w06d5n08",
@@ -5567,11 +5567,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "violin",
           "examples": [
-            "The word violin is important in this lesson.",
-            "I can spell violin slowly.",
-            "I can use violin in a sentence."
+            "This is my violin.",
+            "I put the violin on the desk.",
+            "Please find the violin."
           ],
-          "example": "The word violin is important in this lesson."
+          "example": "This is my violin."
         },
         {
           "id": "w06d5n09",
@@ -5585,11 +5585,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | week-end",
           "audioText": "weekend",
           "examples": [
-            "The word weekend is important in this lesson.",
-            "I can spell weekend slowly.",
-            "I can use weekend in a sentence."
+            "The word weekend is in my spelling list.",
+            "I say weekend slowly and clearly.",
+            "I can learn weekend step by step."
           ],
-          "example": "The word weekend is important in this lesson."
+          "example": "The word weekend is in my spelling list."
         },
         {
           "id": "w06d5n10",
@@ -5599,15 +5599,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "according",
           "level": "challenge",
-          "cn": "",
+          "cn": "根据",
           "pattern": "长词: 分音节背 | accord-ing",
           "audioText": "according",
           "examples": [
-            "The word according is important in this lesson.",
-            "I can spell according slowly.",
-            "I can use according in a sentence."
+            "The word according is in my spelling list.",
+            "I say according slowly and clearly.",
+            "I can learn according step by step."
           ],
-          "example": "The word according is important in this lesson."
+          "example": "The word according is in my spelling list."
         }
       ]
     },
@@ -5624,15 +5624,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "lead",
           "level": "basic",
-          "cn": "",
+          "cn": "带领；铅",
           "pattern": "元音组合",
           "audioText": "lead",
           "examples": [
-            "I can spell lead.",
-            "Please say lead again.",
-            "I can use lead in a sentence."
+            "I can lead now.",
+            "Please lead with me.",
+            "We lead after class."
           ],
-          "example": "I can spell lead."
+          "example": "I can lead now."
         },
         {
           "id": "w07d1n02",
@@ -5646,11 +5646,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "math",
           "examples": [
-            "I can spell math.",
-            "Please say math again.",
-            "I can use math in a sentence."
+            "I see the word math.",
+            "I can read math.",
+            "Please spell math."
           ],
-          "example": "I can spell math."
+          "example": "I see the word math."
         },
         {
           "id": "w07d1n03",
@@ -5660,15 +5660,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "nice",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "nice",
           "examples": [
-            "I can spell nice.",
-            "Please say nice again.",
-            "I can use nice in a sentence."
+            "I feel nice today.",
+            "The word nice is useful.",
+            "Can you make a sentence with nice?"
           ],
-          "example": "I can spell nice."
+          "example": "I feel nice today."
         },
         {
           "id": "w07d1n04",
@@ -5678,15 +5678,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "only",
           "level": "basic",
-          "cn": "",
+          "cn": "……地；……的",
           "pattern": "后缀 -ly",
           "audioText": "only",
           "examples": [
-            "I can spell only.",
-            "Please say only again.",
-            "I can use only in a sentence."
+            "I see the word only.",
+            "I can read only.",
+            "Please spell only."
           ],
-          "example": "I can spell only."
+          "example": "I see the word only."
         },
         {
           "id": "w07d1n05",
@@ -5700,11 +5700,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "parent",
           "examples": [
-            "I can spell parent.",
-            "Please say parent again.",
-            "I can use parent in a sentence."
+            "I see the word parent.",
+            "I can read parent.",
+            "Please spell parent."
           ],
-          "example": "I can spell parent."
+          "example": "I see the word parent."
         },
         {
           "id": "w07d1n06",
@@ -5718,11 +5718,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "read",
           "examples": [
-            "I can spell read.",
-            "Please say read again.",
-            "I can use read in a sentence."
+            "I can read now.",
+            "Please read with me.",
+            "We read after class."
           ],
-          "example": "I can spell read."
+          "example": "I can read now."
         },
         {
           "id": "w07d1n07",
@@ -5732,15 +5732,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "scale",
           "level": "basic",
-          "cn": "",
+          "cn": "刻度；规模",
           "pattern": "听音拼写",
           "audioText": "scale",
           "examples": [
-            "I can spell scale.",
-            "Please say scale again.",
-            "I can use scale in a sentence."
+            "I see the word scale.",
+            "I can read scale.",
+            "Please spell scale."
           ],
-          "example": "I can spell scale."
+          "example": "I see the word scale."
         },
         {
           "id": "w07d1n08",
@@ -5754,11 +5754,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | bec-aus-e",
           "audioText": "because",
           "examples": [
-            "The word because is important in this lesson.",
-            "I can spell because slowly.",
-            "I can use because in a sentence."
+            "The word because is in my spelling list.",
+            "I say because slowly and clearly.",
+            "I can learn because step by step."
           ],
-          "example": "The word because is important in this lesson."
+          "example": "The word because is in my spelling list."
         },
         {
           "id": "w07d1n09",
@@ -5772,11 +5772,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "chance",
           "examples": [
-            "The word chance is important in this lesson.",
-            "I can spell chance slowly.",
-            "I can use chance in a sentence."
+            "The word chance is in my spelling list.",
+            "I say chance slowly and clearly.",
+            "I can learn chance step by step."
           ],
-          "example": "The word chance is important in this lesson."
+          "example": "The word chance is in my spelling list."
         },
         {
           "id": "w07d1n10",
@@ -5786,15 +5786,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "decision",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion | deci-sion",
           "audioText": "decision",
           "examples": [
-            "The word decision is important in this lesson.",
-            "I can spell decision slowly.",
-            "I can use decision in a sentence."
+            "The word decision is in my spelling list.",
+            "I say decision slowly and clearly.",
+            "I can learn decision step by step."
           ],
-          "example": "The word decision is important in this lesson."
+          "example": "The word decision is in my spelling list."
         }
       ]
     },
@@ -5815,11 +5815,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | teach-er",
           "audioText": "teacher",
           "examples": [
-            "I can spell teacher.",
-            "Please say teacher again.",
-            "I can use teacher in a sentence."
+            "I see the word teacher.",
+            "I can read teacher.",
+            "Please spell teacher."
           ],
-          "example": "I can spell teacher."
+          "example": "I see the word teacher."
         },
         {
           "id": "w07d2n02",
@@ -5829,15 +5829,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "waste",
           "level": "basic",
-          "cn": "",
+          "cn": "浪费；废物",
           "pattern": "听音拼写",
           "audioText": "waste",
           "examples": [
-            "I can spell waste.",
-            "Please say waste again.",
-            "I can use waste in a sentence."
+            "I see the word waste.",
+            "I can read waste.",
+            "Please spell waste."
           ],
-          "example": "I can spell waste."
+          "example": "I see the word waste."
         },
         {
           "id": "w07d2n03",
@@ -5847,15 +5847,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "youth",
           "level": "basic",
-          "cn": "",
+          "cn": "青年；青春",
           "pattern": "听音拼写",
           "audioText": "youth",
           "examples": [
-            "I can spell youth.",
-            "Please say youth again.",
-            "I can use youth in a sentence."
+            "I see the word youth.",
+            "I can read youth.",
+            "Please spell youth."
           ],
-          "example": "I can spell youth."
+          "example": "I see the word youth."
         },
         {
           "id": "w07d2n04",
@@ -5869,11 +5869,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | airp-ort",
           "audioText": "airport",
           "examples": [
-            "I can spell airport.",
-            "Please say airport again.",
-            "I can use airport in a sentence."
+            "I go to the airport.",
+            "The airport is near my home.",
+            "We talk about the airport."
           ],
-          "example": "I can spell airport."
+          "example": "I go to the airport."
         },
         {
           "id": "w07d2n05",
@@ -5887,11 +5887,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bell",
           "examples": [
-            "I can spell bell.",
-            "Please say bell again.",
-            "I can use bell in a sentence."
+            "This is my bell.",
+            "I put the bell on the desk.",
+            "Please find the bell."
           ],
-          "example": "I can spell bell."
+          "example": "This is my bell."
         },
         {
           "id": "w07d2n06",
@@ -5901,15 +5901,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "cape",
           "level": "basic",
-          "cn": "",
+          "cn": "披肩；海角",
           "pattern": "听音拼写",
           "audioText": "cape",
           "examples": [
-            "I can spell cape.",
-            "Please say cape again.",
-            "I can use cape in a sentence."
+            "I see the word cape.",
+            "I can read cape.",
+            "Please spell cape."
           ],
-          "example": "I can spell cape."
+          "example": "I see the word cape."
         },
         {
           "id": "w07d2n07",
@@ -5923,11 +5923,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dirty",
           "examples": [
-            "I can spell dirty.",
-            "Please say dirty again.",
-            "I can use dirty in a sentence."
+            "I feel dirty today.",
+            "The word dirty is useful.",
+            "Can you make a sentence with dirty?"
           ],
-          "example": "I can spell dirty."
+          "example": "I feel dirty today."
         },
         {
           "id": "w07d2n08",
@@ -5937,15 +5937,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "election",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion | elec-tion",
           "audioText": "election",
           "examples": [
-            "The word election is important in this lesson.",
-            "I can spell election slowly.",
-            "I can use election in a sentence."
+            "The word election is in my spelling list.",
+            "I say election slowly and clearly.",
+            "I can learn election step by step."
           ],
-          "example": "The word election is important in this lesson."
+          "example": "The word election is in my spelling list."
         },
         {
           "id": "w07d2n09",
@@ -5955,15 +5955,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "feverish",
           "level": "challenge",
-          "cn": "",
+          "cn": "发烧的",
           "pattern": "听音拼写 | fev-er-ish",
           "audioText": "feverish",
           "examples": [
-            "The word feverish is important in this lesson.",
-            "I can spell feverish slowly.",
-            "I can use feverish in a sentence."
+            "The word feverish is in my spelling list.",
+            "I say feverish slowly and clearly.",
+            "I can learn feverish step by step."
           ],
-          "example": "The word feverish is important in this lesson."
+          "example": "The word feverish is in my spelling list."
         },
         {
           "id": "w07d2n10",
@@ -5973,15 +5973,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "grandfather",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | grandfath-er",
           "audioText": "grandfather",
           "examples": [
-            "The word grandfather is important in this lesson.",
-            "I can spell grandfather slowly.",
-            "I can use grandfather in a sentence."
+            "The word grandfather is in my spelling list.",
+            "I say grandfather slowly and clearly.",
+            "I can learn grandfather step by step."
           ],
-          "example": "The word grandfather is important in this lesson."
+          "example": "The word grandfather is in my spelling list."
         }
       ]
     },
@@ -6002,11 +6002,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "eleven",
           "examples": [
-            "I can spell eleven.",
-            "Please say eleven again.",
-            "I can use eleven in a sentence."
+            "I can count to eleven.",
+            "The answer is eleven.",
+            "Please write eleven."
           ],
-          "example": "I can spell eleven."
+          "example": "I can count to eleven."
         },
         {
           "id": "w07d3n02",
@@ -6020,11 +6020,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | fath-er",
           "audioText": "father",
           "examples": [
-            "I can spell father.",
-            "Please say father again.",
-            "I can use father in a sentence."
+            "I see the word father.",
+            "I can read father.",
+            "Please spell father."
           ],
-          "example": "I can spell father."
+          "example": "I see the word father."
         },
         {
           "id": "w07d3n03",
@@ -6038,11 +6038,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "glove",
           "examples": [
-            "I can spell glove.",
-            "Please say glove again.",
-            "I can use glove in a sentence."
+            "I see the word glove.",
+            "I can read glove.",
+            "Please spell glove."
           ],
-          "example": "I can spell glove."
+          "example": "I see the word glove."
         },
         {
           "id": "w07d3n04",
@@ -6052,15 +6052,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "he",
           "level": "basic",
-          "cn": "",
+          "cn": "他",
           "pattern": "听音拼写",
           "audioText": "he",
           "examples": [
-            "I can spell he.",
-            "Please say he again.",
-            "I can use he in a sentence."
+            "I see the word he.",
+            "I can read he.",
+            "Please spell he."
           ],
-          "example": "I can spell he."
+          "example": "I see the word he."
         },
         {
           "id": "w07d3n05",
@@ -6070,15 +6070,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "itself",
           "level": "basic",
-          "cn": "",
+          "cn": "它自己",
           "pattern": "听音拼写",
           "audioText": "itself",
           "examples": [
-            "I can spell itself.",
-            "Please say itself again.",
-            "I can use itself in a sentence."
+            "I see the word itself.",
+            "I can read itself.",
+            "Please spell itself."
           ],
-          "example": "I can spell itself."
+          "example": "I see the word itself."
         },
         {
           "id": "w07d3n06",
@@ -6088,15 +6088,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "know",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "know",
           "examples": [
-            "I can spell know.",
-            "Please say know again.",
-            "I can use know in a sentence."
+            "I see the word know.",
+            "I can read know.",
+            "Please spell know."
           ],
-          "example": "I can spell know."
+          "example": "I see the word know."
         },
         {
           "id": "w07d3n07",
@@ -6110,11 +6110,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "leaf",
           "examples": [
-            "I can spell leaf.",
-            "Please say leaf again.",
-            "I can use leaf in a sentence."
+            "I see the word leaf.",
+            "I can read leaf.",
+            "Please spell leaf."
           ],
-          "example": "I can spell leaf."
+          "example": "I see the word leaf."
         },
         {
           "id": "w07d3n08",
@@ -6128,11 +6128,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "health",
           "examples": [
-            "The word health is important in this lesson.",
-            "I can spell health slowly.",
-            "I can use health in a sentence."
+            "The word health is in my spelling list.",
+            "I say health slowly and clearly.",
+            "I can learn health step by step."
           ],
-          "example": "The word health is important in this lesson."
+          "example": "The word health is in my spelling list."
         },
         {
           "id": "w07d3n09",
@@ -6142,15 +6142,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "improvement",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | improve-ment",
           "audioText": "improvement",
           "examples": [
-            "The word improvement is important in this lesson.",
-            "I can spell improvement slowly.",
-            "I can use improvement in a sentence."
+            "The word improvement is in my spelling list.",
+            "I say improvement slowly and clearly.",
+            "I can learn improvement step by step."
           ],
-          "example": "The word improvement is important in this lesson."
+          "example": "The word improvement is in my spelling list."
         },
         {
           "id": "w07d3n10",
@@ -6160,15 +6160,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "lighthouse",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | lighth-ous-e",
           "audioText": "lighthouse",
           "examples": [
-            "The word lighthouse is important in this lesson.",
-            "I can spell lighthouse slowly.",
-            "I can use lighthouse in a sentence."
+            "The word lighthouse is in my spelling list.",
+            "I say lighthouse slowly and clearly.",
+            "I can learn lighthouse step by step."
           ],
-          "example": "The word lighthouse is important in this lesson."
+          "example": "The word lighthouse is in my spelling list."
         }
       ]
     },
@@ -6185,15 +6185,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "may",
           "level": "basic",
-          "cn": "",
+          "cn": "可以；五月",
           "pattern": "听音拼写",
           "audioText": "may",
           "examples": [
-            "I can spell may.",
-            "Please say may again.",
-            "I can use may in a sentence."
+            "I see the word may.",
+            "I can read may.",
+            "Please spell may."
           ],
-          "example": "I can spell may."
+          "example": "I see the word may."
         },
         {
           "id": "w07d4n02",
@@ -6207,11 +6207,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "night",
           "examples": [
-            "I can spell night.",
-            "Please say night again.",
-            "I can use night in a sentence."
+            "I see the word night.",
+            "I can read night.",
+            "Please spell night."
           ],
-          "example": "I can spell night."
+          "example": "I see the word night."
         },
         {
           "id": "w07d4n03",
@@ -6221,15 +6221,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "onward",
           "level": "basic",
-          "cn": "",
+          "cn": "向前",
           "pattern": "听音拼写",
           "audioText": "onward",
           "examples": [
-            "I can spell onward.",
-            "Please say onward again.",
-            "I can use onward in a sentence."
+            "I see the word onward.",
+            "I can read onward.",
+            "Please spell onward."
           ],
-          "example": "I can spell onward."
+          "example": "I see the word onward."
         },
         {
           "id": "w07d4n04",
@@ -6243,11 +6243,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "park",
           "examples": [
-            "I can spell park.",
-            "Please say park again.",
-            "I can use park in a sentence."
+            "I go to the park.",
+            "The park is near my home.",
+            "We talk about the park."
           ],
-          "example": "I can spell park."
+          "example": "I go to the park."
         },
         {
           "id": "w07d4n05",
@@ -6257,15 +6257,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "ready",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "ready",
           "examples": [
-            "I can spell ready.",
-            "Please say ready again.",
-            "I can use ready in a sentence."
+            "I feel ready today.",
+            "The word ready is useful.",
+            "Can you make a sentence with ready?"
           ],
-          "example": "I can spell ready."
+          "example": "I feel ready today."
         },
         {
           "id": "w07d4n06",
@@ -6275,15 +6275,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "scarf",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "scarf",
           "examples": [
-            "I can spell scarf.",
-            "Please say scarf again.",
-            "I can use scarf in a sentence."
+            "This is my scarf.",
+            "I put the scarf on the desk.",
+            "Please find the scarf."
           ],
-          "example": "I can spell scarf."
+          "example": "This is my scarf."
         },
         {
           "id": "w07d4n07",
@@ -6293,15 +6293,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "teapot",
           "level": "basic",
-          "cn": "",
+          "cn": "茶壶",
           "pattern": "元音组合",
           "audioText": "teapot",
           "examples": [
-            "I can spell teapot.",
-            "Please say teapot again.",
-            "I can use teapot in a sentence."
+            "This is my teapot.",
+            "I put the teapot on the desk.",
+            "Please find the teapot."
           ],
-          "example": "I can spell teapot."
+          "example": "This is my teapot."
         },
         {
           "id": "w07d4n08",
@@ -6311,15 +6311,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "marathon",
           "level": "challenge",
-          "cn": "",
+          "cn": "马拉松",
           "pattern": "听音拼写 | mar-ath-on",
           "audioText": "marathon",
           "examples": [
-            "The word marathon is important in this lesson.",
-            "I can spell marathon slowly.",
-            "I can use marathon in a sentence."
+            "The word marathon is in my spelling list.",
+            "I say marathon slowly and clearly.",
+            "I can learn marathon step by step."
           ],
-          "example": "The word marathon is important in this lesson."
+          "example": "The word marathon is in my spelling list."
         },
         {
           "id": "w07d4n09",
@@ -6329,15 +6329,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "nobility",
           "level": "challenge",
-          "cn": "",
+          "cn": "贵族；高尚",
           "pattern": "听音拼写 | nob-il-it-y",
           "audioText": "nobility",
           "examples": [
-            "The word nobility is important in this lesson.",
-            "I can spell nobility slowly.",
-            "I can use nobility in a sentence."
+            "The word nobility is in my spelling list.",
+            "I say nobility slowly and clearly.",
+            "I can learn nobility step by step."
           ],
-          "example": "The word nobility is important in this lesson."
+          "example": "The word nobility is in my spelling list."
         },
         {
           "id": "w07d4n10",
@@ -6351,11 +6351,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "olive",
           "examples": [
-            "The word olive is important in this lesson.",
-            "I can spell olive slowly.",
-            "I can use olive in a sentence."
+            "The word olive is in my spelling list.",
+            "I say olive slowly and clearly.",
+            "I can learn olive step by step."
           ],
-          "example": "The word olive is important in this lesson."
+          "example": "The word olive is in my spelling list."
         }
       ]
     },
@@ -6376,11 +6376,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "watch",
           "examples": [
-            "I can spell watch.",
-            "Please say watch again.",
-            "I can use watch in a sentence."
+            "This is my watch.",
+            "I put the watch on the desk.",
+            "Please find the watch."
           ],
-          "example": "I can spell watch."
+          "example": "This is my watch."
         },
         {
           "id": "w07d5n02",
@@ -6394,11 +6394,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "yummy",
           "examples": [
-            "I can spell yummy.",
-            "Please say yummy again.",
-            "I can use yummy in a sentence."
+            "I see the word yummy.",
+            "I can read yummy.",
+            "Please spell yummy."
           ],
-          "example": "I can spell yummy."
+          "example": "I see the word yummy."
         },
         {
           "id": "w07d5n03",
@@ -6412,11 +6412,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "alarm",
           "examples": [
-            "I can spell alarm.",
-            "Please say alarm again.",
-            "I can use alarm in a sentence."
+            "I see the word alarm.",
+            "I can read alarm.",
+            "Please spell alarm."
           ],
-          "example": "I can spell alarm."
+          "example": "I see the word alarm."
         },
         {
           "id": "w07d5n04",
@@ -6430,11 +6430,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ly",
           "audioText": "belly",
           "examples": [
-            "I can spell belly.",
-            "Please say belly again.",
-            "I can use belly in a sentence."
+            "I see the word belly.",
+            "I can read belly.",
+            "Please spell belly."
           ],
-          "example": "I can spell belly."
+          "example": "I see the word belly."
         },
         {
           "id": "w07d5n05",
@@ -6448,11 +6448,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "car",
           "examples": [
-            "I can spell car.",
-            "Please say car again.",
-            "I can use car in a sentence."
+            "I see the word car.",
+            "I can read car.",
+            "Please spell car."
           ],
-          "example": "I can spell car."
+          "example": "I see the word car."
         },
         {
           "id": "w07d5n06",
@@ -6466,11 +6466,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "doctor",
           "examples": [
-            "I can spell doctor.",
-            "Please say doctor again.",
-            "I can use doctor in a sentence."
+            "I see the word doctor.",
+            "I can read doctor.",
+            "Please spell doctor."
           ],
-          "example": "I can spell doctor."
+          "example": "I see the word doctor."
         },
         {
           "id": "w07d5n07",
@@ -6480,15 +6480,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "elf",
           "level": "basic",
-          "cn": "",
+          "cn": "小精灵",
           "pattern": "听音拼写",
           "audioText": "elf",
           "examples": [
-            "I can spell elf.",
-            "Please say elf again.",
-            "I can use elf in a sentence."
+            "I see the word elf.",
+            "I can read elf.",
+            "Please spell elf."
           ],
-          "example": "I can spell elf."
+          "example": "I see the word elf."
         },
         {
           "id": "w07d5n08",
@@ -6498,15 +6498,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "pedestal",
           "level": "challenge",
-          "cn": "",
+          "cn": "底座",
           "pattern": "听音拼写 | ped-est-al",
           "audioText": "pedestal",
           "examples": [
-            "The word pedestal is important in this lesson.",
-            "I can spell pedestal slowly.",
-            "I can use pedestal in a sentence."
+            "The word pedestal is in my spelling list.",
+            "I say pedestal slowly and clearly.",
+            "I can learn pedestal step by step."
           ],
-          "example": "The word pedestal is important in this lesson."
+          "example": "The word pedestal is in my spelling list."
         },
         {
           "id": "w07d5n09",
@@ -6514,17 +6514,17 @@ window.YUMI_COURSE = {
           "dayIndex": 4,
           "dayName": "周五",
           "num": 9,
-          "word": "realize/realise",
+          "word": "realize",
           "level": "challenge",
-          "cn": "",
+          "cn": "意识到；实现",
           "pattern": "英/美拼写变体 | real-iz-e",
-          "audioText": "realize or realise",
+          "audioText": "realize",
           "examples": [
-            "The word realize is important in this lesson.",
-            "I can spell realize slowly.",
-            "I can use realize in a sentence."
+            "The word realize is in my spelling list.",
+            "I say realize slowly and clearly.",
+            "I can learn realize step by step."
           ],
-          "example": "The word realize is important in this lesson."
+          "example": "The word realize is in my spelling list."
         },
         {
           "id": "w07d5n10",
@@ -6534,15 +6534,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "satisfy",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | sat-isf-y",
           "audioText": "satisfy",
           "examples": [
-            "The word satisfy is important in this lesson.",
-            "I can spell satisfy slowly.",
-            "I can use satisfy in a sentence."
+            "I can satisfy now.",
+            "Please satisfy with me.",
+            "We satisfy after class."
           ],
-          "example": "The word satisfy is important in this lesson."
+          "example": "I can satisfy now."
         }
       ]
     },
@@ -6563,11 +6563,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "feel",
           "examples": [
-            "I can spell feel.",
-            "Please say feel again.",
-            "I can use feel in a sentence."
+            "I see the word feel.",
+            "I can read feel.",
+            "Please spell feel."
           ],
-          "example": "I can spell feel."
+          "example": "I see the word feel."
         },
         {
           "id": "w08d1n02",
@@ -6581,11 +6581,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "go",
           "examples": [
-            "I can spell go.",
-            "Please say go again.",
-            "I can use go in a sentence."
+            "I see the word go.",
+            "I can read go.",
+            "Please spell go."
           ],
-          "example": "I can spell go."
+          "example": "I see the word go."
         },
         {
           "id": "w08d1n03",
@@ -6599,11 +6599,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "head",
           "examples": [
-            "I can spell head.",
-            "Please say head again.",
-            "I can use head in a sentence."
+            "I see the word head.",
+            "I can read head.",
+            "Please spell head."
           ],
-          "example": "I can spell head."
+          "example": "I see the word head."
         },
         {
           "id": "w08d1n04",
@@ -6617,11 +6617,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "koala",
           "examples": [
-            "I can spell koala.",
-            "Please say koala again.",
-            "I can use koala in a sentence."
+            "I see a koala at the zoo.",
+            "The koala is in my picture.",
+            "The koala can move fast."
           ],
-          "example": "I can spell koala."
+          "example": "I see a koala at the zoo."
         },
         {
           "id": "w08d1n05",
@@ -6631,15 +6631,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "least",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "least",
           "examples": [
-            "I can spell least.",
-            "Please say least again.",
-            "I can use least in a sentence."
+            "I see the word least.",
+            "I can read least.",
+            "Please spell least."
           ],
-          "example": "I can spell least."
+          "example": "I see the word least."
         },
         {
           "id": "w08d1n06",
@@ -6649,15 +6649,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "maybe",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "maybe",
           "examples": [
-            "I can spell maybe.",
-            "Please say maybe again.",
-            "I can use maybe in a sentence."
+            "I see the word maybe.",
+            "I can read maybe.",
+            "Please spell maybe."
           ],
-          "example": "I can spell maybe."
+          "example": "I see the word maybe."
         },
         {
           "id": "w08d1n07",
@@ -6671,11 +6671,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "nine",
           "examples": [
-            "I can spell nine.",
-            "Please say nine again.",
-            "I can use nine in a sentence."
+            "I can count to nine.",
+            "The answer is nine.",
+            "Please write nine."
           ],
-          "example": "I can spell nine."
+          "example": "I can count to nine."
         },
         {
           "id": "w08d1n08",
@@ -6689,11 +6689,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | televi-sion",
           "audioText": "television",
           "examples": [
-            "The word television is important in this lesson.",
-            "I can spell television slowly.",
-            "I can use television in a sentence."
+            "The word television is in my spelling list.",
+            "I say television slowly and clearly.",
+            "I can learn television step by step."
           ],
-          "example": "The word television is important in this lesson."
+          "example": "The word television is in my spelling list."
         },
         {
           "id": "w08d1n09",
@@ -6707,11 +6707,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | un-if-orm",
           "audioText": "uniform",
           "examples": [
-            "The word uniform is important in this lesson.",
-            "I can spell uniform slowly.",
-            "I can use uniform in a sentence."
+            "The word uniform is in my spelling list.",
+            "I say uniform slowly and clearly.",
+            "I can learn uniform step by step."
           ],
-          "example": "The word uniform is important in this lesson."
+          "example": "The word uniform is in my spelling list."
         },
         {
           "id": "w08d1n10",
@@ -6721,15 +6721,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "visible",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "听音拼写 | vis-ibl-e",
           "audioText": "visible",
           "examples": [
-            "The word visible is important in this lesson.",
-            "I can spell visible slowly.",
-            "I can use visible in a sentence."
+            "I feel visible today.",
+            "The word visible is useful.",
+            "Can you make a sentence with visible?"
           ],
-          "example": "The word visible is important in this lesson."
+          "example": "I feel visible today."
         }
       ]
     },
@@ -6750,11 +6750,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "open",
           "examples": [
-            "I can spell open.",
-            "Please say open again.",
-            "I can use open in a sentence."
+            "I see the word open.",
+            "I can read open.",
+            "Please spell open."
           ],
-          "example": "I can spell open."
+          "example": "I see the word open."
         },
         {
           "id": "w08d2n02",
@@ -6768,11 +6768,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "party",
           "examples": [
-            "I can spell party.",
-            "Please say party again.",
-            "I can use party in a sentence."
+            "I see the word party.",
+            "I can read party.",
+            "Please spell party."
           ],
-          "example": "I can spell party."
+          "example": "I see the word party."
         },
         {
           "id": "w08d2n03",
@@ -6786,11 +6786,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "red",
           "examples": [
-            "I can spell red.",
-            "Please say red again.",
-            "I can use red in a sentence."
+            "The flower is red.",
+            "I use a red pencil.",
+            "What is red in your room?"
           ],
-          "example": "I can spell red."
+          "example": "The flower is red."
         },
         {
           "id": "w08d2n04",
@@ -6800,15 +6800,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "scene",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "scene",
           "examples": [
-            "I can spell scene.",
-            "Please say scene again.",
-            "I can use scene in a sentence."
+            "I see the word scene.",
+            "I can read scene.",
+            "Please spell scene."
           ],
-          "example": "I can spell scene."
+          "example": "I see the word scene."
         },
         {
           "id": "w08d2n05",
@@ -6822,11 +6822,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "ten",
           "examples": [
-            "I can spell ten.",
-            "Please say ten again.",
-            "I can use ten in a sentence."
+            "I can count to ten.",
+            "The answer is ten.",
+            "Please write ten."
           ],
-          "example": "I can spell ten."
+          "example": "I can count to ten."
         },
         {
           "id": "w08d2n06",
@@ -6840,11 +6840,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er",
           "audioText": "water",
           "examples": [
-            "I can spell water.",
-            "Please say water again.",
-            "I can use water in a sentence."
+            "I see the word water.",
+            "I can read water.",
+            "Please spell water."
           ],
-          "example": "I can spell water."
+          "example": "I see the word water."
         },
         {
           "id": "w08d2n07",
@@ -6854,15 +6854,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "alibi",
           "level": "basic",
-          "cn": "",
+          "cn": "不在场证明",
           "pattern": "听音拼写",
           "audioText": "alibi",
           "examples": [
-            "I can spell alibi.",
-            "Please say alibi again.",
-            "I can use alibi in a sentence."
+            "I see the word alibi.",
+            "I can read alibi.",
+            "Please spell alibi."
           ],
-          "example": "I can spell alibi."
+          "example": "I see the word alibi."
         },
         {
           "id": "w08d2n08",
@@ -6872,15 +6872,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "weekly",
           "level": "challenge",
-          "cn": "",
+          "cn": "每周的",
           "pattern": "后缀 -ly | week-ly",
           "audioText": "weekly",
           "examples": [
-            "The word weekly is important in this lesson.",
-            "I can spell weekly slowly.",
-            "I can use weekly in a sentence."
+            "The word weekly is in my spelling list.",
+            "I say weekly slowly and clearly.",
+            "I can learn weekly step by step."
           ],
-          "example": "The word weekly is important in this lesson."
+          "example": "The word weekly is in my spelling list."
         },
         {
           "id": "w08d2n09",
@@ -6890,15 +6890,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "accustom",
           "level": "challenge",
-          "cn": "",
+          "cn": "使习惯",
           "pattern": "听音拼写 | acc-ust-om",
           "audioText": "accustom",
           "examples": [
-            "The word accustom is important in this lesson.",
-            "I can spell accustom slowly.",
-            "I can use accustom in a sentence."
+            "The word accustom is in my spelling list.",
+            "I say accustom slowly and clearly.",
+            "I can learn accustom step by step."
           ],
-          "example": "The word accustom is important in this lesson."
+          "example": "The word accustom is in my spelling list."
         },
         {
           "id": "w08d2n10",
@@ -6908,15 +6908,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "birthday",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | birthd-ay",
           "audioText": "birthday",
           "examples": [
-            "The word birthday is important in this lesson.",
-            "I can spell birthday slowly.",
-            "I can use birthday in a sentence."
+            "The word birthday is in my spelling list.",
+            "I say birthday slowly and clearly.",
+            "I can learn birthday step by step."
           ],
-          "example": "The word birthday is important in this lesson."
+          "example": "The word birthday is in my spelling list."
         }
       ]
     },
@@ -6937,11 +6937,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "belt",
           "examples": [
-            "I can spell belt.",
-            "Please say belt again.",
-            "I can use belt in a sentence."
+            "I see the word belt.",
+            "I can read belt.",
+            "Please spell belt."
           ],
-          "example": "I can spell belt."
+          "example": "I see the word belt."
         },
         {
           "id": "w08d3n02",
@@ -6955,11 +6955,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "card",
           "examples": [
-            "I can spell card.",
-            "Please say card again.",
-            "I can use card in a sentence."
+            "This is my card.",
+            "I put the card on the desk.",
+            "Please find the card."
           ],
-          "example": "I can spell card."
+          "example": "This is my card."
         },
         {
           "id": "w08d3n03",
@@ -6973,11 +6973,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dog",
           "examples": [
-            "I can spell dog.",
-            "Please say dog again.",
-            "I can use dog in a sentence."
+            "I see a dog at the zoo.",
+            "The dog is in my picture.",
+            "The dog can move fast."
           ],
-          "example": "I can spell dog."
+          "example": "I see a dog at the zoo."
         },
         {
           "id": "w08d3n04",
@@ -6991,11 +6991,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "end",
           "examples": [
-            "I can spell end.",
-            "Please say end again.",
-            "I can use end in a sentence."
+            "I see the word end.",
+            "I can read end.",
+            "Please spell end."
           ],
-          "example": "I can spell end."
+          "example": "I see the word end."
         },
         {
           "id": "w08d3n05",
@@ -7005,15 +7005,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "feeling",
           "level": "basic",
-          "cn": "",
+          "cn": "感觉",
           "pattern": "后缀 -ing | feel-ing",
           "audioText": "feeling",
           "examples": [
-            "I can spell feeling.",
-            "Please say feeling again.",
-            "I can use feeling in a sentence."
+            "I see the word feeling.",
+            "I can read feeling.",
+            "Please spell feeling."
           ],
-          "example": "I can spell feeling."
+          "example": "I see the word feeling."
         },
         {
           "id": "w08d3n06",
@@ -7027,11 +7027,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "goat",
           "examples": [
-            "I can spell goat.",
-            "Please say goat again.",
-            "I can use goat in a sentence."
+            "I see a goat at the zoo.",
+            "The goat is in my picture.",
+            "The goat can move fast."
           ],
-          "example": "I can spell goat."
+          "example": "I see a goat at the zoo."
         },
         {
           "id": "w08d3n07",
@@ -7045,11 +7045,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "hear",
           "examples": [
-            "I can spell hear.",
-            "Please say hear again.",
-            "I can use hear in a sentence."
+            "I see the word hear.",
+            "I can read hear.",
+            "Please spell hear."
           ],
-          "example": "I can spell hear."
+          "example": "I see the word hear."
         },
         {
           "id": "w08d3n08",
@@ -7059,15 +7059,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "chatroom",
           "level": "challenge",
-          "cn": "",
+          "cn": "聊天室",
           "pattern": "元音组合 | chatr-oom",
           "audioText": "chatroom",
           "examples": [
-            "The word chatroom is important in this lesson.",
-            "I can spell chatroom slowly.",
-            "I can use chatroom in a sentence."
+            "The word chatroom is in my spelling list.",
+            "I say chatroom slowly and clearly.",
+            "I can learn chatroom step by step."
           ],
-          "example": "The word chatroom is important in this lesson."
+          "example": "The word chatroom is in my spelling list."
         },
         {
           "id": "w08d3n09",
@@ -7077,15 +7077,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "decorate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | dec-or-at-e",
           "audioText": "decorate",
           "examples": [
-            "The word decorate is important in this lesson.",
-            "I can spell decorate slowly.",
-            "I can use decorate in a sentence."
+            "I can decorate now.",
+            "Please decorate with me.",
+            "We decorate after class."
           ],
-          "example": "The word decorate is important in this lesson."
+          "example": "I can decorate now."
         },
         {
           "id": "w08d3n10",
@@ -7099,11 +7099,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | el-eph-ant",
           "audioText": "elephant",
           "examples": [
-            "The word elephant is important in this lesson.",
-            "I can spell elephant slowly.",
-            "I can use elephant in a sentence."
+            "I see a elephant at the zoo.",
+            "The elephant is in my picture.",
+            "The elephant can move fast."
           ],
-          "example": "The word elephant is important in this lesson."
+          "example": "I see a elephant at the zoo."
         }
       ]
     },
@@ -7120,15 +7120,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "korea",
           "level": "basic",
-          "cn": "",
+          "cn": "韩国",
           "pattern": "元音组合",
           "audioText": "korea",
           "examples": [
-            "I can spell korea.",
-            "Please say korea again.",
-            "I can use korea in a sentence."
+            "I see the word korea.",
+            "I can read korea.",
+            "Please spell korea."
           ],
-          "example": "I can spell korea."
+          "example": "I see the word korea."
         },
         {
           "id": "w08d4n02",
@@ -7142,11 +7142,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "left",
           "examples": [
-            "I can spell left.",
-            "Please say left again.",
-            "I can use left in a sentence."
+            "I see the word left.",
+            "I can read left.",
+            "Please spell left."
           ],
-          "example": "I can spell left."
+          "example": "I see the word left."
         },
         {
           "id": "w08d4n03",
@@ -7156,15 +7156,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "me",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "me",
           "examples": [
-            "I can spell me.",
-            "Please say me again.",
-            "I can use me in a sentence."
+            "I see the word me.",
+            "I can read me.",
+            "Please spell me."
           ],
-          "example": "I can spell me."
+          "example": "I see the word me."
         },
         {
           "id": "w08d4n04",
@@ -7174,15 +7174,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "no",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "no",
           "examples": [
-            "I can spell no.",
-            "Please say no again.",
-            "I can use no in a sentence."
+            "I see the word no.",
+            "I can read no.",
+            "Please spell no."
           ],
-          "example": "I can spell no."
+          "example": "I see the word no."
         },
         {
           "id": "w08d4n05",
@@ -7192,15 +7192,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "or",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "or",
           "examples": [
-            "I can spell or.",
-            "Please say or again.",
-            "I can use or in a sentence."
+            "I see the word or.",
+            "I can read or.",
+            "Please spell or."
           ],
-          "example": "I can spell or."
+          "example": "I see the word or."
         },
         {
           "id": "w08d4n06",
@@ -7210,15 +7210,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "pass",
           "level": "basic",
-          "cn": "",
+          "cn": "通过；传递",
           "pattern": "听音拼写",
           "audioText": "pass",
           "examples": [
-            "I can spell pass.",
-            "Please say pass again.",
-            "I can use pass in a sentence."
+            "I see the word pass.",
+            "I can read pass.",
+            "Please spell pass."
           ],
-          "example": "I can spell pass."
+          "example": "I see the word pass."
         },
         {
           "id": "w08d4n07",
@@ -7228,15 +7228,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "redwood",
           "level": "basic",
-          "cn": "",
+          "cn": "红杉",
           "pattern": "元音组合 | redw-ood",
           "audioText": "redwood",
           "examples": [
-            "I can spell redwood.",
-            "Please say redwood again.",
-            "I can use redwood in a sentence."
+            "I see the word redwood.",
+            "I can read redwood.",
+            "Please spell redwood."
           ],
-          "example": "I can spell redwood."
+          "example": "I see the word redwood."
         },
         {
           "id": "w08d4n08",
@@ -7246,15 +7246,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "firecracker",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | firecrack-er",
           "audioText": "firecracker",
           "examples": [
-            "The word firecracker is important in this lesson.",
-            "I can spell firecracker slowly.",
-            "I can use firecracker in a sentence."
+            "The word firecracker is in my spelling list.",
+            "I say firecracker slowly and clearly.",
+            "I can learn firecracker step by step."
           ],
-          "example": "The word firecracker is important in this lesson."
+          "example": "The word firecracker is in my spelling list."
         },
         {
           "id": "w08d4n09",
@@ -7264,15 +7264,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "grandmother",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | grandmoth-er",
           "audioText": "grandmother",
           "examples": [
-            "The word grandmother is important in this lesson.",
-            "I can spell grandmother slowly.",
-            "I can use grandmother in a sentence."
+            "The word grandmother is in my spelling list.",
+            "I say grandmother slowly and clearly.",
+            "I can learn grandmother step by step."
           ],
-          "example": "The word grandmother is important in this lesson."
+          "example": "The word grandmother is in my spelling list."
         },
         {
           "id": "w08d4n10",
@@ -7286,11 +7286,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | hom-ew-ork",
           "audioText": "homework",
           "examples": [
-            "The word homework is important in this lesson.",
-            "I can spell homework slowly.",
-            "I can use homework in a sentence."
+            "The word homework is in my spelling list.",
+            "I say homework slowly and clearly.",
+            "I can learn homework step by step."
           ],
-          "example": "The word homework is important in this lesson."
+          "example": "The word homework is in my spelling list."
         }
       ]
     },
@@ -7311,11 +7311,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "sea",
           "examples": [
-            "I can spell sea.",
-            "Please say sea again.",
-            "I can use sea in a sentence."
+            "I go to the sea.",
+            "The sea is near my home.",
+            "We talk about the sea."
           ],
-          "example": "I can spell sea."
+          "example": "I go to the sea."
         },
         {
           "id": "w08d5n02",
@@ -7329,11 +7329,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "tennis",
           "examples": [
-            "I can spell tennis.",
-            "Please say tennis again.",
-            "I can use tennis in a sentence."
+            "I see the word tennis.",
+            "I can read tennis.",
+            "Please spell tennis."
           ],
-          "example": "I can spell tennis."
+          "example": "I see the word tennis."
         },
         {
           "id": "w08d5n03",
@@ -7343,15 +7343,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "wave",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "wave",
           "examples": [
-            "I can spell wave.",
-            "Please say wave again.",
-            "I can use wave in a sentence."
+            "I see the word wave.",
+            "I can read wave.",
+            "Please spell wave."
           ],
-          "example": "I can spell wave."
+          "example": "I see the word wave."
         },
         {
           "id": "w08d5n04",
@@ -7365,11 +7365,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "almost",
           "examples": [
-            "I can spell almost.",
-            "Please say almost again.",
-            "I can use almost in a sentence."
+            "I see the word almost.",
+            "I can read almost.",
+            "Please spell almost."
           ],
-          "example": "I can spell almost."
+          "example": "I see the word almost."
         },
         {
           "id": "w08d5n05",
@@ -7379,15 +7379,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "batter",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | batt-er",
           "audioText": "batter",
           "examples": [
-            "I can spell batter.",
-            "Please say batter again.",
-            "I can use batter in a sentence."
+            "I see the word batter.",
+            "I can read batter.",
+            "Please spell batter."
           ],
-          "example": "I can spell batter."
+          "example": "I see the word batter."
         },
         {
           "id": "w08d5n06",
@@ -7401,11 +7401,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "care",
           "examples": [
-            "I can spell care.",
-            "Please say care again.",
-            "I can use care in a sentence."
+            "I see the word care.",
+            "I can read care.",
+            "Please spell care."
           ],
-          "example": "I can spell care."
+          "example": "I see the word care."
         },
         {
           "id": "w08d5n07",
@@ -7419,11 +7419,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "doll",
           "examples": [
-            "I can spell doll.",
-            "Please say doll again.",
-            "I can use doll in a sentence."
+            "I see the word doll.",
+            "I can read doll.",
+            "Please spell doll."
           ],
-          "example": "I can spell doll."
+          "example": "I see the word doll."
         },
         {
           "id": "w08d5n08",
@@ -7433,15 +7433,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "inadequacy",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | in-ad-eq-uac-y",
           "audioText": "inadequacy",
           "examples": [
-            "The word inadequacy is important in this lesson.",
-            "I can spell inadequacy slowly.",
-            "I can use inadequacy in a sentence."
+            "The word inadequacy is in my spelling list.",
+            "I say inadequacy slowly and clearly.",
+            "I can learn inadequacy step by step."
           ],
-          "example": "The word inadequacy is important in this lesson."
+          "example": "The word inadequacy is in my spelling list."
         },
         {
           "id": "w08d5n09",
@@ -7451,15 +7451,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "luggage",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | lugg-ag-e",
           "audioText": "luggage",
           "examples": [
-            "The word luggage is important in this lesson.",
-            "I can spell luggage slowly.",
-            "I can use luggage in a sentence."
+            "The word luggage is in my spelling list.",
+            "I say luggage slowly and clearly.",
+            "I can learn luggage step by step."
           ],
-          "example": "The word luggage is important in this lesson."
+          "example": "The word luggage is in my spelling list."
         },
         {
           "id": "w08d5n10",
@@ -7469,15 +7469,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "matador",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | mat-ad-or",
           "audioText": "matador",
           "examples": [
-            "The word matador is important in this lesson.",
-            "I can spell matador slowly.",
-            "I can use matador in a sentence."
+            "The word matador is in my spelling list.",
+            "I say matador slowly and clearly.",
+            "I can learn matador step by step."
           ],
-          "example": "The word matador is important in this lesson."
+          "example": "The word matador is in my spelling list."
         }
       ]
     },
@@ -7498,11 +7498,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "enjoy",
           "examples": [
-            "I can spell enjoy.",
-            "Please say enjoy again.",
-            "I can use enjoy in a sentence."
+            "I see the word enjoy.",
+            "I can read enjoy.",
+            "Please spell enjoy."
           ],
-          "example": "I can spell enjoy."
+          "example": "I see the word enjoy."
         },
         {
           "id": "w09d1n02",
@@ -7512,15 +7512,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "ferry",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "ferry",
           "examples": [
-            "I can spell ferry.",
-            "Please say ferry again.",
-            "I can use ferry in a sentence."
+            "I see the word ferry.",
+            "I can read ferry.",
+            "Please spell ferry."
           ],
-          "example": "I can spell ferry."
+          "example": "I see the word ferry."
         },
         {
           "id": "w09d1n03",
@@ -7530,15 +7530,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "golden",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "golden",
           "examples": [
-            "I can spell golden.",
-            "Please say golden again.",
-            "I can use golden in a sentence."
+            "The flower is golden.",
+            "I use a golden pencil.",
+            "What is golden in your room?"
           ],
-          "example": "I can spell golden."
+          "example": "The flower is golden."
         },
         {
           "id": "w09d1n04",
@@ -7548,15 +7548,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "heater",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | heat-er",
           "audioText": "heater",
           "examples": [
-            "I can spell heater.",
-            "Please say heater again.",
-            "I can use heater in a sentence."
+            "I see the word heater.",
+            "I can read heater.",
+            "Please spell heater."
           ],
-          "example": "I can spell heater."
+          "example": "I see the word heater."
         },
         {
           "id": "w09d1n05",
@@ -7570,11 +7570,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "leg",
           "examples": [
-            "I can spell leg.",
-            "Please say leg again.",
-            "I can use leg in a sentence."
+            "I see the word leg.",
+            "I can read leg.",
+            "Please spell leg."
           ],
-          "example": "I can spell leg."
+          "example": "I see the word leg."
         },
         {
           "id": "w09d1n06",
@@ -7584,15 +7584,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "mean",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "mean",
           "examples": [
-            "I can spell mean.",
-            "Please say mean again.",
-            "I can use mean in a sentence."
+            "I see the word mean.",
+            "I can read mean.",
+            "Please spell mean."
           ],
-          "example": "I can spell mean."
+          "example": "I see the word mean."
         },
         {
           "id": "w09d1n07",
@@ -7606,11 +7606,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "noodle",
           "examples": [
-            "I can spell noodle.",
-            "Please say noodle again.",
-            "I can use noodle in a sentence."
+            "I see the word noodle.",
+            "I can read noodle.",
+            "Please spell noodle."
           ],
-          "example": "I can spell noodle."
+          "example": "I see the word noodle."
         },
         {
           "id": "w09d1n08",
@@ -7624,11 +7624,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | not-eb-ook",
           "audioText": "notebook",
           "examples": [
-            "The word notebook is important in this lesson.",
-            "I can spell notebook slowly.",
-            "I can use notebook in a sentence."
+            "This is my notebook.",
+            "I put the notebook on the desk.",
+            "Please find the notebook."
           ],
-          "example": "The word notebook is important in this lesson."
+          "example": "This is my notebook."
         },
         {
           "id": "w09d1n09",
@@ -7638,15 +7638,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "optimum",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | opt-im-um",
           "audioText": "optimum",
           "examples": [
-            "The word optimum is important in this lesson.",
-            "I can spell optimum slowly.",
-            "I can use optimum in a sentence."
+            "The word optimum is in my spelling list.",
+            "I say optimum slowly and clearly.",
+            "I can learn optimum step by step."
           ],
-          "example": "The word optimum is important in this lesson."
+          "example": "The word optimum is in my spelling list."
         },
         {
           "id": "w09d1n10",
@@ -7656,15 +7656,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "penalty",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pen-alt-y",
           "audioText": "penalty",
           "examples": [
-            "The word penalty is important in this lesson.",
-            "I can spell penalty slowly.",
-            "I can use penalty in a sentence."
+            "The word penalty is in my spelling list.",
+            "I say penalty slowly and clearly.",
+            "I can learn penalty step by step."
           ],
-          "example": "The word penalty is important in this lesson."
+          "example": "The word penalty is in my spelling list."
         }
       ]
     },
@@ -7681,15 +7681,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "order",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "order",
           "examples": [
-            "I can spell order.",
-            "Please say order again.",
-            "I can use order in a sentence."
+            "I see the word order.",
+            "I can read order.",
+            "Please spell order."
           ],
-          "example": "I can spell order."
+          "example": "I see the word order."
         },
         {
           "id": "w09d2n02",
@@ -7699,15 +7699,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "pause",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pause",
           "examples": [
-            "I can spell pause.",
-            "Please say pause again.",
-            "I can use pause in a sentence."
+            "I see the word pause.",
+            "I can read pause.",
+            "Please spell pause."
           ],
-          "example": "I can spell pause."
+          "example": "I see the word pause."
         },
         {
           "id": "w09d2n03",
@@ -7717,15 +7717,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "remain",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "remain",
           "examples": [
-            "I can spell remain.",
-            "Please say remain again.",
-            "I can use remain in a sentence."
+            "I see the word remain.",
+            "I can read remain.",
+            "Please spell remain."
           ],
-          "example": "I can spell remain."
+          "example": "I see the word remain."
         },
         {
           "id": "w09d2n04",
@@ -7739,11 +7739,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "seal",
           "examples": [
-            "I can spell seal.",
-            "Please say seal again.",
-            "I can use seal in a sentence."
+            "I see the word seal.",
+            "I can read seal.",
+            "Please spell seal."
           ],
-          "example": "I can spell seal."
+          "example": "I see the word seal."
         },
         {
           "id": "w09d2n05",
@@ -7753,15 +7753,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "tent",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tent",
           "examples": [
-            "I can spell tent.",
-            "Please say tent again.",
-            "I can use tent in a sentence."
+            "I see the word tent.",
+            "I can read tent.",
+            "Please spell tent."
           ],
-          "example": "I can spell tent."
+          "example": "I see the word tent."
         },
         {
           "id": "w09d2n06",
@@ -7771,15 +7771,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "wax",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "wax",
           "examples": [
-            "I can spell wax.",
-            "Please say wax again.",
-            "I can use wax in a sentence."
+            "I see the word wax.",
+            "I can read wax.",
+            "Please spell wax."
           ],
-          "example": "I can spell wax."
+          "example": "I see the word wax."
         },
         {
           "id": "w09d2n07",
@@ -7793,11 +7793,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "along",
           "examples": [
-            "I can spell along.",
-            "Please say along again.",
-            "I can use along in a sentence."
+            "I see the word along.",
+            "I can read along.",
+            "Please spell along."
           ],
-          "example": "I can spell along."
+          "example": "I see the word along."
         },
         {
           "id": "w09d2n08",
@@ -7807,15 +7807,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "receipt",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | rec-eipt",
           "audioText": "receipt",
           "examples": [
-            "The word receipt is important in this lesson.",
-            "I can spell receipt slowly.",
-            "I can use receipt in a sentence."
+            "The word receipt is in my spelling list.",
+            "I say receipt slowly and clearly.",
+            "I can learn receipt step by step."
           ],
-          "example": "The word receipt is important in this lesson."
+          "example": "The word receipt is in my spelling list."
         },
         {
           "id": "w09d2n09",
@@ -7825,15 +7825,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "scenery",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | scen-er-y",
           "audioText": "scenery",
           "examples": [
-            "The word scenery is important in this lesson.",
-            "I can spell scenery slowly.",
-            "I can use scenery in a sentence."
+            "The word scenery is in my spelling list.",
+            "I say scenery slowly and clearly.",
+            "I can learn scenery step by step."
           ],
-          "example": "The word scenery is important in this lesson."
+          "example": "The word scenery is in my spelling list."
         },
         {
           "id": "w09d2n10",
@@ -7843,15 +7843,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "tender",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | tend-er",
           "audioText": "tender",
           "examples": [
-            "The word tender is important in this lesson.",
-            "I can spell tender slowly.",
-            "I can use tender in a sentence."
+            "The word tender is in my spelling list.",
+            "I say tender slowly and clearly.",
+            "I can learn tender step by step."
           ],
-          "example": "The word tender is important in this lesson."
+          "example": "The word tender is in my spelling list."
         }
       ]
     },
@@ -7868,15 +7868,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "be",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "be",
           "examples": [
-            "I can spell be.",
-            "Please say be again.",
-            "I can use be in a sentence."
+            "I see the word be.",
+            "I can read be.",
+            "Please spell be."
           ],
-          "example": "I can spell be."
+          "example": "I see the word be."
         },
         {
           "id": "w09d3n02",
@@ -7890,11 +7890,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | care-ful",
           "audioText": "careful",
           "examples": [
-            "I can spell careful.",
-            "Please say careful again.",
-            "I can use careful in a sentence."
+            "I see the word careful.",
+            "I can read careful.",
+            "Please spell careful."
           ],
-          "example": "I can spell careful."
+          "example": "I see the word careful."
         },
         {
           "id": "w09d3n03",
@@ -7908,11 +7908,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dollar",
           "examples": [
-            "I can spell dollar.",
-            "Please say dollar again.",
-            "I can use dollar in a sentence."
+            "I see the word dollar.",
+            "I can read dollar.",
+            "Please spell dollar."
           ],
-          "example": "I can spell dollar."
+          "example": "I see the word dollar."
         },
         {
           "id": "w09d3n04",
@@ -7922,15 +7922,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "enter",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "enter",
           "examples": [
-            "I can spell enter.",
-            "Please say enter again.",
-            "I can use enter in a sentence."
+            "I see the word enter.",
+            "I can read enter.",
+            "Please spell enter."
           ],
-          "example": "I can spell enter."
+          "example": "I see the word enter."
         },
         {
           "id": "w09d3n05",
@@ -7940,15 +7940,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "field",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "field",
           "examples": [
-            "I can spell field.",
-            "Please say field again.",
-            "I can use field in a sentence."
+            "I see the word field.",
+            "I can read field.",
+            "Please spell field."
           ],
-          "example": "I can spell field."
+          "example": "I see the word field."
         },
         {
           "id": "w09d3n06",
@@ -7962,11 +7962,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "good",
           "examples": [
-            "I can spell good.",
-            "Please say good again.",
-            "I can use good in a sentence."
+            "I feel good today.",
+            "The word good is useful.",
+            "Can you make a sentence with good?"
           ],
-          "example": "I can spell good."
+          "example": "I feel good today."
         },
         {
           "id": "w09d3n07",
@@ -7980,11 +7980,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "help",
           "examples": [
-            "I can spell help.",
-            "Please say help again.",
-            "I can use help in a sentence."
+            "I can help now.",
+            "Please help with me.",
+            "We help after class."
           ],
-          "example": "I can spell help."
+          "example": "I can help now."
         },
         {
           "id": "w09d3n08",
@@ -7994,15 +7994,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "usable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "听音拼写",
           "audioText": "usable",
           "examples": [
-            "The word usable is important in this lesson.",
-            "I can spell usable slowly.",
-            "I can use usable in a sentence."
+            "The word usable is in my spelling list.",
+            "I say usable slowly and clearly.",
+            "I can learn usable step by step."
           ],
-          "example": "The word usable is important in this lesson."
+          "example": "The word usable is in my spelling list."
         },
         {
           "id": "w09d3n09",
@@ -8016,11 +8016,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | voll-eyb-all",
           "audioText": "volleyball",
           "examples": [
-            "The word volleyball is important in this lesson.",
-            "I can spell volleyball slowly.",
-            "I can use volleyball in a sentence."
+            "The word volleyball is in my spelling list.",
+            "I say volleyball slowly and clearly.",
+            "I can learn volleyball step by step."
           ],
-          "example": "The word volleyball is important in this lesson."
+          "example": "The word volleyball is in my spelling list."
         },
         {
           "id": "w09d3n10",
@@ -8030,15 +8030,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "whatever",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | whatev-er",
           "audioText": "whatever",
           "examples": [
-            "The word whatever is important in this lesson.",
-            "I can spell whatever slowly.",
-            "I can use whatever in a sentence."
+            "The word whatever is in my spelling list.",
+            "I say whatever slowly and clearly.",
+            "I can learn whatever step by step."
           ],
-          "example": "The word whatever is important in this lesson."
+          "example": "The word whatever is in my spelling list."
         }
       ]
     },
@@ -8059,11 +8059,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "lemon",
           "examples": [
-            "I can spell lemon.",
-            "Please say lemon again.",
-            "I can use lemon in a sentence."
+            "I eat lemon for lunch.",
+            "The lemon is on the table.",
+            "Do you like lemon?"
           ],
-          "example": "I can spell lemon."
+          "example": "I eat lemon for lunch."
         },
         {
           "id": "w09d4n02",
@@ -8077,11 +8077,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "meat",
           "examples": [
-            "I can spell meat.",
-            "Please say meat again.",
-            "I can use meat in a sentence."
+            "I see the word meat.",
+            "I can read meat.",
+            "Please spell meat."
           ],
-          "example": "I can spell meat."
+          "example": "I see the word meat."
         },
         {
           "id": "w09d4n03",
@@ -8095,11 +8095,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "north",
           "examples": [
-            "I can spell north.",
-            "Please say north again.",
-            "I can use north in a sentence."
+            "I see the word north.",
+            "I can read north.",
+            "Please spell north."
           ],
-          "example": "I can spell north."
+          "example": "I see the word north."
         },
         {
           "id": "w09d4n04",
@@ -8109,15 +8109,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "others",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "others",
           "examples": [
-            "I can spell others.",
-            "Please say others again.",
-            "I can use others in a sentence."
+            "I see the word others.",
+            "I can read others.",
+            "Please spell others."
           ],
-          "example": "I can spell others."
+          "example": "I see the word others."
         },
         {
           "id": "w09d4n05",
@@ -8127,15 +8127,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "pay",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pay",
           "examples": [
-            "I can spell pay.",
-            "Please say pay again.",
-            "I can use pay in a sentence."
+            "I see the word pay.",
+            "I can read pay.",
+            "Please spell pay."
           ],
-          "example": "I can spell pay."
+          "example": "I see the word pay."
         },
         {
           "id": "w09d4n06",
@@ -8145,15 +8145,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "repay",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "repay",
           "examples": [
-            "I can spell repay.",
-            "Please say repay again.",
-            "I can use repay in a sentence."
+            "I see the word repay.",
+            "I can read repay.",
+            "Please spell repay."
           ],
-          "example": "I can spell repay."
+          "example": "I see the word repay."
         },
         {
           "id": "w09d4n07",
@@ -8167,11 +8167,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "second",
           "examples": [
-            "I can spell second.",
-            "Please say second again.",
-            "I can use second in a sentence."
+            "I see the word second.",
+            "I can read second.",
+            "Please spell second."
           ],
-          "example": "I can spell second."
+          "example": "I see the word second."
         },
         {
           "id": "w09d4n08",
@@ -8185,11 +8185,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -tion/-sion",
           "audioText": "action",
           "examples": [
-            "The word action is important in this lesson.",
-            "I can spell action slowly.",
-            "I can use action in a sentence."
+            "The word action is in my spelling list.",
+            "I say action slowly and clearly.",
+            "I can learn action step by step."
           ],
-          "example": "The word action is important in this lesson."
+          "example": "The word action is in my spelling list."
         },
         {
           "id": "w09d4n09",
@@ -8199,15 +8199,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "blackboard",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | blackb-oard",
           "audioText": "blackboard",
           "examples": [
-            "The word blackboard is important in this lesson.",
-            "I can spell blackboard slowly.",
-            "I can use blackboard in a sentence."
+            "The word blackboard is in my spelling list.",
+            "I say blackboard slowly and clearly.",
+            "I can learn blackboard step by step."
           ],
-          "example": "The word blackboard is important in this lesson."
+          "example": "The word blackboard is in my spelling list."
         },
         {
           "id": "w09d4n10",
@@ -8215,17 +8215,17 @@ window.YUMI_COURSE = {
           "dayIndex": 3,
           "dayName": "周四",
           "num": 10,
-          "word": "chilli/chili",
+          "word": "chilli",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "英/美拼写变体",
-          "audioText": "chilli or chili",
+          "audioText": "chilli",
           "examples": [
-            "The word chilli is important in this lesson.",
-            "I can spell chilli slowly.",
-            "I can use chilli in a sentence."
+            "The word chilli is in my spelling list.",
+            "I say chilli slowly and clearly.",
+            "I can learn chilli step by step."
           ],
-          "example": "The word chilli is important in this lesson."
+          "example": "The word chilli is in my spelling list."
         }
       ]
     },
@@ -8246,11 +8246,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "test",
           "examples": [
-            "I can spell test.",
-            "Please say test again.",
-            "I can use test in a sentence."
+            "I see the word test.",
+            "I can read test.",
+            "Please spell test."
           ],
-          "example": "I can spell test."
+          "example": "I see the word test."
         },
         {
           "id": "w09d5n02",
@@ -8260,15 +8260,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "way",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "way",
           "examples": [
-            "I can spell way.",
-            "Please say way again.",
-            "I can use way in a sentence."
+            "I see the word way.",
+            "I can read way.",
+            "Please spell way."
           ],
-          "example": "I can spell way."
+          "example": "I see the word way."
         },
         {
           "id": "w09d5n03",
@@ -8282,11 +8282,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "always",
           "examples": [
-            "I can spell always.",
-            "Please say always again.",
-            "I can use always in a sentence."
+            "I see the word always.",
+            "I can read always.",
+            "Please spell always."
           ],
-          "example": "I can spell always."
+          "example": "I see the word always."
         },
         {
           "id": "w09d5n04",
@@ -8296,15 +8296,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "bean",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "bean",
           "examples": [
-            "I can spell bean.",
-            "Please say bean again.",
-            "I can use bean in a sentence."
+            "I see the word bean.",
+            "I can read bean.",
+            "Please spell bean."
           ],
-          "example": "I can spell bean."
+          "example": "I see the word bean."
         },
         {
           "id": "w09d5n05",
@@ -8318,11 +8318,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "carrot",
           "examples": [
-            "I can spell carrot.",
-            "Please say carrot again.",
-            "I can use carrot in a sentence."
+            "I eat carrot for lunch.",
+            "The carrot is on the table.",
+            "Do you like carrot?"
           ],
-          "example": "I can spell carrot."
+          "example": "I eat carrot for lunch."
         },
         {
           "id": "w09d5n06",
@@ -8336,11 +8336,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | dolph-in",
           "audioText": "dolphin",
           "examples": [
-            "I can spell dolphin.",
-            "Please say dolphin again.",
-            "I can use dolphin in a sentence."
+            "I see a dolphin at the zoo.",
+            "The dolphin is in my picture.",
+            "The dolphin can move fast."
           ],
-          "example": "I can spell dolphin."
+          "example": "I see a dolphin at the zoo."
         },
         {
           "id": "w09d5n07",
@@ -8354,11 +8354,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | eras-er",
           "audioText": "eraser",
           "examples": [
-            "I can spell eraser.",
-            "Please say eraser again.",
-            "I can use eraser in a sentence."
+            "This is my eraser.",
+            "I put the eraser on the desk.",
+            "Please find the eraser."
           ],
-          "example": "I can spell eraser."
+          "example": "This is my eraser."
         },
         {
           "id": "w09d5n08",
@@ -8368,15 +8368,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "degree",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "degree",
           "examples": [
-            "The word degree is important in this lesson.",
-            "I can spell degree slowly.",
-            "I can use degree in a sentence."
+            "The word degree is in my spelling list.",
+            "I say degree slowly and clearly.",
+            "I can learn degree step by step."
           ],
-          "example": "The word degree is important in this lesson."
+          "example": "The word degree is in my spelling list."
         },
         {
           "id": "w09d5n09",
@@ -8386,15 +8386,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "elevator",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | el-ev-at-or",
           "audioText": "elevator",
           "examples": [
-            "The word elevator is important in this lesson.",
-            "I can spell elevator slowly.",
-            "I can use elevator in a sentence."
+            "The word elevator is in my spelling list.",
+            "I say elevator slowly and clearly.",
+            "I can learn elevator step by step."
           ],
-          "example": "The word elevator is important in this lesson."
+          "example": "The word elevator is in my spelling list."
         },
         {
           "id": "w09d5n10",
@@ -8404,15 +8404,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "fisherman",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | fish-erm-an",
           "audioText": "fisherman",
           "examples": [
-            "The word fisherman is important in this lesson.",
-            "I can spell fisherman slowly.",
-            "I can use fisherman in a sentence."
+            "The word fisherman is in my spelling list.",
+            "I say fisherman slowly and clearly.",
+            "I can learn fisherman step by step."
           ],
-          "example": "The word fisherman is important in this lesson."
+          "example": "The word fisherman is in my spelling list."
         }
       ]
     },
@@ -8433,11 +8433,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | fift-een",
           "audioText": "fifteen",
           "examples": [
-            "I can spell fifteen.",
-            "Please say fifteen again.",
-            "I can use fifteen in a sentence."
+            "I can count to fifteen.",
+            "The answer is fifteen.",
+            "Please write fifteen."
           ],
-          "example": "I can spell fifteen."
+          "example": "I can count to fifteen."
         },
         {
           "id": "w10d1n02",
@@ -8451,11 +8451,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "goose",
           "examples": [
-            "I can spell goose.",
-            "Please say goose again.",
-            "I can use goose in a sentence."
+            "I see a goose at the zoo.",
+            "The goose is in my picture.",
+            "The goose can move fast."
           ],
-          "example": "I can spell goose."
+          "example": "I see a goose at the zoo."
         },
         {
           "id": "w10d1n03",
@@ -8465,15 +8465,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "helper",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | help-er",
           "audioText": "helper",
           "examples": [
-            "I can spell helper.",
-            "Please say helper again.",
-            "I can use helper in a sentence."
+            "I see the word helper.",
+            "I can read helper.",
+            "Please spell helper."
           ],
-          "example": "I can spell helper."
+          "example": "I see the word helper."
         },
         {
           "id": "w10d1n04",
@@ -8483,15 +8483,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "let",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "let",
           "examples": [
-            "I can spell let.",
-            "Please say let again.",
-            "I can use let in a sentence."
+            "I see the word let.",
+            "I can read let.",
+            "Please spell let."
           ],
-          "example": "I can spell let."
+          "example": "I see the word let."
         },
         {
           "id": "w10d1n05",
@@ -8501,15 +8501,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "media",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "media",
           "examples": [
-            "I can spell media.",
-            "Please say media again.",
-            "I can use media in a sentence."
+            "I see the word media.",
+            "I can read media.",
+            "Please spell media."
           ],
-          "example": "I can spell media."
+          "example": "I see the word media."
         },
         {
           "id": "w10d1n06",
@@ -8523,11 +8523,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "nose",
           "examples": [
-            "I can spell nose.",
-            "Please say nose again.",
-            "I can use nose in a sentence."
+            "I see the word nose.",
+            "I can read nose.",
+            "Please spell nose."
           ],
-          "example": "I can spell nose."
+          "example": "I see the word nose."
         },
         {
           "id": "w10d1n07",
@@ -8537,15 +8537,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "out",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "out",
           "examples": [
-            "I can spell out.",
-            "Please say out again.",
-            "I can use out in a sentence."
+            "I see the word out.",
+            "I can read out.",
+            "Please spell out."
           ],
-          "example": "I can spell out."
+          "example": "I see the word out."
         },
         {
           "id": "w10d1n08",
@@ -8555,15 +8555,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "grandson",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | grands-on",
           "audioText": "grandson",
           "examples": [
-            "The word grandson is important in this lesson.",
-            "I can spell grandson slowly.",
-            "I can use grandson in a sentence."
+            "The word grandson is in my spelling list.",
+            "I say grandson slowly and clearly.",
+            "I can learn grandson step by step."
           ],
-          "example": "The word grandson is important in this lesson."
+          "example": "The word grandson is in my spelling list."
         },
         {
           "id": "w10d1n09",
@@ -8573,15 +8573,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "horsepower",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | horsepow-er",
           "audioText": "horsepower",
           "examples": [
-            "The word horsepower is important in this lesson.",
-            "I can spell horsepower slowly.",
-            "I can use horsepower in a sentence."
+            "The word horsepower is in my spelling list.",
+            "I say horsepower slowly and clearly.",
+            "I can learn horsepower step by step."
           ],
-          "example": "The word horsepower is important in this lesson."
+          "example": "The word horsepower is in my spelling list."
         },
         {
           "id": "w10d1n10",
@@ -8591,15 +8591,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "including",
           "level": "challenge",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "长词: 分音节背 | includ-ing",
           "audioText": "including",
           "examples": [
-            "The word including is important in this lesson.",
-            "I can spell including slowly.",
-            "I can use including in a sentence."
+            "The word including is in my spelling list.",
+            "I say including slowly and clearly.",
+            "I can learn including step by step."
           ],
-          "example": "The word including is important in this lesson."
+          "example": "The word including is in my spelling list."
         }
       ]
     },
@@ -8620,11 +8620,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "peach",
           "examples": [
-            "I can spell peach.",
-            "Please say peach again.",
-            "I can use peach in a sentence."
+            "I eat peach for lunch.",
+            "The peach is on the table.",
+            "Do you like peach?"
           ],
-          "example": "I can spell peach."
+          "example": "I eat peach for lunch."
         },
         {
           "id": "w10d2n02",
@@ -8634,15 +8634,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "resin",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "resin",
           "examples": [
-            "I can spell resin.",
-            "Please say resin again.",
-            "I can use resin in a sentence."
+            "I see the word resin.",
+            "I can read resin.",
+            "Please spell resin."
           ],
-          "example": "I can spell resin."
+          "example": "I see the word resin."
         },
         {
           "id": "w10d2n03",
@@ -8656,11 +8656,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "see",
           "examples": [
-            "I can spell see.",
-            "Please say see again.",
-            "I can use see in a sentence."
+            "I can see now.",
+            "Please see with me.",
+            "We see after class."
           ],
-          "example": "I can spell see."
+          "example": "I can see now."
         },
         {
           "id": "w10d2n04",
@@ -8670,15 +8670,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "tether",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | teth-er",
           "audioText": "tether",
           "examples": [
-            "I can spell tether.",
-            "Please say tether again.",
-            "I can use tether in a sentence."
+            "I see the word tether.",
+            "I can read tether.",
+            "Please spell tether."
           ],
-          "example": "I can spell tether."
+          "example": "I see the word tether."
         },
         {
           "id": "w10d2n05",
@@ -8688,15 +8688,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "we",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "we",
           "examples": [
-            "I can spell we.",
-            "Please say we again.",
-            "I can use we in a sentence."
+            "I see the word we.",
+            "I can read we.",
+            "Please spell we."
           ],
-          "example": "I can spell we."
+          "example": "I see the word we."
         },
         {
           "id": "w10d2n06",
@@ -8710,11 +8710,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | am-er-ic-a",
           "audioText": "america",
           "examples": [
-            "I can spell america.",
-            "Please say america again.",
-            "I can use america in a sentence."
+            "I see the word america.",
+            "I can read america.",
+            "Please spell america."
           ],
-          "example": "I can spell america."
+          "example": "I see the word america."
         },
         {
           "id": "w10d2n07",
@@ -8728,11 +8728,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "bear",
           "examples": [
-            "I can spell bear.",
-            "Please say bear again.",
-            "I can use bear in a sentence."
+            "I see the word bear.",
+            "I can read bear.",
+            "Please spell bear."
           ],
-          "example": "I can spell bear."
+          "example": "I see the word bear."
         },
         {
           "id": "w10d2n08",
@@ -8742,15 +8742,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "measurable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | measur-able",
           "audioText": "measurable",
           "examples": [
-            "The word measurable is important in this lesson.",
-            "I can spell measurable slowly.",
-            "I can use measurable in a sentence."
+            "The word measurable is in my spelling list.",
+            "I say measurable slowly and clearly.",
+            "I can learn measurable step by step."
           ],
-          "example": "The word measurable is important in this lesson."
+          "example": "The word measurable is in my spelling list."
         },
         {
           "id": "w10d2n09",
@@ -8760,15 +8760,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "noticeable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | notice-able",
           "audioText": "noticeable",
           "examples": [
-            "The word noticeable is important in this lesson.",
-            "I can spell noticeable slowly.",
-            "I can use noticeable in a sentence."
+            "The word noticeable is in my spelling list.",
+            "I say noticeable slowly and clearly.",
+            "I can learn noticeable step by step."
           ],
-          "example": "The word noticeable is important in this lesson."
+          "example": "The word noticeable is in my spelling list."
         },
         {
           "id": "w10d2n10",
@@ -8778,15 +8778,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "option",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion",
           "audioText": "option",
           "examples": [
-            "The word option is important in this lesson.",
-            "I can spell option slowly.",
-            "I can use option in a sentence."
+            "The word option is in my spelling list.",
+            "I say option slowly and clearly.",
+            "I can learn option step by step."
           ],
-          "example": "The word option is important in this lesson."
+          "example": "The word option is in my spelling list."
         }
       ]
     },
@@ -8807,11 +8807,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | cart-oon",
           "audioText": "cartoon",
           "examples": [
-            "I can spell cartoon.",
-            "Please say cartoon again.",
-            "I can use cartoon in a sentence."
+            "I see the word cartoon.",
+            "I can read cartoon.",
+            "Please spell cartoon."
           ],
-          "example": "I can spell cartoon."
+          "example": "I see the word cartoon."
         },
         {
           "id": "w10d3n02",
@@ -8825,11 +8825,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "door",
           "examples": [
-            "I can spell door.",
-            "Please say door again.",
-            "I can use door in a sentence."
+            "This is my door.",
+            "I put the door on the desk.",
+            "Please find the door."
           ],
-          "example": "I can spell door."
+          "example": "This is my door."
         },
         {
           "id": "w10d3n03",
@@ -8839,15 +8839,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "escape",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "escape",
           "examples": [
-            "I can spell escape.",
-            "Please say escape again.",
-            "I can use escape in a sentence."
+            "I can escape now.",
+            "Please escape with me.",
+            "We escape after class."
           ],
-          "example": "I can spell escape."
+          "example": "I can escape now."
         },
         {
           "id": "w10d3n04",
@@ -8857,15 +8857,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "fig",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "fig",
           "examples": [
-            "I can spell fig.",
-            "Please say fig again.",
-            "I can use fig in a sentence."
+            "I see the word fig.",
+            "I can read fig.",
+            "Please spell fig."
           ],
-          "example": "I can spell fig."
+          "example": "I see the word fig."
         },
         {
           "id": "w10d3n05",
@@ -8879,11 +8879,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | gor-ill-a",
           "audioText": "gorilla",
           "examples": [
-            "I can spell gorilla.",
-            "Please say gorilla again.",
-            "I can use gorilla in a sentence."
+            "I see a gorilla at the zoo.",
+            "The gorilla is in my picture.",
+            "The gorilla can move fast."
           ],
-          "example": "I can spell gorilla."
+          "example": "I see a gorilla at the zoo."
         },
         {
           "id": "w10d3n06",
@@ -8897,11 +8897,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hen",
           "examples": [
-            "I can spell hen.",
-            "Please say hen again.",
-            "I can use hen in a sentence."
+            "I see a hen at the zoo.",
+            "The hen is in my picture.",
+            "The hen can move fast."
           ],
-          "example": "I can spell hen."
+          "example": "I see a hen at the zoo."
         },
         {
           "id": "w10d3n07",
@@ -8915,11 +8915,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | lett-uc-e",
           "audioText": "lettuce",
           "examples": [
-            "I can spell lettuce.",
-            "Please say lettuce again.",
-            "I can use lettuce in a sentence."
+            "I eat lettuce for lunch.",
+            "The lettuce is on the table.",
+            "Do you like lettuce?"
           ],
-          "example": "I can spell lettuce."
+          "example": "I eat lettuce for lunch."
         },
         {
           "id": "w10d3n08",
@@ -8929,15 +8929,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "pence",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pence",
           "examples": [
-            "The word pence is important in this lesson.",
-            "I can spell pence slowly.",
-            "I can use pence in a sentence."
+            "The word pence is in my spelling list.",
+            "I say pence slowly and clearly.",
+            "I can learn pence step by step."
           ],
-          "example": "The word pence is important in this lesson."
+          "example": "The word pence is in my spelling list."
         },
         {
           "id": "w10d3n09",
@@ -8947,15 +8947,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "receive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | rec-eiv-e",
           "audioText": "receive",
           "examples": [
-            "The word receive is important in this lesson.",
-            "I can spell receive slowly.",
-            "I can use receive in a sentence."
+            "I can receive now.",
+            "Please receive with me.",
+            "We receive after class."
           ],
-          "example": "The word receive is important in this lesson."
+          "example": "I can receive now."
         },
         {
           "id": "w10d3n10",
@@ -8965,15 +8965,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "scientific",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | scient-if-ic",
           "audioText": "scientific",
           "examples": [
-            "The word scientific is important in this lesson.",
-            "I can spell scientific slowly.",
-            "I can use scientific in a sentence."
+            "The word scientific is in my spelling list.",
+            "I say scientific slowly and clearly.",
+            "I can learn scientific step by step."
           ],
-          "example": "The word scientific is important in this lesson."
+          "example": "The word scientific is in my spelling list."
         }
       ]
     },
@@ -8990,15 +8990,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "medic",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "medic",
           "examples": [
-            "I can spell medic.",
-            "Please say medic again.",
-            "I can use medic in a sentence."
+            "I see the word medic.",
+            "I can read medic.",
+            "Please spell medic."
           ],
-          "example": "I can spell medic."
+          "example": "I see the word medic."
         },
         {
           "id": "w10d4n02",
@@ -9008,15 +9008,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "not",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "not",
           "examples": [
-            "I can spell not.",
-            "Please say not again.",
-            "I can use not in a sentence."
+            "I see the word not.",
+            "I can read not.",
+            "Please spell not."
           ],
-          "example": "I can spell not."
+          "example": "I see the word not."
         },
         {
           "id": "w10d4n03",
@@ -9030,11 +9030,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | outs-id-e",
           "audioText": "outside",
           "examples": [
-            "I can spell outside.",
-            "Please say outside again.",
-            "I can use outside in a sentence."
+            "I see the word outside.",
+            "I can read outside.",
+            "Please spell outside."
           ],
-          "example": "I can spell outside."
+          "example": "I see the word outside."
         },
         {
           "id": "w10d4n04",
@@ -9044,15 +9044,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "peacock",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | peac-ock",
           "audioText": "peacock",
           "examples": [
-            "I can spell peacock.",
-            "Please say peacock again.",
-            "I can use peacock in a sentence."
+            "I see the word peacock.",
+            "I can read peacock.",
+            "Please spell peacock."
           ],
-          "example": "I can spell peacock."
+          "example": "I see the word peacock."
         },
         {
           "id": "w10d4n05",
@@ -9062,15 +9062,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "rhino",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rhino",
           "examples": [
-            "I can spell rhino.",
-            "Please say rhino again.",
-            "I can use rhino in a sentence."
+            "I see a rhino at the zoo.",
+            "The rhino is in my picture.",
+            "The rhino can move fast."
           ],
-          "example": "I can spell rhino."
+          "example": "I see a rhino at the zoo."
         },
         {
           "id": "w10d4n06",
@@ -9084,11 +9084,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "seed",
           "examples": [
-            "I can spell seed.",
-            "Please say seed again.",
-            "I can use seed in a sentence."
+            "I see the word seed.",
+            "I can read seed.",
+            "Please spell seed."
           ],
-          "example": "I can spell seed."
+          "example": "I see the word seed."
         },
         {
           "id": "w10d4n07",
@@ -9098,15 +9098,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "that",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "that",
           "examples": [
-            "I can spell that.",
-            "Please say that again.",
-            "I can use that in a sentence."
+            "I see the word that.",
+            "I can read that.",
+            "Please spell that."
           ],
-          "example": "I can spell that."
+          "example": "I see the word that."
         },
         {
           "id": "w10d4n08",
@@ -9116,15 +9116,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "terrible",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "听音拼写 | terr-ible",
           "audioText": "terrible",
           "examples": [
-            "The word terrible is important in this lesson.",
-            "I can spell terrible slowly.",
-            "I can use terrible in a sentence."
+            "The word terrible is in my spelling list.",
+            "I say terrible slowly and clearly.",
+            "I can learn terrible step by step."
           ],
-          "example": "The word terrible is important in this lesson."
+          "example": "The word terrible is in my spelling list."
         },
         {
           "id": "w10d4n09",
@@ -9134,15 +9134,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "vulture",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | vult-ur-e",
           "audioText": "vulture",
           "examples": [
-            "The word vulture is important in this lesson.",
-            "I can spell vulture slowly.",
-            "I can use vulture in a sentence."
+            "I see a vulture at the zoo.",
+            "The vulture is in my picture.",
+            "The vulture can move fast."
           ],
-          "example": "The word vulture is important in this lesson."
+          "example": "I see a vulture at the zoo."
         },
         {
           "id": "w10d4n10",
@@ -9152,15 +9152,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "whistle",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母 | whistl-e",
           "audioText": "whistle",
           "examples": [
-            "The word whistle is important in this lesson.",
-            "I can spell whistle slowly.",
-            "I can use whistle in a sentence."
+            "The word whistle is in my spelling list.",
+            "I say whistle slowly and clearly.",
+            "I can learn whistle step by step."
           ],
-          "example": "The word whistle is important in this lesson."
+          "example": "The word whistle is in my spelling list."
         }
       ]
     },
@@ -9177,15 +9177,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "weed",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "weed",
           "examples": [
-            "I can spell weed.",
-            "Please say weed again.",
-            "I can use weed in a sentence."
+            "I see the word weed.",
+            "I can read weed.",
+            "Please spell weed."
           ],
-          "example": "I can spell weed."
+          "example": "I see the word weed."
         },
         {
           "id": "w10d5n02",
@@ -9199,11 +9199,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "among",
           "examples": [
-            "I can spell among.",
-            "Please say among again.",
-            "I can use among in a sentence."
+            "I see the word among.",
+            "I can read among.",
+            "Please spell among."
           ],
-          "example": "I can spell among."
+          "example": "I see the word among."
         },
         {
           "id": "w10d5n03",
@@ -9217,11 +9217,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bed",
           "examples": [
-            "I can spell bed.",
-            "Please say bed again.",
-            "I can use bed in a sentence."
+            "I see the word bed.",
+            "I can read bed.",
+            "Please spell bed."
           ],
-          "example": "I can spell bed."
+          "example": "I see the word bed."
         },
         {
           "id": "w10d5n04",
@@ -9231,15 +9231,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "case",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "case",
           "examples": [
-            "I can spell case.",
-            "Please say case again.",
-            "I can use case in a sentence."
+            "I see the word case.",
+            "I can read case.",
+            "Please spell case."
           ],
-          "example": "I can spell case."
+          "example": "I see the word case."
         },
         {
           "id": "w10d5n05",
@@ -9253,11 +9253,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "down",
           "examples": [
-            "I can spell down.",
-            "Please say down again.",
-            "I can use down in a sentence."
+            "I see the word down.",
+            "I can read down.",
+            "Please spell down."
           ],
-          "example": "I can spell down."
+          "example": "I see the word down."
         },
         {
           "id": "w10d5n06",
@@ -9271,11 +9271,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ing | even-ing",
           "audioText": "evening",
           "examples": [
-            "I can spell evening.",
-            "Please say evening again.",
-            "I can use evening in a sentence."
+            "I see the word evening.",
+            "I can read evening.",
+            "Please spell evening."
           ],
-          "example": "I can spell evening."
+          "example": "I see the word evening."
         },
         {
           "id": "w10d5n07",
@@ -9285,15 +9285,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "fight",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "fight",
           "examples": [
-            "I can spell fight.",
-            "Please say fight again.",
-            "I can use fight in a sentence."
+            "I see the word fight.",
+            "I can read fight.",
+            "Please spell fight."
           ],
-          "example": "I can spell fight."
+          "example": "I see the word fight."
         },
         {
           "id": "w10d5n08",
@@ -9307,11 +9307,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | act-iv-it-y",
           "audioText": "activity",
           "examples": [
-            "The word activity is important in this lesson.",
-            "I can spell activity slowly.",
-            "I can use activity in a sentence."
+            "The word activity is in my spelling list.",
+            "I say activity slowly and clearly.",
+            "I can learn activity step by step."
           ],
-          "example": "The word activity is important in this lesson."
+          "example": "The word activity is in my spelling list."
         },
         {
           "id": "w10d5n09",
@@ -9321,15 +9321,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "bookshop",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | booksh-op",
           "audioText": "bookshop",
           "examples": [
-            "The word bookshop is important in this lesson.",
-            "I can spell bookshop slowly.",
-            "I can use bookshop in a sentence."
+            "The word bookshop is in my spelling list.",
+            "I say bookshop slowly and clearly.",
+            "I can learn bookshop step by step."
           ],
-          "example": "The word bookshop is important in this lesson."
+          "example": "The word bookshop is in my spelling list."
         },
         {
           "id": "w10d5n10",
@@ -9343,11 +9343,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | chopst-icks",
           "audioText": "chopsticks",
           "examples": [
-            "The word chopsticks is important in this lesson.",
-            "I can spell chopsticks slowly.",
-            "I can use chopsticks in a sentence."
+            "The word chopsticks is in my spelling list.",
+            "I say chopsticks slowly and clearly.",
+            "I can learn chopsticks step by step."
           ],
-          "example": "The word chopsticks is important in this lesson."
+          "example": "The word chopsticks is in my spelling list."
         }
       ]
     },
@@ -9364,15 +9364,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "gosling",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing | gosl-ing",
           "audioText": "gosling",
           "examples": [
-            "I can spell gosling.",
-            "Please say gosling again.",
-            "I can use gosling in a sentence."
+            "I see the word gosling.",
+            "I can read gosling.",
+            "Please spell gosling."
           ],
-          "example": "I can spell gosling."
+          "example": "I see the word gosling."
         },
         {
           "id": "w11d1n02",
@@ -9382,15 +9382,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "her",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "her",
           "examples": [
-            "I can spell her.",
-            "Please say her again.",
-            "I can use her in a sentence."
+            "I see the word her.",
+            "I can read her.",
+            "Please spell her."
           ],
-          "example": "I can spell her."
+          "example": "I see the word her."
         },
         {
           "id": "w11d1n03",
@@ -9400,15 +9400,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "level",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "level",
           "examples": [
-            "I can spell level.",
-            "Please say level again.",
-            "I can use level in a sentence."
+            "I see the word level.",
+            "I can read level.",
+            "Please spell level."
           ],
-          "example": "I can spell level."
+          "example": "I see the word level."
         },
         {
           "id": "w11d1n04",
@@ -9418,15 +9418,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "meet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "meet",
           "examples": [
-            "I can spell meet.",
-            "Please say meet again.",
-            "I can use meet in a sentence."
+            "I see the word meet.",
+            "I can read meet.",
+            "Please spell meet."
           ],
-          "example": "I can spell meet."
+          "example": "I see the word meet."
         },
         {
           "id": "w11d1n05",
@@ -9436,15 +9436,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "note",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "note",
           "examples": [
-            "I can spell note.",
-            "Please say note again.",
-            "I can use note in a sentence."
+            "I see the word note.",
+            "I can read note.",
+            "Please spell note."
           ],
-          "example": "I can spell note."
+          "example": "I see the word note."
         },
         {
           "id": "w11d1n06",
@@ -9454,15 +9454,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "over",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "over",
           "examples": [
-            "I can spell over.",
-            "Please say over again.",
-            "I can use over in a sentence."
+            "I see the word over.",
+            "I can read over.",
+            "Please spell over."
           ],
-          "example": "I can spell over."
+          "example": "I see the word over."
         },
         {
           "id": "w11d1n07",
@@ -9476,11 +9476,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "peanut",
           "examples": [
-            "I can spell peanut.",
-            "Please say peanut again.",
-            "I can use peanut in a sentence."
+            "I see the word peanut.",
+            "I can read peanut.",
+            "Please spell peanut."
           ],
-          "example": "I can spell peanut."
+          "example": "I see the word peanut."
         },
         {
           "id": "w11d1n08",
@@ -9490,15 +9490,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "delicious",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | del-ic-ious",
           "audioText": "delicious",
           "examples": [
-            "The word delicious is important in this lesson.",
-            "I can spell delicious slowly.",
-            "I can use delicious in a sentence."
+            "The word delicious is in my spelling list.",
+            "I say delicious slowly and clearly.",
+            "I can learn delicious step by step."
           ],
-          "example": "The word delicious is important in this lesson."
+          "example": "The word delicious is in my spelling list."
         },
         {
           "id": "w11d1n09",
@@ -9508,15 +9508,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "employee",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | empl-oyee",
           "audioText": "employee",
           "examples": [
-            "The word employee is important in this lesson.",
-            "I can spell employee slowly.",
-            "I can use employee in a sentence."
+            "The word employee is in my spelling list.",
+            "I say employee slowly and clearly.",
+            "I can learn employee step by step."
           ],
-          "example": "The word employee is important in this lesson."
+          "example": "The word employee is in my spelling list."
         },
         {
           "id": "w11d1n10",
@@ -9530,11 +9530,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "five",
           "examples": [
-            "The word five is important in this lesson.",
-            "I can spell five slowly.",
-            "I can use five in a sentence."
+            "I can count to five.",
+            "The answer is five.",
+            "Please write five."
           ],
-          "example": "The word five is important in this lesson."
+          "example": "I can count to five."
         }
       ]
     },
@@ -9551,15 +9551,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "rib",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rib",
           "examples": [
-            "I can spell rib.",
-            "Please say rib again.",
-            "I can use rib in a sentence."
+            "I see the word rib.",
+            "I can read rib.",
+            "Please spell rib."
           ],
-          "example": "I can spell rib."
+          "example": "I see the word rib."
         },
         {
           "id": "w11d2n02",
@@ -9569,15 +9569,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "seesaw",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "seesaw",
           "examples": [
-            "I can spell seesaw.",
-            "Please say seesaw again.",
-            "I can use seesaw in a sentence."
+            "I see the word seesaw.",
+            "I can read seesaw.",
+            "Please spell seesaw."
           ],
-          "example": "I can spell seesaw."
+          "example": "I see the word seesaw."
         },
         {
           "id": "w11d2n03",
@@ -9587,15 +9587,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "the",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "the",
           "examples": [
-            "I can spell the.",
-            "Please say the again.",
-            "I can use the in a sentence."
+            "I see the word the.",
+            "I can read the.",
+            "Please spell the."
           ],
-          "example": "I can spell the."
+          "example": "I see the word the."
         },
         {
           "id": "w11d2n04",
@@ -9605,15 +9605,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "weird",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "weird",
           "examples": [
-            "I can spell weird.",
-            "Please say weird again.",
-            "I can use weird in a sentence."
+            "I see the word weird.",
+            "I can read weird.",
+            "Please spell weird."
           ],
-          "example": "I can spell weird."
+          "example": "I see the word weird."
         },
         {
           "id": "w11d2n05",
@@ -9623,15 +9623,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "and",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "and",
           "examples": [
-            "I can spell and.",
-            "Please say and again.",
-            "I can use and in a sentence."
+            "I see the word and.",
+            "I can read and.",
+            "Please spell and."
           ],
-          "example": "I can spell and."
+          "example": "I see the word and."
         },
         {
           "id": "w11d2n06",
@@ -9645,11 +9645,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | bedr-oom",
           "audioText": "bedroom",
           "examples": [
-            "I can spell bedroom.",
-            "Please say bedroom again.",
-            "I can use bedroom in a sentence."
+            "I see the word bedroom.",
+            "I can read bedroom.",
+            "Please spell bedroom."
           ],
-          "example": "I can spell bedroom."
+          "example": "I see the word bedroom."
         },
         {
           "id": "w11d2n07",
@@ -9659,15 +9659,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "castle",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "castle",
           "examples": [
-            "I can spell castle.",
-            "Please say castle again.",
-            "I can use castle in a sentence."
+            "I go to the castle.",
+            "The castle is near my home.",
+            "We talk about the castle."
           ],
-          "example": "I can spell castle."
+          "example": "I go to the castle."
         },
         {
           "id": "w11d2n08",
@@ -9677,15 +9677,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "grapefruit",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | grap-efr-uit",
           "audioText": "grapefruit",
           "examples": [
-            "The word grapefruit is important in this lesson.",
-            "I can spell grapefruit slowly.",
-            "I can use grapefruit in a sentence."
+            "I eat grapefruit for lunch.",
+            "The grapefruit is on the table.",
+            "Do you like grapefruit?"
           ],
-          "example": "The word grapefruit is important in this lesson."
+          "example": "I eat grapefruit for lunch."
         },
         {
           "id": "w11d2n09",
@@ -9699,11 +9699,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | hosp-it-al",
           "audioText": "hospital",
           "examples": [
-            "The word hospital is important in this lesson.",
-            "I can spell hospital slowly.",
-            "I can use hospital in a sentence."
+            "I go to the hospital.",
+            "The hospital is near my home.",
+            "We talk about the hospital."
           ],
-          "example": "The word hospital is important in this lesson."
+          "example": "I go to the hospital."
         },
         {
           "id": "w11d2n10",
@@ -9713,15 +9713,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "incomprehensible",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | incomprehens-ible",
           "audioText": "incomprehensible",
           "examples": [
-            "The word incomprehensible is important in this lesson.",
-            "I can spell incomprehensible slowly.",
-            "I can use incomprehensible in a sentence."
+            "The word incomprehensible is in my spelling list.",
+            "I say incomprehensible slowly and clearly.",
+            "I can learn incomprehensible step by step."
           ],
-          "example": "The word incomprehensible is important in this lesson."
+          "example": "The word incomprehensible is in my spelling list."
         }
       ]
     },
@@ -9742,11 +9742,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dragon",
           "examples": [
-            "I can spell dragon.",
-            "Please say dragon again.",
-            "I can use dragon in a sentence."
+            "I see the word dragon.",
+            "I can read dragon.",
+            "Please spell dragon."
           ],
-          "example": "I can spell dragon."
+          "example": "I see the word dragon."
         },
         {
           "id": "w11d3n02",
@@ -9756,15 +9756,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "ever",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "ever",
           "examples": [
-            "I can spell ever.",
-            "Please say ever again.",
-            "I can use ever in a sentence."
+            "I see the word ever.",
+            "I can read ever.",
+            "Please spell ever."
           ],
-          "example": "I can spell ever."
+          "example": "I see the word ever."
         },
         {
           "id": "w11d3n03",
@@ -9778,11 +9778,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "film",
           "examples": [
-            "I can spell film.",
-            "Please say film again.",
-            "I can use film in a sentence."
+            "I see the word film.",
+            "I can read film.",
+            "Please spell film."
           ],
-          "example": "I can spell film."
+          "example": "I see the word film."
         },
         {
           "id": "w11d3n04",
@@ -9792,15 +9792,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "grandma",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | grandm-a",
           "audioText": "grandma",
           "examples": [
-            "I can spell grandma.",
-            "Please say grandma again.",
-            "I can use grandma in a sentence."
+            "I see the word grandma.",
+            "I can read grandma.",
+            "Please spell grandma."
           ],
-          "example": "I can spell grandma."
+          "example": "I see the word grandma."
         },
         {
           "id": "w11d3n05",
@@ -9814,11 +9814,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "here",
           "examples": [
-            "I can spell here.",
-            "Please say here again.",
-            "I can use here in a sentence."
+            "I see the word here.",
+            "I can read here.",
+            "Please spell here."
           ],
-          "example": "I can spell here."
+          "example": "I see the word here."
         },
         {
           "id": "w11d3n06",
@@ -9828,15 +9828,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "lid",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "lid",
           "examples": [
-            "I can spell lid.",
-            "Please say lid again.",
-            "I can use lid in a sentence."
+            "I see the word lid.",
+            "I can read lid.",
+            "Please spell lid."
           ],
-          "example": "I can spell lid."
+          "example": "I see the word lid."
         },
         {
           "id": "w11d3n07",
@@ -9850,11 +9850,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ing | meet-ing",
           "audioText": "meeting",
           "examples": [
-            "I can spell meeting.",
-            "Please say meeting again.",
-            "I can use meeting in a sentence."
+            "I see the word meeting.",
+            "I can read meeting.",
+            "Please spell meeting."
           ],
-          "example": "I can spell meeting."
+          "example": "I see the word meeting."
         },
         {
           "id": "w11d3n08",
@@ -9864,15 +9864,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "medicinal",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | med-ic-in-al",
           "audioText": "medicinal",
           "examples": [
-            "The word medicinal is important in this lesson.",
-            "I can spell medicinal slowly.",
-            "I can use medicinal in a sentence."
+            "The word medicinal is in my spelling list.",
+            "I say medicinal slowly and clearly.",
+            "I can learn medicinal step by step."
           ],
-          "example": "The word medicinal is important in this lesson."
+          "example": "The word medicinal is in my spelling list."
         },
         {
           "id": "w11d3n09",
@@ -9882,15 +9882,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "numeral",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | num-er-al",
           "audioText": "numeral",
           "examples": [
-            "The word numeral is important in this lesson.",
-            "I can spell numeral slowly.",
-            "I can use numeral in a sentence."
+            "The word numeral is in my spelling list.",
+            "I say numeral slowly and clearly.",
+            "I can learn numeral step by step."
           ],
-          "example": "The word numeral is important in this lesson."
+          "example": "The word numeral is in my spelling list."
         },
         {
           "id": "w11d3n10",
@@ -9898,17 +9898,17 @@ window.YUMI_COURSE = {
           "dayIndex": 2,
           "dayName": "周三",
           "num": 10,
-          "word": "organization/organisation",
+          "word": "organization",
           "level": "challenge",
-          "cn": "",
+          "cn": "组织",
           "pattern": "英/美拼写变体 | organiza-tion",
-          "audioText": "organization or organisation",
+          "audioText": "organization",
           "examples": [
-            "The word organization is important in this lesson.",
-            "I can spell organization slowly.",
-            "I can use organization in a sentence."
+            "The word organization is in my spelling list.",
+            "I say organization slowly and clearly.",
+            "I can learn organization step by step."
           ],
-          "example": "The word organization is important in this lesson."
+          "example": "The word organization is in my spelling list."
         }
       ]
     },
@@ -9925,15 +9925,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "novel",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "novel",
           "examples": [
-            "I can spell novel.",
-            "Please say novel again.",
-            "I can use novel in a sentence."
+            "I see the word novel.",
+            "I can read novel.",
+            "Please spell novel."
           ],
-          "example": "I can spell novel."
+          "example": "I see the word novel."
         },
         {
           "id": "w11d4n02",
@@ -9947,11 +9947,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "owl",
           "examples": [
-            "I can spell owl.",
-            "Please say owl again.",
-            "I can use owl in a sentence."
+            "I see a owl at the zoo.",
+            "The owl is in my picture.",
+            "The owl can move fast."
           ],
-          "example": "I can spell owl."
+          "example": "I see a owl at the zoo."
         },
         {
           "id": "w11d4n03",
@@ -9965,11 +9965,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "pear",
           "examples": [
-            "I can spell pear.",
-            "Please say pear again.",
-            "I can use pear in a sentence."
+            "I eat pear for lunch.",
+            "The pear is on the table.",
+            "Do you like pear?"
           ],
-          "example": "I can spell pear."
+          "example": "I eat pear for lunch."
         },
         {
           "id": "w11d4n04",
@@ -9983,11 +9983,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "rice",
           "examples": [
-            "I can spell rice.",
-            "Please say rice again.",
-            "I can use rice in a sentence."
+            "I eat rice for lunch.",
+            "The rice is on the table.",
+            "Do you like rice?"
           ],
-          "example": "I can spell rice."
+          "example": "I eat rice for lunch."
         },
         {
           "id": "w11d4n05",
@@ -9997,15 +9997,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "select",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "select",
           "examples": [
-            "I can spell select.",
-            "Please say select again.",
-            "I can use select in a sentence."
+            "I see the word select.",
+            "I can read select.",
+            "Please spell select."
           ],
-          "example": "I can spell select."
+          "example": "I see the word select."
         },
         {
           "id": "w11d4n06",
@@ -10015,15 +10015,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "them",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "them",
           "examples": [
-            "I can spell them.",
-            "Please say them again.",
-            "I can use them in a sentence."
+            "I see the word them.",
+            "I can read them.",
+            "Please spell them."
           ],
-          "example": "I can spell them."
+          "example": "I see the word them."
         },
         {
           "id": "w11d4n07",
@@ -10037,11 +10037,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "west",
           "examples": [
-            "I can spell west.",
-            "Please say west again.",
-            "I can use west in a sentence."
+            "I see the word west.",
+            "I can read west.",
+            "Please spell west."
           ],
-          "example": "I can spell west."
+          "example": "I see the word west."
         },
         {
           "id": "w11d4n08",
@@ -10051,15 +10051,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "perceptual",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | perc-ept-ual",
           "audioText": "perceptual",
           "examples": [
-            "The word perceptual is important in this lesson.",
-            "I can spell perceptual slowly.",
-            "I can use perceptual in a sentence."
+            "The word perceptual is in my spelling list.",
+            "I say perceptual slowly and clearly.",
+            "I can learn perceptual step by step."
           ],
-          "example": "The word perceptual is important in this lesson."
+          "example": "The word perceptual is in my spelling list."
         },
         {
           "id": "w11d4n09",
@@ -10069,15 +10069,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "recent",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "recent",
           "examples": [
-            "The word recent is important in this lesson.",
-            "I can spell recent slowly.",
-            "I can use recent in a sentence."
+            "The word recent is in my spelling list.",
+            "I say recent slowly and clearly.",
+            "I can learn recent step by step."
           ],
-          "example": "The word recent is important in this lesson."
+          "example": "The word recent is in my spelling list."
         },
         {
           "id": "w11d4n10",
@@ -10087,15 +10087,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "seashell",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | seash-ell",
           "audioText": "seashell",
           "examples": [
-            "The word seashell is important in this lesson.",
-            "I can spell seashell slowly.",
-            "I can use seashell in a sentence."
+            "The word seashell is in my spelling list.",
+            "I say seashell slowly and clearly.",
+            "I can learn seashell step by step."
           ],
-          "example": "The word seashell is important in this lesson."
+          "example": "The word seashell is in my spelling list."
         }
       ]
     },
@@ -10116,11 +10116,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "animal",
           "examples": [
-            "I can spell animal.",
-            "Please say animal again.",
-            "I can use animal in a sentence."
+            "I see the word animal.",
+            "I can read animal.",
+            "Please spell animal."
           ],
-          "example": "I can spell animal."
+          "example": "I see the word animal."
         },
         {
           "id": "w11d5n02",
@@ -10134,11 +10134,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "beef",
           "examples": [
-            "I can spell beef.",
-            "Please say beef again.",
-            "I can use beef in a sentence."
+            "I eat beef for lunch.",
+            "The beef is on the table.",
+            "Do you like beef?"
           ],
-          "example": "I can spell beef."
+          "example": "I eat beef for lunch."
         },
         {
           "id": "w11d5n03",
@@ -10152,11 +10152,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cat",
           "examples": [
-            "I can spell cat.",
-            "Please say cat again.",
-            "I can use cat in a sentence."
+            "I see a cat at the zoo.",
+            "The cat is in my picture.",
+            "The cat can move fast."
           ],
-          "example": "I can spell cat."
+          "example": "I see a cat at the zoo."
         },
         {
           "id": "w11d5n04",
@@ -10170,11 +10170,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "draw",
           "examples": [
-            "I can spell draw.",
-            "Please say draw again.",
-            "I can use draw in a sentence."
+            "I can draw now.",
+            "Please draw with me.",
+            "We draw after class."
           ],
-          "example": "I can spell draw."
+          "example": "I can draw now."
         },
         {
           "id": "w11d5n05",
@@ -10188,11 +10188,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "every",
           "examples": [
-            "I can spell every.",
-            "Please say every again.",
-            "I can use every in a sentence."
+            "I see the word every.",
+            "I can read every.",
+            "Please spell every."
           ],
-          "example": "I can spell every."
+          "example": "I see the word every."
         },
         {
           "id": "w11d5n06",
@@ -10202,15 +10202,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "find",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "find",
           "examples": [
-            "I can spell find.",
-            "Please say find again.",
-            "I can use find in a sentence."
+            "I can find now.",
+            "Please find with me.",
+            "We find after class."
           ],
-          "example": "I can spell find."
+          "example": "I can find now."
         },
         {
           "id": "w11d5n07",
@@ -10220,15 +10220,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "grandpa",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | grandp-a",
           "audioText": "grandpa",
           "examples": [
-            "I can spell grandpa.",
-            "Please say grandpa again.",
-            "I can use grandpa in a sentence."
+            "I see the word grandpa.",
+            "I can read grandpa.",
+            "Please spell grandpa."
           ],
-          "example": "I can spell grandpa."
+          "example": "I see the word grandpa."
         },
         {
           "id": "w11d5n08",
@@ -10242,11 +10242,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | textb-ook",
           "audioText": "textbook",
           "examples": [
-            "The word textbook is important in this lesson.",
-            "I can spell textbook slowly.",
-            "I can use textbook in a sentence."
+            "The word textbook is in my spelling list.",
+            "I say textbook slowly and clearly.",
+            "I can learn textbook step by step."
           ],
-          "example": "The word textbook is important in this lesson."
+          "example": "The word textbook is in my spelling list."
         },
         {
           "id": "w11d5n09",
@@ -10256,15 +10256,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "within",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "within",
           "examples": [
-            "The word within is important in this lesson.",
-            "I can spell within slowly.",
-            "I can use within in a sentence."
+            "The word within is in my spelling list.",
+            "I say within slowly and clearly.",
+            "I can learn within step by step."
           ],
-          "example": "The word within is important in this lesson."
+          "example": "The word within is in my spelling list."
         },
         {
           "id": "w11d5n10",
@@ -10274,15 +10274,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "aeroplane",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | aer-opl-an-e",
           "audioText": "aeroplane",
           "examples": [
-            "The word aeroplane is important in this lesson.",
-            "I can spell aeroplane slowly.",
-            "I can use aeroplane in a sentence."
+            "The word aeroplane is in my spelling list.",
+            "I say aeroplane slowly and clearly.",
+            "I can learn aeroplane step by step."
           ],
-          "example": "The word aeroplane is important in this lesson."
+          "example": "The word aeroplane is in my spelling list."
         }
       ]
     },
@@ -10299,15 +10299,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "herself",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | hers-elf",
           "audioText": "herself",
           "examples": [
-            "I can spell herself.",
-            "Please say herself again.",
-            "I can use herself in a sentence."
+            "I see the word herself.",
+            "I can read herself.",
+            "Please spell herself."
           ],
-          "example": "I can spell herself."
+          "example": "I see the word herself."
         },
         {
           "id": "w12d1n02",
@@ -10317,15 +10317,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "life",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "life",
           "examples": [
-            "I can spell life.",
-            "Please say life again.",
-            "I can use life in a sentence."
+            "I see the word life.",
+            "I can read life.",
+            "Please spell life."
           ],
-          "example": "I can spell life."
+          "example": "I see the word life."
         },
         {
           "id": "w12d1n03",
@@ -10339,11 +10339,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "melon",
           "examples": [
-            "I can spell melon.",
-            "Please say melon again.",
-            "I can use melon in a sentence."
+            "I eat melon for lunch.",
+            "The melon is on the table.",
+            "Do you like melon?"
           ],
-          "example": "I can spell melon."
+          "example": "I eat melon for lunch."
         },
         {
           "id": "w12d1n04",
@@ -10353,15 +10353,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "now",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "now",
           "examples": [
-            "I can spell now.",
-            "Please say now again.",
-            "I can use now in a sentence."
+            "I see the word now.",
+            "I can read now.",
+            "Please spell now."
           ],
-          "example": "I can spell now."
+          "example": "I see the word now."
         },
         {
           "id": "w12d1n05",
@@ -10371,15 +10371,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "own",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "own",
           "examples": [
-            "I can spell own.",
-            "Please say own again.",
-            "I can use own in a sentence."
+            "I see the word own.",
+            "I can read own.",
+            "Please spell own."
           ],
-          "example": "I can spell own."
+          "example": "I see the word own."
         },
         {
           "id": "w12d1n06",
@@ -10389,15 +10389,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "pellet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pellet",
           "examples": [
-            "I can spell pellet.",
-            "Please say pellet again.",
-            "I can use pellet in a sentence."
+            "I see the word pellet.",
+            "I can read pellet.",
+            "Please spell pellet."
           ],
-          "example": "I can spell pellet."
+          "example": "I see the word pellet."
         },
         {
           "id": "w12d1n07",
@@ -10407,15 +10407,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "ride",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "ride",
           "examples": [
-            "I can spell ride.",
-            "Please say ride again.",
-            "I can use ride in a sentence."
+            "I see the word ride.",
+            "I can read ride.",
+            "Please spell ride."
           ],
-          "example": "I can spell ride."
+          "example": "I see the word ride."
         },
         {
           "id": "w12d1n08",
@@ -10429,11 +10429,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | breakf-ast",
           "audioText": "breakfast",
           "examples": [
-            "The word breakfast is important in this lesson.",
-            "I can spell breakfast slowly.",
-            "I can use breakfast in a sentence."
+            "The word breakfast is in my spelling list.",
+            "I say breakfast slowly and clearly.",
+            "I can learn breakfast step by step."
           ],
-          "example": "The word breakfast is important in this lesson."
+          "example": "The word breakfast is in my spelling list."
         },
         {
           "id": "w12d1n09",
@@ -10447,11 +10447,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "city",
           "examples": [
-            "The word city is important in this lesson.",
-            "I can spell city slowly.",
-            "I can use city in a sentence."
+            "I go to the city.",
+            "The city is near my home.",
+            "We talk about the city."
           ],
-          "example": "The word city is important in this lesson."
+          "example": "I go to the city."
         },
         {
           "id": "w12d1n10",
@@ -10461,15 +10461,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "democrat",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | dem-ocr-at",
           "audioText": "democrat",
           "examples": [
-            "The word democrat is important in this lesson.",
-            "I can spell democrat slowly.",
-            "I can use democrat in a sentence."
+            "The word democrat is in my spelling list.",
+            "I say democrat slowly and clearly.",
+            "I can learn democrat step by step."
           ],
-          "example": "The word democrat is important in this lesson."
+          "example": "The word democrat is in my spelling list."
         }
       ]
     },
@@ -10486,15 +10486,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "set",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "set",
           "examples": [
-            "I can spell set.",
-            "Please say set again.",
-            "I can use set in a sentence."
+            "I see the word set.",
+            "I can read set.",
+            "Please spell set."
           ],
-          "example": "I can spell set."
+          "example": "I see the word set."
         },
         {
           "id": "w12d2n02",
@@ -10504,15 +10504,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "then",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "then",
           "examples": [
-            "I can spell then.",
-            "Please say then again.",
-            "I can use then in a sentence."
+            "I see the word then.",
+            "I can read then.",
+            "Please spell then."
           ],
-          "example": "I can spell then."
+          "example": "I see the word then."
         },
         {
           "id": "w12d2n03",
@@ -10522,15 +10522,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "wet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "wet",
           "examples": [
-            "I can spell wet.",
-            "Please say wet again.",
-            "I can use wet in a sentence."
+            "I feel wet today.",
+            "The word wet is useful.",
+            "Can you make a sentence with wet?"
           ],
-          "example": "I can spell wet."
+          "example": "I feel wet today."
         },
         {
           "id": "w12d2n04",
@@ -10540,15 +10540,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "another",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | anoth-er",
           "audioText": "another",
           "examples": [
-            "I can spell another.",
-            "Please say another again.",
-            "I can use another in a sentence."
+            "I see the word another.",
+            "I can read another.",
+            "Please spell another."
           ],
-          "example": "I can spell another."
+          "example": "I see the word another."
         },
         {
           "id": "w12d2n05",
@@ -10558,15 +10558,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "beep",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "beep",
           "examples": [
-            "I can spell beep.",
-            "Please say beep again.",
-            "I can use beep in a sentence."
+            "I see the word beep.",
+            "I can read beep.",
+            "Please spell beep."
           ],
-          "example": "I can spell beep."
+          "example": "I see the word beep."
         },
         {
           "id": "w12d2n06",
@@ -10580,11 +10580,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "catch",
           "examples": [
-            "I can spell catch.",
-            "Please say catch again.",
-            "I can use catch in a sentence."
+            "I see the word catch.",
+            "I can read catch.",
+            "Please spell catch."
           ],
-          "example": "I can spell catch."
+          "example": "I see the word catch."
         },
         {
           "id": "w12d2n07",
@@ -10598,11 +10598,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "dream",
           "examples": [
-            "I can spell dream.",
-            "Please say dream again.",
-            "I can use dream in a sentence."
+            "I see the word dream.",
+            "I can read dream.",
+            "Please spell dream."
           ],
-          "example": "I can spell dream."
+          "example": "I see the word dream."
         },
         {
           "id": "w12d2n08",
@@ -10612,15 +10612,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "energy",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "energy",
           "examples": [
-            "The word energy is important in this lesson.",
-            "I can spell energy slowly.",
-            "I can use energy in a sentence."
+            "The word energy is in my spelling list.",
+            "I say energy slowly and clearly.",
+            "I can learn energy step by step."
           ],
-          "example": "The word energy is important in this lesson."
+          "example": "The word energy is in my spelling list."
         },
         {
           "id": "w12d2n09",
@@ -10634,11 +10634,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | footb-all",
           "audioText": "football",
           "examples": [
-            "The word football is important in this lesson.",
-            "I can spell football slowly.",
-            "I can use football in a sentence."
+            "The word football is in my spelling list.",
+            "I say football slowly and clearly.",
+            "I can learn football step by step."
           ],
-          "example": "The word football is important in this lesson."
+          "example": "The word football is in my spelling list."
         },
         {
           "id": "w12d2n10",
@@ -10648,15 +10648,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "gratitude",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | grat-it-ud-e",
           "audioText": "gratitude",
           "examples": [
-            "The word gratitude is important in this lesson.",
-            "I can spell gratitude slowly.",
-            "I can use gratitude in a sentence."
+            "The word gratitude is in my spelling list.",
+            "I say gratitude slowly and clearly.",
+            "I can learn gratitude step by step."
           ],
-          "example": "The word gratitude is important in this lesson."
+          "example": "The word gratitude is in my spelling list."
         }
       ]
     },
@@ -10673,15 +10673,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "express",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | expr-ess",
           "audioText": "express",
           "examples": [
-            "I can spell express.",
-            "Please say express again.",
-            "I can use express in a sentence."
+            "I see the word express.",
+            "I can read express.",
+            "Please spell express."
           ],
-          "example": "I can spell express."
+          "example": "I see the word express."
         },
         {
           "id": "w12d3n02",
@@ -10691,15 +10691,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "fine",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "fine",
           "examples": [
-            "I can spell fine.",
-            "Please say fine again.",
-            "I can use fine in a sentence."
+            "I see the word fine.",
+            "I can read fine.",
+            "Please spell fine."
           ],
-          "example": "I can spell fine."
+          "example": "I see the word fine."
         },
         {
           "id": "w12d3n03",
@@ -10713,11 +10713,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "grape",
           "examples": [
-            "I can spell grape.",
-            "Please say grape again.",
-            "I can use grape in a sentence."
+            "I eat grape for lunch.",
+            "The grape is on the table.",
+            "Do you like grape?"
           ],
-          "example": "I can spell grape."
+          "example": "I eat grape for lunch."
         },
         {
           "id": "w12d3n04",
@@ -10731,11 +10731,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "high",
           "examples": [
-            "I can spell high.",
-            "Please say high again.",
-            "I can use high in a sentence."
+            "I see the word high.",
+            "I can read high.",
+            "Please spell high."
           ],
-          "example": "I can spell high."
+          "example": "I see the word high."
         },
         {
           "id": "w12d3n05",
@@ -10749,11 +10749,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "light",
           "examples": [
-            "I can spell light.",
-            "Please say light again.",
-            "I can use light in a sentence."
+            "I see the word light.",
+            "I can read light.",
+            "Please spell light."
           ],
-          "example": "I can spell light."
+          "example": "I see the word light."
         },
         {
           "id": "w12d3n06",
@@ -10763,15 +10763,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "member",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | memb-er",
           "audioText": "member",
           "examples": [
-            "I can spell member.",
-            "Please say member again.",
-            "I can use member in a sentence."
+            "I see the word member.",
+            "I can read member.",
+            "Please spell member."
           ],
-          "example": "I can spell member."
+          "example": "I see the word member."
         },
         {
           "id": "w12d3n07",
@@ -10785,11 +10785,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | numb-er",
           "audioText": "number",
           "examples": [
-            "I can spell number.",
-            "Please say number again.",
-            "I can use number in a sentence."
+            "I see the word number.",
+            "I can read number.",
+            "Please spell number."
           ],
-          "example": "I can spell number."
+          "example": "I see the word number."
         },
         {
           "id": "w12d3n08",
@@ -10799,15 +10799,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "increase",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | incr-eas-e",
           "audioText": "increase",
           "examples": [
-            "The word increase is important in this lesson.",
-            "I can spell increase slowly.",
-            "I can use increase in a sentence."
+            "The word increase is in my spelling list.",
+            "I say increase slowly and clearly.",
+            "I can learn increase step by step."
           ],
-          "example": "The word increase is important in this lesson."
+          "example": "The word increase is in my spelling list."
         },
         {
           "id": "w12d3n09",
@@ -10817,15 +10817,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "mention",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion | ment-ion",
           "audioText": "mention",
           "examples": [
-            "The word mention is important in this lesson.",
-            "I can spell mention slowly.",
-            "I can use mention in a sentence."
+            "The word mention is in my spelling list.",
+            "I say mention slowly and clearly.",
+            "I can learn mention step by step."
           ],
-          "example": "The word mention is important in this lesson."
+          "example": "The word mention is in my spelling list."
         },
         {
           "id": "w12d3n10",
@@ -10835,15 +10835,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "numerator",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | num-er-at-or",
           "audioText": "numerator",
           "examples": [
-            "The word numerator is important in this lesson.",
-            "I can spell numerator slowly.",
-            "I can use numerator in a sentence."
+            "The word numerator is in my spelling list.",
+            "I say numerator slowly and clearly.",
+            "I can learn numerator step by step."
           ],
-          "example": "The word numerator is important in this lesson."
+          "example": "The word numerator is in my spelling list."
         }
       ]
     },
@@ -10864,11 +10864,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "pen",
           "examples": [
-            "I can spell pen.",
-            "Please say pen again.",
-            "I can use pen in a sentence."
+            "I see the word pen.",
+            "I can read pen.",
+            "Please spell pen."
           ],
-          "example": "I can spell pen."
+          "example": "I see the word pen."
         },
         {
           "id": "w12d4n02",
@@ -10882,11 +10882,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "right",
           "examples": [
-            "I can spell right.",
-            "Please say right again.",
-            "I can use right in a sentence."
+            "I see the word right.",
+            "I can read right.",
+            "Please spell right."
           ],
-          "example": "I can spell right."
+          "example": "I see the word right."
         },
         {
           "id": "w12d4n03",
@@ -10900,11 +10900,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "seven",
           "examples": [
-            "I can spell seven.",
-            "Please say seven again.",
-            "I can use seven in a sentence."
+            "I can count to seven.",
+            "The answer is seven.",
+            "Please write seven."
           ],
-          "example": "I can spell seven."
+          "example": "I can count to seven."
         },
         {
           "id": "w12d4n04",
@@ -10914,15 +10914,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "these",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "these",
           "examples": [
-            "I can spell these.",
-            "Please say these again.",
-            "I can use these in a sentence."
+            "I see the word these.",
+            "I can read these.",
+            "Please spell these."
           ],
-          "example": "I can spell these."
+          "example": "I see the word these."
         },
         {
           "id": "w12d4n05",
@@ -10936,11 +10936,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "whale",
           "examples": [
-            "I can spell whale.",
-            "Please say whale again.",
-            "I can use whale in a sentence."
+            "I see a whale at the zoo.",
+            "The whale is in my picture.",
+            "The whale can move fast."
           ],
-          "example": "I can spell whale."
+          "example": "I see a whale at the zoo."
         },
         {
           "id": "w12d4n06",
@@ -10954,11 +10954,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | answ-er",
           "audioText": "answer",
           "examples": [
-            "I can spell answer.",
-            "Please say answer again.",
-            "I can use answer in a sentence."
+            "I see the word answer.",
+            "I can read answer.",
+            "Please spell answer."
           ],
-          "example": "I can spell answer."
+          "example": "I see the word answer."
         },
         {
           "id": "w12d4n07",
@@ -10968,15 +10968,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "beggar",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "beggar",
           "examples": [
-            "I can spell beggar.",
-            "Please say beggar again.",
-            "I can use beggar in a sentence."
+            "I see the word beggar.",
+            "I can read beggar.",
+            "Please spell beggar."
           ],
-          "example": "I can spell beggar."
+          "example": "I see the word beggar."
         },
         {
           "id": "w12d4n08",
@@ -10990,11 +10990,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | ostr-ich",
           "audioText": "ostrich",
           "examples": [
-            "The word ostrich is important in this lesson.",
-            "I can spell ostrich slowly.",
-            "I can use ostrich in a sentence."
+            "I see a ostrich at the zoo.",
+            "The ostrich is in my picture.",
+            "The ostrich can move fast."
           ],
-          "example": "The word ostrich is important in this lesson."
+          "example": "I see a ostrich at the zoo."
         },
         {
           "id": "w12d4n09",
@@ -11004,15 +11004,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "performance",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | perf-orm-anc-e",
           "audioText": "performance",
           "examples": [
-            "The word performance is important in this lesson.",
-            "I can spell performance slowly.",
-            "I can use performance in a sentence."
+            "The word performance is in my spelling list.",
+            "I say performance slowly and clearly.",
+            "I can learn performance step by step."
           ],
-          "example": "The word performance is important in this lesson."
+          "example": "The word performance is in my spelling list."
         },
         {
           "id": "w12d4n10",
@@ -11020,17 +11020,17 @@ window.YUMI_COURSE = {
           "dayIndex": 3,
           "dayName": "周四",
           "num": 10,
-          "word": "recognize/recognise",
+          "word": "recognize",
           "level": "challenge",
-          "cn": "",
+          "cn": "认出；识别",
           "pattern": "英/美拼写变体 | rec-ogn-iz-e",
-          "audioText": "recognize or recognise",
+          "audioText": "recognize",
           "examples": [
-            "The word recognize is important in this lesson.",
-            "I can spell recognize slowly.",
-            "I can use recognize in a sentence."
+            "The word recognize is in my spelling list.",
+            "I say recognize slowly and clearly.",
+            "I can learn recognize step by step."
           ],
-          "example": "The word recognize is important in this lesson."
+          "example": "The word recognize is in my spelling list."
         }
       ]
     },
@@ -11051,11 +11051,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cave",
           "examples": [
-            "I can spell cave.",
-            "Please say cave again.",
-            "I can use cave in a sentence."
+            "I see the word cave.",
+            "I can read cave.",
+            "Please spell cave."
           ],
-          "example": "I can spell cave."
+          "example": "I see the word cave."
         },
         {
           "id": "w12d5n02",
@@ -11069,11 +11069,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "dress",
           "examples": [
-            "I can spell dress.",
-            "Please say dress again.",
-            "I can use dress in a sentence."
+            "I see the word dress.",
+            "I can read dress.",
+            "Please spell dress."
           ],
-          "example": "I can spell dress."
+          "example": "I see the word dress."
         },
         {
           "id": "w12d5n03",
@@ -11083,15 +11083,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "extent",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "extent",
           "examples": [
-            "I can spell extent.",
-            "Please say extent again.",
-            "I can use extent in a sentence."
+            "I see the word extent.",
+            "I can read extent.",
+            "Please spell extent."
           ],
-          "example": "I can spell extent."
+          "example": "I see the word extent."
         },
         {
           "id": "w12d5n04",
@@ -11105,11 +11105,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | fing-er",
           "audioText": "finger",
           "examples": [
-            "I can spell finger.",
-            "Please say finger again.",
-            "I can use finger in a sentence."
+            "I see the word finger.",
+            "I can read finger.",
+            "Please spell finger."
           ],
-          "example": "I can spell finger."
+          "example": "I see the word finger."
         },
         {
           "id": "w12d5n05",
@@ -11119,15 +11119,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "grasp",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "grasp",
           "examples": [
-            "I can spell grasp.",
-            "Please say grasp again.",
-            "I can use grasp in a sentence."
+            "I see the word grasp.",
+            "I can read grasp.",
+            "Please spell grasp."
           ],
-          "example": "I can spell grasp."
+          "example": "I see the word grasp."
         },
         {
           "id": "w12d5n06",
@@ -11137,15 +11137,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "hike",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hike",
           "examples": [
-            "I can spell hike.",
-            "Please say hike again.",
-            "I can use hike in a sentence."
+            "I see the word hike.",
+            "I can read hike.",
+            "Please spell hike."
           ],
-          "example": "I can spell hike."
+          "example": "I see the word hike."
         },
         {
           "id": "w12d5n07",
@@ -11155,15 +11155,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "like",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "like",
           "examples": [
-            "I can spell like.",
-            "Please say like again.",
-            "I can use like in a sentence."
+            "I see the word like.",
+            "I can read like.",
+            "Please spell like."
           ],
-          "example": "I can spell like."
+          "example": "I see the word like."
         },
         {
           "id": "w12d5n08",
@@ -11173,15 +11173,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "seashore",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | seash-or-e",
           "audioText": "seashore",
           "examples": [
-            "The word seashore is important in this lesson.",
-            "I can spell seashore slowly.",
-            "I can use seashore in a sentence."
+            "The word seashore is in my spelling list.",
+            "I say seashore slowly and clearly.",
+            "I can learn seashore step by step."
           ],
-          "example": "The word seashore is important in this lesson."
+          "example": "The word seashore is in my spelling list."
         },
         {
           "id": "w12d5n09",
@@ -11191,15 +11191,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "themselves",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | thems-elv-es",
           "audioText": "themselves",
           "examples": [
-            "The word themselves is important in this lesson.",
-            "I can spell themselves slowly.",
-            "I can use themselves in a sentence."
+            "The word themselves is in my spelling list.",
+            "I say themselves slowly and clearly.",
+            "I can learn themselves step by step."
           ],
-          "example": "The word themselves is important in this lesson."
+          "example": "The word themselves is in my spelling list."
         },
         {
           "id": "w12d5n10",
@@ -11209,15 +11209,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "without",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | with-out",
           "audioText": "without",
           "examples": [
-            "The word without is important in this lesson.",
-            "I can spell without slowly.",
-            "I can use without in a sentence."
+            "The word without is in my spelling list.",
+            "I say without slowly and clearly.",
+            "I can learn without step by step."
           ],
-          "example": "The word without is important in this lesson."
+          "example": "The word without is in my spelling list."
         }
       ]
     },
@@ -11234,15 +11234,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "metro",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "metro",
           "examples": [
-            "I can spell metro.",
-            "Please say metro again.",
-            "I can use metro in a sentence."
+            "I see the word metro.",
+            "I can read metro.",
+            "Please spell metro."
           ],
-          "example": "I can spell metro."
+          "example": "I see the word metro."
         },
         {
           "id": "w13d1n02",
@@ -11256,11 +11256,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "nurse",
           "examples": [
-            "I can spell nurse.",
-            "Please say nurse again.",
-            "I can use nurse in a sentence."
+            "I see the word nurse.",
+            "I can read nurse.",
+            "Please spell nurse."
           ],
-          "example": "I can spell nurse."
+          "example": "I see the word nurse."
         },
         {
           "id": "w13d1n03",
@@ -11274,11 +11274,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "pencil",
           "examples": [
-            "I can spell pencil.",
-            "Please say pencil again.",
-            "I can use pencil in a sentence."
+            "This is my pencil.",
+            "I put the pencil on the desk.",
+            "Please find the pencil."
           ],
-          "example": "I can spell pencil."
+          "example": "This is my pencil."
         },
         {
           "id": "w13d1n04",
@@ -11288,15 +11288,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "ring",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing",
           "audioText": "ring",
           "examples": [
-            "I can spell ring.",
-            "Please say ring again.",
-            "I can use ring in a sentence."
+            "I see the word ring.",
+            "I can read ring.",
+            "Please spell ring."
           ],
-          "example": "I can spell ring."
+          "example": "I see the word ring."
         },
         {
           "id": "w13d1n05",
@@ -11306,15 +11306,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "share",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "share",
           "examples": [
-            "I can spell share.",
-            "Please say share again.",
-            "I can use share in a sentence."
+            "I can share now.",
+            "Please share with me.",
+            "We share after class."
           ],
-          "example": "I can spell share."
+          "example": "I can share now."
         },
         {
           "id": "w13d1n06",
@@ -11324,15 +11324,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "they",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "they",
           "examples": [
-            "I can spell they.",
-            "Please say they again.",
-            "I can use they in a sentence."
+            "I see the word they.",
+            "I can read they.",
+            "Please spell they."
           ],
-          "example": "I can spell they."
+          "example": "I see the word they."
         },
         {
           "id": "w13d1n07",
@@ -11342,15 +11342,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "what",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "what",
           "examples": [
-            "I can spell what.",
-            "Please say what again.",
-            "I can use what in a sentence."
+            "I see the word what.",
+            "I can read what.",
+            "Please spell what."
           ],
-          "example": "I can spell what."
+          "example": "I see the word what."
         },
         {
           "id": "w13d1n08",
@@ -11364,11 +11364,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | airpl-an-e",
           "audioText": "airplane",
           "examples": [
-            "The word airplane is important in this lesson.",
-            "I can spell airplane slowly.",
-            "I can use airplane in a sentence."
+            "The word airplane is in my spelling list.",
+            "I say airplane slowly and clearly.",
+            "I can learn airplane step by step."
           ],
-          "example": "The word airplane is important in this lesson."
+          "example": "The word airplane is in my spelling list."
         },
         {
           "id": "w13d1n09",
@@ -11382,11 +11382,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ing | build-ing",
           "audioText": "building",
           "examples": [
-            "The word building is important in this lesson.",
-            "I can spell building slowly.",
-            "I can use building in a sentence."
+            "The word building is in my spelling list.",
+            "I say building slowly and clearly.",
+            "I can learn building step by step."
           ],
-          "example": "The word building is important in this lesson."
+          "example": "The word building is in my spelling list."
         },
         {
           "id": "w13d1n10",
@@ -11400,11 +11400,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | classm-at-e",
           "audioText": "classmate",
           "examples": [
-            "The word classmate is important in this lesson.",
-            "I can spell classmate slowly.",
-            "I can use classmate in a sentence."
+            "The word classmate is in my spelling list.",
+            "I say classmate slowly and clearly.",
+            "I can learn classmate step by step."
           ],
-          "example": "The word classmate is important in this lesson."
+          "example": "The word classmate is in my spelling list."
         }
       ]
     },
@@ -11425,11 +11425,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "ant",
           "examples": [
-            "I can spell ant.",
-            "Please say ant again.",
-            "I can use ant in a sentence."
+            "I see the word ant.",
+            "I can read ant.",
+            "Please spell ant."
           ],
-          "example": "I can spell ant."
+          "example": "I see the word ant."
         },
         {
           "id": "w13d2n02",
@@ -11443,11 +11443,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "begin",
           "examples": [
-            "I can spell begin.",
-            "Please say begin again.",
-            "I can use begin in a sentence."
+            "I see the word begin.",
+            "I can read begin.",
+            "Please spell begin."
           ],
-          "example": "I can spell begin."
+          "example": "I see the word begin."
         },
         {
           "id": "w13d2n03",
@@ -11461,11 +11461,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "celery",
           "examples": [
-            "I can spell celery.",
-            "Please say celery again.",
-            "I can use celery in a sentence."
+            "I see the word celery.",
+            "I can read celery.",
+            "Please spell celery."
           ],
-          "example": "I can spell celery."
+          "example": "I see the word celery."
         },
         {
           "id": "w13d2n04",
@@ -11479,11 +11479,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "drink",
           "examples": [
-            "I can spell drink.",
-            "Please say drink again.",
-            "I can use drink in a sentence."
+            "I can drink now.",
+            "Please drink with me.",
+            "We drink after class."
           ],
-          "example": "I can spell drink."
+          "example": "I can drink now."
         },
         {
           "id": "w13d2n05",
@@ -11497,11 +11497,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "eye",
           "examples": [
-            "I can spell eye.",
-            "Please say eye again.",
-            "I can use eye in a sentence."
+            "I see the word eye.",
+            "I can read eye.",
+            "Please spell eye."
           ],
-          "example": "I can spell eye."
+          "example": "I see the word eye."
         },
         {
           "id": "w13d2n06",
@@ -11515,11 +11515,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "fire",
           "examples": [
-            "I can spell fire.",
-            "Please say fire again.",
-            "I can use fire in a sentence."
+            "I see the word fire.",
+            "I can read fire.",
+            "Please spell fire."
           ],
-          "example": "I can spell fire."
+          "example": "I see the word fire."
         },
         {
           "id": "w13d2n07",
@@ -11533,11 +11533,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "great",
           "examples": [
-            "I can spell great.",
-            "Please say great again.",
-            "I can use great in a sentence."
+            "I see the word great.",
+            "I can read great.",
+            "Please spell great."
           ],
-          "example": "I can spell great."
+          "example": "I see the word great."
         },
         {
           "id": "w13d2n08",
@@ -11547,15 +11547,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "denominator",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | den-om-in-at-or",
           "audioText": "denominator",
           "examples": [
-            "The word denominator is important in this lesson.",
-            "I can spell denominator slowly.",
-            "I can use denominator in a sentence."
+            "The word denominator is in my spelling list.",
+            "I say denominator slowly and clearly.",
+            "I can learn denominator step by step."
           ],
-          "example": "The word denominator is important in this lesson."
+          "example": "The word denominator is in my spelling list."
         },
         {
           "id": "w13d2n09",
@@ -11569,11 +11569,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | engl-ish",
           "audioText": "english",
           "examples": [
-            "The word english is important in this lesson.",
-            "I can spell english slowly.",
-            "I can use english in a sentence."
+            "The word english is in my spelling list.",
+            "I say english slowly and clearly.",
+            "I can learn english step by step."
           ],
-          "example": "The word english is important in this lesson."
+          "example": "The word english is in my spelling list."
         },
         {
           "id": "w13d2n10",
@@ -11583,15 +11583,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "foreign",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | for-eign",
           "audioText": "foreign",
           "examples": [
-            "The word foreign is important in this lesson.",
-            "I can spell foreign slowly.",
-            "I can use foreign in a sentence."
+            "The word foreign is in my spelling list.",
+            "I say foreign slowly and clearly.",
+            "I can learn foreign step by step."
           ],
-          "example": "The word foreign is important in this lesson."
+          "example": "The word foreign is in my spelling list."
         }
       ]
     },
@@ -11612,11 +11612,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hill",
           "examples": [
-            "I can spell hill.",
-            "Please say hill again.",
-            "I can use hill in a sentence."
+            "I see the word hill.",
+            "I can read hill.",
+            "Please spell hill."
           ],
-          "example": "I can spell hill."
+          "example": "I see the word hill."
         },
         {
           "id": "w13d3n02",
@@ -11626,15 +11626,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "lily",
           "level": "basic",
-          "cn": "",
+          "cn": "……地；……的",
           "pattern": "后缀 -ly",
           "audioText": "lily",
           "examples": [
-            "I can spell lily.",
-            "Please say lily again.",
-            "I can use lily in a sentence."
+            "I see the word lily.",
+            "I can read lily.",
+            "Please spell lily."
           ],
-          "example": "I can spell lily."
+          "example": "I see the word lily."
         },
         {
           "id": "w13d3n03",
@@ -11644,15 +11644,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "might",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "might",
           "examples": [
-            "I can spell might.",
-            "Please say might again.",
-            "I can use might in a sentence."
+            "I see the word might.",
+            "I can read might.",
+            "Please spell might."
           ],
-          "example": "I can spell might."
+          "example": "I see the word might."
         },
         {
           "id": "w13d3n04",
@@ -11662,15 +11662,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "penny",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "penny",
           "examples": [
-            "I can spell penny.",
-            "Please say penny again.",
-            "I can use penny in a sentence."
+            "I see the word penny.",
+            "I can read penny.",
+            "Please spell penny."
           ],
-          "example": "I can spell penny."
+          "example": "I see the word penny."
         },
         {
           "id": "w13d3n05",
@@ -11680,15 +11680,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "rip",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rip",
           "examples": [
-            "I can spell rip.",
-            "Please say rip again.",
-            "I can use rip in a sentence."
+            "I see the word rip.",
+            "I can read rip.",
+            "Please spell rip."
           ],
-          "example": "I can spell rip."
+          "example": "I see the word rip."
         },
         {
           "id": "w13d3n06",
@@ -11698,15 +11698,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "shark",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shark",
           "examples": [
-            "I can spell shark.",
-            "Please say shark again.",
-            "I can use shark in a sentence."
+            "I see a shark at the zoo.",
+            "The shark is in my picture.",
+            "The shark can move fast."
           ],
-          "example": "I can spell shark."
+          "example": "I see a shark at the zoo."
         },
         {
           "id": "w13d3n07",
@@ -11716,15 +11716,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "thicken",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | thick-en",
           "audioText": "thicken",
           "examples": [
-            "I can spell thicken.",
-            "Please say thicken again.",
-            "I can use thicken in a sentence."
+            "I see the word thicken.",
+            "I can read thicken.",
+            "Please spell thicken."
           ],
-          "example": "I can spell thicken."
+          "example": "I see the word thicken."
         },
         {
           "id": "w13d3n08",
@@ -11734,15 +11734,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "grocery",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | groc-er-y",
           "audioText": "grocery",
           "examples": [
-            "The word grocery is important in this lesson.",
-            "I can spell grocery slowly.",
-            "I can use grocery in a sentence."
+            "The word grocery is in my spelling list.",
+            "I say grocery slowly and clearly.",
+            "I can learn grocery step by step."
           ],
-          "example": "The word grocery is important in this lesson."
+          "example": "The word grocery is in my spelling list."
         },
         {
           "id": "w13d3n09",
@@ -11752,15 +11752,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "industry",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | ind-ustr-y",
           "audioText": "industry",
           "examples": [
-            "The word industry is important in this lesson.",
-            "I can spell industry slowly.",
-            "I can use industry in a sentence."
+            "The word industry is in my spelling list.",
+            "I say industry slowly and clearly.",
+            "I can learn industry step by step."
           ],
-          "example": "The word industry is important in this lesson."
+          "example": "The word industry is in my spelling list."
         },
         {
           "id": "w13d3n10",
@@ -11770,15 +11770,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "microwave",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | micr-ow-av-e",
           "audioText": "microwave",
           "examples": [
-            "The word microwave is important in this lesson.",
-            "I can spell microwave slowly.",
-            "I can use microwave in a sentence."
+            "The word microwave is in my spelling list.",
+            "I say microwave slowly and clearly.",
+            "I can learn microwave step by step."
           ],
-          "example": "The word microwave is important in this lesson."
+          "example": "The word microwave is in my spelling list."
         }
       ]
     },
@@ -11795,15 +11795,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "where",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "where",
           "examples": [
-            "I can spell where.",
-            "Please say where again.",
-            "I can use where in a sentence."
+            "I see the word where.",
+            "I can read where.",
+            "Please spell where."
           ],
-          "example": "I can spell where."
+          "example": "I see the word where."
         },
         {
           "id": "w13d4n02",
@@ -11813,15 +11813,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "anyone",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "anyone",
           "examples": [
-            "I can spell anyone.",
-            "Please say anyone again.",
-            "I can use anyone in a sentence."
+            "I see the word anyone.",
+            "I can read anyone.",
+            "Please spell anyone."
           ],
-          "example": "I can spell anyone."
+          "example": "I see the word anyone."
         },
         {
           "id": "w13d4n03",
@@ -11835,11 +11835,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | bel-iev-e",
           "audioText": "believe",
           "examples": [
-            "I can spell believe.",
-            "Please say believe again.",
-            "I can use believe in a sentence."
+            "I see the word believe.",
+            "I can read believe.",
+            "Please spell believe."
           ],
-          "example": "I can spell believe."
+          "example": "I see the word believe."
         },
         {
           "id": "w13d4n04",
@@ -11849,15 +11849,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cent",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cent",
           "examples": [
-            "I can spell cent.",
-            "Please say cent again.",
-            "I can use cent in a sentence."
+            "I see the word cent.",
+            "I can read cent.",
+            "Please spell cent."
           ],
-          "example": "I can spell cent."
+          "example": "I see the word cent."
         },
         {
           "id": "w13d4n05",
@@ -11867,15 +11867,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "driver",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | driv-er",
           "audioText": "driver",
           "examples": [
-            "I can spell driver.",
-            "Please say driver again.",
-            "I can use driver in a sentence."
+            "I see the word driver.",
+            "I can read driver.",
+            "Please spell driver."
           ],
-          "example": "I can spell driver."
+          "example": "I see the word driver."
         },
         {
           "id": "w13d4n06",
@@ -11885,15 +11885,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "fireman",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | fir-em-an",
           "audioText": "fireman",
           "examples": [
-            "I can spell fireman.",
-            "Please say fireman again.",
-            "I can use fireman in a sentence."
+            "I see the word fireman.",
+            "I can read fireman.",
+            "Please spell fireman."
           ],
-          "example": "I can spell fireman."
+          "example": "I see the word fireman."
         },
         {
           "id": "w13d4n07",
@@ -11907,11 +11907,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "green",
           "examples": [
-            "I can spell green.",
-            "Please say green again.",
-            "I can use green in a sentence."
+            "The flower is green.",
+            "I use a green pencil.",
+            "What is green in your room?"
           ],
-          "example": "I can spell green."
+          "example": "The flower is green."
         },
         {
           "id": "w13d4n08",
@@ -11921,15 +11921,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "outline",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | outl-in-e",
           "audioText": "outline",
           "examples": [
-            "The word outline is important in this lesson.",
-            "I can spell outline slowly.",
-            "I can use outline in a sentence."
+            "The word outline is in my spelling list.",
+            "I say outline slowly and clearly.",
+            "I can learn outline step by step."
           ],
-          "example": "The word outline is important in this lesson."
+          "example": "The word outline is in my spelling list."
         },
         {
           "id": "w13d4n09",
@@ -11939,15 +11939,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "period",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "period",
           "examples": [
-            "The word period is important in this lesson.",
-            "I can spell period slowly.",
-            "I can use period in a sentence."
+            "The word period is in my spelling list.",
+            "I say period slowly and clearly.",
+            "I can learn period step by step."
           ],
-          "example": "The word period is important in this lesson."
+          "example": "The word period is in my spelling list."
         },
         {
           "id": "w13d4n10",
@@ -11957,15 +11957,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "recommend",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | rec-omm-end",
           "audioText": "recommend",
           "examples": [
-            "The word recommend is important in this lesson.",
-            "I can spell recommend slowly.",
-            "I can use recommend in a sentence."
+            "I can recommend now.",
+            "Please recommend with me.",
+            "We recommend after class."
           ],
-          "example": "The word recommend is important in this lesson."
+          "example": "I can recommend now."
         }
       ]
     },
@@ -11982,15 +11982,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "himself",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | hims-elf",
           "audioText": "himself",
           "examples": [
-            "I can spell himself.",
-            "Please say himself again.",
-            "I can use himself in a sentence."
+            "I see the word himself.",
+            "I can read himself.",
+            "Please spell himself."
           ],
-          "example": "I can spell himself."
+          "example": "I see the word himself."
         },
         {
           "id": "w13d5n02",
@@ -12000,15 +12000,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "lime",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "lime",
           "examples": [
-            "I can spell lime.",
-            "Please say lime again.",
-            "I can use lime in a sentence."
+            "I see the word lime.",
+            "I can read lime.",
+            "Please spell lime."
           ],
-          "example": "I can spell lime."
+          "example": "I see the word lime."
         },
         {
           "id": "w13d5n03",
@@ -12022,11 +12022,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "milk",
           "examples": [
-            "I can spell milk.",
-            "Please say milk again.",
-            "I can use milk in a sentence."
+            "I eat milk for lunch.",
+            "The milk is on the table.",
+            "Do you like milk?"
           ],
-          "example": "I can spell milk."
+          "example": "I eat milk for lunch."
         },
         {
           "id": "w13d5n04",
@@ -12040,11 +12040,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "people",
           "examples": [
-            "I can spell people.",
-            "Please say people again.",
-            "I can use people in a sentence."
+            "I see the word people.",
+            "I can read people.",
+            "Please spell people."
           ],
-          "example": "I can spell people."
+          "example": "I see the word people."
         },
         {
           "id": "w13d5n05",
@@ -12054,15 +12054,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "ripe",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "ripe",
           "examples": [
-            "I can spell ripe.",
-            "Please say ripe again.",
-            "I can use ripe in a sentence."
+            "I see the word ripe.",
+            "I can read ripe.",
+            "Please spell ripe."
           ],
-          "example": "I can spell ripe."
+          "example": "I see the word ripe."
         },
         {
           "id": "w13d5n06",
@@ -12072,15 +12072,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "she",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "she",
           "examples": [
-            "I can spell she.",
-            "Please say she again.",
-            "I can use she in a sentence."
+            "I see the word she.",
+            "I can read she.",
+            "Please spell she."
           ],
-          "example": "I can spell she."
+          "example": "I see the word she."
         },
         {
           "id": "w13d5n07",
@@ -12090,15 +12090,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "thin",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "thin",
           "examples": [
-            "I can spell thin.",
-            "Please say thin again.",
-            "I can use thin in a sentence."
+            "I see the word thin.",
+            "I can read thin.",
+            "Please spell thin."
           ],
-          "example": "I can spell thin."
+          "example": "I see the word thin."
         },
         {
           "id": "w13d5n08",
@@ -12108,15 +12108,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "semantic",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | sem-ant-ic",
           "audioText": "semantic",
           "examples": [
-            "The word semantic is important in this lesson.",
-            "I can spell semantic slowly.",
-            "I can use semantic in a sentence."
+            "The word semantic is in my spelling list.",
+            "I say semantic slowly and clearly.",
+            "I can learn semantic step by step."
           ],
-          "example": "The word semantic is important in this lesson."
+          "example": "The word semantic is in my spelling list."
         },
         {
           "id": "w13d5n09",
@@ -12126,15 +12126,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "thirteen",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | thirt-een",
           "audioText": "thirteen",
           "examples": [
-            "The word thirteen is important in this lesson.",
-            "I can spell thirteen slowly.",
-            "I can use thirteen in a sentence."
+            "I can count to thirteen.",
+            "The answer is thirteen.",
+            "Please write thirteen."
           ],
-          "example": "The word thirteen is important in this lesson."
+          "example": "I can count to thirteen."
         },
         {
           "id": "w13d5n10",
@@ -12144,15 +12144,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "although",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母 | alth-ough",
           "audioText": "although",
           "examples": [
-            "The word although is important in this lesson.",
-            "I can spell although slowly.",
-            "I can use although in a sentence."
+            "The word although is in my spelling list.",
+            "I say although slowly and clearly.",
+            "I can learn although step by step."
           ],
-          "example": "The word although is important in this lesson."
+          "example": "The word although is in my spelling list."
         }
       ]
     },
@@ -12169,15 +12169,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "while",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "while",
           "examples": [
-            "I can spell while.",
-            "Please say while again.",
-            "I can use while in a sentence."
+            "I see the word while.",
+            "I can read while.",
+            "Please spell while."
           ],
-          "example": "I can spell while."
+          "example": "I see the word while."
         },
         {
           "id": "w14d1n02",
@@ -12191,11 +12191,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "appear",
           "examples": [
-            "I can spell appear.",
-            "Please say appear again.",
-            "I can use appear in a sentence."
+            "I see the word appear.",
+            "I can read appear.",
+            "Please spell appear."
           ],
-          "example": "I can spell appear."
+          "example": "I see the word appear."
         },
         {
           "id": "w14d1n03",
@@ -12205,15 +12205,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "blood",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "blood",
           "examples": [
-            "I can spell blood.",
-            "Please say blood again.",
-            "I can use blood in a sentence."
+            "I see the word blood.",
+            "I can read blood.",
+            "Please spell blood."
           ],
-          "example": "I can spell blood."
+          "example": "I see the word blood."
         },
         {
           "id": "w14d1n04",
@@ -12223,15 +12223,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cereal",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "cereal",
           "examples": [
-            "I can spell cereal.",
-            "Please say cereal again.",
-            "I can use cereal in a sentence."
+            "I see the word cereal.",
+            "I can read cereal.",
+            "Please spell cereal."
           ],
-          "example": "I can spell cereal."
+          "example": "I see the word cereal."
         },
         {
           "id": "w14d1n05",
@@ -12241,15 +12241,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "drop",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "drop",
           "examples": [
-            "I can spell drop.",
-            "Please say drop again.",
-            "I can use drop in a sentence."
+            "I see the word drop.",
+            "I can read drop.",
+            "Please spell drop."
           ],
-          "example": "I can spell drop."
+          "example": "I see the word drop."
         },
         {
           "id": "w14d1n06",
@@ -12259,15 +12259,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "first",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "first",
           "examples": [
-            "I can spell first.",
-            "Please say first again.",
-            "I can use first in a sentence."
+            "I see the word first.",
+            "I can read first.",
+            "Please spell first."
           ],
-          "example": "I can spell first."
+          "example": "I see the word first."
         },
         {
           "id": "w14d1n07",
@@ -12281,11 +12281,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "group",
           "examples": [
-            "I can spell group.",
-            "Please say group again.",
-            "I can use group in a sentence."
+            "I see the word group.",
+            "I can read group.",
+            "Please spell group."
           ],
-          "example": "I can spell group."
+          "example": "I see the word group."
         },
         {
           "id": "w14d1n08",
@@ -12295,15 +12295,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "bulletin",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | bull-et-in",
           "audioText": "bulletin",
           "examples": [
-            "The word bulletin is important in this lesson.",
-            "I can spell bulletin slowly.",
-            "I can use bulletin in a sentence."
+            "The word bulletin is in my spelling list.",
+            "I say bulletin slowly and clearly.",
+            "I can learn bulletin step by step."
           ],
-          "example": "The word bulletin is important in this lesson."
+          "example": "The word bulletin is in my spelling list."
         },
         {
           "id": "w14d1n09",
@@ -12317,11 +12317,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | classr-oom",
           "audioText": "classroom",
           "examples": [
-            "The word classroom is important in this lesson.",
-            "I can spell classroom slowly.",
-            "I can use classroom in a sentence."
+            "I go to the classroom.",
+            "The classroom is near my home.",
+            "We talk about the classroom."
           ],
-          "example": "The word classroom is important in this lesson."
+          "example": "I go to the classroom."
         },
         {
           "id": "w14d1n10",
@@ -12331,15 +12331,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "describe",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | descr-ib-e",
           "audioText": "describe",
           "examples": [
-            "The word describe is important in this lesson.",
-            "I can spell describe slowly.",
-            "I can use describe in a sentence."
+            "The word describe is in my spelling list.",
+            "I say describe slowly and clearly.",
+            "I can learn describe step by step."
           ],
-          "example": "The word describe is important in this lesson."
+          "example": "The word describe is in my spelling list."
         }
       ]
     },
@@ -12356,15 +12356,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "hind",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hind",
           "examples": [
-            "I can spell hind.",
-            "Please say hind again.",
-            "I can use hind in a sentence."
+            "I see the word hind.",
+            "I can read hind.",
+            "Please spell hind."
           ],
-          "example": "I can spell hind."
+          "example": "I see the word hind."
         },
         {
           "id": "w14d2n02",
@@ -12374,15 +12374,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "line",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "line",
           "examples": [
-            "I can spell line.",
-            "Please say line again.",
-            "I can use line in a sentence."
+            "I see the word line.",
+            "I can read line.",
+            "Please spell line."
           ],
-          "example": "I can spell line."
+          "example": "I see the word line."
         },
         {
           "id": "w14d2n03",
@@ -12392,15 +12392,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "milkman",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | milkm-an",
           "audioText": "milkman",
           "examples": [
-            "I can spell milkman.",
-            "Please say milkman again.",
-            "I can use milkman in a sentence."
+            "I see the word milkman.",
+            "I can read milkman.",
+            "Please spell milkman."
           ],
-          "example": "I can spell milkman."
+          "example": "I see the word milkman."
         },
         {
           "id": "w14d2n04",
@@ -12410,15 +12410,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "pet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pet",
           "examples": [
-            "I can spell pet.",
-            "Please say pet again.",
-            "I can use pet in a sentence."
+            "I see the word pet.",
+            "I can read pet.",
+            "Please spell pet."
           ],
-          "example": "I can spell pet."
+          "example": "I see the word pet."
         },
         {
           "id": "w14d2n05",
@@ -12432,11 +12432,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "road",
           "examples": [
-            "I can spell road.",
-            "Please say road again.",
-            "I can use road in a sentence."
+            "I see the word road.",
+            "I can read road.",
+            "Please spell road."
           ],
-          "example": "I can spell road."
+          "example": "I see the word road."
         },
         {
           "id": "w14d2n06",
@@ -12450,11 +12450,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "sheep",
           "examples": [
-            "I can spell sheep.",
-            "Please say sheep again.",
-            "I can use sheep in a sentence."
+            "I see a sheep at the zoo.",
+            "The sheep is in my picture.",
+            "The sheep can move fast."
           ],
-          "example": "I can spell sheep."
+          "example": "I see a sheep at the zoo."
         },
         {
           "id": "w14d2n07",
@@ -12464,15 +12464,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "thirty",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "thirty",
           "examples": [
-            "I can spell thirty.",
-            "Please say thirty again.",
-            "I can use thirty in a sentence."
+            "I can count to thirty.",
+            "The answer is thirty.",
+            "Please write thirty."
           ],
-          "example": "I can spell thirty."
+          "example": "I can count to thirty."
         },
         {
           "id": "w14d2n08",
@@ -12482,15 +12482,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "envelope",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | env-el-op-e",
           "audioText": "envelope",
           "examples": [
-            "The word envelope is important in this lesson.",
-            "I can spell envelope slowly.",
-            "I can use envelope in a sentence."
+            "The word envelope is in my spelling list.",
+            "I say envelope slowly and clearly.",
+            "I can learn envelope step by step."
           ],
-          "example": "The word envelope is important in this lesson."
+          "example": "The word envelope is in my spelling list."
         },
         {
           "id": "w14d2n09",
@@ -12500,15 +12500,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "foreseeable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | foresee-able",
           "audioText": "foreseeable",
           "examples": [
-            "The word foreseeable is important in this lesson.",
-            "I can spell foreseeable slowly.",
-            "I can use foreseeable in a sentence."
+            "The word foreseeable is in my spelling list.",
+            "I say foreseeable slowly and clearly.",
+            "I can learn foreseeable step by step."
           ],
-          "example": "The word foreseeable is important in this lesson."
+          "example": "The word foreseeable is in my spelling list."
         },
         {
           "id": "w14d2n10",
@@ -12518,15 +12518,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "information",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | informa-tion",
           "audioText": "information",
           "examples": [
-            "The word information is important in this lesson.",
-            "I can spell information slowly.",
-            "I can use information in a sentence."
+            "The word information is in my spelling list.",
+            "I say information slowly and clearly.",
+            "I can learn information step by step."
           ],
-          "example": "The word information is important in this lesson."
+          "example": "The word information is in my spelling list."
         }
       ]
     },
@@ -12547,11 +12547,11 @@ window.YUMI_COURSE = {
           "pattern": "易错/静音字母",
           "audioText": "white",
           "examples": [
-            "I can spell white.",
-            "Please say white again.",
-            "I can use white in a sentence."
+            "The flower is white.",
+            "I use a white pencil.",
+            "What is white in your room?"
           ],
-          "example": "I can spell white."
+          "example": "The flower is white."
         },
         {
           "id": "w14d3n02",
@@ -12565,11 +12565,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "apple",
           "examples": [
-            "I can spell apple.",
-            "Please say apple again.",
-            "I can use apple in a sentence."
+            "I see the word apple.",
+            "I can read apple.",
+            "Please spell apple."
           ],
-          "example": "I can spell apple."
+          "example": "I see the word apple."
         },
         {
           "id": "w14d3n03",
@@ -12579,15 +12579,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "blouse",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "blouse",
           "examples": [
-            "I can spell blouse.",
-            "Please say blouse again.",
-            "I can use blouse in a sentence."
+            "I see the word blouse.",
+            "I can read blouse.",
+            "Please spell blouse."
           ],
-          "example": "I can spell blouse."
+          "example": "I see the word blouse."
         },
         {
           "id": "w14d3n04",
@@ -12597,15 +12597,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "certain",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | cert-ain",
           "audioText": "certain",
           "examples": [
-            "I can spell certain.",
-            "Please say certain again.",
-            "I can use certain in a sentence."
+            "I see the word certain.",
+            "I can read certain.",
+            "Please spell certain."
           ],
-          "example": "I can spell certain."
+          "example": "I see the word certain."
         },
         {
           "id": "w14d3n05",
@@ -12615,15 +12615,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "drug",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "drug",
           "examples": [
-            "I can spell drug.",
-            "Please say drug again.",
-            "I can use drug in a sentence."
+            "I see the word drug.",
+            "I can read drug.",
+            "Please spell drug."
           ],
-          "example": "I can spell drug."
+          "example": "I see the word drug."
         },
         {
           "id": "w14d3n06",
@@ -12637,11 +12637,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "fish",
           "examples": [
-            "I can spell fish.",
-            "Please say fish again.",
-            "I can use fish in a sentence."
+            "I see a fish at the zoo.",
+            "The fish is in my picture.",
+            "The fish can move fast."
           ],
-          "example": "I can spell fish."
+          "example": "I see a fish at the zoo."
         },
         {
           "id": "w14d3n07",
@@ -12651,15 +12651,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "guess",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "guess",
           "examples": [
-            "I can spell guess.",
-            "Please say guess again.",
-            "I can use guess in a sentence."
+            "I see the word guess.",
+            "I can read guess.",
+            "Please spell guess."
           ],
-          "example": "I can spell guess."
+          "example": "I see the word guess."
         },
         {
           "id": "w14d3n08",
@@ -12669,15 +12669,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "midnight",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母 | midn-ight",
           "audioText": "midnight",
           "examples": [
-            "The word midnight is important in this lesson.",
-            "I can spell midnight slowly.",
-            "I can use midnight in a sentence."
+            "The word midnight is in my spelling list.",
+            "I say midnight slowly and clearly.",
+            "I can learn midnight step by step."
           ],
-          "example": "The word midnight is important in this lesson."
+          "example": "The word midnight is in my spelling list."
         },
         {
           "id": "w14d3n09",
@@ -12687,15 +12687,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "overlie",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | ov-erl-ie",
           "audioText": "overlie",
           "examples": [
-            "The word overlie is important in this lesson.",
-            "I can spell overlie slowly.",
-            "I can use overlie in a sentence."
+            "The word overlie is in my spelling list.",
+            "I say overlie slowly and clearly.",
+            "I can learn overlie step by step."
           ],
-          "example": "The word overlie is important in this lesson."
+          "example": "The word overlie is in my spelling list."
         },
         {
           "id": "w14d3n10",
@@ -12705,15 +12705,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "permit",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "permit",
           "examples": [
-            "The word permit is important in this lesson.",
-            "I can spell permit slowly.",
-            "I can use permit in a sentence."
+            "The word permit is in my spelling list.",
+            "I say permit slowly and clearly.",
+            "I can learn permit step by step."
           ],
-          "example": "The word permit is important in this lesson."
+          "example": "The word permit is in my spelling list."
         }
       ]
     },
@@ -12734,11 +12734,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hippo",
           "examples": [
-            "I can spell hippo.",
-            "Please say hippo again.",
-            "I can use hippo in a sentence."
+            "I see the word hippo.",
+            "I can read hippo.",
+            "Please spell hippo."
           ],
-          "example": "I can spell hippo."
+          "example": "I see the word hippo."
         },
         {
           "id": "w14d4n02",
@@ -12752,11 +12752,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "lion",
           "examples": [
-            "I can spell lion.",
-            "Please say lion again.",
-            "I can use lion in a sentence."
+            "I see a lion at the zoo.",
+            "The lion is in my picture.",
+            "The lion can move fast."
           ],
-          "example": "I can spell lion."
+          "example": "I see a lion at the zoo."
         },
         {
           "id": "w14d4n03",
@@ -12766,15 +12766,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "mind",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mind",
           "examples": [
-            "I can spell mind.",
-            "Please say mind again.",
-            "I can use mind in a sentence."
+            "I see the word mind.",
+            "I can read mind.",
+            "Please spell mind."
           ],
-          "example": "I can spell mind."
+          "example": "I see the word mind."
         },
         {
           "id": "w14d4n04",
@@ -12788,11 +12788,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "phone",
           "examples": [
-            "I can spell phone.",
-            "Please say phone again.",
-            "I can use phone in a sentence."
+            "This is my phone.",
+            "I put the phone on the desk.",
+            "Please find the phone."
           ],
-          "example": "I can spell phone."
+          "example": "This is my phone."
         },
         {
           "id": "w14d4n05",
@@ -12802,15 +12802,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "roar",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "roar",
           "examples": [
-            "I can spell roar.",
-            "Please say roar again.",
-            "I can use roar in a sentence."
+            "I see the word roar.",
+            "I can read roar.",
+            "Please spell roar."
           ],
-          "example": "I can spell roar."
+          "example": "I see the word roar."
         },
         {
           "id": "w14d4n06",
@@ -12820,15 +12820,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "shelf",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shelf",
           "examples": [
-            "I can spell shelf.",
-            "Please say shelf again.",
-            "I can use shelf in a sentence."
+            "I see the word shelf.",
+            "I can read shelf.",
+            "Please spell shelf."
           ],
-          "example": "I can spell shelf."
+          "example": "I see the word shelf."
         },
         {
           "id": "w14d4n07",
@@ -12838,15 +12838,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "this",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "this",
           "examples": [
-            "I can spell this.",
-            "Please say this again.",
-            "I can use this in a sentence."
+            "I see the word this.",
+            "I can read this.",
+            "Please spell this."
           ],
-          "example": "I can spell this."
+          "example": "I see the word this."
         },
         {
           "id": "w14d4n08",
@@ -12856,15 +12856,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "recover",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | recov-er",
           "audioText": "recover",
           "examples": [
-            "The word recover is important in this lesson.",
-            "I can spell recover slowly.",
-            "I can use recover in a sentence."
+            "I can recover now.",
+            "Please recover with me.",
+            "We recover after class."
           ],
-          "example": "The word recover is important in this lesson."
+          "example": "I can recover now."
         },
         {
           "id": "w14d4n09",
@@ -12874,15 +12874,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "senate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "senate",
           "examples": [
-            "The word senate is important in this lesson.",
-            "I can spell senate slowly.",
-            "I can use senate in a sentence."
+            "The word senate is in my spelling list.",
+            "I say senate slowly and clearly.",
+            "I can learn senate step by step."
           ],
-          "example": "The word senate is important in this lesson."
+          "example": "The word senate is in my spelling list."
         },
         {
           "id": "w14d4n10",
@@ -12892,15 +12892,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "thoughtful",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | thought-ful",
           "audioText": "thoughtful",
           "examples": [
-            "The word thoughtful is important in this lesson.",
-            "I can spell thoughtful slowly.",
-            "I can use thoughtful in a sentence."
+            "The word thoughtful is in my spelling list.",
+            "I say thoughtful slowly and clearly.",
+            "I can learn thoughtful step by step."
           ],
-          "example": "The word thoughtful is important in this lesson."
+          "example": "The word thoughtful is in my spelling list."
         }
       ]
     },
@@ -12917,15 +12917,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "who",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "who",
           "examples": [
-            "I can spell who.",
-            "Please say who again.",
-            "I can use who in a sentence."
+            "I see the word who.",
+            "I can read who.",
+            "Please spell who."
           ],
-          "example": "I can spell who."
+          "example": "I see the word who."
         },
         {
           "id": "w14d5n02",
@@ -12935,15 +12935,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "area",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "area",
           "examples": [
-            "I can spell area.",
-            "Please say area again.",
-            "I can use area in a sentence."
+            "I see the word area.",
+            "I can read area.",
+            "Please spell area."
           ],
-          "example": "I can spell area."
+          "example": "I see the word area."
         },
         {
           "id": "w14d5n03",
@@ -12953,15 +12953,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "better",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | bett-er",
           "audioText": "better",
           "examples": [
-            "I can spell better.",
-            "Please say better again.",
-            "I can use better in a sentence."
+            "I see the word better.",
+            "I can read better.",
+            "Please spell better."
           ],
-          "example": "I can spell better."
+          "example": "I see the word better."
         },
         {
           "id": "w14d5n04",
@@ -12975,11 +12975,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "chair",
           "examples": [
-            "I can spell chair.",
-            "Please say chair again.",
-            "I can use chair in a sentence."
+            "This is my chair.",
+            "I put the chair on the desk.",
+            "Please find the chair."
           ],
-          "example": "I can spell chair."
+          "example": "This is my chair."
         },
         {
           "id": "w14d5n05",
@@ -12989,15 +12989,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "drum",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "drum",
           "examples": [
-            "I can spell drum.",
-            "Please say drum again.",
-            "I can use drum in a sentence."
+            "I see the word drum.",
+            "I can read drum.",
+            "Please spell drum."
           ],
-          "example": "I can spell drum."
+          "example": "I see the word drum."
         },
         {
           "id": "w14d5n06",
@@ -13011,11 +13011,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "flag",
           "examples": [
-            "I can spell flag.",
-            "Please say flag again.",
-            "I can use flag in a sentence."
+            "I see the word flag.",
+            "I can read flag.",
+            "Please spell flag."
           ],
-          "example": "I can spell flag."
+          "example": "I see the word flag."
         },
         {
           "id": "w14d5n07",
@@ -13029,11 +13029,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "gum",
           "examples": [
-            "I can spell gum.",
-            "Please say gum again.",
-            "I can use gum in a sentence."
+            "I see the word gum.",
+            "I can read gum.",
+            "Please spell gum."
           ],
-          "example": "I can spell gum."
+          "example": "I see the word gum."
         },
         {
           "id": "w14d5n08",
@@ -13043,15 +13043,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "amateur",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | am-at-eur",
           "audioText": "amateur",
           "examples": [
-            "The word amateur is important in this lesson.",
-            "I can spell amateur slowly.",
-            "I can use amateur in a sentence."
+            "The word amateur is in my spelling list.",
+            "I say amateur slowly and clearly.",
+            "I can learn amateur step by step."
           ],
-          "example": "The word amateur is important in this lesson."
+          "example": "The word amateur is in my spelling list."
         },
         {
           "id": "w14d5n09",
@@ -13061,15 +13061,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "burglar",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | burgl-ar",
           "audioText": "burglar",
           "examples": [
-            "The word burglar is important in this lesson.",
-            "I can spell burglar slowly.",
-            "I can use burglar in a sentence."
+            "The word burglar is in my spelling list.",
+            "I say burglar slowly and clearly.",
+            "I can learn burglar step by step."
           ],
-          "example": "The word burglar is important in this lesson."
+          "example": "The word burglar is in my spelling list."
         },
         {
           "id": "w14d5n10",
@@ -13079,15 +13079,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "clerical",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | cler-ic-al",
           "audioText": "clerical",
           "examples": [
-            "The word clerical is important in this lesson.",
-            "I can spell clerical slowly.",
-            "I can use clerical in a sentence."
+            "The word clerical is in my spelling list.",
+            "I say clerical slowly and clearly.",
+            "I can learn clerical step by step."
           ],
-          "example": "The word clerical is important in this lesson."
+          "example": "The word clerical is in my spelling list."
         }
       ]
     },
@@ -13104,15 +13104,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "his",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "his",
           "examples": [
-            "I can spell his.",
-            "Please say his again.",
-            "I can use his in a sentence."
+            "I see the word his.",
+            "I can read his.",
+            "Please spell his."
           ],
-          "example": "I can spell his."
+          "example": "I see the word his."
         },
         {
           "id": "w15d1n02",
@@ -13126,11 +13126,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "little",
           "examples": [
-            "I can spell little.",
-            "Please say little again.",
-            "I can use little in a sentence."
+            "I see the word little.",
+            "I can read little.",
+            "Please spell little."
           ],
-          "example": "I can spell little."
+          "example": "I see the word little."
         },
         {
           "id": "w15d1n03",
@@ -13140,15 +13140,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "mine",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mine",
           "examples": [
-            "I can spell mine.",
-            "Please say mine again.",
-            "I can use mine in a sentence."
+            "I see the word mine.",
+            "I can read mine.",
+            "Please spell mine."
           ],
-          "example": "I can spell mine."
+          "example": "I see the word mine."
         },
         {
           "id": "w15d1n04",
@@ -13162,11 +13162,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "pig",
           "examples": [
-            "I can spell pig.",
-            "Please say pig again.",
-            "I can use pig in a sentence."
+            "I see a pig at the zoo.",
+            "The pig is in my picture.",
+            "The pig can move fast."
           ],
-          "example": "I can spell pig."
+          "example": "I see a pig at the zoo."
         },
         {
           "id": "w15d1n05",
@@ -13180,11 +13180,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "rocket",
           "examples": [
-            "I can spell rocket.",
-            "Please say rocket again.",
-            "I can use rocket in a sentence."
+            "I see the word rocket.",
+            "I can read rocket.",
+            "Please spell rocket."
           ],
-          "example": "I can spell rocket."
+          "example": "I see the word rocket."
         },
         {
           "id": "w15d1n06",
@@ -13194,15 +13194,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "shell",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shell",
           "examples": [
-            "I can spell shell.",
-            "Please say shell again.",
-            "I can use shell in a sentence."
+            "I see the word shell.",
+            "I can read shell.",
+            "Please spell shell."
           ],
-          "example": "I can spell shell."
+          "example": "I see the word shell."
         },
         {
           "id": "w15d1n07",
@@ -13212,15 +13212,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "thorn",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "thorn",
           "examples": [
-            "I can spell thorn.",
-            "Please say thorn again.",
-            "I can use thorn in a sentence."
+            "I see the word thorn.",
+            "I can read thorn.",
+            "Please spell thorn."
           ],
-          "example": "I can spell thorn."
+          "example": "I see the word thorn."
         },
         {
           "id": "w15d1n08",
@@ -13230,15 +13230,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "deserted",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | des-ert-ed",
           "audioText": "deserted",
           "examples": [
-            "The word deserted is important in this lesson.",
-            "I can spell deserted slowly.",
-            "I can use deserted in a sentence."
+            "The word deserted is in my spelling list.",
+            "I say deserted slowly and clearly.",
+            "I can learn deserted step by step."
           ],
-          "example": "The word deserted is important in this lesson."
+          "example": "The word deserted is in my spelling list."
         },
         {
           "id": "w15d1n09",
@@ -13248,15 +13248,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "environmental",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | env-ir-onm-ent-al",
           "audioText": "environmental",
           "examples": [
-            "The word environmental is important in this lesson.",
-            "I can spell environmental slowly.",
-            "I can use environmental in a sentence."
+            "The word environmental is in my spelling list.",
+            "I say environmental slowly and clearly.",
+            "I can learn environmental step by step."
           ],
-          "example": "The word environmental is important in this lesson."
+          "example": "The word environmental is in my spelling list."
         },
         {
           "id": "w15d1n10",
@@ -13266,15 +13266,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "formality",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | form-al-it-y",
           "audioText": "formality",
           "examples": [
-            "The word formality is important in this lesson.",
-            "I can spell formality slowly.",
-            "I can use formality in a sentence."
+            "The word formality is in my spelling list.",
+            "I say formality slowly and clearly.",
+            "I can learn formality step by step."
           ],
-          "example": "The word formality is important in this lesson."
+          "example": "The word formality is in my spelling list."
         }
       ]
     },
@@ -13291,15 +13291,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "whose",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "whose",
           "examples": [
-            "I can spell whose.",
-            "Please say whose again.",
-            "I can use whose in a sentence."
+            "I see the word whose.",
+            "I can read whose.",
+            "Please spell whose."
           ],
-          "example": "I can spell whose."
+          "example": "I see the word whose."
         },
         {
           "id": "w15d2n02",
@@ -13309,15 +13309,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "argue",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "argue",
           "examples": [
-            "I can spell argue.",
-            "Please say argue again.",
-            "I can use argue in a sentence."
+            "I see the word argue.",
+            "I can read argue.",
+            "Please spell argue."
           ],
-          "example": "I can spell argue."
+          "example": "I see the word argue."
         },
         {
           "id": "w15d2n03",
@@ -13327,15 +13327,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "between",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | betw-een",
           "audioText": "between",
           "examples": [
-            "I can spell between.",
-            "Please say between again.",
-            "I can use between in a sentence."
+            "I see the word between.",
+            "I can read between.",
+            "Please spell between."
           ],
-          "example": "I can spell between."
+          "example": "I see the word between."
         },
         {
           "id": "w15d2n04",
@@ -13349,11 +13349,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "change",
           "examples": [
-            "I can spell change.",
-            "Please say change again.",
-            "I can use change in a sentence."
+            "I see the word change.",
+            "I can read change.",
+            "Please spell change."
           ],
-          "example": "I can spell change."
+          "example": "I see the word change."
         },
         {
           "id": "w15d2n05",
@@ -13363,15 +13363,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "dry",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "dry",
           "examples": [
-            "I can spell dry.",
-            "Please say dry again.",
-            "I can use dry in a sentence."
+            "I feel dry today.",
+            "The word dry is useful.",
+            "Can you make a sentence with dry?"
           ],
-          "example": "I can spell dry."
+          "example": "I feel dry today."
         },
         {
           "id": "w15d2n06",
@@ -13385,11 +13385,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "floor",
           "examples": [
-            "I can spell floor.",
-            "Please say floor again.",
-            "I can use floor in a sentence."
+            "I see the word floor.",
+            "I can read floor.",
+            "Please spell floor."
           ],
-          "example": "I can spell floor."
+          "example": "I see the word floor."
         },
         {
           "id": "w15d2n07",
@@ -13399,15 +13399,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "history",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | hist-or-y",
           "audioText": "history",
           "examples": [
-            "I can spell history.",
-            "Please say history again.",
-            "I can use history in a sentence."
+            "I see the word history.",
+            "I can read history.",
+            "Please spell history."
           ],
-          "example": "I can spell history."
+          "example": "I see the word history."
         },
         {
           "id": "w15d2n08",
@@ -13417,15 +13417,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "inhibition",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | inhibi-tion",
           "audioText": "inhibition",
           "examples": [
-            "The word inhibition is important in this lesson.",
-            "I can spell inhibition slowly.",
-            "I can use inhibition in a sentence."
+            "The word inhibition is in my spelling list.",
+            "I say inhibition slowly and clearly.",
+            "I can learn inhibition step by step."
           ],
-          "example": "The word inhibition is important in this lesson."
+          "example": "The word inhibition is in my spelling list."
         },
         {
           "id": "w15d2n09",
@@ -13435,15 +13435,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "military",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | mil-it-ar-y",
           "audioText": "military",
           "examples": [
-            "The word military is important in this lesson.",
-            "I can spell military slowly.",
-            "I can use military in a sentence."
+            "The word military is in my spelling list.",
+            "I say military slowly and clearly.",
+            "I can learn military step by step."
           ],
-          "example": "The word military is important in this lesson."
+          "example": "The word military is in my spelling list."
         },
         {
           "id": "w15d2n10",
@@ -13453,15 +13453,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "overrule",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | ov-err-ul-e",
           "audioText": "overrule",
           "examples": [
-            "The word overrule is important in this lesson.",
-            "I can spell overrule slowly.",
-            "I can use overrule in a sentence."
+            "The word overrule is in my spelling list.",
+            "I say overrule slowly and clearly.",
+            "I can learn overrule step by step."
           ],
-          "example": "The word overrule is important in this lesson."
+          "example": "The word overrule is in my spelling list."
         }
       ]
     },
@@ -13478,15 +13478,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "loaf",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "loaf",
           "examples": [
-            "I can spell loaf.",
-            "Please say loaf again.",
-            "I can use loaf in a sentence."
+            "I see the word loaf.",
+            "I can read loaf.",
+            "Please spell loaf."
           ],
-          "example": "I can spell loaf."
+          "example": "I see the word loaf."
         },
         {
           "id": "w15d3n02",
@@ -13496,15 +13496,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "minibus",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | min-ib-us",
           "audioText": "minibus",
           "examples": [
-            "I can spell minibus.",
-            "Please say minibus again.",
-            "I can use minibus in a sentence."
+            "I see the word minibus.",
+            "I can read minibus.",
+            "Please spell minibus."
           ],
-          "example": "I can spell minibus."
+          "example": "I see the word minibus."
         },
         {
           "id": "w15d3n03",
@@ -13514,15 +13514,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "piglet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "piglet",
           "examples": [
-            "I can spell piglet.",
-            "Please say piglet again.",
-            "I can use piglet in a sentence."
+            "I see a piglet at the zoo.",
+            "The piglet is in my picture.",
+            "The piglet can move fast."
           ],
-          "example": "I can spell piglet."
+          "example": "I see a piglet at the zoo."
         },
         {
           "id": "w15d3n04",
@@ -13532,15 +13532,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "rod",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rod",
           "examples": [
-            "I can spell rod.",
-            "Please say rod again.",
-            "I can use rod in a sentence."
+            "I see the word rod.",
+            "I can read rod.",
+            "Please spell rod."
           ],
-          "example": "I can spell rod."
+          "example": "I see the word rod."
         },
         {
           "id": "w15d3n05",
@@ -13550,15 +13550,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "shelve",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shelve",
           "examples": [
-            "I can spell shelve.",
-            "Please say shelve again.",
-            "I can use shelve in a sentence."
+            "I see the word shelve.",
+            "I can read shelve.",
+            "Please spell shelve."
           ],
-          "example": "I can spell shelve."
+          "example": "I see the word shelve."
         },
         {
           "id": "w15d3n06",
@@ -13568,15 +13568,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "those",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "those",
           "examples": [
-            "I can spell those.",
-            "Please say those again.",
-            "I can use those in a sentence."
+            "I see the word those.",
+            "I can read those.",
+            "Please spell those."
           ],
-          "example": "I can spell those."
+          "example": "I see the word those."
         },
         {
           "id": "w15d3n07",
@@ -13586,15 +13586,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "why",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "why",
           "examples": [
-            "I can spell why.",
-            "Please say why again.",
-            "I can use why in a sentence."
+            "I see the word why.",
+            "I can read why.",
+            "Please spell why."
           ],
-          "example": "I can spell why."
+          "example": "I see the word why."
         },
         {
           "id": "w15d3n08",
@@ -13604,15 +13604,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "personal",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pers-on-al",
           "audioText": "personal",
           "examples": [
-            "The word personal is important in this lesson.",
-            "I can spell personal slowly.",
-            "I can use personal in a sentence."
+            "The word personal is in my spelling list.",
+            "I say personal slowly and clearly.",
+            "I can learn personal step by step."
           ],
-          "example": "The word personal is important in this lesson."
+          "example": "The word personal is in my spelling list."
         },
         {
           "id": "w15d3n09",
@@ -13622,15 +13622,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "recyclable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | recycl-able",
           "audioText": "recyclable",
           "examples": [
-            "The word recyclable is important in this lesson.",
-            "I can spell recyclable slowly.",
-            "I can use recyclable in a sentence."
+            "The word recyclable is in my spelling list.",
+            "I say recyclable slowly and clearly.",
+            "I can learn recyclable step by step."
           ],
-          "example": "The word recyclable is important in this lesson."
+          "example": "The word recyclable is in my spelling list."
         },
         {
           "id": "w15d3n10",
@@ -13640,15 +13640,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "senior",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "senior",
           "examples": [
-            "The word senior is important in this lesson.",
-            "I can spell senior slowly.",
-            "I can use senior in a sentence."
+            "The word senior is in my spelling list.",
+            "I say senior slowly and clearly.",
+            "I can learn senior step by step."
           ],
-          "example": "The word senior is important in this lesson."
+          "example": "The word senior is in my spelling list."
         }
       ]
     },
@@ -13669,11 +13669,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "arm",
           "examples": [
-            "I can spell arm.",
-            "Please say arm again.",
-            "I can use arm in a sentence."
+            "I see the word arm.",
+            "I can read arm.",
+            "Please spell arm."
           ],
-          "example": "I can spell arm."
+          "example": "I see the word arm."
         },
         {
           "id": "w15d4n02",
@@ -13683,15 +13683,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "beyond",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "beyond",
           "examples": [
-            "I can spell beyond.",
-            "Please say beyond again.",
-            "I can use beyond in a sentence."
+            "I see the word beyond.",
+            "I can read beyond.",
+            "Please spell beyond."
           ],
-          "example": "I can spell beyond."
+          "example": "I see the word beyond."
         },
         {
           "id": "w15d4n03",
@@ -13701,15 +13701,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "channel",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | chann-el",
           "audioText": "channel",
           "examples": [
-            "I can spell channel.",
-            "Please say channel again.",
-            "I can use channel in a sentence."
+            "I see the word channel.",
+            "I can read channel.",
+            "Please spell channel."
           ],
-          "example": "I can spell channel."
+          "example": "I see the word channel."
         },
         {
           "id": "w15d4n04",
@@ -13723,11 +13723,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "duck",
           "examples": [
-            "I can spell duck.",
-            "Please say duck again.",
-            "I can use duck in a sentence."
+            "I see a duck at the zoo.",
+            "The duck is in my picture.",
+            "The duck can move fast."
           ],
-          "example": "I can spell duck."
+          "example": "I see a duck at the zoo."
         },
         {
           "id": "w15d4n05",
@@ -13741,11 +13741,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | flow-er",
           "audioText": "flower",
           "examples": [
-            "I can spell flower.",
-            "Please say flower again.",
-            "I can use flower in a sentence."
+            "I see the word flower.",
+            "I can read flower.",
+            "Please spell flower."
           ],
-          "example": "I can spell flower."
+          "example": "I see the word flower."
         },
         {
           "id": "w15d4n06",
@@ -13755,15 +13755,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "hole",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hole",
           "examples": [
-            "I can spell hole.",
-            "Please say hole again.",
-            "I can use hole in a sentence."
+            "I see the word hole.",
+            "I can read hole.",
+            "Please spell hole."
           ],
-          "example": "I can spell hole."
+          "example": "I see the word hole."
         },
         {
           "id": "w15d4n07",
@@ -13773,15 +13773,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "lobe",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "lobe",
           "examples": [
-            "I can spell lobe.",
-            "Please say lobe again.",
-            "I can use lobe in a sentence."
+            "I see the word lobe.",
+            "I can read lobe.",
+            "Please spell lobe."
           ],
-          "example": "I can spell lobe."
+          "example": "I see the word lobe."
         },
         {
           "id": "w15d4n08",
@@ -13791,15 +13791,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "threat",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "threat",
           "examples": [
-            "The word threat is important in this lesson.",
-            "I can spell threat slowly.",
-            "I can use threat in a sentence."
+            "The word threat is in my spelling list.",
+            "I say threat slowly and clearly.",
+            "I can learn threat step by step."
           ],
-          "example": "The word threat is important in this lesson."
+          "example": "The word threat is in my spelling list."
         },
         {
           "id": "w15d4n09",
@@ -13809,15 +13809,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "ammonia",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | amm-on-ia",
           "audioText": "ammonia",
           "examples": [
-            "The word ammonia is important in this lesson.",
-            "I can spell ammonia slowly.",
-            "I can use ammonia in a sentence."
+            "The word ammonia is in my spelling list.",
+            "I say ammonia slowly and clearly.",
+            "I can learn ammonia step by step."
           ],
-          "example": "The word ammonia is important in this lesson."
+          "example": "The word ammonia is in my spelling list."
         },
         {
           "id": "w15d4n10",
@@ -13827,15 +13827,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "butcher",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | butch-er",
           "audioText": "butcher",
           "examples": [
-            "The word butcher is important in this lesson.",
-            "I can spell butcher slowly.",
-            "I can use butcher in a sentence."
+            "The word butcher is in my spelling list.",
+            "I say butcher slowly and clearly.",
+            "I can learn butcher step by step."
           ],
-          "example": "The word butcher is important in this lesson."
+          "example": "The word butcher is in my spelling list."
         }
       ]
     },
@@ -13852,15 +13852,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "minus",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "minus",
           "examples": [
-            "I can spell minus.",
-            "Please say minus again.",
-            "I can use minus in a sentence."
+            "I see the word minus.",
+            "I can read minus.",
+            "Please spell minus."
           ],
-          "example": "I can spell minus."
+          "example": "I see the word minus."
         },
         {
           "id": "w15d5n02",
@@ -13870,15 +13870,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "pillow",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pillow",
           "examples": [
-            "I can spell pillow.",
-            "Please say pillow again.",
-            "I can use pillow in a sentence."
+            "I see the word pillow.",
+            "I can read pillow.",
+            "Please spell pillow."
           ],
-          "example": "I can spell pillow."
+          "example": "I see the word pillow."
         },
         {
           "id": "w15d5n03",
@@ -13888,15 +13888,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "role",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "role",
           "examples": [
-            "I can spell role.",
-            "Please say role again.",
-            "I can use role in a sentence."
+            "I see the word role.",
+            "I can read role.",
+            "Please spell role."
           ],
-          "example": "I can spell role."
+          "example": "I see the word role."
         },
         {
           "id": "w15d5n04",
@@ -13910,11 +13910,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "ship",
           "examples": [
-            "I can spell ship.",
-            "Please say ship again.",
-            "I can use ship in a sentence."
+            "I see the word ship.",
+            "I can read ship.",
+            "Please spell ship."
           ],
-          "example": "I can spell ship."
+          "example": "I see the word ship."
         },
         {
           "id": "w15d5n05",
@@ -13928,11 +13928,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "three",
           "examples": [
-            "I can spell three.",
-            "Please say three again.",
-            "I can use three in a sentence."
+            "I can count to three.",
+            "The answer is three.",
+            "Please write three."
           ],
-          "example": "I can spell three."
+          "example": "I can count to three."
         },
         {
           "id": "w15d5n06",
@@ -13942,15 +13942,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "win",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "win",
           "examples": [
-            "I can spell win.",
-            "Please say win again.",
-            "I can use win in a sentence."
+            "I see the word win.",
+            "I can read win.",
+            "Please spell win."
           ],
-          "example": "I can spell win."
+          "example": "I see the word win."
         },
         {
           "id": "w15d5n07",
@@ -13964,11 +13964,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "around",
           "examples": [
-            "I can spell around.",
-            "Please say around again.",
-            "I can use around in a sentence."
+            "I see the word around.",
+            "I can read around.",
+            "Please spell around."
           ],
-          "example": "I can spell around."
+          "example": "I see the word around."
         },
         {
           "id": "w15d5n08",
@@ -13978,15 +13978,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "cloakroom",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | cloakr-oom",
           "audioText": "cloakroom",
           "examples": [
-            "The word cloakroom is important in this lesson.",
-            "I can spell cloakroom slowly.",
-            "I can use cloakroom in a sentence."
+            "The word cloakroom is in my spelling list.",
+            "I say cloakroom slowly and clearly.",
+            "I can learn cloakroom step by step."
           ],
-          "example": "The word cloakroom is important in this lesson."
+          "example": "The word cloakroom is in my spelling list."
         },
         {
           "id": "w15d5n09",
@@ -13996,15 +13996,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "destabilize",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | dest-ab-il-iz-e",
           "audioText": "destabilize",
           "examples": [
-            "The word destabilize is important in this lesson.",
-            "I can spell destabilize slowly.",
-            "I can use destabilize in a sentence."
+            "The word destabilize is in my spelling list.",
+            "I say destabilize slowly and clearly.",
+            "I can learn destabilize step by step."
           ],
-          "example": "The word destabilize is important in this lesson."
+          "example": "The word destabilize is in my spelling list."
         },
         {
           "id": "w15d5n10",
@@ -14012,17 +14012,17 @@ window.YUMI_COURSE = {
           "dayIndex": 4,
           "dayName": "周五",
           "num": 10,
-          "word": "epitomize/epitomise",
+          "word": "epitomize",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "英/美拼写变体 | ep-it-om-iz-e",
-          "audioText": "epitomize or epitomise",
+          "audioText": "epitomize",
           "examples": [
-            "The word epitomize is important in this lesson.",
-            "I can spell epitomize slowly.",
-            "I can use epitomize in a sentence."
+            "The word epitomize is in my spelling list.",
+            "I say epitomize slowly and clearly.",
+            "I can learn epitomize step by step."
           ],
-          "example": "The word epitomize is important in this lesson."
+          "example": "The word epitomize is in my spelling list."
         }
       ]
     },
@@ -14039,15 +14039,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "bicycle",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | bic-ycl-e",
           "audioText": "bicycle",
           "examples": [
-            "I can spell bicycle.",
-            "Please say bicycle again.",
-            "I can use bicycle in a sentence."
+            "I see the word bicycle.",
+            "I can read bicycle.",
+            "Please spell bicycle."
           ],
-          "example": "I can spell bicycle."
+          "example": "I see the word bicycle."
         },
         {
           "id": "w16d1n02",
@@ -14057,15 +14057,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "cheap",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "cheap",
           "examples": [
-            "I can spell cheap.",
-            "Please say cheap again.",
-            "I can use cheap in a sentence."
+            "I see the word cheap.",
+            "I can read cheap.",
+            "Please spell cheap."
           ],
-          "example": "I can spell cheap."
+          "example": "I see the word cheap."
         },
         {
           "id": "w16d1n03",
@@ -14075,15 +14075,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "flu",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "flu",
           "examples": [
-            "I can spell flu.",
-            "Please say flu again.",
-            "I can use flu in a sentence."
+            "I see the word flu.",
+            "I can read flu.",
+            "Please spell flu."
           ],
-          "example": "I can spell flu."
+          "example": "I see the word flu."
         },
         {
           "id": "w16d1n04",
@@ -14097,11 +14097,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "home",
           "examples": [
-            "I can spell home.",
-            "Please say home again.",
-            "I can use home in a sentence."
+            "I go to the home.",
+            "The home is near my home.",
+            "We talk about the home."
           ],
-          "example": "I can spell home."
+          "example": "I go to the home."
         },
         {
           "id": "w16d1n05",
@@ -14111,15 +14111,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "local",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "local",
           "examples": [
-            "I can spell local.",
-            "Please say local again.",
-            "I can use local in a sentence."
+            "I see the word local.",
+            "I can read local.",
+            "Please spell local."
           ],
-          "example": "I can spell local."
+          "example": "I see the word local."
         },
         {
           "id": "w16d1n06",
@@ -14129,15 +14129,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "minute",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "minute",
           "examples": [
-            "I can spell minute.",
-            "Please say minute again.",
-            "I can use minute in a sentence."
+            "I see the word minute.",
+            "I can read minute.",
+            "Please spell minute."
           ],
-          "example": "I can spell minute."
+          "example": "I see the word minute."
         },
         {
           "id": "w16d1n07",
@@ -14151,11 +14151,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "pink",
           "examples": [
-            "I can spell pink.",
-            "Please say pink again.",
-            "I can use pink in a sentence."
+            "The flower is pink.",
+            "I use a pink pencil.",
+            "What is pink in your room?"
           ],
-          "example": "I can spell pink."
+          "example": "The flower is pink."
         },
         {
           "id": "w16d1n08",
@@ -14169,11 +14169,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | fourt-een",
           "audioText": "fourteen",
           "examples": [
-            "The word fourteen is important in this lesson.",
-            "I can spell fourteen slowly.",
-            "I can use fourteen in a sentence."
+            "I can count to fourteen.",
+            "The answer is fourteen.",
+            "Please write fourteen."
           ],
-          "example": "The word fourteen is important in this lesson."
+          "example": "I can count to fourteen."
         },
         {
           "id": "w16d1n09",
@@ -14183,15 +14183,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "injury",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "injury",
           "examples": [
-            "The word injury is important in this lesson.",
-            "I can spell injury slowly.",
-            "I can use injury in a sentence."
+            "The word injury is in my spelling list.",
+            "I say injury slowly and clearly.",
+            "I can learn injury step by step."
           ],
-          "example": "The word injury is important in this lesson."
+          "example": "The word injury is in my spelling list."
         },
         {
           "id": "w16d1n10",
@@ -14201,15 +14201,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "millionaire",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | mill-ion-air-e",
           "audioText": "millionaire",
           "examples": [
-            "The word millionaire is important in this lesson.",
-            "I can spell millionaire slowly.",
-            "I can use millionaire in a sentence."
+            "The word millionaire is in my spelling list.",
+            "I say millionaire slowly and clearly.",
+            "I can learn millionaire step by step."
           ],
-          "example": "The word millionaire is important in this lesson."
+          "example": "The word millionaire is in my spelling list."
         }
       ]
     },
@@ -14226,15 +14226,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "roof",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "roof",
           "examples": [
-            "I can spell roof.",
-            "Please say roof again.",
-            "I can use roof in a sentence."
+            "I see the word roof.",
+            "I can read roof.",
+            "Please spell roof."
           ],
-          "example": "I can spell roof."
+          "example": "I see the word roof."
         },
         {
           "id": "w16d2n02",
@@ -14248,11 +14248,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "shirt",
           "examples": [
-            "I can spell shirt.",
-            "Please say shirt again.",
-            "I can use shirt in a sentence."
+            "This is my shirt.",
+            "I put the shirt on the desk.",
+            "Please find the shirt."
           ],
-          "example": "I can spell shirt."
+          "example": "This is my shirt."
         },
         {
           "id": "w16d2n03",
@@ -14262,15 +14262,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "throw",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "throw",
           "examples": [
-            "I can spell throw.",
-            "Please say throw again.",
-            "I can use throw in a sentence."
+            "I can throw now.",
+            "Please throw with me.",
+            "We throw after class."
           ],
-          "example": "I can spell throw."
+          "example": "I can throw now."
         },
         {
           "id": "w16d2n04",
@@ -14280,15 +14280,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "wind",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "wind",
           "examples": [
-            "I can spell wind.",
-            "Please say wind again.",
-            "I can use wind in a sentence."
+            "I see the word wind.",
+            "I can read wind.",
+            "Please spell wind."
           ],
-          "example": "I can spell wind."
+          "example": "I see the word wind."
         },
         {
           "id": "w16d2n05",
@@ -14302,11 +14302,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "art",
           "examples": [
-            "I can spell art.",
-            "Please say art again.",
-            "I can use art in a sentence."
+            "I see the word art.",
+            "I can read art.",
+            "Please spell art."
           ],
-          "example": "I can spell art."
+          "example": "I see the word art."
         },
         {
           "id": "w16d2n06",
@@ -14316,15 +14316,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "big",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "big",
           "examples": [
-            "I can spell big.",
-            "Please say big again.",
-            "I can use big in a sentence."
+            "I see the word big.",
+            "I can read big.",
+            "Please spell big."
           ],
-          "example": "I can spell big."
+          "example": "I see the word big."
         },
         {
           "id": "w16d2n07",
@@ -14334,15 +14334,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "cheer",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "cheer",
           "examples": [
-            "I can spell cheer.",
-            "Please say cheer again.",
-            "I can use cheer in a sentence."
+            "I see the word cheer.",
+            "I can read cheer.",
+            "Please spell cheer."
           ],
-          "example": "I can spell cheer."
+          "example": "I see the word cheer."
         },
         {
           "id": "w16d2n08",
@@ -14352,15 +14352,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "overrun",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | ov-err-un",
           "audioText": "overrun",
           "examples": [
-            "The word overrun is important in this lesson.",
-            "I can spell overrun slowly.",
-            "I can use overrun in a sentence."
+            "The word overrun is in my spelling list.",
+            "I say overrun slowly and clearly.",
+            "I can learn overrun step by step."
           ],
-          "example": "The word overrun is important in this lesson."
+          "example": "The word overrun is in my spelling list."
         },
         {
           "id": "w16d2n09",
@@ -14370,15 +14370,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "persuade",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pers-uad-e",
           "audioText": "persuade",
           "examples": [
-            "The word persuade is important in this lesson.",
-            "I can spell persuade slowly.",
-            "I can use persuade in a sentence."
+            "The word persuade is in my spelling list.",
+            "I say persuade slowly and clearly.",
+            "I can learn persuade step by step."
           ],
-          "example": "The word persuade is important in this lesson."
+          "example": "The word persuade is in my spelling list."
         },
         {
           "id": "w16d2n10",
@@ -14388,15 +14388,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "regularity",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | reg-ul-ar-it-y",
           "audioText": "regularity",
           "examples": [
-            "The word regularity is important in this lesson.",
-            "I can spell regularity slowly.",
-            "I can use regularity in a sentence."
+            "The word regularity is in my spelling list.",
+            "I say regularity slowly and clearly.",
+            "I can learn regularity step by step."
           ],
-          "example": "The word regularity is important in this lesson."
+          "example": "The word regularity is in my spelling list."
         }
       ]
     },
@@ -14413,15 +14413,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "fly",
           "level": "basic",
-          "cn": "",
+          "cn": "……地；……的",
           "pattern": "后缀 -ly",
           "audioText": "fly",
           "examples": [
-            "I can spell fly.",
-            "Please say fly again.",
-            "I can use fly in a sentence."
+            "I see the word fly.",
+            "I can read fly.",
+            "Please spell fly."
           ],
-          "example": "I can spell fly."
+          "example": "I see the word fly."
         },
         {
           "id": "w16d3n02",
@@ -14435,11 +14435,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "honey",
           "examples": [
-            "I can spell honey.",
-            "Please say honey again.",
-            "I can use honey in a sentence."
+            "I see the word honey.",
+            "I can read honey.",
+            "Please spell honey."
           ],
-          "example": "I can spell honey."
+          "example": "I see the word honey."
         },
         {
           "id": "w16d3n03",
@@ -14453,11 +14453,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "long",
           "examples": [
-            "I can spell long.",
-            "Please say long again.",
-            "I can use long in a sentence."
+            "I see the word long.",
+            "I can read long.",
+            "Please spell long."
           ],
-          "example": "I can spell long."
+          "example": "I see the word long."
         },
         {
           "id": "w16d3n04",
@@ -14467,15 +14467,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "mite",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mite",
           "examples": [
-            "I can spell mite.",
-            "Please say mite again.",
-            "I can use mite in a sentence."
+            "I see the word mite.",
+            "I can read mite.",
+            "Please spell mite."
           ],
-          "example": "I can spell mite."
+          "example": "I see the word mite."
         },
         {
           "id": "w16d3n05",
@@ -14489,11 +14489,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "pizza",
           "examples": [
-            "I can spell pizza.",
-            "Please say pizza again.",
-            "I can use pizza in a sentence."
+            "I eat pizza for lunch.",
+            "The pizza is on the table.",
+            "Do you like pizza?"
           ],
-          "example": "I can spell pizza."
+          "example": "I eat pizza for lunch."
         },
         {
           "id": "w16d3n06",
@@ -14507,11 +14507,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "room",
           "examples": [
-            "I can spell room.",
-            "Please say room again.",
-            "I can use room in a sentence."
+            "I go to the room.",
+            "The room is near my home.",
+            "We talk about the room."
           ],
-          "example": "I can spell room."
+          "example": "I go to the room."
         },
         {
           "id": "w16d3n07",
@@ -14525,11 +14525,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "shoe",
           "examples": [
-            "I can spell shoe.",
-            "Please say shoe again.",
-            "I can use shoe in a sentence."
+            "This is my shoe.",
+            "I put the shoe on the desk.",
+            "Please find the shoe."
           ],
-          "example": "I can spell shoe."
+          "example": "This is my shoe."
         },
         {
           "id": "w16d3n08",
@@ -14539,15 +14539,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "separate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | sep-ar-at-e",
           "audioText": "separate",
           "examples": [
-            "The word separate is important in this lesson.",
-            "I can spell separate slowly.",
-            "I can use separate in a sentence."
+            "The word separate is in my spelling list.",
+            "I say separate slowly and clearly.",
+            "I can learn separate step by step."
           ],
-          "example": "The word separate is important in this lesson."
+          "example": "The word separate is in my spelling list."
         },
         {
           "id": "w16d3n09",
@@ -14557,15 +14557,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "titanium",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | tit-an-ium",
           "audioText": "titanium",
           "examples": [
-            "The word titanium is important in this lesson.",
-            "I can spell titanium slowly.",
-            "I can use titanium in a sentence."
+            "The word titanium is in my spelling list.",
+            "I say titanium slowly and clearly.",
+            "I can learn titanium step by step."
           ],
-          "example": "The word titanium is important in this lesson."
+          "example": "The word titanium is in my spelling list."
         },
         {
           "id": "w16d3n10",
@@ -14579,11 +14579,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | apart-ment",
           "audioText": "apartment",
           "examples": [
-            "The word apartment is important in this lesson.",
-            "I can spell apartment slowly.",
-            "I can use apartment in a sentence."
+            "I go to the apartment.",
+            "The apartment is near my home.",
+            "We talk about the apartment."
           ],
-          "example": "The word apartment is important in this lesson."
+          "example": "I go to the apartment."
         }
       ]
     },
@@ -14604,11 +14604,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er",
           "audioText": "tiger",
           "examples": [
-            "I can spell tiger.",
-            "Please say tiger again.",
-            "I can use tiger in a sentence."
+            "I see a tiger at the zoo.",
+            "The tiger is in my picture.",
+            "The tiger can move fast."
           ],
-          "example": "I can spell tiger."
+          "example": "I see a tiger at the zoo."
         },
         {
           "id": "w16d4n02",
@@ -14622,11 +14622,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "window",
           "examples": [
-            "I can spell window.",
-            "Please say window again.",
-            "I can use window in a sentence."
+            "This is my window.",
+            "I put the window on the desk.",
+            "Please find the window."
           ],
-          "example": "I can spell window."
+          "example": "This is my window."
         },
         {
           "id": "w16d4n03",
@@ -14636,15 +14636,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "article",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | art-icl-e",
           "audioText": "article",
           "examples": [
-            "I can spell article.",
-            "Please say article again.",
-            "I can use article in a sentence."
+            "I see the word article.",
+            "I can read article.",
+            "Please spell article."
           ],
-          "example": "I can spell article."
+          "example": "I see the word article."
         },
         {
           "id": "w16d4n04",
@@ -14654,15 +14654,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "bike",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bike",
           "examples": [
-            "I can spell bike.",
-            "Please say bike again.",
-            "I can use bike in a sentence."
+            "I see the word bike.",
+            "I can read bike.",
+            "Please spell bike."
           ],
-          "example": "I can spell bike."
+          "example": "I see the word bike."
         },
         {
           "id": "w16d4n05",
@@ -14676,11 +14676,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "chess",
           "examples": [
-            "I can spell chess.",
-            "Please say chess again.",
-            "I can use chess in a sentence."
+            "I see the word chess.",
+            "I can read chess.",
+            "Please spell chess."
           ],
-          "example": "I can spell chess."
+          "example": "I see the word chess."
         },
         {
           "id": "w16d4n06",
@@ -14690,15 +14690,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "foggy",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "foggy",
           "examples": [
-            "I can spell foggy.",
-            "Please say foggy again.",
-            "I can use foggy in a sentence."
+            "I see the word foggy.",
+            "I can read foggy.",
+            "Please spell foggy."
           ],
-          "example": "I can spell foggy."
+          "example": "I see the word foggy."
         },
         {
           "id": "w16d4n07",
@@ -14708,15 +14708,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "horizon",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | hor-iz-on",
           "audioText": "horizon",
           "examples": [
-            "I can spell horizon.",
-            "Please say horizon again.",
-            "I can use horizon in a sentence."
+            "I see the word horizon.",
+            "I can read horizon.",
+            "Please spell horizon."
           ],
-          "example": "I can spell horizon."
+          "example": "I see the word horizon."
         },
         {
           "id": "w16d4n08",
@@ -14730,11 +14730,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | butterf-ly",
           "audioText": "butterfly",
           "examples": [
-            "The word butterfly is important in this lesson.",
-            "I can spell butterfly slowly.",
-            "I can use butterfly in a sentence."
+            "The word butterfly is in my spelling list.",
+            "I say butterfly slowly and clearly.",
+            "I can learn butterfly step by step."
           ],
-          "example": "The word butterfly is important in this lesson."
+          "example": "The word butterfly is in my spelling list."
         },
         {
           "id": "w16d4n09",
@@ -14744,15 +14744,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "clockwise",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | clockw-is-e",
           "audioText": "clockwise",
           "examples": [
-            "The word clockwise is important in this lesson.",
-            "I can spell clockwise slowly.",
-            "I can use clockwise in a sentence."
+            "The word clockwise is in my spelling list.",
+            "I say clockwise slowly and clearly.",
+            "I can learn clockwise step by step."
           ],
-          "example": "The word clockwise is important in this lesson."
+          "example": "The word clockwise is in my spelling list."
         },
         {
           "id": "w16d4n10",
@@ -14762,15 +14762,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "detractor",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | detr-act-or",
           "audioText": "detractor",
           "examples": [
-            "The word detractor is important in this lesson.",
-            "I can spell detractor slowly.",
-            "I can use detractor in a sentence."
+            "The word detractor is in my spelling list.",
+            "I say detractor slowly and clearly.",
+            "I can learn detractor step by step."
           ],
-          "example": "The word detractor is important in this lesson."
+          "example": "The word detractor is in my spelling list."
         }
       ]
     },
@@ -14791,11 +14791,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "look",
           "examples": [
-            "I can spell look.",
-            "Please say look again.",
-            "I can use look in a sentence."
+            "I can look now.",
+            "Please look with me.",
+            "We look after class."
           ],
-          "example": "I can spell look."
+          "example": "I can look now."
         },
         {
           "id": "w16d5n02",
@@ -14805,15 +14805,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "money",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "money",
           "examples": [
-            "I can spell money.",
-            "Please say money again.",
-            "I can use money in a sentence."
+            "I see the word money.",
+            "I can read money.",
+            "Please spell money."
           ],
-          "example": "I can spell money."
+          "example": "I see the word money."
         },
         {
           "id": "w16d5n03",
@@ -14827,11 +14827,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "plane",
           "examples": [
-            "I can spell plane.",
-            "Please say plane again.",
-            "I can use plane in a sentence."
+            "I see the word plane.",
+            "I can read plane.",
+            "Please spell plane."
           ],
-          "example": "I can spell plane."
+          "example": "I see the word plane."
         },
         {
           "id": "w16d5n04",
@@ -14841,15 +14841,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "rope",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rope",
           "examples": [
-            "I can spell rope.",
-            "Please say rope again.",
-            "I can use rope in a sentence."
+            "I see the word rope.",
+            "I can read rope.",
+            "Please spell rope."
           ],
-          "example": "I can spell rope."
+          "example": "I see the word rope."
         },
         {
           "id": "w16d5n05",
@@ -14863,11 +14863,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "shop",
           "examples": [
-            "I can spell shop.",
-            "Please say shop again.",
-            "I can use shop in a sentence."
+            "I see the word shop.",
+            "I can read shop.",
+            "Please spell shop."
           ],
-          "example": "I can spell shop."
+          "example": "I see the word shop."
         },
         {
           "id": "w16d5n06",
@@ -14881,11 +14881,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "time",
           "examples": [
-            "I can spell time.",
-            "Please say time again.",
-            "I can use time in a sentence."
+            "I see the word time.",
+            "I can read time.",
+            "Please spell time."
           ],
-          "example": "I can spell time."
+          "example": "I see the word time."
         },
         {
           "id": "w16d5n07",
@@ -14899,11 +14899,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "windy",
           "examples": [
-            "I can spell windy.",
-            "Please say windy again.",
-            "I can use windy in a sentence."
+            "I see the word windy.",
+            "I can read windy.",
+            "Please spell windy."
           ],
-          "example": "I can spell windy."
+          "example": "I see the word windy."
         },
         {
           "id": "w16d5n08",
@@ -14913,15 +14913,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "establish",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | est-abl-ish",
           "audioText": "establish",
           "examples": [
-            "The word establish is important in this lesson.",
-            "I can spell establish slowly.",
-            "I can use establish in a sentence."
+            "The word establish is in my spelling list.",
+            "I say establish slowly and clearly.",
+            "I can learn establish step by step."
           ],
-          "example": "The word establish is important in this lesson."
+          "example": "The word establish is in my spelling list."
         },
         {
           "id": "w16d5n09",
@@ -14931,15 +14931,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "friendly",
           "level": "challenge",
-          "cn": "",
+          "cn": "……地；……的",
           "pattern": "后缀 -ly | friend-ly",
           "audioText": "friendly",
           "examples": [
-            "The word friendly is important in this lesson.",
-            "I can spell friendly slowly.",
-            "I can use friendly in a sentence."
+            "The word friendly is in my spelling list.",
+            "I say friendly slowly and clearly.",
+            "I can learn friendly step by step."
           ],
-          "example": "The word friendly is important in this lesson."
+          "example": "The word friendly is in my spelling list."
         },
         {
           "id": "w16d5n10",
@@ -14949,15 +14949,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "inspirational",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | insp-ir-at-ion-al",
           "audioText": "inspirational",
           "examples": [
-            "The word inspirational is important in this lesson.",
-            "I can spell inspirational slowly.",
-            "I can use inspirational in a sentence."
+            "The word inspirational is in my spelling list.",
+            "I say inspirational slowly and clearly.",
+            "I can learn inspirational step by step."
           ],
-          "example": "The word inspirational is important in this lesson."
+          "example": "The word inspirational is in my spelling list."
         }
       ]
     },
@@ -14978,11 +14978,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "artist",
           "examples": [
-            "I can spell artist.",
-            "Please say artist again.",
-            "I can use artist in a sentence."
+            "I see the word artist.",
+            "I can read artist.",
+            "Please spell artist."
           ],
-          "example": "I can spell artist."
+          "example": "I see the word artist."
         },
         {
           "id": "w17d1n02",
@@ -14992,15 +14992,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "bill",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bill",
           "examples": [
-            "I can spell bill.",
-            "Please say bill again.",
-            "I can use bill in a sentence."
+            "I see the word bill.",
+            "I can read bill.",
+            "Please spell bill."
           ],
-          "example": "I can spell bill."
+          "example": "I see the word bill."
         },
         {
           "id": "w17d1n03",
@@ -15010,15 +15010,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "chick",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "chick",
           "examples": [
-            "I can spell chick.",
-            "Please say chick again.",
-            "I can use chick in a sentence."
+            "I see the word chick.",
+            "I can read chick.",
+            "Please spell chick."
           ],
-          "example": "I can spell chick."
+          "example": "I see the word chick."
         },
         {
           "id": "w17d1n04",
@@ -15028,15 +15028,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "folder",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | fold-er",
           "audioText": "folder",
           "examples": [
-            "I can spell folder.",
-            "Please say folder again.",
-            "I can use folder in a sentence."
+            "This is my folder.",
+            "I put the folder on the desk.",
+            "Please find the folder."
           ],
-          "example": "I can spell folder."
+          "example": "This is my folder."
         },
         {
           "id": "w17d1n05",
@@ -15050,11 +15050,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "horse",
           "examples": [
-            "I can spell horse.",
-            "Please say horse again.",
-            "I can use horse in a sentence."
+            "I see a horse at the zoo.",
+            "The horse is in my picture.",
+            "The horse can move fast."
           ],
-          "example": "I can spell horse."
+          "example": "I see a horse at the zoo."
         },
         {
           "id": "w17d1n06",
@@ -15064,15 +15064,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "lorry",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "lorry",
           "examples": [
-            "I can spell lorry.",
-            "Please say lorry again.",
-            "I can use lorry in a sentence."
+            "I see the word lorry.",
+            "I can read lorry.",
+            "Please spell lorry."
           ],
-          "example": "I can spell lorry."
+          "example": "I see the word lorry."
         },
         {
           "id": "w17d1n07",
@@ -15082,15 +15082,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "monitor",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | mon-it-or",
           "audioText": "monitor",
           "examples": [
-            "I can spell monitor.",
-            "Please say monitor again.",
-            "I can use monitor in a sentence."
+            "I see the word monitor.",
+            "I can read monitor.",
+            "Please spell monitor."
           ],
-          "example": "I can spell monitor."
+          "example": "I see the word monitor."
         },
         {
           "id": "w17d1n08",
@@ -15100,15 +15100,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "mischievous",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | misch-iev-ous",
           "audioText": "mischievous",
           "examples": [
-            "The word mischievous is important in this lesson.",
-            "I can spell mischievous slowly.",
-            "I can use mischievous in a sentence."
+            "The word mischievous is in my spelling list.",
+            "I say mischievous slowly and clearly.",
+            "I can learn mischievous step by step."
           ],
-          "example": "The word mischievous is important in this lesson."
+          "example": "The word mischievous is in my spelling list."
         },
         {
           "id": "w17d1n09",
@@ -15118,15 +15118,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "overseas",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | ov-ers-eas",
           "audioText": "overseas",
           "examples": [
-            "The word overseas is important in this lesson.",
-            "I can spell overseas slowly.",
-            "I can use overseas in a sentence."
+            "The word overseas is in my spelling list.",
+            "I say overseas slowly and clearly.",
+            "I can learn overseas step by step."
           ],
-          "example": "The word overseas is important in this lesson."
+          "example": "The word overseas is in my spelling list."
         },
         {
           "id": "w17d1n10",
@@ -15140,11 +15140,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | pict-ur-e",
           "audioText": "picture",
           "examples": [
-            "The word picture is important in this lesson.",
-            "I can spell picture slowly.",
-            "I can use picture in a sentence."
+            "The word picture is in my spelling list.",
+            "I say picture slowly and clearly.",
+            "I can learn picture step by step."
           ],
-          "example": "The word picture is important in this lesson."
+          "example": "The word picture is in my spelling list."
         }
       ]
     },
@@ -15161,15 +15161,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "play",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "play",
           "examples": [
-            "I can spell play.",
-            "Please say play again.",
-            "I can use play in a sentence."
+            "I can play now.",
+            "Please play with me.",
+            "We play after class."
           ],
-          "example": "I can spell play."
+          "example": "I can play now."
         },
         {
           "id": "w17d2n02",
@@ -15179,15 +15179,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "rubber",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | rubb-er",
           "audioText": "rubber",
           "examples": [
-            "I can spell rubber.",
-            "Please say rubber again.",
-            "I can use rubber in a sentence."
+            "I see the word rubber.",
+            "I can read rubber.",
+            "Please spell rubber."
           ],
-          "example": "I can spell rubber."
+          "example": "I see the word rubber."
         },
         {
           "id": "w17d2n03",
@@ -15201,11 +15201,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "short",
           "examples": [
-            "I can spell short.",
-            "Please say short again.",
-            "I can use short in a sentence."
+            "I feel short today.",
+            "The word short is useful.",
+            "Can you make a sentence with short?"
           ],
-          "example": "I can spell short."
+          "example": "I feel short today."
         },
         {
           "id": "w17d2n04",
@@ -15219,11 +15219,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "today",
           "examples": [
-            "I can spell today.",
-            "Please say today again.",
-            "I can use today in a sentence."
+            "I see the word today.",
+            "I can read today.",
+            "Please spell today."
           ],
-          "example": "I can spell today."
+          "example": "I see the word today."
         },
         {
           "id": "w17d2n05",
@@ -15233,15 +15233,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "wing",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing",
           "audioText": "wing",
           "examples": [
-            "I can spell wing.",
-            "Please say wing again.",
-            "I can use wing in a sentence."
+            "I see the word wing.",
+            "I can read wing.",
+            "Please spell wing."
           ],
-          "example": "I can spell wing."
+          "example": "I see the word wing."
         },
         {
           "id": "w17d2n06",
@@ -15251,15 +15251,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "as",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "as",
           "examples": [
-            "I can spell as.",
-            "Please say as again.",
-            "I can use as in a sentence."
+            "I see the word as.",
+            "I can read as.",
+            "Please spell as."
           ],
-          "example": "I can spell as."
+          "example": "I see the word as."
         },
         {
           "id": "w17d2n07",
@@ -15269,15 +15269,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "bingo",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bingo",
           "examples": [
-            "I can spell bingo.",
-            "Please say bingo again.",
-            "I can use bingo in a sentence."
+            "I see the word bingo.",
+            "I can read bingo.",
+            "Please spell bingo."
           ],
-          "example": "I can spell bingo."
+          "example": "I see the word bingo."
         },
         {
           "id": "w17d2n08",
@@ -15287,15 +15287,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "relate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "relate",
           "examples": [
-            "The word relate is important in this lesson.",
-            "I can spell relate slowly.",
-            "I can use relate in a sentence."
+            "The word relate is in my spelling list.",
+            "I say relate slowly and clearly.",
+            "I can learn relate step by step."
           ],
-          "example": "The word relate is important in this lesson."
+          "example": "The word relate is in my spelling list."
         },
         {
           "id": "w17d2n09",
@@ -15305,15 +15305,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "sequential",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | seq-uent-ial",
           "audioText": "sequential",
           "examples": [
-            "The word sequential is important in this lesson.",
-            "I can spell sequential slowly.",
-            "I can use sequential in a sentence."
+            "The word sequential is in my spelling list.",
+            "I say sequential slowly and clearly.",
+            "I can learn sequential step by step."
           ],
-          "example": "The word sequential is important in this lesson."
+          "example": "The word sequential is in my spelling list."
         },
         {
           "id": "w17d2n10",
@@ -15323,15 +15323,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "tobacco",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | tob-acc-o",
           "audioText": "tobacco",
           "examples": [
-            "The word tobacco is important in this lesson.",
-            "I can spell tobacco slowly.",
-            "I can use tobacco in a sentence."
+            "The word tobacco is in my spelling list.",
+            "I say tobacco slowly and clearly.",
+            "I can learn tobacco step by step."
           ],
-          "example": "The word tobacco is important in this lesson."
+          "example": "The word tobacco is in my spelling list."
         }
       ]
     },
@@ -15352,11 +15352,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | chick-en",
           "audioText": "chicken",
           "examples": [
-            "I can spell chicken.",
-            "Please say chicken again.",
-            "I can use chicken in a sentence."
+            "I see the word chicken.",
+            "I can read chicken.",
+            "Please spell chicken."
           ],
-          "example": "I can spell chicken."
+          "example": "I see the word chicken."
         },
         {
           "id": "w17d3n02",
@@ -15370,11 +15370,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "food",
           "examples": [
-            "I can spell food.",
-            "Please say food again.",
-            "I can use food in a sentence."
+            "I see the word food.",
+            "I can read food.",
+            "Please spell food."
           ],
-          "example": "I can spell food."
+          "example": "I see the word food."
         },
         {
           "id": "w17d3n03",
@@ -15388,11 +15388,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hot",
           "examples": [
-            "I can spell hot.",
-            "Please say hot again.",
-            "I can use hot in a sentence."
+            "I see the word hot.",
+            "I can read hot.",
+            "Please spell hot."
           ],
-          "example": "I can spell hot."
+          "example": "I see the word hot."
         },
         {
           "id": "w17d3n04",
@@ -15402,15 +15402,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "lost",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "lost",
           "examples": [
-            "I can spell lost.",
-            "Please say lost again.",
-            "I can use lost in a sentence."
+            "I see the word lost.",
+            "I can read lost.",
+            "Please spell lost."
           ],
-          "example": "I can spell lost."
+          "example": "I see the word lost."
         },
         {
           "id": "w17d3n05",
@@ -15424,11 +15424,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "monkey",
           "examples": [
-            "I can spell monkey.",
-            "Please say monkey again.",
-            "I can use monkey in a sentence."
+            "I see a monkey at the zoo.",
+            "The monkey is in my picture.",
+            "The monkey can move fast."
           ],
-          "example": "I can spell monkey."
+          "example": "I see a monkey at the zoo."
         },
         {
           "id": "w17d3n06",
@@ -15438,15 +15438,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "player",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | play-er",
           "audioText": "player",
           "examples": [
-            "I can spell player.",
-            "Please say player again.",
-            "I can use player in a sentence."
+            "I see the word player.",
+            "I can read player.",
+            "Please spell player."
           ],
-          "example": "I can spell player."
+          "example": "I see the word player."
         },
         {
           "id": "w17d3n07",
@@ -15456,15 +15456,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "rug",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rug",
           "examples": [
-            "I can spell rug.",
-            "Please say rug again.",
-            "I can use rug in a sentence."
+            "I see the word rug.",
+            "I can read rug.",
+            "Please spell rug."
           ],
-          "example": "I can spell rug."
+          "example": "I see the word rug."
         },
         {
           "id": "w17d3n08",
@@ -15474,15 +15474,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "appetite",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | app-et-it-e",
           "audioText": "appetite",
           "examples": [
-            "The word appetite is important in this lesson.",
-            "I can spell appetite slowly.",
-            "I can use appetite in a sentence."
+            "The word appetite is in my spelling list.",
+            "I say appetite slowly and clearly.",
+            "I can learn appetite step by step."
           ],
-          "example": "The word appetite is important in this lesson."
+          "example": "The word appetite is in my spelling list."
         },
         {
           "id": "w17d3n09",
@@ -15492,15 +15492,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "coerce",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "coerce",
           "examples": [
-            "The word coerce is important in this lesson.",
-            "I can spell coerce slowly.",
-            "I can use coerce in a sentence."
+            "The word coerce is in my spelling list.",
+            "I say coerce slowly and clearly.",
+            "I can learn coerce step by step."
           ],
-          "example": "The word coerce is important in this lesson."
+          "example": "The word coerce is in my spelling list."
         },
         {
           "id": "w17d3n10",
@@ -15510,15 +15510,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "develop",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | dev-el-op",
           "audioText": "develop",
           "examples": [
-            "The word develop is important in this lesson.",
-            "I can spell develop slowly.",
-            "I can use develop in a sentence."
+            "The word develop is in my spelling list.",
+            "I say develop slowly and clearly.",
+            "I can learn develop step by step."
           ],
-          "example": "The word develop is important in this lesson."
+          "example": "The word develop is in my spelling list."
         }
       ]
     },
@@ -15535,15 +15535,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "shorten",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | short-en",
           "audioText": "shorten",
           "examples": [
-            "I can spell shorten.",
-            "Please say shorten again.",
-            "I can use shorten in a sentence."
+            "I see the word shorten.",
+            "I can read shorten.",
+            "Please spell shorten."
           ],
-          "example": "I can spell shorten."
+          "example": "I see the word shorten."
         },
         {
           "id": "w17d4n02",
@@ -15553,15 +15553,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "toe",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "toe",
           "examples": [
-            "I can spell toe.",
-            "Please say toe again.",
-            "I can use toe in a sentence."
+            "I see the word toe.",
+            "I can read toe.",
+            "Please spell toe."
           ],
-          "example": "I can spell toe."
+          "example": "I see the word toe."
         },
         {
           "id": "w17d4n03",
@@ -15575,11 +15575,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | wint-er",
           "audioText": "winter",
           "examples": [
-            "I can spell winter.",
-            "Please say winter again.",
-            "I can use winter in a sentence."
+            "I see the word winter.",
+            "I can read winter.",
+            "Please spell winter."
           ],
-          "example": "I can spell winter."
+          "example": "I see the word winter."
         },
         {
           "id": "w17d4n04",
@@ -15589,15 +15589,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "aspirin",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | asp-ir-in",
           "audioText": "aspirin",
           "examples": [
-            "I can spell aspirin.",
-            "Please say aspirin again.",
-            "I can use aspirin in a sentence."
+            "I see the word aspirin.",
+            "I can read aspirin.",
+            "Please spell aspirin."
           ],
-          "example": "I can spell aspirin."
+          "example": "I see the word aspirin."
         },
         {
           "id": "w17d4n05",
@@ -15607,15 +15607,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "birch",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "birch",
           "examples": [
-            "I can spell birch.",
-            "Please say birch again.",
-            "I can use birch in a sentence."
+            "I see the word birch.",
+            "I can read birch.",
+            "Please spell birch."
           ],
-          "example": "I can spell birch."
+          "example": "I see the word birch."
         },
         {
           "id": "w17d4n06",
@@ -15629,11 +15629,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "china",
           "examples": [
-            "I can spell china.",
-            "Please say china again.",
-            "I can use china in a sentence."
+            "I see the word china.",
+            "I can read china.",
+            "Please spell china."
           ],
-          "example": "I can spell china."
+          "example": "I see the word china."
         },
         {
           "id": "w17d4n07",
@@ -15647,11 +15647,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "foot",
           "examples": [
-            "I can spell foot.",
-            "Please say foot again.",
-            "I can use foot in a sentence."
+            "I see the word foot.",
+            "I can read foot.",
+            "Please spell foot."
           ],
-          "example": "I can spell foot."
+          "example": "I see the word foot."
         },
         {
           "id": "w17d4n08",
@@ -15661,15 +15661,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "event",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "event",
           "examples": [
-            "The word event is important in this lesson.",
-            "I can spell event slowly.",
-            "I can use event in a sentence."
+            "The word event is in my spelling list.",
+            "I say event slowly and clearly.",
+            "I can learn event step by step."
           ],
-          "example": "The word event is important in this lesson."
+          "example": "The word event is in my spelling list."
         },
         {
           "id": "w17d4n09",
@@ -15679,15 +15679,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "further",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | furth-er",
           "audioText": "further",
           "examples": [
-            "The word further is important in this lesson.",
-            "I can spell further slowly.",
-            "I can use further in a sentence."
+            "The word further is in my spelling list.",
+            "I say further slowly and clearly.",
+            "I can learn further step by step."
           ],
-          "example": "The word further is important in this lesson."
+          "example": "The word further is in my spelling list."
         },
         {
           "id": "w17d4n10",
@@ -15697,15 +15697,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "intend",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "intend",
           "examples": [
-            "The word intend is important in this lesson.",
-            "I can spell intend slowly.",
-            "I can use intend in a sentence."
+            "The word intend is in my spelling list.",
+            "I say intend slowly and clearly.",
+            "I can learn intend step by step."
           ],
-          "example": "The word intend is important in this lesson."
+          "example": "The word intend is in my spelling list."
         }
       ]
     },
@@ -15722,15 +15722,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "hotdog",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hotdog",
           "examples": [
-            "I can spell hotdog.",
-            "Please say hotdog again.",
-            "I can use hotdog in a sentence."
+            "I see the word hotdog.",
+            "I can read hotdog.",
+            "Please spell hotdog."
           ],
-          "example": "I can spell hotdog."
+          "example": "I see the word hotdog."
         },
         {
           "id": "w17d5n02",
@@ -15744,11 +15744,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "love",
           "examples": [
-            "I can spell love.",
-            "Please say love again.",
-            "I can use love in a sentence."
+            "I can love now.",
+            "Please love with me.",
+            "We love after class."
           ],
-          "example": "I can spell love."
+          "example": "I can love now."
         },
         {
           "id": "w17d5n03",
@@ -15762,11 +15762,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "month",
           "examples": [
-            "I can spell month.",
-            "Please say month again.",
-            "I can use month in a sentence."
+            "I see the word month.",
+            "I can read month.",
+            "Please spell month."
           ],
-          "example": "I can spell month."
+          "example": "I see the word month."
         },
         {
           "id": "w17d5n04",
@@ -15780,11 +15780,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "plum",
           "examples": [
-            "I can spell plum.",
-            "Please say plum again.",
-            "I can use plum in a sentence."
+            "I eat plum for lunch.",
+            "The plum is on the table.",
+            "Do you like plum?"
           ],
-          "example": "I can spell plum."
+          "example": "I eat plum for lunch."
         },
         {
           "id": "w17d5n05",
@@ -15794,15 +15794,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "rule",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rule",
           "examples": [
-            "I can spell rule.",
-            "Please say rule again.",
-            "I can use rule in a sentence."
+            "I see the word rule.",
+            "I can read rule.",
+            "Please spell rule."
           ],
-          "example": "I can spell rule."
+          "example": "I see the word rule."
         },
         {
           "id": "w17d5n06",
@@ -15812,15 +15812,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "shorts",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shorts",
           "examples": [
-            "I can spell shorts.",
-            "Please say shorts again.",
-            "I can use shorts in a sentence."
+            "I see the word shorts.",
+            "I can read shorts.",
+            "Please spell shorts."
           ],
-          "example": "I can spell shorts."
+          "example": "I see the word shorts."
         },
         {
           "id": "w17d5n07",
@@ -15830,15 +15830,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "too",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "too",
           "examples": [
-            "I can spell too.",
-            "Please say too again.",
-            "I can use too in a sentence."
+            "I see the word too.",
+            "I can read too.",
+            "Please spell too."
           ],
-          "example": "I can spell too."
+          "example": "I see the word too."
         },
         {
           "id": "w17d5n08",
@@ -15848,15 +15848,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "mission",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion | miss-ion",
           "audioText": "mission",
           "examples": [
-            "The word mission is important in this lesson.",
-            "I can spell mission slowly.",
-            "I can use mission in a sentence."
+            "The word mission is in my spelling list.",
+            "I say mission slowly and clearly.",
+            "I can learn mission step by step."
           ],
-          "example": "The word mission is important in this lesson."
+          "example": "The word mission is in my spelling list."
         },
         {
           "id": "w17d5n09",
@@ -15866,15 +15866,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "pineapple",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | pin-eappl-e",
           "audioText": "pineapple",
           "examples": [
-            "The word pineapple is important in this lesson.",
-            "I can spell pineapple slowly.",
-            "I can use pineapple in a sentence."
+            "I eat pineapple for lunch.",
+            "The pineapple is on the table.",
+            "Do you like pineapple?"
           ],
-          "example": "The word pineapple is important in this lesson."
+          "example": "I eat pineapple for lunch."
         },
         {
           "id": "w17d5n10",
@@ -15884,15 +15884,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "relationship",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | rel-at-ionsh-ip",
           "audioText": "relationship",
           "examples": [
-            "The word relationship is important in this lesson.",
-            "I can spell relationship slowly.",
-            "I can use relationship in a sentence."
+            "The word relationship is in my spelling list.",
+            "I say relationship slowly and clearly.",
+            "I can learn relationship step by step."
           ],
-          "example": "The word relationship is important in this lesson."
+          "example": "The word relationship is in my spelling list."
         }
       ]
     },
@@ -15909,15 +15909,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "with",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "with",
           "examples": [
-            "I can spell with.",
-            "Please say with again.",
-            "I can use with in a sentence."
+            "I see the word with.",
+            "I can read with.",
+            "Please spell with."
           ],
-          "example": "I can spell with."
+          "example": "I see the word with."
         },
         {
           "id": "w18d1n02",
@@ -15927,15 +15927,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "at",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "at",
           "examples": [
-            "I can spell at.",
-            "Please say at again.",
-            "I can use at in a sentence."
+            "I see the word at.",
+            "I can read at.",
+            "Please spell at."
           ],
-          "example": "I can spell at."
+          "example": "I see the word at."
         },
         {
           "id": "w18d1n03",
@@ -15945,15 +15945,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "bird",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bird",
           "examples": [
-            "I can spell bird.",
-            "Please say bird again.",
-            "I can use bird in a sentence."
+            "I see a bird at the zoo.",
+            "The bird is in my picture.",
+            "The bird can move fast."
           ],
-          "example": "I can spell bird."
+          "example": "I see a bird at the zoo."
         },
         {
           "id": "w18d1n04",
@@ -15967,11 +15967,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | chin-es-e",
           "audioText": "chinese",
           "examples": [
-            "I can spell chinese.",
-            "Please say chinese again.",
-            "I can use chinese in a sentence."
+            "I see the word chinese.",
+            "I can read chinese.",
+            "Please spell chinese."
           ],
-          "example": "I can spell chinese."
+          "example": "I see the word chinese."
         },
         {
           "id": "w18d1n05",
@@ -15981,15 +15981,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "force",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "force",
           "examples": [
-            "I can spell force.",
-            "Please say force again.",
-            "I can use force in a sentence."
+            "I see the word force.",
+            "I can read force.",
+            "Please spell force."
           ],
-          "example": "I can spell force."
+          "example": "I see the word force."
         },
         {
           "id": "w18d1n06",
@@ -15999,15 +15999,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "hour",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hour",
           "examples": [
-            "I can spell hour.",
-            "Please say hour again.",
-            "I can use hour in a sentence."
+            "I see the word hour.",
+            "I can read hour.",
+            "Please spell hour."
           ],
-          "example": "I can spell hour."
+          "example": "I see the word hour."
         },
         {
           "id": "w18d1n07",
@@ -16017,15 +16017,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "low",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "low",
           "examples": [
-            "I can spell low.",
-            "Please say low again.",
-            "I can use low in a sentence."
+            "I see the word low.",
+            "I can read low.",
+            "Please spell low."
           ],
-          "example": "I can spell low."
+          "example": "I see the word low."
         },
         {
           "id": "w18d1n08",
@@ -16035,15 +16035,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "session",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion | sess-ion",
           "audioText": "session",
           "examples": [
-            "The word session is important in this lesson.",
-            "I can spell session slowly.",
-            "I can use session in a sentence."
+            "The word session is in my spelling list.",
+            "I say session slowly and clearly.",
+            "I can learn session step by step."
           ],
-          "example": "The word session is important in this lesson."
+          "example": "The word session is in my spelling list."
         },
         {
           "id": "w18d1n09",
@@ -16053,15 +16053,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "together",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | togeth-er",
           "audioText": "together",
           "examples": [
-            "The word together is important in this lesson.",
-            "I can spell together slowly.",
-            "I can use together in a sentence."
+            "The word together is in my spelling list.",
+            "I say together slowly and clearly.",
+            "I can learn together step by step."
           ],
-          "example": "The word together is important in this lesson."
+          "example": "The word together is in my spelling list."
         },
         {
           "id": "w18d1n10",
@@ -16071,15 +16071,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "approximate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | appr-ox-im-at-e",
           "audioText": "approximate",
           "examples": [
-            "The word approximate is important in this lesson.",
-            "I can spell approximate slowly.",
-            "I can use approximate in a sentence."
+            "The word approximate is in my spelling list.",
+            "I say approximate slowly and clearly.",
+            "I can learn approximate step by step."
           ],
-          "example": "The word approximate is important in this lesson."
+          "example": "The word approximate is in my spelling list."
         }
       ]
     },
@@ -16096,15 +16096,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "mon",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mon",
           "examples": [
-            "I can spell mon.",
-            "Please say mon again.",
-            "I can use mon in a sentence."
+            "I see the word mon.",
+            "I can read mon.",
+            "Please spell mon."
           ],
-          "example": "I can spell mon."
+          "example": "I see the word mon."
         },
         {
           "id": "w18d2n02",
@@ -16114,15 +16114,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "poet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "poet",
           "examples": [
-            "I can spell poet.",
-            "Please say poet again.",
-            "I can use poet in a sentence."
+            "I see the word poet.",
+            "I can read poet.",
+            "Please spell poet."
           ],
-          "example": "I can spell poet."
+          "example": "I see the word poet."
         },
         {
           "id": "w18d2n03",
@@ -16136,11 +16136,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er",
           "audioText": "ruler",
           "examples": [
-            "I can spell ruler.",
-            "Please say ruler again.",
-            "I can use ruler in a sentence."
+            "This is my ruler.",
+            "I put the ruler on the desk.",
+            "Please find the ruler."
           ],
-          "example": "I can spell ruler."
+          "example": "This is my ruler."
         },
         {
           "id": "w18d2n04",
@@ -16150,15 +16150,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "shovel",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shovel",
           "examples": [
-            "I can spell shovel.",
-            "Please say shovel again.",
-            "I can use shovel in a sentence."
+            "I see the word shovel.",
+            "I can read shovel.",
+            "Please spell shovel."
           ],
-          "example": "I can spell shovel."
+          "example": "I see the word shovel."
         },
         {
           "id": "w18d2n05",
@@ -16168,15 +16168,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "top",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "top",
           "examples": [
-            "I can spell top.",
-            "Please say top again.",
-            "I can use top in a sentence."
+            "I see the word top.",
+            "I can read top.",
+            "Please spell top."
           ],
-          "example": "I can spell top."
+          "example": "I see the word top."
         },
         {
           "id": "w18d2n06",
@@ -16190,11 +16190,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "wolf",
           "examples": [
-            "I can spell wolf.",
-            "Please say wolf again.",
-            "I can use wolf in a sentence."
+            "I see a wolf at the zoo.",
+            "The wolf is in my picture.",
+            "The wolf can move fast."
           ],
-          "example": "I can spell wolf."
+          "example": "I see a wolf at the zoo."
         },
         {
           "id": "w18d2n07",
@@ -16208,11 +16208,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "aunt",
           "examples": [
-            "I can spell aunt.",
-            "Please say aunt again.",
-            "I can use aunt in a sentence."
+            "I see the word aunt.",
+            "I can read aunt.",
+            "Please spell aunt."
           ],
-          "example": "I can spell aunt."
+          "example": "I see the word aunt."
         },
         {
           "id": "w18d2n08",
@@ -16220,17 +16220,17 @@ window.YUMI_COURSE = {
           "dayIndex": 1,
           "dayName": "周二",
           "num": 8,
-          "word": "color/colour",
+          "word": "color",
           "level": "challenge",
           "cn": "颜色",
           "pattern": "英/美拼写变体",
-          "audioText": "color or colour",
+          "audioText": "color",
           "examples": [
-            "The word color is important in this lesson.",
-            "I can spell color slowly.",
-            "I can use color in a sentence."
+            "The word color is in my spelling list.",
+            "I say color slowly and clearly.",
+            "I can learn color step by step."
           ],
-          "example": "The word color is important in this lesson."
+          "example": "The word color is in my spelling list."
         },
         {
           "id": "w18d2n09",
@@ -16240,15 +16240,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "development",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | develop-ment",
           "audioText": "development",
           "examples": [
-            "The word development is important in this lesson.",
-            "I can spell development slowly.",
-            "I can use development in a sentence."
+            "The word development is in my spelling list.",
+            "I say development slowly and clearly.",
+            "I can learn development step by step."
           ],
-          "example": "The word development is important in this lesson."
+          "example": "The word development is in my spelling list."
         },
         {
           "id": "w18d2n10",
@@ -16258,15 +16258,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "everybody",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | ev-er-yb-od-y",
           "audioText": "everybody",
           "examples": [
-            "The word everybody is important in this lesson.",
-            "I can spell everybody slowly.",
-            "I can use everybody in a sentence."
+            "The word everybody is in my spelling list.",
+            "I say everybody slowly and clearly.",
+            "I can learn everybody step by step."
           ],
-          "example": "The word everybody is important in this lesson."
+          "example": "The word everybody is in my spelling list."
         }
       ]
     },
@@ -16287,11 +16287,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "black",
           "examples": [
-            "I can spell black.",
-            "Please say black again.",
-            "I can use black in a sentence."
+            "The flower is black.",
+            "I use a black pencil.",
+            "What is black in your room?"
           ],
-          "example": "I can spell black."
+          "example": "The flower is black."
         },
         {
           "id": "w18d3n02",
@@ -16301,15 +16301,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "chips",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "chips",
           "examples": [
-            "I can spell chips.",
-            "Please say chips again.",
-            "I can use chips in a sentence."
+            "I see the word chips.",
+            "I can read chips.",
+            "Please spell chips."
           ],
-          "example": "I can spell chips."
+          "example": "I see the word chips."
         },
         {
           "id": "w18d3n03",
@@ -16323,11 +16323,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "forest",
           "examples": [
-            "I can spell forest.",
-            "Please say forest again.",
-            "I can use forest in a sentence."
+            "I see the word forest.",
+            "I can read forest.",
+            "Please spell forest."
           ],
-          "example": "I can spell forest."
+          "example": "I see the word forest."
         },
         {
           "id": "w18d3n04",
@@ -16341,11 +16341,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "house",
           "examples": [
-            "I can spell house.",
-            "Please say house again.",
-            "I can use house in a sentence."
+            "I go to the house.",
+            "The house is near my home.",
+            "We talk about the house."
           ],
-          "example": "I can spell house."
+          "example": "I go to the house."
         },
         {
           "id": "w18d3n05",
@@ -16359,11 +16359,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "lunch",
           "examples": [
-            "I can spell lunch.",
-            "Please say lunch again.",
-            "I can use lunch in a sentence."
+            "I see the word lunch.",
+            "I can read lunch.",
+            "Please spell lunch."
           ],
-          "example": "I can spell lunch."
+          "example": "I see the word lunch."
         },
         {
           "id": "w18d3n06",
@@ -16373,15 +16373,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "more",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "more",
           "examples": [
-            "I can spell more.",
-            "Please say more again.",
-            "I can use more in a sentence."
+            "I see the word more.",
+            "I can read more.",
+            "Please spell more."
           ],
-          "example": "I can spell more."
+          "example": "I see the word more."
         },
         {
           "id": "w18d3n07",
@@ -16395,11 +16395,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "police",
           "examples": [
-            "I can spell police.",
-            "Please say police again.",
-            "I can use police in a sentence."
+            "I see the word police.",
+            "I can read police.",
+            "Please spell police."
           ],
-          "example": "I can spell police."
+          "example": "I see the word police."
         },
         {
           "id": "w18d3n08",
@@ -16409,15 +16409,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "future",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "future",
           "examples": [
-            "The word future is important in this lesson.",
-            "I can spell future slowly.",
-            "I can use future in a sentence."
+            "The word future is in my spelling list.",
+            "I say future slowly and clearly.",
+            "I can learn future step by step."
           ],
-          "example": "The word future is important in this lesson."
+          "example": "The word future is in my spelling list."
         },
         {
           "id": "w18d3n09",
@@ -16427,15 +16427,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "intermission",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | intermis-sion",
           "audioText": "intermission",
           "examples": [
-            "The word intermission is important in this lesson.",
-            "I can spell intermission slowly.",
-            "I can use intermission in a sentence."
+            "The word intermission is in my spelling list.",
+            "I say intermission slowly and clearly.",
+            "I can learn intermission step by step."
           ],
-          "example": "The word intermission is important in this lesson."
+          "example": "The word intermission is in my spelling list."
         },
         {
           "id": "w18d3n10",
@@ -16443,17 +16443,17 @@ window.YUMI_COURSE = {
           "dayIndex": 2,
           "dayName": "周三",
           "num": 10,
-          "word": "mom/mum",
+          "word": "mom",
           "level": "challenge",
-          "cn": "",
+          "cn": "妈妈",
           "pattern": "英/美拼写变体",
-          "audioText": "mom or mum",
+          "audioText": "mom",
           "examples": [
-            "The word mom is important in this lesson.",
-            "I can spell mom slowly.",
-            "I can use mom in a sentence."
+            "The word mom is in my spelling list.",
+            "I say mom slowly and clearly.",
+            "I can learn mom step by step."
           ],
-          "example": "The word mom is important in this lesson."
+          "example": "The word mom is in my spelling list."
         }
       ]
     },
@@ -16474,11 +16474,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "run",
           "examples": [
-            "I can spell run.",
-            "Please say run again.",
-            "I can use run in a sentence."
+            "I can run now.",
+            "Please run with me.",
+            "We run after class."
           ],
-          "example": "I can spell run."
+          "example": "I can run now."
         },
         {
           "id": "w18d4n02",
@@ -16492,11 +16492,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "show",
           "examples": [
-            "I can spell show.",
-            "Please say show again.",
-            "I can use show in a sentence."
+            "I can show now.",
+            "Please show with me.",
+            "We show after class."
           ],
-          "example": "I can spell show."
+          "example": "I can show now."
         },
         {
           "id": "w18d4n03",
@@ -16510,11 +16510,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "town",
           "examples": [
-            "I can spell town.",
-            "Please say town again.",
-            "I can use town in a sentence."
+            "I see the word town.",
+            "I can read town.",
+            "Please spell town."
           ],
-          "example": "I can spell town."
+          "example": "I see the word town."
         },
         {
           "id": "w18d4n04",
@@ -16528,11 +16528,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "woman",
           "examples": [
-            "I can spell woman.",
-            "Please say woman again.",
-            "I can use woman in a sentence."
+            "I see the word woman.",
+            "I can read woman.",
+            "Please spell woman."
           ],
-          "example": "I can spell woman."
+          "example": "I see the word woman."
         },
         {
           "id": "w18d4n05",
@@ -16546,11 +16546,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "autumn",
           "examples": [
-            "I can spell autumn.",
-            "Please say autumn again.",
-            "I can use autumn in a sentence."
+            "I see the word autumn.",
+            "I can read autumn.",
+            "Please spell autumn."
           ],
-          "example": "I can spell autumn."
+          "example": "I see the word autumn."
         },
         {
           "id": "w18d4n06",
@@ -16560,15 +16560,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "blanket",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | blank-et",
           "audioText": "blanket",
           "examples": [
-            "I can spell blanket.",
-            "Please say blanket again.",
-            "I can use blanket in a sentence."
+            "I see the word blanket.",
+            "I can read blanket.",
+            "Please spell blanket."
           ],
-          "example": "I can spell blanket."
+          "example": "I see the word blanket."
         },
         {
           "id": "w18d4n07",
@@ -16582,11 +16582,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "choose",
           "examples": [
-            "I can spell choose.",
-            "Please say choose again.",
-            "I can use choose in a sentence."
+            "I can choose now.",
+            "Please choose with me.",
+            "We choose after class."
           ],
-          "example": "I can spell choose."
+          "example": "I can choose now."
         },
         {
           "id": "w18d4n08",
@@ -16596,15 +16596,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "pioneer",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | pione-er",
           "audioText": "pioneer",
           "examples": [
-            "The word pioneer is important in this lesson.",
-            "I can spell pioneer slowly.",
-            "I can use pioneer in a sentence."
+            "The word pioneer is in my spelling list.",
+            "I say pioneer slowly and clearly.",
+            "I can learn pioneer step by step."
           ],
-          "example": "The word pioneer is important in this lesson."
+          "example": "The word pioneer is in my spelling list."
         },
         {
           "id": "w18d4n09",
@@ -16614,15 +16614,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "relief",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "relief",
           "examples": [
-            "The word relief is important in this lesson.",
-            "I can spell relief slowly.",
-            "I can use relief in a sentence."
+            "The word relief is in my spelling list.",
+            "I say relief slowly and clearly.",
+            "I can learn relief step by step."
           ],
-          "example": "The word relief is important in this lesson."
+          "example": "The word relief is in my spelling list."
         },
         {
           "id": "w18d4n10",
@@ -16632,15 +16632,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "seventeen",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | sev-ent-een",
           "audioText": "seventeen",
           "examples": [
-            "The word seventeen is important in this lesson.",
-            "I can spell seventeen slowly.",
-            "I can use seventeen in a sentence."
+            "I can count to seventeen.",
+            "The answer is seventeen.",
+            "Please write seventeen."
           ],
-          "example": "The word seventeen is important in this lesson."
+          "example": "I can count to seventeen."
         }
       ]
     },
@@ -16661,11 +16661,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "fork",
           "examples": [
-            "I can spell fork.",
-            "Please say fork again.",
-            "I can use fork in a sentence."
+            "I see the word fork.",
+            "I can read fork.",
+            "Please spell fork."
           ],
-          "example": "I can spell fork."
+          "example": "I see the word fork."
         },
         {
           "id": "w18d5n02",
@@ -16675,15 +16675,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "how",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "how",
           "examples": [
-            "I can spell how.",
-            "Please say how again.",
-            "I can use how in a sentence."
+            "I see the word how.",
+            "I can read how.",
+            "Please spell how."
           ],
-          "example": "I can spell how."
+          "example": "I see the word how."
         },
         {
           "id": "w18d5n03",
@@ -16697,11 +16697,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ing | morn-ing",
           "audioText": "morning",
           "examples": [
-            "I can spell morning.",
-            "Please say morning again.",
-            "I can use morning in a sentence."
+            "I see the word morning.",
+            "I can read morning.",
+            "Please spell morning."
           ],
-          "example": "I can spell morning."
+          "example": "I see the word morning."
         },
         {
           "id": "w18d5n04",
@@ -16711,15 +16711,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "pool",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "pool",
           "examples": [
-            "I can spell pool.",
-            "Please say pool again.",
-            "I can use pool in a sentence."
+            "I see the word pool.",
+            "I can read pool.",
+            "Please spell pool."
           ],
-          "example": "I can spell pool."
+          "example": "I see the word pool."
         },
         {
           "id": "w18d5n05",
@@ -16729,15 +16729,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "rusty",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rusty",
           "examples": [
-            "I can spell rusty.",
-            "Please say rusty again.",
-            "I can use rusty in a sentence."
+            "I see the word rusty.",
+            "I can read rusty.",
+            "Please spell rusty."
           ],
-          "example": "I can spell rusty."
+          "example": "I see the word rusty."
         },
         {
           "id": "w18d5n06",
@@ -16747,15 +16747,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "shy",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "shy",
           "examples": [
-            "I can spell shy.",
-            "Please say shy again.",
-            "I can use shy in a sentence."
+            "I see the word shy.",
+            "I can read shy.",
+            "Please spell shy."
           ],
-          "example": "I can spell shy."
+          "example": "I see the word shy."
         },
         {
           "id": "w18d5n07",
@@ -16769,11 +16769,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "toy",
           "examples": [
-            "I can spell toy.",
-            "Please say toy again.",
-            "I can use toy in a sentence."
+            "This is my toy.",
+            "I put the toy on the desk.",
+            "Please find the toy."
           ],
-          "example": "I can spell toy."
+          "example": "This is my toy."
         },
         {
           "id": "w18d5n08",
@@ -16787,11 +16787,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | toothbr-ush",
           "audioText": "toothbrush",
           "examples": [
-            "The word toothbrush is important in this lesson.",
-            "I can spell toothbrush slowly.",
-            "I can use toothbrush in a sentence."
+            "This is my toothbrush.",
+            "I put the toothbrush on the desk.",
+            "Please find the toothbrush."
           ],
-          "example": "The word toothbrush is important in this lesson."
+          "example": "This is my toothbrush."
         },
         {
           "id": "w18d5n09",
@@ -16801,15 +16801,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "aptitude",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | apt-it-ud-e",
           "audioText": "aptitude",
           "examples": [
-            "The word aptitude is important in this lesson.",
-            "I can spell aptitude slowly.",
-            "I can use aptitude in a sentence."
+            "The word aptitude is in my spelling list.",
+            "I say aptitude slowly and clearly.",
+            "I can learn aptitude step by step."
           ],
-          "example": "The word aptitude is important in this lesson."
+          "example": "The word aptitude is in my spelling list."
         },
         {
           "id": "w18d5n10",
@@ -16819,15 +16819,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "comfortable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | comfort-able",
           "audioText": "comfortable",
           "examples": [
-            "The word comfortable is important in this lesson.",
-            "I can spell comfortable slowly.",
-            "I can use comfortable in a sentence."
+            "The word comfortable is in my spelling list.",
+            "I say comfortable slowly and clearly.",
+            "I can learn comfortable step by step."
           ],
-          "example": "The word comfortable is important in this lesson."
+          "example": "The word comfortable is in my spelling list."
         }
       ]
     },
@@ -16844,15 +16844,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "work",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "work",
           "examples": [
-            "I can spell work.",
-            "Please say work again.",
-            "I can use work in a sentence."
+            "I see the word work.",
+            "I can read work.",
+            "Please spell work."
           ],
-          "example": "I can spell work."
+          "example": "I see the word work."
         },
         {
           "id": "w19d1n02",
@@ -16866,11 +16866,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "away",
           "examples": [
-            "I can spell away.",
-            "Please say away again.",
-            "I can use away in a sentence."
+            "I see the word away.",
+            "I can read away.",
+            "Please spell away."
           ],
-          "example": "I can spell away."
+          "example": "I see the word away."
         },
         {
           "id": "w19d1n03",
@@ -16880,15 +16880,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "bliss",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bliss",
           "examples": [
-            "I can spell bliss.",
-            "Please say bliss again.",
-            "I can use bliss in a sentence."
+            "I see the word bliss.",
+            "I can read bliss.",
+            "Please spell bliss."
           ],
-          "example": "I can spell bliss."
+          "example": "I see the word bliss."
         },
         {
           "id": "w19d1n04",
@@ -16898,15 +16898,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "chop",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "chop",
           "examples": [
-            "I can spell chop.",
-            "Please say chop again.",
-            "I can use chop in a sentence."
+            "I see the word chop.",
+            "I can read chop.",
+            "Please spell chop."
           ],
-          "example": "I can spell chop."
+          "example": "I see the word chop."
         },
         {
           "id": "w19d1n05",
@@ -16916,15 +16916,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "form",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "form",
           "examples": [
-            "I can spell form.",
-            "Please say form again.",
-            "I can use form in a sentence."
+            "I see the word form.",
+            "I can read form.",
+            "Please spell form."
           ],
-          "example": "I can spell form."
+          "example": "I see the word form."
         },
         {
           "id": "w19d1n06",
@@ -16934,15 +16934,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "hum",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hum",
           "examples": [
-            "I can spell hum.",
-            "Please say hum again.",
-            "I can use hum in a sentence."
+            "I see the word hum.",
+            "I can read hum.",
+            "Please spell hum."
           ],
-          "example": "I can spell hum."
+          "example": "I see the word hum."
         },
         {
           "id": "w19d1n07",
@@ -16956,11 +16956,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | moth-er",
           "audioText": "mother",
           "examples": [
-            "I can spell mother.",
-            "Please say mother again.",
-            "I can use mother in a sentence."
+            "I see the word mother.",
+            "I can read mother.",
+            "Please spell mother."
           ],
-          "example": "I can spell mother."
+          "example": "I see the word mother."
         },
         {
           "id": "w19d1n08",
@@ -16974,11 +16974,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | dict-ion-ar-y",
           "audioText": "dictionary",
           "examples": [
-            "The word dictionary is important in this lesson.",
-            "I can spell dictionary slowly.",
-            "I can use dictionary in a sentence."
+            "The word dictionary is in my spelling list.",
+            "I say dictionary slowly and clearly.",
+            "I can learn dictionary step by step."
           ],
-          "example": "The word dictionary is important in this lesson."
+          "example": "The word dictionary is in my spelling list."
         },
         {
           "id": "w19d1n09",
@@ -16988,15 +16988,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "everything",
           "level": "challenge",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "长词: 分音节背 | everyth-ing",
           "audioText": "everything",
           "examples": [
-            "The word everything is important in this lesson.",
-            "I can spell everything slowly.",
-            "I can use everything in a sentence."
+            "The word everything is in my spelling list.",
+            "I say everything slowly and clearly.",
+            "I can learn everything step by step."
           ],
-          "example": "The word everything is important in this lesson."
+          "example": "The word everything is in my spelling list."
         },
         {
           "id": "w19d1n10",
@@ -17010,11 +17010,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | int-ern-at-ion-al",
           "audioText": "international",
           "examples": [
-            "The word international is important in this lesson.",
-            "I can spell international slowly.",
-            "I can use international in a sentence."
+            "The word international is in my spelling list.",
+            "I say international slowly and clearly.",
+            "I can learn international step by step."
           ],
-          "example": "The word international is important in this lesson."
+          "example": "The word international is in my spelling list."
         }
       ]
     },
@@ -17031,15 +17031,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "poor",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "poor",
           "examples": [
-            "I can spell poor.",
-            "Please say poor again.",
-            "I can use poor in a sentence."
+            "I see the word poor.",
+            "I can read poor.",
+            "Please spell poor."
           ],
-          "example": "I can spell poor."
+          "example": "I see the word poor."
         },
         {
           "id": "w19d2n02",
@@ -17049,15 +17049,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "rut",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "rut",
           "examples": [
-            "I can spell rut.",
-            "Please say rut again.",
-            "I can use rut in a sentence."
+            "I see the word rut.",
+            "I can read rut.",
+            "Please spell rut."
           ],
-          "example": "I can spell rut."
+          "example": "I see the word rut."
         },
         {
           "id": "w19d2n03",
@@ -17067,15 +17067,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "side",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "side",
           "examples": [
-            "I can spell side.",
-            "Please say side again.",
-            "I can use side in a sentence."
+            "I see the word side.",
+            "I can read side.",
+            "Please spell side."
           ],
-          "example": "I can spell side."
+          "example": "I see the word side."
         },
         {
           "id": "w19d2n04",
@@ -17085,15 +17085,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "trade",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "trade",
           "examples": [
-            "I can spell trade.",
-            "Please say trade again.",
-            "I can use trade in a sentence."
+            "I see the word trade.",
+            "I can read trade.",
+            "Please spell trade."
           ],
-          "example": "I can spell trade."
+          "example": "I see the word trade."
         },
         {
           "id": "w19d2n05",
@@ -17107,11 +17107,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "world",
           "examples": [
-            "I can spell world.",
-            "Please say world again.",
-            "I can use world in a sentence."
+            "I see the word world.",
+            "I can read world.",
+            "Please spell world."
           ],
-          "example": "I can spell world."
+          "example": "I see the word world."
         },
         {
           "id": "w19d2n06",
@@ -17125,11 +17125,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "boat",
           "examples": [
-            "I can spell boat.",
-            "Please say boat again.",
-            "I can use boat in a sentence."
+            "I see the word boat.",
+            "I can read boat.",
+            "Please spell boat."
           ],
-          "example": "I can spell boat."
+          "example": "I see the word boat."
         },
         {
           "id": "w19d2n07",
@@ -17139,15 +17139,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "chug",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "chug",
           "examples": [
-            "I can spell chug.",
-            "Please say chug again.",
-            "I can use chug in a sentence."
+            "I see the word chug.",
+            "I can read chug.",
+            "Please spell chug."
           ],
-          "example": "I can spell chug."
+          "example": "I see the word chug."
         },
         {
           "id": "w19d2n08",
@@ -17157,15 +17157,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "monthly",
           "level": "challenge",
-          "cn": "",
+          "cn": "……地；……的",
           "pattern": "后缀 -ly | month-ly",
           "audioText": "monthly",
           "examples": [
-            "The word monthly is important in this lesson.",
-            "I can spell monthly slowly.",
-            "I can use monthly in a sentence."
+            "The word monthly is in my spelling list.",
+            "I say monthly slowly and clearly.",
+            "I can learn monthly step by step."
           ],
-          "example": "The word monthly is important in this lesson."
+          "example": "The word monthly is in my spelling list."
         },
         {
           "id": "w19d2n09",
@@ -17175,15 +17175,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "pitfall",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pitf-all",
           "audioText": "pitfall",
           "examples": [
-            "The word pitfall is important in this lesson.",
-            "I can spell pitfall slowly.",
-            "I can use pitfall in a sentence."
+            "The word pitfall is in my spelling list.",
+            "I say pitfall slowly and clearly.",
+            "I can learn pitfall step by step."
           ],
-          "example": "The word pitfall is important in this lesson."
+          "example": "The word pitfall is in my spelling list."
         },
         {
           "id": "w19d2n10",
@@ -17193,15 +17193,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "relieve",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | rel-iev-e",
           "audioText": "relieve",
           "examples": [
-            "The word relieve is important in this lesson.",
-            "I can spell relieve slowly.",
-            "I can use relieve in a sentence."
+            "The word relieve is in my spelling list.",
+            "I say relieve slowly and clearly.",
+            "I can learn relieve step by step."
           ],
-          "example": "The word relieve is important in this lesson."
+          "example": "The word relieve is in my spelling list."
         }
       ]
     },
@@ -17218,15 +17218,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "former",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | form-er",
           "audioText": "former",
           "examples": [
-            "I can spell former.",
-            "Please say former again.",
-            "I can use former in a sentence."
+            "I see the word former.",
+            "I can read former.",
+            "Please spell former."
           ],
-          "example": "I can spell former."
+          "example": "I see the word former."
         },
         {
           "id": "w19d3n02",
@@ -17236,15 +17236,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "hunt",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "hunt",
           "examples": [
-            "I can spell hunt.",
-            "Please say hunt again.",
-            "I can use hunt in a sentence."
+            "I see the word hunt.",
+            "I can read hunt.",
+            "Please spell hunt."
           ],
-          "example": "I can spell hunt."
+          "example": "I see the word hunt."
         },
         {
           "id": "w19d3n03",
@@ -17254,15 +17254,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "mourn",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mourn",
           "examples": [
-            "I can spell mourn.",
-            "Please say mourn again.",
-            "I can use mourn in a sentence."
+            "I see the word mourn.",
+            "I can read mourn.",
+            "Please spell mourn."
           ],
-          "example": "I can spell mourn."
+          "example": "I see the word mourn."
         },
         {
           "id": "w19d3n04",
@@ -17276,11 +17276,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | popc-orn",
           "audioText": "popcorn",
           "examples": [
-            "I can spell popcorn.",
-            "Please say popcorn again.",
-            "I can use popcorn in a sentence."
+            "I eat popcorn for lunch.",
+            "The popcorn is on the table.",
+            "Do you like popcorn?"
           ],
-          "example": "I can spell popcorn."
+          "example": "I eat popcorn for lunch."
         },
         {
           "id": "w19d3n05",
@@ -17290,15 +17290,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "sign",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sign",
           "examples": [
-            "I can spell sign.",
-            "Please say sign again.",
-            "I can use sign in a sentence."
+            "I see the word sign.",
+            "I can read sign.",
+            "Please spell sign."
           ],
-          "example": "I can spell sign."
+          "example": "I see the word sign."
         },
         {
           "id": "w19d3n06",
@@ -17308,15 +17308,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "trail",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "trail",
           "examples": [
-            "I can spell trail.",
-            "Please say trail again.",
-            "I can use trail in a sentence."
+            "I see the word trail.",
+            "I can read trail.",
+            "Please spell trail."
           ],
-          "example": "I can spell trail."
+          "example": "I see the word trail."
         },
         {
           "id": "w19d3n07",
@@ -17326,15 +17326,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "would",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "would",
           "examples": [
-            "I can spell would.",
-            "Please say would again.",
-            "I can use would in a sentence."
+            "I see the word would.",
+            "I can read would.",
+            "Please spell would."
           ],
-          "example": "I can spell would."
+          "example": "I see the word would."
         },
         {
           "id": "w19d3n08",
@@ -17344,15 +17344,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "shelter",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | shelt-er",
           "audioText": "shelter",
           "examples": [
-            "The word shelter is important in this lesson.",
-            "I can spell shelter slowly.",
-            "I can use shelter in a sentence."
+            "The word shelter is in my spelling list.",
+            "I say shelter slowly and clearly.",
+            "I can learn shelter step by step."
           ],
-          "example": "The word shelter is important in this lesson."
+          "example": "The word shelter is in my spelling list."
         },
         {
           "id": "w19d3n09",
@@ -17362,15 +17362,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "toward",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "toward",
           "examples": [
-            "The word toward is important in this lesson.",
-            "I can spell toward slowly.",
-            "I can use toward in a sentence."
+            "The word toward is in my spelling list.",
+            "I say toward slowly and clearly.",
+            "I can learn toward step by step."
           ],
-          "example": "The word toward is important in this lesson."
+          "example": "The word toward is in my spelling list."
         },
         {
           "id": "w19d3n10",
@@ -17380,15 +17380,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "architect",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | arch-it-ect",
           "audioText": "architect",
           "examples": [
-            "The word architect is important in this lesson.",
-            "I can spell architect slowly.",
-            "I can use architect in a sentence."
+            "The word architect is in my spelling list.",
+            "I say architect slowly and clearly.",
+            "I can learn architect step by step."
           ],
-          "example": "The word architect is important in this lesson."
+          "example": "The word architect is in my spelling list."
         }
       ]
     },
@@ -17409,11 +17409,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "body",
           "examples": [
-            "I can spell body.",
-            "Please say body again.",
-            "I can use body in a sentence."
+            "I see the word body.",
+            "I can read body.",
+            "Please spell body."
           ],
-          "example": "I can spell body."
+          "example": "I see the word body."
         },
         {
           "id": "w19d4n02",
@@ -17427,11 +17427,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "church",
           "examples": [
-            "I can spell church.",
-            "Please say church again.",
-            "I can use church in a sentence."
+            "I go to the church.",
+            "The church is near my home.",
+            "We talk about the church."
           ],
-          "example": "I can spell church."
+          "example": "I go to the church."
         },
         {
           "id": "w19d4n03",
@@ -17445,11 +17445,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "forty",
           "examples": [
-            "I can spell forty.",
-            "Please say forty again.",
-            "I can use forty in a sentence."
+            "I can count to forty.",
+            "The answer is forty.",
+            "Please write forty."
           ],
-          "example": "I can spell forty."
+          "example": "I can count to forty."
         },
         {
           "id": "w19d4n04",
@@ -17463,11 +17463,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "hurry",
           "examples": [
-            "I can spell hurry.",
-            "Please say hurry again.",
-            "I can use hurry in a sentence."
+            "I can hurry now.",
+            "Please hurry with me.",
+            "We hurry after class."
           ],
-          "example": "I can spell hurry."
+          "example": "I can hurry now."
         },
         {
           "id": "w19d4n05",
@@ -17481,11 +17481,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "mouth",
           "examples": [
-            "I can spell mouth.",
-            "Please say mouth again.",
-            "I can use mouth in a sentence."
+            "I see the word mouth.",
+            "I can read mouth.",
+            "Please spell mouth."
           ],
-          "example": "I can spell mouth."
+          "example": "I see the word mouth."
         },
         {
           "id": "w19d4n06",
@@ -17495,15 +17495,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "pork",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pork",
           "examples": [
-            "I can spell pork.",
-            "Please say pork again.",
-            "I can use pork in a sentence."
+            "I eat pork for lunch.",
+            "The pork is on the table.",
+            "Do you like pork?"
           ],
-          "example": "I can spell pork."
+          "example": "I eat pork for lunch."
         },
         {
           "id": "w19d4n07",
@@ -17513,15 +17513,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "silent",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "silent",
           "examples": [
-            "I can spell silent.",
-            "Please say silent again.",
-            "I can use silent in a sentence."
+            "I see the word silent.",
+            "I can read silent.",
+            "Please spell silent."
           ],
-          "example": "I can spell silent."
+          "example": "I see the word silent."
         },
         {
           "id": "w19d4n08",
@@ -17531,15 +17531,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "commit",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "commit",
           "examples": [
-            "The word commit is important in this lesson.",
-            "I can spell commit slowly.",
-            "I can use commit in a sentence."
+            "The word commit is in my spelling list.",
+            "I say commit slowly and clearly.",
+            "I can learn commit step by step."
           ],
-          "example": "The word commit is important in this lesson."
+          "example": "The word commit is in my spelling list."
         },
         {
           "id": "w19d4n09",
@@ -17549,15 +17549,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "different",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | diff-er-ent",
           "audioText": "different",
           "examples": [
-            "The word different is important in this lesson.",
-            "I can spell different slowly.",
-            "I can use different in a sentence."
+            "I feel different today.",
+            "The word different is useful.",
+            "Can you make a sentence with different?"
           ],
-          "example": "The word different is important in this lesson."
+          "example": "I feel different today."
         },
         {
           "id": "w19d4n10",
@@ -17567,15 +17567,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "exaggerate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | ex-agg-er-at-e",
           "audioText": "exaggerate",
           "examples": [
-            "The word exaggerate is important in this lesson.",
-            "I can spell exaggerate slowly.",
-            "I can use exaggerate in a sentence."
+            "The word exaggerate is in my spelling list.",
+            "I say exaggerate slowly and clearly.",
+            "I can learn exaggerate step by step."
           ],
-          "example": "The word exaggerate is important in this lesson."
+          "example": "The word exaggerate is in my spelling list."
         }
       ]
     },
@@ -17596,11 +17596,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "train",
           "examples": [
-            "I can spell train.",
-            "Please say train again.",
-            "I can use train in a sentence."
+            "I see the word train.",
+            "I can read train.",
+            "Please spell train."
           ],
-          "example": "I can spell train."
+          "example": "I see the word train."
         },
         {
           "id": "w19d5n02",
@@ -17614,11 +17614,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "write",
           "examples": [
-            "I can spell write.",
-            "Please say write again.",
-            "I can use write in a sentence."
+            "I can write now.",
+            "Please write with me.",
+            "We write after class."
           ],
-          "example": "I can spell write."
+          "example": "I can write now."
         },
         {
           "id": "w19d5n03",
@@ -17628,15 +17628,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "bomber",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | bomb-er",
           "audioText": "bomber",
           "examples": [
-            "I can spell bomber.",
-            "Please say bomber again.",
-            "I can use bomber in a sentence."
+            "I see the word bomber.",
+            "I can read bomber.",
+            "Please spell bomber."
           ],
-          "example": "I can spell bomber."
+          "example": "I see the word bomber."
         },
         {
           "id": "w19d5n04",
@@ -17646,15 +17646,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cinema",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cinema",
           "examples": [
-            "I can spell cinema.",
-            "Please say cinema again.",
-            "I can use cinema in a sentence."
+            "I go to the cinema.",
+            "The cinema is near my home.",
+            "We talk about the cinema."
           ],
-          "example": "I can spell cinema."
+          "example": "I go to the cinema."
         },
         {
           "id": "w19d5n05",
@@ -17664,15 +17664,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "forward",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | forw-ard",
           "audioText": "forward",
           "examples": [
-            "I can spell forward.",
-            "Please say forward again.",
-            "I can use forward in a sentence."
+            "I see the word forward.",
+            "I can read forward.",
+            "Please spell forward."
           ],
-          "example": "I can spell forward."
+          "example": "I see the word forward."
         },
         {
           "id": "w19d5n06",
@@ -17682,15 +17682,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "much",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "much",
           "examples": [
-            "I can spell much.",
-            "Please say much again.",
-            "I can use much in a sentence."
+            "I see the word much.",
+            "I can read much.",
+            "Please spell much."
           ],
-          "example": "I can spell much."
+          "example": "I see the word much."
         },
         {
           "id": "w19d5n07",
@@ -17700,15 +17700,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "postman",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | postm-an",
           "audioText": "postman",
           "examples": [
-            "I can spell postman.",
-            "Please say postman again.",
-            "I can use postman in a sentence."
+            "I see the word postman.",
+            "I can read postman.",
+            "Please spell postman."
           ],
-          "example": "I can spell postman."
+          "example": "I see the word postman."
         },
         {
           "id": "w19d5n08",
@@ -17718,15 +17718,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "interplay",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | int-erpl-ay",
           "audioText": "interplay",
           "examples": [
-            "The word interplay is important in this lesson.",
-            "I can spell interplay slowly.",
-            "I can use interplay in a sentence."
+            "The word interplay is in my spelling list.",
+            "I say interplay slowly and clearly.",
+            "I can learn interplay step by step."
           ],
-          "example": "The word interplay is important in this lesson."
+          "example": "The word interplay is in my spelling list."
         },
         {
           "id": "w19d5n09",
@@ -17740,11 +17740,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | mount-ain",
           "audioText": "mountain",
           "examples": [
-            "The word mountain is important in this lesson.",
-            "I can spell mountain slowly.",
-            "I can use mountain in a sentence."
+            "The word mountain is in my spelling list.",
+            "I say mountain slowly and clearly.",
+            "I can learn mountain step by step."
           ],
-          "example": "The word mountain is important in this lesson."
+          "example": "The word mountain is in my spelling list."
         },
         {
           "id": "w19d5n10",
@@ -17758,11 +17758,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "planet",
           "examples": [
-            "The word planet is important in this lesson.",
-            "I can spell planet slowly.",
-            "I can use planet in a sentence."
+            "The word planet is in my spelling list.",
+            "I say planet slowly and clearly.",
+            "I can learn planet step by step."
           ],
-          "example": "The word planet is important in this lesson."
+          "example": "The word planet is in my spelling list."
         }
       ]
     },
@@ -17779,15 +17779,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "sing",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing",
           "audioText": "sing",
           "examples": [
-            "I can spell sing.",
-            "Please say sing again.",
-            "I can use sing in a sentence."
+            "I can sing now.",
+            "Please sing with me.",
+            "We sing after class."
           ],
-          "example": "I can spell sing."
+          "example": "I can sing now."
         },
         {
           "id": "w20d1n02",
@@ -17797,15 +17797,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "tram",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tram",
           "examples": [
-            "I can spell tram.",
-            "Please say tram again.",
-            "I can use tram in a sentence."
+            "I see the word tram.",
+            "I can read tram.",
+            "Please spell tram."
           ],
-          "example": "I can spell tram."
+          "example": "I see the word tram."
         },
         {
           "id": "w20d1n03",
@@ -17819,11 +17819,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bone",
           "examples": [
-            "I can spell bone.",
-            "Please say bone again.",
-            "I can use bone in a sentence."
+            "I see the word bone.",
+            "I can read bone.",
+            "Please spell bone."
           ],
-          "example": "I can spell bone."
+          "example": "I see the word bone."
         },
         {
           "id": "w20d1n04",
@@ -17837,11 +17837,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "class",
           "examples": [
-            "I can spell class.",
-            "Please say class again.",
-            "I can use class in a sentence."
+            "I see the word class.",
+            "I can read class.",
+            "Please spell class."
           ],
-          "example": "I can spell class."
+          "example": "I see the word class."
         },
         {
           "id": "w20d1n05",
@@ -17855,11 +17855,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "four",
           "examples": [
-            "I can spell four.",
-            "Please say four again.",
-            "I can use four in a sentence."
+            "I can count to four.",
+            "The answer is four.",
+            "Please write four."
           ],
-          "example": "I can spell four."
+          "example": "I can count to four."
         },
         {
           "id": "w20d1n06",
@@ -17869,15 +17869,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "mug",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mug",
           "examples": [
-            "I can spell mug.",
-            "Please say mug again.",
-            "I can use mug in a sentence."
+            "I see the word mug.",
+            "I can read mug.",
+            "Please spell mug."
           ],
-          "example": "I can spell mug."
+          "example": "I see the word mug."
         },
         {
           "id": "w20d1n07",
@@ -17891,11 +17891,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "potato",
           "examples": [
-            "I can spell potato.",
-            "Please say potato again.",
-            "I can use potato in a sentence."
+            "I eat potato for lunch.",
+            "The potato is on the table.",
+            "Do you like potato?"
           ],
-          "example": "I can spell potato."
+          "example": "I eat potato for lunch."
         },
         {
           "id": "w20d1n08",
@@ -17905,15 +17905,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "replacement",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | replace-ment",
           "audioText": "replacement",
           "examples": [
-            "The word replacement is important in this lesson.",
-            "I can spell replacement slowly.",
-            "I can use replacement in a sentence."
+            "The word replacement is in my spelling list.",
+            "I say replacement slowly and clearly.",
+            "I can learn replacement step by step."
           ],
-          "example": "The word replacement is important in this lesson."
+          "example": "The word replacement is in my spelling list."
         },
         {
           "id": "w20d1n09",
@@ -17923,15 +17923,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "shoulder",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | should-er",
           "audioText": "shoulder",
           "examples": [
-            "The word shoulder is important in this lesson.",
-            "I can spell shoulder slowly.",
-            "I can use shoulder in a sentence."
+            "The word shoulder is in my spelling list.",
+            "I say shoulder slowly and clearly.",
+            "I can learn shoulder step by step."
           ],
-          "example": "The word shoulder is important in this lesson."
+          "example": "The word shoulder is in my spelling list."
         },
         {
           "id": "w20d1n10",
@@ -17941,15 +17941,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "tracery",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | trac-er-y",
           "audioText": "tracery",
           "examples": [
-            "The word tracery is important in this lesson.",
-            "I can spell tracery slowly.",
-            "I can use tracery in a sentence."
+            "The word tracery is in my spelling list.",
+            "I say tracery slowly and clearly.",
+            "I can learn tracery step by step."
           ],
-          "example": "The word tracery is important in this lesson."
+          "example": "The word tracery is in my spelling list."
         }
       ]
     },
@@ -17966,15 +17966,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "single",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "single",
           "examples": [
-            "I can spell single.",
-            "Please say single again.",
-            "I can use single in a sentence."
+            "I see the word single.",
+            "I can read single.",
+            "Please spell single."
           ],
-          "example": "I can spell single."
+          "example": "I see the word single."
         },
         {
           "id": "w20d2n02",
@@ -17988,11 +17988,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "tree",
           "examples": [
-            "I can spell tree.",
-            "Please say tree again.",
-            "I can use tree in a sentence."
+            "I see the word tree.",
+            "I can read tree.",
+            "Please spell tree."
           ],
-          "example": "I can spell tree."
+          "example": "I see the word tree."
         },
         {
           "id": "w20d2n03",
@@ -18006,11 +18006,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "book",
           "examples": [
-            "I can spell book.",
-            "Please say book again.",
-            "I can use book in a sentence."
+            "This is my book.",
+            "I put the book on the desk.",
+            "Please find the book."
           ],
-          "example": "I can spell book."
+          "example": "This is my book."
         },
         {
           "id": "w20d2n04",
@@ -18024,11 +18024,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "clean",
           "examples": [
-            "I can spell clean.",
-            "Please say clean again.",
-            "I can use clean in a sentence."
+            "I can clean now.",
+            "Please clean with me.",
+            "We clean after class."
           ],
-          "example": "I can spell clean."
+          "example": "I can clean now."
         },
         {
           "id": "w20d2n05",
@@ -18042,11 +18042,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "fox",
           "examples": [
-            "I can spell fox.",
-            "Please say fox again.",
-            "I can use fox in a sentence."
+            "I see the word fox.",
+            "I can read fox.",
+            "Please spell fox."
           ],
-          "example": "I can spell fox."
+          "example": "I see the word fox."
         },
         {
           "id": "w20d2n06",
@@ -18060,11 +18060,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "music",
           "examples": [
-            "I can spell music.",
-            "Please say music again.",
-            "I can use music in a sentence."
+            "I see the word music.",
+            "I can read music.",
+            "Please spell music."
           ],
-          "example": "I can spell music."
+          "example": "I see the word music."
         },
         {
           "id": "w20d2n07",
@@ -18074,15 +18074,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "pounce",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pounce",
           "examples": [
-            "I can spell pounce.",
-            "Please say pounce again.",
-            "I can use pounce in a sentence."
+            "I see the word pounce.",
+            "I can read pounce.",
+            "Please spell pounce."
           ],
-          "example": "I can spell pounce."
+          "example": "I see the word pounce."
         },
         {
           "id": "w20d2n08",
@@ -18096,11 +18096,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合 | armch-air",
           "audioText": "armchair",
           "examples": [
-            "The word armchair is important in this lesson.",
-            "I can spell armchair slowly.",
-            "I can use armchair in a sentence."
+            "The word armchair is in my spelling list.",
+            "I say armchair slowly and clearly.",
+            "I can learn armchair step by step."
           ],
-          "example": "The word armchair is important in this lesson."
+          "example": "The word armchair is in my spelling list."
         },
         {
           "id": "w20d2n09",
@@ -18110,15 +18110,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "community",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | comm-un-it-y",
           "audioText": "community",
           "examples": [
-            "The word community is important in this lesson.",
-            "I can spell community slowly.",
-            "I can use community in a sentence."
+            "The word community is in my spelling list.",
+            "I say community slowly and clearly.",
+            "I can learn community step by step."
           ],
-          "example": "The word community is important in this lesson."
+          "example": "The word community is in my spelling list."
         },
         {
           "id": "w20d2n10",
@@ -18132,11 +18132,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | diff-ic-ult",
           "audioText": "difficult",
           "examples": [
-            "The word difficult is important in this lesson.",
-            "I can spell difficult slowly.",
-            "I can use difficult in a sentence."
+            "I feel difficult today.",
+            "The word difficult is useful.",
+            "Can you make a sentence with difficult?"
           ],
-          "example": "The word difficult is important in this lesson."
+          "example": "I feel difficult today."
         }
       ]
     },
@@ -18153,15 +18153,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "sip",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sip",
           "examples": [
-            "I can spell sip.",
-            "Please say sip again.",
-            "I can use sip in a sentence."
+            "I see the word sip.",
+            "I can read sip.",
+            "Please spell sip."
           ],
-          "example": "I can spell sip."
+          "example": "I see the word sip."
         },
         {
           "id": "w20d3n02",
@@ -18171,15 +18171,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "tremor",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tremor",
           "examples": [
-            "I can spell tremor.",
-            "Please say tremor again.",
-            "I can use tremor in a sentence."
+            "I see the word tremor.",
+            "I can read tremor.",
+            "Please spell tremor."
           ],
-          "example": "I can spell tremor."
+          "example": "I see the word tremor."
         },
         {
           "id": "w20d3n03",
@@ -18189,15 +18189,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "borrow",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "borrow",
           "examples": [
-            "I can spell borrow.",
-            "Please say borrow again.",
-            "I can use borrow in a sentence."
+            "I see the word borrow.",
+            "I can read borrow.",
+            "Please spell borrow."
           ],
-          "example": "I can spell borrow."
+          "example": "I see the word borrow."
         },
         {
           "id": "w20d3n04",
@@ -18211,11 +18211,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "clear",
           "examples": [
-            "I can spell clear.",
-            "Please say clear again.",
-            "I can use clear in a sentence."
+            "I feel clear today.",
+            "The word clear is useful.",
+            "Can you make a sentence with clear?"
           ],
-          "example": "I can spell clear."
+          "example": "I feel clear today."
         },
         {
           "id": "w20d3n05",
@@ -18225,15 +18225,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "fresh",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "fresh",
           "examples": [
-            "I can spell fresh.",
-            "Please say fresh again.",
-            "I can use fresh in a sentence."
+            "I see the word fresh.",
+            "I can read fresh.",
+            "Please spell fresh."
           ],
-          "example": "I can spell fresh."
+          "example": "I see the word fresh."
         },
         {
           "id": "w20d3n06",
@@ -18243,15 +18243,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "mutton",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mutton",
           "examples": [
-            "I can spell mutton.",
-            "Please say mutton again.",
-            "I can use mutton in a sentence."
+            "I eat mutton for lunch.",
+            "The mutton is on the table.",
+            "Do you like mutton?"
           ],
-          "example": "I can spell mutton."
+          "example": "I eat mutton for lunch."
         },
         {
           "id": "w20d3n07",
@@ -18261,15 +18261,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "power",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "power",
           "examples": [
-            "I can spell power.",
-            "Please say power again.",
-            "I can use power in a sentence."
+            "I see the word power.",
+            "I can read power.",
+            "Please spell power."
           ],
-          "example": "I can spell power."
+          "example": "I see the word power."
         },
         {
           "id": "w20d3n08",
@@ -18279,15 +18279,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "excursion",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | excur-sion",
           "audioText": "excursion",
           "examples": [
-            "The word excursion is important in this lesson.",
-            "I can spell excursion slowly.",
-            "I can use excursion in a sentence."
+            "The word excursion is in my spelling list.",
+            "I say excursion slowly and clearly.",
+            "I can learn excursion step by step."
           ],
-          "example": "The word excursion is important in this lesson."
+          "example": "The word excursion is in my spelling list."
         },
         {
           "id": "w20d3n09",
@@ -18297,15 +18297,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "intertwine",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | int-ertw-in-e",
           "audioText": "intertwine",
           "examples": [
-            "The word intertwine is important in this lesson.",
-            "I can spell intertwine slowly.",
-            "I can use intertwine in a sentence."
+            "The word intertwine is in my spelling list.",
+            "I say intertwine slowly and clearly.",
+            "I can learn intertwine step by step."
           ],
-          "example": "The word intertwine is important in this lesson."
+          "example": "The word intertwine is in my spelling list."
         },
         {
           "id": "w20d3n10",
@@ -18315,15 +18315,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "plate",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "plate",
           "examples": [
-            "The word plate is important in this lesson.",
-            "I can spell plate slowly.",
-            "I can use plate in a sentence."
+            "The word plate is in my spelling list.",
+            "I say plate slowly and clearly.",
+            "I can learn plate step by step."
           ],
-          "example": "The word plate is important in this lesson."
+          "example": "The word plate is in my spelling list."
         }
       ]
     },
@@ -18340,15 +18340,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "siren",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "siren",
           "examples": [
-            "I can spell siren.",
-            "Please say siren again.",
-            "I can use siren in a sentence."
+            "I see the word siren.",
+            "I can read siren.",
+            "Please spell siren."
           ],
-          "example": "I can spell siren."
+          "example": "I see the word siren."
         },
         {
           "id": "w20d4n02",
@@ -18362,11 +18362,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "truck",
           "examples": [
-            "I can spell truck.",
-            "Please say truck again.",
-            "I can use truck in a sentence."
+            "I see the word truck.",
+            "I can read truck.",
+            "Please spell truck."
           ],
-          "example": "I can spell truck."
+          "example": "I see the word truck."
         },
         {
           "id": "w20d4n03",
@@ -18376,15 +18376,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "bowl",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bowl",
           "examples": [
-            "I can spell bowl.",
-            "Please say bowl again.",
-            "I can use bowl in a sentence."
+            "I see the word bowl.",
+            "I can read bowl.",
+            "Please spell bowl."
           ],
-          "example": "I can spell bowl."
+          "example": "I see the word bowl."
         },
         {
           "id": "w20d4n04",
@@ -18394,15 +18394,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "clever",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | clev-er",
           "audioText": "clever",
           "examples": [
-            "I can spell clever.",
-            "Please say clever again.",
-            "I can use clever in a sentence."
+            "I feel clever today.",
+            "The word clever is useful.",
+            "Can you make a sentence with clever?"
           ],
-          "example": "I can spell clever."
+          "example": "I feel clever today."
         },
         {
           "id": "w20d4n05",
@@ -18412,15 +18412,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "fridge",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "fridge",
           "examples": [
-            "I can spell fridge.",
-            "Please say fridge again.",
-            "I can use fridge in a sentence."
+            "I see the word fridge.",
+            "I can read fridge.",
+            "Please spell fridge."
           ],
-          "example": "I can spell fridge."
+          "example": "I see the word fridge."
         },
         {
           "id": "w20d4n06",
@@ -18430,15 +18430,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "my",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "my",
           "examples": [
-            "I can spell my.",
-            "Please say my again.",
-            "I can use my in a sentence."
+            "I see the word my.",
+            "I can read my.",
+            "Please spell my."
           ],
-          "example": "I can spell my."
+          "example": "I see the word my."
         },
         {
           "id": "w20d4n07",
@@ -18448,15 +18448,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "prawn",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "prawn",
           "examples": [
-            "I can spell prawn.",
-            "Please say prawn again.",
-            "I can use prawn in a sentence."
+            "I eat prawn for lunch.",
+            "The prawn is on the table.",
+            "Do you like prawn?"
           ],
-          "example": "I can spell prawn."
+          "example": "I eat prawn for lunch."
         },
         {
           "id": "w20d4n08",
@@ -18466,15 +18466,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "represent",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | repr-es-ent",
           "audioText": "represent",
           "examples": [
-            "The word represent is important in this lesson.",
-            "I can spell represent slowly.",
-            "I can use represent in a sentence."
+            "The word represent is in my spelling list.",
+            "I say represent slowly and clearly.",
+            "I can learn represent step by step."
           ],
-          "example": "The word represent is important in this lesson."
+          "example": "The word represent is in my spelling list."
         },
         {
           "id": "w20d4n09",
@@ -18484,15 +18484,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "shuttlecock",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | shuttl-ec-ock",
           "audioText": "shuttlecock",
           "examples": [
-            "The word shuttlecock is important in this lesson.",
-            "I can spell shuttlecock slowly.",
-            "I can use shuttlecock in a sentence."
+            "This is my shuttlecock.",
+            "I put the shuttlecock on the desk.",
+            "Please find the shuttlecock."
           ],
-          "example": "The word shuttlecock is important in this lesson."
+          "example": "This is my shuttlecock."
         },
         {
           "id": "w20d4n10",
@@ -18502,15 +18502,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "tractor",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | tract-or",
           "audioText": "tractor",
           "examples": [
-            "The word tractor is important in this lesson.",
-            "I can spell tractor slowly.",
-            "I can use tractor in a sentence."
+            "The word tractor is in my spelling list.",
+            "I say tractor slowly and clearly.",
+            "I can learn tractor step by step."
           ],
-          "example": "The word tractor is important in this lesson."
+          "example": "The word tractor is in my spelling list."
         }
       ]
     },
@@ -18531,11 +18531,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | sist-er",
           "audioText": "sister",
           "examples": [
-            "I can spell sister.",
-            "Please say sister again.",
-            "I can use sister in a sentence."
+            "I see the word sister.",
+            "I can read sister.",
+            "Please spell sister."
           ],
-          "example": "I can spell sister."
+          "example": "I see the word sister."
         },
         {
           "id": "w20d5n02",
@@ -18545,15 +18545,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "true",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "true",
           "examples": [
-            "I can spell true.",
-            "Please say true again.",
-            "I can use true in a sentence."
+            "I see the word true.",
+            "I can read true.",
+            "Please spell true."
           ],
-          "example": "I can spell true."
+          "example": "I see the word true."
         },
         {
           "id": "w20d5n03",
@@ -18563,15 +18563,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "box",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "box",
           "examples": [
-            "I can spell box.",
-            "Please say box again.",
-            "I can use box in a sentence."
+            "I see the word box.",
+            "I can read box.",
+            "Please spell box."
           ],
-          "example": "I can spell box."
+          "example": "I see the word box."
         },
         {
           "id": "w20d5n04",
@@ -18581,15 +18581,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "climb",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "climb",
           "examples": [
-            "I can spell climb.",
-            "Please say climb again.",
-            "I can use climb in a sentence."
+            "I can climb now.",
+            "Please climb with me.",
+            "We climb after class."
           ],
-          "example": "I can spell climb."
+          "example": "I can climb now."
         },
         {
           "id": "w20d5n05",
@@ -18603,11 +18603,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "friend",
           "examples": [
-            "I can spell friend.",
-            "Please say friend again.",
-            "I can use friend in a sentence."
+            "I see the word friend.",
+            "I can read friend.",
+            "Please spell friend."
           ],
-          "example": "I can spell friend."
+          "example": "I see the word friend."
         },
         {
           "id": "w20d5n06",
@@ -18617,15 +18617,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "myself",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "myself",
           "examples": [
-            "I can spell myself.",
-            "Please say myself again.",
-            "I can use myself in a sentence."
+            "I see the word myself.",
+            "I can read myself.",
+            "Please spell myself."
           ],
-          "example": "I can spell myself."
+          "example": "I see the word myself."
         },
         {
           "id": "w20d5n07",
@@ -18635,15 +18635,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "predict",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pred-ict",
           "audioText": "predict",
           "examples": [
-            "I can spell predict.",
-            "Please say predict again.",
-            "I can use predict in a sentence."
+            "I can predict now.",
+            "Please predict with me.",
+            "We predict after class."
           ],
-          "example": "I can spell predict."
+          "example": "I can predict now."
         },
         {
           "id": "w20d5n08",
@@ -18657,11 +18657,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "arrive",
           "examples": [
-            "The word arrive is important in this lesson.",
-            "I can spell arrive slowly.",
-            "I can use arrive in a sentence."
+            "The word arrive is in my spelling list.",
+            "I say arrive slowly and clearly.",
+            "I can learn arrive step by step."
           ],
-          "example": "The word arrive is important in this lesson."
+          "example": "The word arrive is in my spelling list."
         },
         {
           "id": "w20d5n09",
@@ -18671,15 +18671,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "companion",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | comp-an-ion",
           "audioText": "companion",
           "examples": [
-            "The word companion is important in this lesson.",
-            "I can spell companion slowly.",
-            "I can use companion in a sentence."
+            "The word companion is in my spelling list.",
+            "I say companion slowly and clearly.",
+            "I can learn companion step by step."
           ],
-          "example": "The word companion is important in this lesson."
+          "example": "The word companion is in my spelling list."
         },
         {
           "id": "w20d5n10",
@@ -18693,11 +18693,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | din-os-aur",
           "audioText": "dinosaur",
           "examples": [
-            "The word dinosaur is important in this lesson.",
-            "I can spell dinosaur slowly.",
-            "I can use dinosaur in a sentence."
+            "The word dinosaur is in my spelling list.",
+            "I say dinosaur slowly and clearly.",
+            "I can learn dinosaur step by step."
           ],
-          "example": "The word dinosaur is important in this lesson."
+          "example": "The word dinosaur is in my spelling list."
         }
       ]
     },
@@ -18714,15 +18714,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "sit",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sit",
           "examples": [
-            "I can spell sit.",
-            "Please say sit again.",
-            "I can use sit in a sentence."
+            "I see the word sit.",
+            "I can read sit.",
+            "Please spell sit."
           ],
-          "example": "I can spell sit."
+          "example": "I see the word sit."
         },
         {
           "id": "w21d1n02",
@@ -18732,15 +18732,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "try",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "try",
           "examples": [
-            "I can spell try.",
-            "Please say try again.",
-            "I can use try in a sentence."
+            "I can try now.",
+            "Please try with me.",
+            "We try after class."
           ],
-          "example": "I can spell try."
+          "example": "I can try now."
         },
         {
           "id": "w21d1n03",
@@ -18754,11 +18754,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "boy",
           "examples": [
-            "I can spell boy.",
-            "Please say boy again.",
-            "I can use boy in a sentence."
+            "I see the word boy.",
+            "I can read boy.",
+            "Please spell boy."
           ],
-          "example": "I can spell boy."
+          "example": "I see the word boy."
         },
         {
           "id": "w21d1n04",
@@ -18772,11 +18772,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "clock",
           "examples": [
-            "I can spell clock.",
-            "Please say clock again.",
-            "I can use clock in a sentence."
+            "I see the word clock.",
+            "I can read clock.",
+            "Please spell clock."
           ],
-          "example": "I can spell clock."
+          "example": "I see the word clock."
         },
         {
           "id": "w21d1n05",
@@ -18790,11 +18790,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "frog",
           "examples": [
-            "I can spell frog.",
-            "Please say frog again.",
-            "I can use frog in a sentence."
+            "I see a frog at the zoo.",
+            "The frog is in my picture.",
+            "The frog can move fast."
           ],
-          "example": "I can spell frog."
+          "example": "I see a frog at the zoo."
         },
         {
           "id": "w21d1n06",
@@ -18804,15 +18804,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "mythic",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "mythic",
           "examples": [
-            "I can spell mythic.",
-            "Please say mythic again.",
-            "I can use mythic in a sentence."
+            "I see the word mythic.",
+            "I can read mythic.",
+            "Please spell mythic."
           ],
-          "example": "I can spell mythic."
+          "example": "I see the word mythic."
         },
         {
           "id": "w21d1n07",
@@ -18822,15 +18822,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "present",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pres-ent",
           "audioText": "present",
           "examples": [
-            "I can spell present.",
-            "Please say present again.",
-            "I can use present in a sentence."
+            "I see the word present.",
+            "I can read present.",
+            "Please spell present."
           ],
-          "example": "I can spell present."
+          "example": "I see the word present."
         },
         {
           "id": "w21d1n08",
@@ -18840,15 +18840,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "exhaustive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | exh-aust-iv-e",
           "audioText": "exhaustive",
           "examples": [
-            "The word exhaustive is important in this lesson.",
-            "I can spell exhaustive slowly.",
-            "I can use exhaustive in a sentence."
+            "The word exhaustive is in my spelling list.",
+            "I say exhaustive slowly and clearly.",
+            "I can learn exhaustive step by step."
           ],
-          "example": "The word exhaustive is important in this lesson."
+          "example": "The word exhaustive is in my spelling list."
         },
         {
           "id": "w21d1n09",
@@ -18858,15 +18858,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "intolerable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | intoler-able",
           "audioText": "intolerable",
           "examples": [
-            "The word intolerable is important in this lesson.",
-            "I can spell intolerable slowly.",
-            "I can use intolerable in a sentence."
+            "The word intolerable is in my spelling list.",
+            "I say intolerable slowly and clearly.",
+            "I can learn intolerable step by step."
           ],
-          "example": "The word intolerable is important in this lesson."
+          "example": "The word intolerable is in my spelling list."
         },
         {
           "id": "w21d1n10",
@@ -18876,15 +18876,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "platform",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | platf-orm",
           "audioText": "platform",
           "examples": [
-            "The word platform is important in this lesson.",
-            "I can spell platform slowly.",
-            "I can use platform in a sentence."
+            "The word platform is in my spelling list.",
+            "I say platform slowly and clearly.",
+            "I can learn platform step by step."
           ],
-          "example": "The word platform is important in this lesson."
+          "example": "The word platform is in my spelling list."
         }
       ]
     },
@@ -18905,11 +18905,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "six",
           "examples": [
-            "I can spell six.",
-            "Please say six again.",
-            "I can use six in a sentence."
+            "I can count to six.",
+            "The answer is six.",
+            "Please write six."
           ],
-          "example": "I can spell six."
+          "example": "I can count to six."
         },
         {
           "id": "w21d2n02",
@@ -18919,15 +18919,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "tube",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tube",
           "examples": [
-            "I can spell tube.",
-            "Please say tube again.",
-            "I can use tube in a sentence."
+            "I see the word tube.",
+            "I can read tube.",
+            "Please spell tube."
           ],
-          "example": "I can spell tube."
+          "example": "I see the word tube."
         },
         {
           "id": "w21d2n03",
@@ -18941,11 +18941,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "bread",
           "examples": [
-            "I can spell bread.",
-            "Please say bread again.",
-            "I can use bread in a sentence."
+            "I eat bread for lunch.",
+            "The bread is on the table.",
+            "Do you like bread?"
           ],
-          "example": "I can spell bread."
+          "example": "I eat bread for lunch."
         },
         {
           "id": "w21d2n04",
@@ -18955,15 +18955,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "close",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "close",
           "examples": [
-            "I can spell close.",
-            "Please say close again.",
-            "I can use close in a sentence."
+            "I can close now.",
+            "Please close with me.",
+            "We close after class."
           ],
-          "example": "I can spell close."
+          "example": "I can close now."
         },
         {
           "id": "w21d2n05",
@@ -18973,15 +18973,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "from",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "from",
           "examples": [
-            "I can spell from.",
-            "Please say from again.",
-            "I can use from in a sentence."
+            "I see the word from.",
+            "I can read from.",
+            "Please spell from."
           ],
-          "example": "I can spell from."
+          "example": "I see the word from."
         },
         {
           "id": "w21d2n06",
@@ -18991,15 +18991,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "pretty",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pretty",
           "examples": [
-            "I can spell pretty.",
-            "Please say pretty again.",
-            "I can use pretty in a sentence."
+            "I see the word pretty.",
+            "I can read pretty.",
+            "Please spell pretty."
           ],
-          "example": "I can spell pretty."
+          "example": "I see the word pretty."
         },
         {
           "id": "w21d2n07",
@@ -19009,15 +19009,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "skill",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "skill",
           "examples": [
-            "I can spell skill.",
-            "Please say skill again.",
-            "I can use skill in a sentence."
+            "I see the word skill.",
+            "I can read skill.",
+            "Please spell skill."
           ],
-          "example": "I can spell skill."
+          "example": "I see the word skill."
         },
         {
           "id": "w21d2n08",
@@ -19027,15 +19027,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "republican",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | rep-ubl-ic-an",
           "audioText": "republican",
           "examples": [
-            "The word republican is important in this lesson.",
-            "I can spell republican slowly.",
-            "I can use republican in a sentence."
+            "The word republican is in my spelling list.",
+            "I say republican slowly and clearly.",
+            "I can learn republican step by step."
           ],
-          "example": "The word republican is important in this lesson."
+          "example": "The word republican is in my spelling list."
         },
         {
           "id": "w21d2n09",
@@ -19045,15 +19045,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "situation",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | situa-tion",
           "audioText": "situation",
           "examples": [
-            "The word situation is important in this lesson.",
-            "I can spell situation slowly.",
-            "I can use situation in a sentence."
+            "The word situation is in my spelling list.",
+            "I say situation slowly and clearly.",
+            "I can learn situation step by step."
           ],
-          "example": "The word situation is important in this lesson."
+          "example": "The word situation is in my spelling list."
         },
         {
           "id": "w21d2n10",
@@ -19063,15 +19063,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "training",
           "level": "challenge",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing | train-ing",
           "audioText": "training",
           "examples": [
-            "The word training is important in this lesson.",
-            "I can spell training slowly.",
-            "I can use training in a sentence."
+            "The word training is in my spelling list.",
+            "I say training slowly and clearly.",
+            "I can learn training step by step."
           ],
-          "example": "The word training is important in this lesson."
+          "example": "The word training is in my spelling list."
         }
       ]
     },
@@ -19088,15 +19088,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "tulip",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tulip",
           "examples": [
-            "I can spell tulip.",
-            "Please say tulip again.",
-            "I can use tulip in a sentence."
+            "I see the word tulip.",
+            "I can read tulip.",
+            "Please spell tulip."
           ],
-          "example": "I can spell tulip."
+          "example": "I see the word tulip."
         },
         {
           "id": "w21d3n02",
@@ -19106,15 +19106,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "bride",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bride",
           "examples": [
-            "I can spell bride.",
-            "Please say bride again.",
-            "I can use bride in a sentence."
+            "I see the word bride.",
+            "I can read bride.",
+            "Please spell bride."
           ],
-          "example": "I can spell bride."
+          "example": "I see the word bride."
         },
         {
           "id": "w21d3n03",
@@ -19128,11 +19128,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | cloth-es",
           "audioText": "clothes",
           "examples": [
-            "I can spell clothes.",
-            "Please say clothes again.",
-            "I can use clothes in a sentence."
+            "I see the word clothes.",
+            "I can read clothes.",
+            "Please spell clothes."
           ],
-          "example": "I can spell clothes."
+          "example": "I see the word clothes."
         },
         {
           "id": "w21d3n04",
@@ -19146,11 +19146,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "fruit",
           "examples": [
-            "I can spell fruit.",
-            "Please say fruit again.",
-            "I can use fruit in a sentence."
+            "I see the word fruit.",
+            "I can read fruit.",
+            "Please spell fruit."
           ],
-          "example": "I can spell fruit."
+          "example": "I see the word fruit."
         },
         {
           "id": "w21d3n05",
@@ -19160,15 +19160,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "pudding",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing | pudd-ing",
           "audioText": "pudding",
           "examples": [
-            "I can spell pudding.",
-            "Please say pudding again.",
-            "I can use pudding in a sentence."
+            "I eat pudding for lunch.",
+            "The pudding is on the table.",
+            "Do you like pudding?"
           ],
-          "example": "I can spell pudding."
+          "example": "I eat pudding for lunch."
         },
         {
           "id": "w21d3n06",
@@ -19178,15 +19178,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "skirt",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "skirt",
           "examples": [
-            "I can spell skirt.",
-            "Please say skirt again.",
-            "I can use skirt in a sentence."
+            "This is my skirt.",
+            "I put the skirt on the desk.",
+            "Please find the skirt."
           ],
-          "example": "I can spell skirt."
+          "example": "This is my skirt."
         },
         {
           "id": "w21d3n07",
@@ -19196,15 +19196,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "tune",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tune",
           "examples": [
-            "I can spell tune.",
-            "Please say tune again.",
-            "I can use tune in a sentence."
+            "I see the word tune.",
+            "I can read tune.",
+            "Please spell tune."
           ],
-          "example": "I can spell tune."
+          "example": "I see the word tune."
         },
         {
           "id": "w21d3n08",
@@ -19214,15 +19214,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "articulation",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | articula-tion",
           "audioText": "articulation",
           "examples": [
-            "The word articulation is important in this lesson.",
-            "I can spell articulation slowly.",
-            "I can use articulation in a sentence."
+            "The word articulation is in my spelling list.",
+            "I say articulation slowly and clearly.",
+            "I can learn articulation step by step."
           ],
-          "example": "The word articulation is important in this lesson."
+          "example": "The word articulation is in my spelling list."
         },
         {
           "id": "w21d3n09",
@@ -19232,15 +19232,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "compare",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | comp-ar-e",
           "audioText": "compare",
           "examples": [
-            "The word compare is important in this lesson.",
-            "I can spell compare slowly.",
-            "I can use compare in a sentence."
+            "The word compare is in my spelling list.",
+            "I say compare slowly and clearly.",
+            "I can learn compare step by step."
           ],
-          "example": "The word compare is important in this lesson."
+          "example": "The word compare is in my spelling list."
         },
         {
           "id": "w21d3n10",
@@ -19250,15 +19250,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "director",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | dir-ect-or",
           "audioText": "director",
           "examples": [
-            "The word director is important in this lesson.",
-            "I can spell director slowly.",
-            "I can use director in a sentence."
+            "The word director is in my spelling list.",
+            "I say director slowly and clearly.",
+            "I can learn director step by step."
           ],
-          "example": "The word director is important in this lesson."
+          "example": "The word director is in my spelling list."
         }
       ]
     },
@@ -19275,15 +19275,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "bring",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing",
           "audioText": "bring",
           "examples": [
-            "I can spell bring.",
-            "Please say bring again.",
-            "I can use bring in a sentence."
+            "I see the word bring.",
+            "I can read bring.",
+            "Please spell bring."
           ],
-          "example": "I can spell bring."
+          "example": "I see the word bring."
         },
         {
           "id": "w21d4n02",
@@ -19297,11 +19297,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cloud",
           "examples": [
-            "I can spell cloud.",
-            "Please say cloud again.",
-            "I can use cloud in a sentence."
+            "I see the word cloud.",
+            "I can read cloud.",
+            "Please spell cloud."
           ],
-          "example": "I can spell cloud."
+          "example": "I see the word cloud."
         },
         {
           "id": "w21d4n03",
@@ -19311,15 +19311,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "full",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "full",
           "examples": [
-            "I can spell full.",
-            "Please say full again.",
-            "I can use full in a sentence."
+            "I see the word full.",
+            "I can read full.",
+            "Please spell full."
           ],
-          "example": "I can spell full."
+          "example": "I see the word full."
         },
         {
           "id": "w21d4n04",
@@ -19329,15 +19329,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "pupil",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "pupil",
           "examples": [
-            "I can spell pupil.",
-            "Please say pupil again.",
-            "I can use pupil in a sentence."
+            "I see the word pupil.",
+            "I can read pupil.",
+            "Please spell pupil."
           ],
-          "example": "I can spell pupil."
+          "example": "I see the word pupil."
         },
         {
           "id": "w21d4n05",
@@ -19351,11 +19351,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "sky",
           "examples": [
-            "I can spell sky.",
-            "Please say sky again.",
-            "I can use sky in a sentence."
+            "I see the word sky.",
+            "I can read sky.",
+            "Please spell sky."
           ],
-          "example": "I can spell sky."
+          "example": "I see the word sky."
         },
         {
           "id": "w21d4n06",
@@ -19365,15 +19365,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "turtle",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "turtle",
           "examples": [
-            "I can spell turtle.",
-            "Please say turtle again.",
-            "I can use turtle in a sentence."
+            "I see a turtle at the zoo.",
+            "The turtle is in my picture.",
+            "The turtle can move fast."
           ],
-          "example": "I can spell turtle."
+          "example": "I see a turtle at the zoo."
         },
         {
           "id": "w21d4n07",
@@ -19383,15 +19383,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "broom",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "broom",
           "examples": [
-            "I can spell broom.",
-            "Please say broom again.",
-            "I can use broom in a sentence."
+            "I see the word broom.",
+            "I can read broom.",
+            "Please spell broom."
           ],
-          "example": "I can spell broom."
+          "example": "I see the word broom."
         },
         {
           "id": "w21d4n08",
@@ -19401,15 +19401,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "expect",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "expect",
           "examples": [
-            "The word expect is important in this lesson.",
-            "I can spell expect slowly.",
-            "I can use expect in a sentence."
+            "I can expect now.",
+            "Please expect with me.",
+            "We expect after class."
           ],
-          "example": "The word expect is important in this lesson."
+          "example": "I can expect now."
         },
         {
           "id": "w21d4n09",
@@ -19419,15 +19419,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "investment",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | invest-ment",
           "audioText": "investment",
           "examples": [
-            "The word investment is important in this lesson.",
-            "I can spell investment slowly.",
-            "I can use investment in a sentence."
+            "The word investment is in my spelling list.",
+            "I say investment slowly and clearly.",
+            "I can learn investment step by step."
           ],
-          "example": "The word investment is important in this lesson."
+          "example": "The word investment is in my spelling list."
         },
         {
           "id": "w21d4n10",
@@ -19437,15 +19437,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "platypus",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | plat-yp-us",
           "audioText": "platypus",
           "examples": [
-            "The word platypus is important in this lesson.",
-            "I can spell platypus slowly.",
-            "I can use platypus in a sentence."
+            "The word platypus is in my spelling list.",
+            "I say platypus slowly and clearly.",
+            "I can learn platypus step by step."
           ],
-          "example": "The word platypus is important in this lesson."
+          "example": "The word platypus is in my spelling list."
         }
       ]
     },
@@ -19462,15 +19462,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "cloudy",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cloudy",
           "examples": [
-            "I can spell cloudy.",
-            "Please say cloudy again.",
-            "I can use cloudy in a sentence."
+            "I see the word cloudy.",
+            "I can read cloudy.",
+            "Please spell cloudy."
           ],
-          "example": "I can spell cloudy."
+          "example": "I see the word cloudy."
         },
         {
           "id": "w21d5n02",
@@ -19480,15 +19480,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "fund",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "fund",
           "examples": [
-            "I can spell fund.",
-            "Please say fund again.",
-            "I can use fund in a sentence."
+            "I see the word fund.",
+            "I can read fund.",
+            "Please spell fund."
           ],
-          "example": "I can spell fund."
+          "example": "I see the word fund."
         },
         {
           "id": "w21d5n03",
@@ -19498,15 +19498,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "puppet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "puppet",
           "examples": [
-            "I can spell puppet.",
-            "Please say puppet again.",
-            "I can use puppet in a sentence."
+            "I see the word puppet.",
+            "I can read puppet.",
+            "Please spell puppet."
           ],
-          "example": "I can spell puppet."
+          "example": "I see the word puppet."
         },
         {
           "id": "w21d5n04",
@@ -19520,11 +19520,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "sleep",
           "examples": [
-            "I can spell sleep.",
-            "Please say sleep again.",
-            "I can use sleep in a sentence."
+            "I see the word sleep.",
+            "I can read sleep.",
+            "Please spell sleep."
           ],
-          "example": "I can spell sleep."
+          "example": "I see the word sleep."
         },
         {
           "id": "w21d5n05",
@@ -19534,15 +19534,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "tutor",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "tutor",
           "examples": [
-            "I can spell tutor.",
-            "Please say tutor again.",
-            "I can use tutor in a sentence."
+            "I see the word tutor.",
+            "I can read tutor.",
+            "Please spell tutor."
           ],
-          "example": "I can spell tutor."
+          "example": "I see the word tutor."
         },
         {
           "id": "w21d5n06",
@@ -19556,11 +19556,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | broth-er",
           "audioText": "brother",
           "examples": [
-            "I can spell brother.",
-            "Please say brother again.",
-            "I can use brother in a sentence."
+            "I see the word brother.",
+            "I can read brother.",
+            "Please spell brother."
           ],
-          "example": "I can spell brother."
+          "example": "I see the word brother."
         },
         {
           "id": "w21d5n07",
@@ -19570,15 +19570,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "clown",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "clown",
           "examples": [
-            "I can spell clown.",
-            "Please say clown again.",
-            "I can use clown in a sentence."
+            "I see the word clown.",
+            "I can read clown.",
+            "Please spell clown."
           ],
-          "example": "I can spell clown."
+          "example": "I see the word clown."
         },
         {
           "id": "w21d5n08",
@@ -19588,15 +19588,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "require",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | req-uir-e",
           "audioText": "require",
           "examples": [
-            "The word require is important in this lesson.",
-            "I can spell require slowly.",
-            "I can use require in a sentence."
+            "The word require is in my spelling list.",
+            "I say require slowly and clearly.",
+            "I can learn require step by step."
           ],
-          "example": "The word require is important in this lesson."
+          "example": "The word require is in my spelling list."
         },
         {
           "id": "w21d5n09",
@@ -19606,15 +19606,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "sixteen",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | sixt-een",
           "audioText": "sixteen",
           "examples": [
-            "The word sixteen is important in this lesson.",
-            "I can spell sixteen slowly.",
-            "I can use sixteen in a sentence."
+            "I can count to sixteen.",
+            "The answer is sixteen.",
+            "Please write sixteen."
           ],
-          "example": "The word sixteen is important in this lesson."
+          "example": "I can count to sixteen."
         },
         {
           "id": "w21d5n10",
@@ -19624,15 +19624,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "trance",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "trance",
           "examples": [
-            "The word trance is important in this lesson.",
-            "I can spell trance slowly.",
-            "I can use trance in a sentence."
+            "The word trance is in my spelling list.",
+            "I say trance slowly and clearly.",
+            "I can learn trance step by step."
           ],
-          "example": "The word trance is important in this lesson."
+          "example": "The word trance is in my spelling list."
         }
       ]
     },
@@ -19653,11 +19653,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "funny",
           "examples": [
-            "I can spell funny.",
-            "Please say funny again.",
-            "I can use funny in a sentence."
+            "I see the word funny.",
+            "I can read funny.",
+            "Please spell funny."
           ],
-          "example": "I can spell funny."
+          "example": "I see the word funny."
         },
         {
           "id": "w22d1n02",
@@ -19671,11 +19671,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "puppy",
           "examples": [
-            "I can spell puppy.",
-            "Please say puppy again.",
-            "I can use puppy in a sentence."
+            "I see a puppy at the zoo.",
+            "The puppy is in my picture.",
+            "The puppy can move fast."
           ],
-          "example": "I can spell puppy."
+          "example": "I see a puppy at the zoo."
         },
         {
           "id": "w22d1n03",
@@ -19685,15 +19685,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "sleet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "sleet",
           "examples": [
-            "I can spell sleet.",
-            "Please say sleet again.",
-            "I can use sleet in a sentence."
+            "I see the word sleet.",
+            "I can read sleet.",
+            "Please spell sleet."
           ],
-          "example": "I can spell sleet."
+          "example": "I see the word sleet."
         },
         {
           "id": "w22d1n04",
@@ -19703,15 +19703,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "tweet",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "tweet",
           "examples": [
-            "I can spell tweet.",
-            "Please say tweet again.",
-            "I can use tweet in a sentence."
+            "I see the word tweet.",
+            "I can read tweet.",
+            "Please spell tweet."
           ],
-          "example": "I can spell tweet."
+          "example": "I see the word tweet."
         },
         {
           "id": "w22d1n05",
@@ -19725,11 +19725,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "blue",
           "examples": [
-            "I can spell blue.",
-            "Please say blue again.",
-            "I can use blue in a sentence."
+            "The flower is blue.",
+            "I use a blue pencil.",
+            "What is blue in your room?"
           ],
-          "example": "I can spell blue."
+          "example": "The flower is blue."
         },
         {
           "id": "w22d1n06",
@@ -19739,15 +19739,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "clue",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "clue",
           "examples": [
-            "I can spell clue.",
-            "Please say clue again.",
-            "I can use clue in a sentence."
+            "I see the word clue.",
+            "I can read clue.",
+            "Please spell clue."
           ],
-          "example": "I can spell clue."
+          "example": "I see the word clue."
         },
         {
           "id": "w22d1n07",
@@ -19757,15 +19757,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "put",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "put",
           "examples": [
-            "I can spell put.",
-            "Please say put again.",
-            "I can use put in a sentence."
+            "I see the word put.",
+            "I can read put.",
+            "Please spell put."
           ],
-          "example": "I can spell put."
+          "example": "I see the word put."
         },
         {
           "id": "w22d1n08",
@@ -19779,11 +19779,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | atten-tion",
           "audioText": "attention",
           "examples": [
-            "The word attention is important in this lesson.",
-            "I can spell attention slowly.",
-            "I can use attention in a sentence."
+            "The word attention is in my spelling list.",
+            "I say attention slowly and clearly.",
+            "I can learn attention step by step."
           ],
-          "example": "The word attention is important in this lesson."
+          "example": "The word attention is in my spelling list."
         },
         {
           "id": "w22d1n09",
@@ -19797,11 +19797,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | comput-er",
           "audioText": "computer",
           "examples": [
-            "The word computer is important in this lesson.",
-            "I can spell computer slowly.",
-            "I can use computer in a sentence."
+            "The word computer is in my spelling list.",
+            "I say computer slowly and clearly.",
+            "I can learn computer step by step."
           ],
-          "example": "The word computer is important in this lesson."
+          "example": "The word computer is in my spelling list."
         },
         {
           "id": "w22d1n10",
@@ -19811,15 +19811,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "disease",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | dis-eas-e",
           "audioText": "disease",
           "examples": [
-            "The word disease is important in this lesson.",
-            "I can spell disease slowly.",
-            "I can use disease in a sentence."
+            "The word disease is in my spelling list.",
+            "I say disease slowly and clearly.",
+            "I can learn disease step by step."
           ],
-          "example": "The word disease is important in this lesson."
+          "example": "The word disease is in my spelling list."
         }
       ]
     },
@@ -19836,15 +19836,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "slide",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "slide",
           "examples": [
-            "I can spell slide.",
-            "Please say slide again.",
-            "I can use slide in a sentence."
+            "I see the word slide.",
+            "I can read slide.",
+            "Please spell slide."
           ],
-          "example": "I can spell slide."
+          "example": "I see the word slide."
         },
         {
           "id": "w22d2n02",
@@ -19858,11 +19858,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "twelve",
           "examples": [
-            "I can spell twelve.",
-            "Please say twelve again.",
-            "I can use twelve in a sentence."
+            "I can count to twelve.",
+            "The answer is twelve.",
+            "Please write twelve."
           ],
-          "example": "I can spell twelve."
+          "example": "I can count to twelve."
         },
         {
           "id": "w22d2n03",
@@ -19872,15 +19872,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "board",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "board",
           "examples": [
-            "I can spell board.",
-            "Please say board again.",
-            "I can use board in a sentence."
+            "I see the word board.",
+            "I can read board.",
+            "Please spell board."
           ],
-          "example": "I can spell board."
+          "example": "I see the word board."
         },
         {
           "id": "w22d2n04",
@@ -19894,11 +19894,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "coach",
           "examples": [
-            "I can spell coach.",
-            "Please say coach again.",
-            "I can use coach in a sentence."
+            "I see the word coach.",
+            "I can read coach.",
+            "Please spell coach."
           ],
-          "example": "I can spell coach."
+          "example": "I see the word coach."
         },
         {
           "id": "w22d2n05",
@@ -19908,15 +19908,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "slow",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "slow",
           "examples": [
-            "I can spell slow.",
-            "Please say slow again.",
-            "I can use slow in a sentence."
+            "I feel slow today.",
+            "The word slow is useful.",
+            "Can you make a sentence with slow?"
           ],
-          "example": "I can spell slow."
+          "example": "I feel slow today."
         },
         {
           "id": "w22d2n06",
@@ -19930,11 +19930,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "two",
           "examples": [
-            "I can spell two.",
-            "Please say two again.",
-            "I can use two in a sentence."
+            "I can count to two.",
+            "The answer is two.",
+            "Please write two."
           ],
-          "example": "I can spell two."
+          "example": "I can count to two."
         },
         {
           "id": "w22d2n07",
@@ -19948,11 +19948,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "brown",
           "examples": [
-            "I can spell brown.",
-            "Please say brown again.",
-            "I can use brown in a sentence."
+            "The flower is brown.",
+            "I use a brown pencil.",
+            "What is brown in your room?"
           ],
-          "example": "I can spell brown."
+          "example": "The flower is brown."
         },
         {
           "id": "w22d2n08",
@@ -19962,15 +19962,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "expensive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | exp-ens-iv-e",
           "audioText": "expensive",
           "examples": [
-            "The word expensive is important in this lesson.",
-            "I can spell expensive slowly.",
-            "I can use expensive in a sentence."
+            "The word expensive is in my spelling list.",
+            "I say expensive slowly and clearly.",
+            "I can learn expensive step by step."
           ],
-          "example": "The word expensive is important in this lesson."
+          "example": "The word expensive is in my spelling list."
         },
         {
           "id": "w22d2n09",
@@ -19984,11 +19984,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | playgr-ound",
           "audioText": "playground",
           "examples": [
-            "The word playground is important in this lesson.",
-            "I can spell playground slowly.",
-            "I can use playground in a sentence."
+            "The word playground is in my spelling list.",
+            "I say playground slowly and clearly.",
+            "I can learn playground step by step."
           ],
-          "example": "The word playground is important in this lesson."
+          "example": "The word playground is in my spelling list."
         },
         {
           "id": "w22d2n10",
@@ -19998,15 +19998,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "requisite",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | req-uis-it-e",
           "audioText": "requisite",
           "examples": [
-            "The word requisite is important in this lesson.",
-            "I can spell requisite slowly.",
-            "I can use requisite in a sentence."
+            "The word requisite is in my spelling list.",
+            "I say requisite slowly and clearly.",
+            "I can learn requisite step by step."
           ],
-          "example": "The word requisite is important in this lesson."
+          "example": "The word requisite is in my spelling list."
         }
       ]
     },
@@ -20027,11 +20027,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "coat",
           "examples": [
-            "I can spell coat.",
-            "Please say coat again.",
-            "I can use coat in a sentence."
+            "I see the word coat.",
+            "I can read coat.",
+            "Please spell coat."
           ],
-          "example": "I can spell coat."
+          "example": "I see the word coat."
         },
         {
           "id": "w22d3n02",
@@ -20041,15 +20041,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "small",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "small",
           "examples": [
-            "I can spell small.",
-            "Please say small again.",
-            "I can use small in a sentence."
+            "I see the word small.",
+            "I can read small.",
+            "Please spell small."
           ],
-          "example": "I can spell small."
+          "example": "I see the word small."
         },
         {
           "id": "w22d3n03",
@@ -20063,11 +20063,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "brush",
           "examples": [
-            "I can spell brush.",
-            "Please say brush again.",
-            "I can use brush in a sentence."
+            "I see the word brush.",
+            "I can read brush.",
+            "Please spell brush."
           ],
-          "example": "I can spell brush."
+          "example": "I see the word brush."
         },
         {
           "id": "w22d3n04",
@@ -20077,15 +20077,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "coca",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "coca",
           "examples": [
-            "I can spell coca.",
-            "Please say coca again.",
-            "I can use coca in a sentence."
+            "I see the word coca.",
+            "I can read coca.",
+            "Please spell coca."
           ],
-          "example": "I can spell coca."
+          "example": "I see the word coca."
         },
         {
           "id": "w22d3n05",
@@ -20095,15 +20095,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "smell",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "smell",
           "examples": [
-            "I can spell smell.",
-            "Please say smell again.",
-            "I can use smell in a sentence."
+            "I see the word smell.",
+            "I can read smell.",
+            "Please spell smell."
           ],
-          "example": "I can spell smell."
+          "example": "I see the word smell."
         },
         {
           "id": "w22d3n06",
@@ -20113,15 +20113,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "brute",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "brute",
           "examples": [
-            "I can spell brute.",
-            "Please say brute again.",
-            "I can use brute in a sentence."
+            "I see the word brute.",
+            "I can read brute.",
+            "Please spell brute."
           ],
-          "example": "I can spell brute."
+          "example": "I see the word brute."
         },
         {
           "id": "w22d3n07",
@@ -20135,11 +20135,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "coffee",
           "examples": [
-            "I can spell coffee.",
-            "Please say coffee again.",
-            "I can use coffee in a sentence."
+            "I see the word coffee.",
+            "I can read coffee.",
+            "Please spell coffee."
           ],
-          "example": "I can spell coffee."
+          "example": "I see the word coffee."
         },
         {
           "id": "w22d3n08",
@@ -20149,15 +20149,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "size",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "size",
           "examples": [
-            "The word size is important in this lesson.",
-            "I can spell size slowly.",
-            "I can use size in a sentence."
+            "The word size is in my spelling list.",
+            "I say size slowly and clearly.",
+            "I can learn size step by step."
           ],
-          "example": "The word size is important in this lesson."
+          "example": "The word size is in my spelling list."
         },
         {
           "id": "w22d3n09",
@@ -20167,15 +20167,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "tricycle",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | tric-ycl-e",
           "audioText": "tricycle",
           "examples": [
-            "The word tricycle is important in this lesson.",
-            "I can spell tricycle slowly.",
-            "I can use tricycle in a sentence."
+            "The word tricycle is in my spelling list.",
+            "I say tricycle slowly and clearly.",
+            "I can learn tricycle step by step."
           ],
-          "example": "The word tricycle is important in this lesson."
+          "example": "The word tricycle is in my spelling list."
         },
         {
           "id": "w22d3n10",
@@ -20185,15 +20185,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "available",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "长词: 分音节背 | avail-able",
           "audioText": "available",
           "examples": [
-            "The word available is important in this lesson.",
-            "I can spell available slowly.",
-            "I can use available in a sentence."
+            "The word available is in my spelling list.",
+            "I say available slowly and clearly.",
+            "I can learn available step by step."
           ],
-          "example": "The word available is important in this lesson."
+          "example": "The word available is in my spelling list."
         }
       ]
     },
@@ -20210,15 +20210,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "smile",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "smile",
           "examples": [
-            "I can spell smile.",
-            "Please say smile again.",
-            "I can use smile in a sentence."
+            "I see the word smile.",
+            "I can read smile.",
+            "Please spell smile."
           ],
-          "example": "I can spell smile."
+          "example": "I see the word smile."
         },
         {
           "id": "w22d4n02",
@@ -20228,15 +20228,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "build",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "build",
           "examples": [
-            "I can spell build.",
-            "Please say build again.",
-            "I can use build in a sentence."
+            "I see the word build.",
+            "I can read build.",
+            "Please spell build."
           ],
-          "example": "I can spell build."
+          "example": "I see the word build."
         },
         {
           "id": "w22d4n03",
@@ -20250,11 +20250,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "coin",
           "examples": [
-            "I can spell coin.",
-            "Please say coin again.",
-            "I can use coin in a sentence."
+            "I see the word coin.",
+            "I can read coin.",
+            "Please spell coin."
           ],
-          "example": "I can spell coin."
+          "example": "I see the word coin."
         },
         {
           "id": "w22d4n04",
@@ -20264,15 +20264,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "smoke",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "smoke",
           "examples": [
-            "I can spell smoke.",
-            "Please say smoke again.",
-            "I can use smoke in a sentence."
+            "I see the word smoke.",
+            "I can read smoke.",
+            "Please spell smoke."
           ],
-          "example": "I can spell smoke."
+          "example": "I see the word smoke."
         },
         {
           "id": "w22d4n05",
@@ -20282,15 +20282,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "bun",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bun",
           "examples": [
-            "I can spell bun.",
-            "Please say bun again.",
-            "I can use bun in a sentence."
+            "I see the word bun.",
+            "I can read bun.",
+            "Please spell bun."
           ],
-          "example": "I can spell bun."
+          "example": "I see the word bun."
         },
         {
           "id": "w22d4n06",
@@ -20300,15 +20300,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "coke",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "coke",
           "examples": [
-            "I can spell coke.",
-            "Please say coke again.",
-            "I can use coke in a sentence."
+            "I see the word coke.",
+            "I can read coke.",
+            "Please spell coke."
           ],
-          "example": "I can spell coke."
+          "example": "I see the word coke."
         },
         {
           "id": "w22d4n07",
@@ -20318,15 +20318,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "snake",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "snake",
           "examples": [
-            "I can spell snake.",
-            "Please say snake again.",
-            "I can use snake in a sentence."
+            "I see a snake at the zoo.",
+            "The snake is in my picture.",
+            "The snake can move fast."
           ],
-          "example": "I can spell snake."
+          "example": "I see a snake at the zoo."
         },
         {
           "id": "w22d4n08",
@@ -20336,15 +20336,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "condominium",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | cond-om-in-ium",
           "audioText": "condominium",
           "examples": [
-            "The word condominium is important in this lesson.",
-            "I can spell condominium slowly.",
-            "I can use condominium in a sentence."
+            "The word condominium is in my spelling list.",
+            "I say condominium slowly and clearly.",
+            "I can learn condominium step by step."
           ],
-          "example": "The word condominium is important in this lesson."
+          "example": "The word condominium is in my spelling list."
         },
         {
           "id": "w22d4n09",
@@ -20354,15 +20354,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "district",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | distr-ict",
           "audioText": "district",
           "examples": [
-            "The word district is important in this lesson.",
-            "I can spell district slowly.",
-            "I can use district in a sentence."
+            "The word district is in my spelling list.",
+            "I say district slowly and clearly.",
+            "I can learn district step by step."
           ],
-          "example": "The word district is important in this lesson."
+          "example": "The word district is in my spelling list."
         },
         {
           "id": "w22d4n10",
@@ -20372,15 +20372,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "experience",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | exp-er-ienc-e",
           "audioText": "experience",
           "examples": [
-            "The word experience is important in this lesson.",
-            "I can spell experience slowly.",
-            "I can use experience in a sentence."
+            "The word experience is in my spelling list.",
+            "I say experience slowly and clearly.",
+            "I can learn experience step by step."
           ],
-          "example": "The word experience is important in this lesson."
+          "example": "The word experience is in my spelling list."
         }
       ]
     },
@@ -20397,15 +20397,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "bureau",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "bureau",
           "examples": [
-            "I can spell bureau.",
-            "Please say bureau again.",
-            "I can use bureau in a sentence."
+            "I see the word bureau.",
+            "I can read bureau.",
+            "Please spell bureau."
           ],
-          "example": "I can spell bureau."
+          "example": "I see the word bureau."
         },
         {
           "id": "w22d5n02",
@@ -20415,15 +20415,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "cola",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cola",
           "examples": [
-            "I can spell cola.",
-            "Please say cola again.",
-            "I can use cola in a sentence."
+            "I see the word cola.",
+            "I can read cola.",
+            "Please spell cola."
           ],
-          "example": "I can spell cola."
+          "example": "I see the word cola."
         },
         {
           "id": "w22d5n03",
@@ -20437,11 +20437,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "snow",
           "examples": [
-            "I can spell snow.",
-            "Please say snow again.",
-            "I can use snow in a sentence."
+            "I see the word snow.",
+            "I can read snow.",
+            "Please spell snow."
           ],
-          "example": "I can spell snow."
+          "example": "I see the word snow."
         },
         {
           "id": "w22d5n04",
@@ -20455,11 +20455,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "bus",
           "examples": [
-            "I can spell bus.",
-            "Please say bus again.",
-            "I can use bus in a sentence."
+            "I see the word bus.",
+            "I can read bus.",
+            "Please spell bus."
           ],
-          "example": "I can spell bus."
+          "example": "I see the word bus."
         },
         {
           "id": "w22d5n05",
@@ -20473,11 +20473,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cold",
           "examples": [
-            "I can spell cold.",
-            "Please say cold again.",
-            "I can use cold in a sentence."
+            "I feel cold today.",
+            "The word cold is useful.",
+            "Can you make a sentence with cold?"
           ],
-          "example": "I can spell cold."
+          "example": "I feel cold today."
         },
         {
           "id": "w22d5n06",
@@ -20491,11 +20491,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | snowm-an",
           "audioText": "snowman",
           "examples": [
-            "I can spell snowman.",
-            "Please say snowman again.",
-            "I can use snowman in a sentence."
+            "I see the word snowman.",
+            "I can read snowman.",
+            "Please spell snowman."
           ],
-          "example": "I can spell snowman."
+          "example": "I see the word snowman."
         },
         {
           "id": "w22d5n07",
@@ -20505,15 +20505,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "bush",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "bush",
           "examples": [
-            "I can spell bush.",
-            "Please say bush again.",
-            "I can use bush in a sentence."
+            "I see the word bush.",
+            "I can read bush.",
+            "Please spell bush."
           ],
-          "example": "I can spell bush."
+          "example": "I see the word bush."
         },
         {
           "id": "w22d5n08",
@@ -20523,15 +20523,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "pleasure",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | pleas-ur-e",
           "audioText": "pleasure",
           "examples": [
-            "The word pleasure is important in this lesson.",
-            "I can spell pleasure slowly.",
-            "I can use pleasure in a sentence."
+            "The word pleasure is in my spelling list.",
+            "I say pleasure slowly and clearly.",
+            "I can learn pleasure step by step."
           ],
-          "example": "The word pleasure is important in this lesson."
+          "example": "The word pleasure is in my spelling list."
         },
         {
           "id": "w22d5n09",
@@ -20541,15 +20541,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "research",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | res-earch",
           "audioText": "research",
           "examples": [
-            "The word research is important in this lesson.",
-            "I can spell research slowly.",
-            "I can use research in a sentence."
+            "The word research is in my spelling list.",
+            "I say research slowly and clearly.",
+            "I can learn research step by step."
           ],
-          "example": "The word research is important in this lesson."
+          "example": "The word research is in my spelling list."
         },
         {
           "id": "w22d5n10",
@@ -20559,15 +20559,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "skeletal",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | skel-et-al",
           "audioText": "skeletal",
           "examples": [
-            "The word skeletal is important in this lesson.",
-            "I can spell skeletal slowly.",
-            "I can use skeletal in a sentence."
+            "The word skeletal is in my spelling list.",
+            "I say skeletal slowly and clearly.",
+            "I can learn skeletal step by step."
           ],
-          "example": "The word skeletal is important in this lesson."
+          "example": "The word skeletal is in my spelling list."
         }
       ]
     },
@@ -20584,15 +20584,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "college",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | coll-eg-e",
           "audioText": "college",
           "examples": [
-            "I can spell college.",
-            "Please say college again.",
-            "I can use college in a sentence."
+            "I see the word college.",
+            "I can read college.",
+            "Please spell college."
           ],
-          "example": "I can spell college."
+          "example": "I see the word college."
         },
         {
           "id": "w23d1n02",
@@ -20602,15 +20602,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "snowy",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "snowy",
           "examples": [
-            "I can spell snowy.",
-            "Please say snowy again.",
-            "I can use snowy in a sentence."
+            "I see the word snowy.",
+            "I can read snowy.",
+            "Please spell snowy."
           ],
-          "example": "I can spell snowy."
+          "example": "I see the word snowy."
         },
         {
           "id": "w23d1n03",
@@ -20620,15 +20620,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "but",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "but",
           "examples": [
-            "I can spell but.",
-            "Please say but again.",
-            "I can use but in a sentence."
+            "I see the word but.",
+            "I can read but.",
+            "Please spell but."
           ],
-          "example": "I can spell but."
+          "example": "I see the word but."
         },
         {
           "id": "w23d1n04",
@@ -20638,15 +20638,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "comb",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "comb",
           "examples": [
-            "I can spell comb.",
-            "Please say comb again.",
-            "I can use comb in a sentence."
+            "I see the word comb.",
+            "I can read comb.",
+            "Please spell comb."
           ],
-          "example": "I can spell comb."
+          "example": "I see the word comb."
         },
         {
           "id": "w23d1n05",
@@ -20656,15 +20656,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "so",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "so",
           "examples": [
-            "I can spell so.",
-            "Please say so again.",
-            "I can use so in a sentence."
+            "I see the word so.",
+            "I can read so.",
+            "Please spell so."
           ],
-          "example": "I can spell so."
+          "example": "I see the word so."
         },
         {
           "id": "w23d1n06",
@@ -20678,11 +20678,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "buy",
           "examples": [
-            "I can spell buy.",
-            "Please say buy again.",
-            "I can use buy in a sentence."
+            "I see the word buy.",
+            "I can read buy.",
+            "Please spell buy."
           ],
-          "example": "I can spell buy."
+          "example": "I see the word buy."
         },
         {
           "id": "w23d1n07",
@@ -20696,11 +20696,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "come",
           "examples": [
-            "I can spell come.",
-            "Please say come again.",
-            "I can use come in a sentence."
+            "I can come now.",
+            "Please come with me.",
+            "We come after class."
           ],
-          "example": "I can spell come."
+          "example": "I can come now."
         },
         {
           "id": "w23d1n08",
@@ -20710,15 +20710,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "trolley",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | troll-ey",
           "audioText": "trolley",
           "examples": [
-            "The word trolley is important in this lesson.",
-            "I can spell trolley slowly.",
-            "I can use trolley in a sentence."
+            "The word trolley is in my spelling list.",
+            "I say trolley slowly and clearly.",
+            "I can learn trolley step by step."
           ],
-          "example": "The word trolley is important in this lesson."
+          "example": "The word trolley is in my spelling list."
         },
         {
           "id": "w23d1n09",
@@ -20728,15 +20728,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "avenue",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "avenue",
           "examples": [
-            "The word avenue is important in this lesson.",
-            "I can spell avenue slowly.",
-            "I can use avenue in a sentence."
+            "The word avenue is in my spelling list.",
+            "I say avenue slowly and clearly.",
+            "I can learn avenue step by step."
           ],
-          "example": "The word avenue is important in this lesson."
+          "example": "The word avenue is in my spelling list."
         },
         {
           "id": "w23d1n10",
@@ -20746,15 +20746,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "conductance",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | cond-uct-anc-e",
           "audioText": "conductance",
           "examples": [
-            "The word conductance is important in this lesson.",
-            "I can spell conductance slowly.",
-            "I can use conductance in a sentence."
+            "The word conductance is in my spelling list.",
+            "I say conductance slowly and clearly.",
+            "I can learn conductance step by step."
           ],
-          "example": "The word conductance is important in this lesson."
+          "example": "The word conductance is in my spelling list."
         }
       ]
     },
@@ -20775,11 +20775,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "soap",
           "examples": [
-            "I can spell soap.",
-            "Please say soap again.",
-            "I can use soap in a sentence."
+            "I see the word soap.",
+            "I can read soap.",
+            "Please spell soap."
           ],
-          "example": "I can spell soap."
+          "example": "I see the word soap."
         },
         {
           "id": "w23d2n02",
@@ -20789,15 +20789,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "common",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "common",
           "examples": [
-            "I can spell common.",
-            "Please say common again.",
-            "I can use common in a sentence."
+            "I see the word common.",
+            "I can read common.",
+            "Please spell common."
           ],
-          "example": "I can spell common."
+          "example": "I see the word common."
         },
         {
           "id": "w23d2n03",
@@ -20811,11 +20811,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "sock",
           "examples": [
-            "I can spell sock.",
-            "Please say sock again.",
-            "I can use sock in a sentence."
+            "This is my sock.",
+            "I put the sock on the desk.",
+            "Please find the sock."
           ],
-          "example": "I can spell sock."
+          "example": "This is my sock."
         },
         {
           "id": "w23d2n04",
@@ -20825,15 +20825,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cone",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cone",
           "examples": [
-            "I can spell cone.",
-            "Please say cone again.",
-            "I can use cone in a sentence."
+            "I see the word cone.",
+            "I can read cone.",
+            "Please spell cone."
           ],
-          "example": "I can spell cone."
+          "example": "I see the word cone."
         },
         {
           "id": "w23d2n05",
@@ -20843,15 +20843,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "soda",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "soda",
           "examples": [
-            "I can spell soda.",
-            "Please say soda again.",
-            "I can use soda in a sentence."
+            "I see the word soda.",
+            "I can read soda.",
+            "Please spell soda."
           ],
-          "example": "I can spell soda."
+          "example": "I see the word soda."
         },
         {
           "id": "w23d2n06",
@@ -20865,11 +20865,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "cook",
           "examples": [
-            "I can spell cook.",
-            "Please say cook again.",
-            "I can use cook in a sentence."
+            "I can cook now.",
+            "Please cook with me.",
+            "We cook after class."
           ],
-          "example": "I can spell cook."
+          "example": "I can cook now."
         },
         {
           "id": "w23d2n07",
@@ -20883,11 +20883,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "sofa",
           "examples": [
-            "I can spell sofa.",
-            "Please say sofa again.",
-            "I can use sofa in a sentence."
+            "I see the word sofa.",
+            "I can read sofa.",
+            "Please spell sofa."
           ],
-          "example": "I can spell sofa."
+          "example": "I see the word sofa."
         },
         {
           "id": "w23d2n08",
@@ -20897,15 +20897,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "dive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "dive",
           "examples": [
-            "The word dive is important in this lesson.",
-            "I can spell dive slowly.",
-            "I can use dive in a sentence."
+            "The word dive is in my spelling list.",
+            "I say dive slowly and clearly.",
+            "I can learn dive step by step."
           ],
-          "example": "The word dive is important in this lesson."
+          "example": "The word dive is in my spelling list."
         },
         {
           "id": "w23d2n09",
@@ -20915,15 +20915,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "exterior",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | ext-er-ior",
           "audioText": "exterior",
           "examples": [
-            "The word exterior is important in this lesson.",
-            "I can spell exterior slowly.",
-            "I can use exterior in a sentence."
+            "The word exterior is in my spelling list.",
+            "I say exterior slowly and clearly.",
+            "I can learn exterior step by step."
           ],
-          "example": "The word exterior is important in this lesson."
+          "example": "The word exterior is in my spelling list."
         },
         {
           "id": "w23d2n10",
@@ -20933,15 +20933,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "pointless",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | point-less",
           "audioText": "pointless",
           "examples": [
-            "The word pointless is important in this lesson.",
-            "I can spell pointless slowly.",
-            "I can use pointless in a sentence."
+            "The word pointless is in my spelling list.",
+            "I say pointless slowly and clearly.",
+            "I can learn pointless step by step."
           ],
-          "example": "The word pointless is important in this lesson."
+          "example": "The word pointless is in my spelling list."
         }
       ]
     },
@@ -20958,15 +20958,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "cooker",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | cook-er",
           "audioText": "cooker",
           "examples": [
-            "I can spell cooker.",
-            "Please say cooker again.",
-            "I can use cooker in a sentence."
+            "I see the word cooker.",
+            "I can read cooker.",
+            "Please spell cooker."
           ],
-          "example": "I can spell cooker."
+          "example": "I see the word cooker."
         },
         {
           "id": "w23d3n02",
@@ -20976,15 +20976,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "soil",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "soil",
           "examples": [
-            "I can spell soil.",
-            "Please say soil again.",
-            "I can use soil in a sentence."
+            "I see the word soil.",
+            "I can read soil.",
+            "Please spell soil."
           ],
-          "example": "I can spell soil."
+          "example": "I see the word soil."
         },
         {
           "id": "w23d3n03",
@@ -20998,11 +20998,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "cookie",
           "examples": [
-            "I can spell cookie.",
-            "Please say cookie again.",
-            "I can use cookie in a sentence."
+            "I see the word cookie.",
+            "I can read cookie.",
+            "Please spell cookie."
           ],
-          "example": "I can spell cookie."
+          "example": "I see the word cookie."
         },
         {
           "id": "w23d3n04",
@@ -21012,15 +21012,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "solid",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "solid",
           "examples": [
-            "I can spell solid.",
-            "Please say solid again.",
-            "I can use solid in a sentence."
+            "I see the word solid.",
+            "I can read solid.",
+            "Please spell solid."
           ],
-          "example": "I can spell solid."
+          "example": "I see the word solid."
         },
         {
           "id": "w23d3n05",
@@ -21034,11 +21034,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "cool",
           "examples": [
-            "I can spell cool.",
-            "Please say cool again.",
-            "I can use cool in a sentence."
+            "I see the word cool.",
+            "I can read cool.",
+            "Please spell cool."
           ],
-          "example": "I can spell cool."
+          "example": "I see the word cool."
         },
         {
           "id": "w23d3n06",
@@ -21048,15 +21048,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "some",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "some",
           "examples": [
-            "I can spell some.",
-            "Please say some again.",
-            "I can use some in a sentence."
+            "I see the word some.",
+            "I can read some.",
+            "Please spell some."
           ],
-          "example": "I can spell some."
+          "example": "I see the word some."
         },
         {
           "id": "w23d3n07",
@@ -21066,15 +21066,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "cooper",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | coop-er",
           "audioText": "cooper",
           "examples": [
-            "I can spell cooper.",
-            "Please say cooper again.",
-            "I can use cooper in a sentence."
+            "I see the word cooper.",
+            "I can read cooper.",
+            "Please spell cooper."
           ],
-          "example": "I can spell cooper."
+          "example": "I see the word cooper."
         },
         {
           "id": "w23d3n08",
@@ -21084,15 +21084,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "resource",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | res-ourc-e",
           "audioText": "resource",
           "examples": [
-            "The word resource is important in this lesson.",
-            "I can spell resource slowly.",
-            "I can use resource in a sentence."
+            "The word resource is in my spelling list.",
+            "I say resource slowly and clearly.",
+            "I can learn resource step by step."
           ],
-          "example": "The word resource is important in this lesson."
+          "example": "The word resource is in my spelling list."
         },
         {
           "id": "w23d3n09",
@@ -21102,15 +21102,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "skyscraper",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | skyscrap-er",
           "audioText": "skyscraper",
           "examples": [
-            "The word skyscraper is important in this lesson.",
-            "I can spell skyscraper slowly.",
-            "I can use skyscraper in a sentence."
+            "The word skyscraper is in my spelling list.",
+            "I say skyscraper slowly and clearly.",
+            "I can learn skyscraper step by step."
           ],
-          "example": "The word skyscraper is important in this lesson."
+          "example": "The word skyscraper is in my spelling list."
         },
         {
           "id": "w23d3n10",
@@ -21120,15 +21120,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "trophy",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "trophy",
           "examples": [
-            "The word trophy is important in this lesson.",
-            "I can spell trophy slowly.",
-            "I can use trophy in a sentence."
+            "The word trophy is in my spelling list.",
+            "I say trophy slowly and clearly.",
+            "I can learn trophy step by step."
           ],
-          "example": "The word trophy is important in this lesson."
+          "example": "The word trophy is in my spelling list."
         }
       ]
     },
@@ -21145,15 +21145,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "someone",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | som-eon-e",
           "audioText": "someone",
           "examples": [
-            "I can spell someone.",
-            "Please say someone again.",
-            "I can use someone in a sentence."
+            "I see the word someone.",
+            "I can read someone.",
+            "Please spell someone."
           ],
-          "example": "I can spell someone."
+          "example": "I see the word someone."
         },
         {
           "id": "w23d4n02",
@@ -21163,15 +21163,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "cot",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "cot",
           "examples": [
-            "I can spell cot.",
-            "Please say cot again.",
-            "I can use cot in a sentence."
+            "I see the word cot.",
+            "I can read cot.",
+            "Please spell cot."
           ],
-          "example": "I can spell cot."
+          "example": "I see the word cot."
         },
         {
           "id": "w23d4n03",
@@ -21181,15 +21181,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "son",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "son",
           "examples": [
-            "I can spell son.",
-            "Please say son again.",
-            "I can use son in a sentence."
+            "I see the word son.",
+            "I can read son.",
+            "Please spell son."
           ],
-          "example": "I can spell son."
+          "example": "I see the word son."
         },
         {
           "id": "w23d4n04",
@@ -21199,15 +21199,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cough",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "cough",
           "examples": [
-            "I can spell cough.",
-            "Please say cough again.",
-            "I can use cough in a sentence."
+            "I see the word cough.",
+            "I can read cough.",
+            "Please spell cough."
           ],
-          "example": "I can spell cough."
+          "example": "I see the word cough."
         },
         {
           "id": "w23d4n05",
@@ -21221,11 +21221,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "song",
           "examples": [
-            "I can spell song.",
-            "Please say song again.",
-            "I can use song in a sentence."
+            "I see the word song.",
+            "I can read song.",
+            "Please spell song."
           ],
-          "example": "I can spell song."
+          "example": "I see the word song."
         },
         {
           "id": "w23d4n06",
@@ -21235,15 +21235,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "count",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "count",
           "examples": [
-            "I can spell count.",
-            "Please say count again.",
-            "I can use count in a sentence."
+            "I can count now.",
+            "Please count with me.",
+            "We count after class."
           ],
-          "example": "I can spell count."
+          "example": "I can count now."
         },
         {
           "id": "w23d4n07",
@@ -21253,15 +21253,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "sorry",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sorry",
           "examples": [
-            "I can spell sorry.",
-            "Please say sorry again.",
-            "I can use sorry in a sentence."
+            "I see the word sorry.",
+            "I can read sorry.",
+            "Please spell sorry."
           ],
-          "example": "I can spell sorry."
+          "example": "I see the word sorry."
         },
         {
           "id": "w23d4n08",
@@ -21271,15 +21271,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "conduit",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | cond-uit",
           "audioText": "conduit",
           "examples": [
-            "The word conduit is important in this lesson.",
-            "I can spell conduit slowly.",
-            "I can use conduit in a sentence."
+            "The word conduit is in my spelling list.",
+            "I say conduit slowly and clearly.",
+            "I can learn conduit step by step."
           ],
-          "example": "The word conduit is important in this lesson."
+          "example": "The word conduit is in my spelling list."
         },
         {
           "id": "w23d4n09",
@@ -21293,11 +21293,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "drive",
           "examples": [
-            "The word drive is important in this lesson.",
-            "I can spell drive slowly.",
-            "I can use drive in a sentence."
+            "I can drive now.",
+            "Please drive with me.",
+            "We drive after class."
           ],
-          "example": "The word drive is important in this lesson."
+          "example": "I can drive now."
         },
         {
           "id": "w23d4n10",
@@ -21307,15 +21307,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "extinguish",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | ext-ing-uish",
           "audioText": "extinguish",
           "examples": [
-            "The word extinguish is important in this lesson.",
-            "I can spell extinguish slowly.",
-            "I can use extinguish in a sentence."
+            "The word extinguish is in my spelling list.",
+            "I say extinguish slowly and clearly.",
+            "I can learn extinguish step by step."
           ],
-          "example": "The word extinguish is important in this lesson."
+          "example": "The word extinguish is in my spelling list."
         }
       ]
     },
@@ -21336,11 +21336,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | countr-y",
           "audioText": "country",
           "examples": [
-            "I can spell country.",
-            "Please say country again.",
-            "I can use country in a sentence."
+            "I see the word country.",
+            "I can read country.",
+            "Please spell country."
           ],
-          "example": "I can spell country."
+          "example": "I see the word country."
         },
         {
           "id": "w23d5n02",
@@ -21350,15 +21350,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "sought",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "易错/静音字母",
           "audioText": "sought",
           "examples": [
-            "I can spell sought.",
-            "Please say sought again.",
-            "I can use sought in a sentence."
+            "I see the word sought.",
+            "I can read sought.",
+            "Please spell sought."
           ],
-          "example": "I can spell sought."
+          "example": "I see the word sought."
         },
         {
           "id": "w23d5n03",
@@ -21368,15 +21368,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "couple",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "couple",
           "examples": [
-            "I can spell couple.",
-            "Please say couple again.",
-            "I can use couple in a sentence."
+            "I see the word couple.",
+            "I can read couple.",
+            "Please spell couple."
           ],
-          "example": "I can spell couple."
+          "example": "I see the word couple."
         },
         {
           "id": "w23d5n04",
@@ -21390,11 +21390,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "soup",
           "examples": [
-            "I can spell soup.",
-            "Please say soup again.",
-            "I can use soup in a sentence."
+            "I eat soup for lunch.",
+            "The soup is on the table.",
+            "Do you like soup?"
           ],
-          "example": "I can spell soup."
+          "example": "I eat soup for lunch."
         },
         {
           "id": "w23d5n05",
@@ -21404,15 +21404,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "course",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "course",
           "examples": [
-            "I can spell course.",
-            "Please say course again.",
-            "I can use course in a sentence."
+            "I see the word course.",
+            "I can read course.",
+            "Please spell course."
           ],
-          "example": "I can spell course."
+          "example": "I see the word course."
         },
         {
           "id": "w23d5n06",
@@ -21426,11 +21426,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "south",
           "examples": [
-            "I can spell south.",
-            "Please say south again.",
-            "I can use south in a sentence."
+            "I see the word south.",
+            "I can read south.",
+            "Please spell south."
           ],
-          "example": "I can spell south."
+          "example": "I see the word south."
         },
         {
           "id": "w23d5n07",
@@ -21444,11 +21444,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cousin",
           "examples": [
-            "I can spell cousin.",
-            "Please say cousin again.",
-            "I can use cousin in a sentence."
+            "I see the word cousin.",
+            "I can read cousin.",
+            "Please spell cousin."
           ],
-          "example": "I can spell cousin."
+          "example": "I see the word cousin."
         },
         {
           "id": "w23d5n08",
@@ -21458,15 +21458,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "policeman",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | pol-ic-em-an",
           "audioText": "policeman",
           "examples": [
-            "The word policeman is important in this lesson.",
-            "I can spell policeman slowly.",
-            "I can use policeman in a sentence."
+            "The word policeman is in my spelling list.",
+            "I say policeman slowly and clearly.",
+            "I can learn policeman step by step."
           ],
-          "example": "The word policeman is important in this lesson."
+          "example": "The word policeman is in my spelling list."
         },
         {
           "id": "w23d5n09",
@@ -21476,15 +21476,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "respectful",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | respect-ful",
           "audioText": "respectful",
           "examples": [
-            "The word respectful is important in this lesson.",
-            "I can spell respectful slowly.",
-            "I can use respectful in a sentence."
+            "The word respectful is in my spelling list.",
+            "I say respectful slowly and clearly.",
+            "I can learn respectful step by step."
           ],
-          "example": "The word respectful is important in this lesson."
+          "example": "The word respectful is in my spelling list."
         },
         {
           "id": "w23d5n10",
@@ -21494,15 +21494,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "slippery",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | slipp-er-y",
           "audioText": "slippery",
           "examples": [
-            "The word slippery is important in this lesson.",
-            "I can spell slippery slowly.",
-            "I can use slippery in a sentence."
+            "The word slippery is in my spelling list.",
+            "I say slippery slowly and clearly.",
+            "I can learn slippery step by step."
           ],
-          "example": "The word slippery is important in this lesson."
+          "example": "The word slippery is in my spelling list."
         }
       ]
     },
@@ -21519,15 +21519,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "speak",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "speak",
           "examples": [
-            "I can spell speak.",
-            "Please say speak again.",
-            "I can use speak in a sentence."
+            "I can speak now.",
+            "Please speak with me.",
+            "We speak after class."
           ],
-          "example": "I can spell speak."
+          "example": "I can speak now."
         },
         {
           "id": "w24d1n02",
@@ -21541,11 +21541,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cow",
           "examples": [
-            "I can spell cow.",
-            "Please say cow again.",
-            "I can use cow in a sentence."
+            "I see a cow at the zoo.",
+            "The cow is in my picture.",
+            "The cow can move fast."
           ],
-          "example": "I can spell cow."
+          "example": "I see a cow at the zoo."
         },
         {
           "id": "w24d1n03",
@@ -21555,15 +21555,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "splint",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "splint",
           "examples": [
-            "I can spell splint.",
-            "Please say splint again.",
-            "I can use splint in a sentence."
+            "I see the word splint.",
+            "I can read splint.",
+            "Please spell splint."
           ],
-          "example": "I can spell splint."
+          "example": "I see the word splint."
         },
         {
           "id": "w24d1n04",
@@ -21577,11 +21577,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "crayon",
           "examples": [
-            "I can spell crayon.",
-            "Please say crayon again.",
-            "I can use crayon in a sentence."
+            "I see the word crayon.",
+            "I can read crayon.",
+            "Please spell crayon."
           ],
-          "example": "I can spell crayon."
+          "example": "I see the word crayon."
         },
         {
           "id": "w24d1n05",
@@ -21595,11 +21595,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "spoon",
           "examples": [
-            "I can spell spoon.",
-            "Please say spoon again.",
-            "I can use spoon in a sentence."
+            "I see the word spoon.",
+            "I can read spoon.",
+            "Please spell spoon."
           ],
-          "example": "I can spell spoon."
+          "example": "I see the word spoon."
         },
         {
           "id": "w24d1n06",
@@ -21609,15 +21609,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "crime",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "crime",
           "examples": [
-            "I can spell crime.",
-            "Please say crime again.",
-            "I can use crime in a sentence."
+            "I see the word crime.",
+            "I can read crime.",
+            "Please spell crime."
           ],
-          "example": "I can spell crime."
+          "example": "I see the word crime."
         },
         {
           "id": "w24d1n07",
@@ -21627,15 +21627,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "spot",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "spot",
           "examples": [
-            "I can spell spot.",
-            "Please say spot again.",
-            "I can use spot in a sentence."
+            "I see the word spot.",
+            "I can read spot.",
+            "Please spell spot."
           ],
-          "example": "I can spell spot."
+          "example": "I see the word spot."
         },
         {
           "id": "w24d1n08",
@@ -21649,11 +21649,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "twenty",
           "examples": [
-            "The word twenty is important in this lesson.",
-            "I can spell twenty slowly.",
-            "I can use twenty in a sentence."
+            "I can count to twenty.",
+            "The answer is twenty.",
+            "Please write twenty."
           ],
-          "example": "The word twenty is important in this lesson."
+          "example": "I can count to twenty."
         },
         {
           "id": "w24d1n09",
@@ -21663,15 +21663,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "conference",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | conf-er-enc-e",
           "audioText": "conference",
           "examples": [
-            "The word conference is important in this lesson.",
-            "I can spell conference slowly.",
-            "I can use conference in a sentence."
+            "The word conference is in my spelling list.",
+            "I say conference slowly and clearly.",
+            "I can learn conference step by step."
           ],
-          "example": "The word conference is important in this lesson."
+          "example": "The word conference is in my spelling list."
         },
         {
           "id": "w24d1n10",
@@ -21681,15 +21681,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "policewoman",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | pol-ic-ew-om-an",
           "audioText": "policewoman",
           "examples": [
-            "The word policewoman is important in this lesson.",
-            "I can spell policewoman slowly.",
-            "I can use policewoman in a sentence."
+            "The word policewoman is in my spelling list.",
+            "I say policewoman slowly and clearly.",
+            "I can learn policewoman step by step."
           ],
-          "example": "The word policewoman is important in this lesson."
+          "example": "The word policewoman is in my spelling list."
         }
       ]
     },
@@ -21706,15 +21706,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "critic",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "critic",
           "examples": [
-            "I can spell critic.",
-            "Please say critic again.",
-            "I can use critic in a sentence."
+            "I see the word critic.",
+            "I can read critic.",
+            "Please spell critic."
           ],
-          "example": "I can spell critic."
+          "example": "I see the word critic."
         },
         {
           "id": "w24d2n02",
@@ -21724,15 +21724,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "spray",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "spray",
           "examples": [
-            "I can spell spray.",
-            "Please say spray again.",
-            "I can use spray in a sentence."
+            "I see the word spray.",
+            "I can read spray.",
+            "Please spell spray."
           ],
-          "example": "I can spell spray."
+          "example": "I see the word spray."
         },
         {
           "id": "w24d2n03",
@@ -21746,11 +21746,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cry",
           "examples": [
-            "I can spell cry.",
-            "Please say cry again.",
-            "I can use cry in a sentence."
+            "I can cry now.",
+            "Please cry with me.",
+            "We cry after class."
           ],
-          "example": "I can spell cry."
+          "example": "I can cry now."
         },
         {
           "id": "w24d2n04",
@@ -21760,15 +21760,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "spruce",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "spruce",
           "examples": [
-            "I can spell spruce.",
-            "Please say spruce again.",
-            "I can use spruce in a sentence."
+            "I see the word spruce.",
+            "I can read spruce.",
+            "Please spell spruce."
           ],
-          "example": "I can spell spruce."
+          "example": "I see the word spruce."
         },
         {
           "id": "w24d2n05",
@@ -21782,11 +21782,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cup",
           "examples": [
-            "I can spell cup.",
-            "Please say cup again.",
-            "I can use cup in a sentence."
+            "I see the word cup.",
+            "I can read cup.",
+            "Please spell cup."
           ],
-          "example": "I can spell cup."
+          "example": "I see the word cup."
         },
         {
           "id": "w24d2n06",
@@ -21796,15 +21796,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "squid",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "squid",
           "examples": [
-            "I can spell squid.",
-            "Please say squid again.",
-            "I can use squid in a sentence."
+            "I see the word squid.",
+            "I can read squid.",
+            "Please spell squid."
           ],
-          "example": "I can spell squid."
+          "example": "I see the word squid."
         },
         {
           "id": "w24d2n07",
@@ -21814,15 +21814,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "curly",
           "level": "basic",
-          "cn": "",
+          "cn": "……地；……的",
           "pattern": "后缀 -ly",
           "audioText": "curly",
           "examples": [
-            "I can spell curly.",
-            "Please say curly again.",
-            "I can use curly in a sentence."
+            "I see the word curly.",
+            "I can read curly.",
+            "Please spell curly."
           ],
-          "example": "I can spell curly."
+          "example": "I see the word curly."
         },
         {
           "id": "w24d2n08",
@@ -21832,15 +21832,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "response",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | resp-ons-e",
           "audioText": "response",
           "examples": [
-            "The word response is important in this lesson.",
-            "I can spell response slowly.",
-            "I can use response in a sentence."
+            "The word response is in my spelling list.",
+            "I say response slowly and clearly.",
+            "I can learn response step by step."
           ],
-          "example": "The word response is important in this lesson."
+          "example": "The word response is in my spelling list."
         },
         {
           "id": "w24d2n09",
@@ -21850,15 +21850,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "sludge",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sludge",
           "examples": [
-            "The word sludge is important in this lesson.",
-            "I can spell sludge slowly.",
-            "I can use sludge in a sentence."
+            "The word sludge is in my spelling list.",
+            "I say sludge slowly and clearly.",
+            "I can learn sludge step by step."
           ],
-          "example": "The word sludge is important in this lesson."
+          "example": "The word sludge is in my spelling list."
         },
         {
           "id": "w24d2n10",
@@ -21866,17 +21866,17 @@ window.YUMI_COURSE = {
           "dayIndex": 1,
           "dayName": "周二",
           "num": 10,
-          "word": "tyre/tire",
+          "word": "tire",
           "level": "challenge",
-          "cn": "",
+          "cn": "轮胎",
           "pattern": "英/美拼写变体",
-          "audioText": "tyre or tire",
+          "audioText": "tire",
           "examples": [
-            "The word tyre is important in this lesson.",
-            "I can spell tyre slowly.",
-            "I can use tyre in a sentence."
+            "The word tire is in my spelling list.",
+            "I say tire slowly and clearly.",
+            "I can learn tire step by step."
           ],
-          "example": "The word tyre is important in this lesson."
+          "example": "The word tire is in my spelling list."
         }
       ]
     },
@@ -21893,15 +21893,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "staff",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "staff",
           "examples": [
-            "I can spell staff.",
-            "Please say staff again.",
-            "I can use staff in a sentence."
+            "I see the word staff.",
+            "I can read staff.",
+            "Please spell staff."
           ],
-          "example": "I can spell staff."
+          "example": "I see the word staff."
         },
         {
           "id": "w24d3n02",
@@ -21911,15 +21911,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "curtain",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | curt-ain",
           "audioText": "curtain",
           "examples": [
-            "I can spell curtain.",
-            "Please say curtain again.",
-            "I can use curtain in a sentence."
+            "I see the word curtain.",
+            "I can read curtain.",
+            "Please spell curtain."
           ],
-          "example": "I can spell curtain."
+          "example": "I see the word curtain."
         },
         {
           "id": "w24d3n03",
@@ -21929,15 +21929,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "stamp",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "stamp",
           "examples": [
-            "I can spell stamp.",
-            "Please say stamp again.",
-            "I can use stamp in a sentence."
+            "I see the word stamp.",
+            "I can read stamp.",
+            "Please spell stamp."
           ],
-          "example": "I can spell stamp."
+          "example": "I see the word stamp."
         },
         {
           "id": "w24d3n04",
@@ -21951,11 +21951,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "cute",
           "examples": [
-            "I can spell cute.",
-            "Please say cute again.",
-            "I can use cute in a sentence."
+            "I feel cute today.",
+            "The word cute is useful.",
+            "Can you make a sentence with cute?"
           ],
-          "example": "I can spell cute."
+          "example": "I feel cute today."
         },
         {
           "id": "w24d3n05",
@@ -21969,11 +21969,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "star",
           "examples": [
-            "I can spell star.",
-            "Please say star again.",
-            "I can use star in a sentence."
+            "I see the word star.",
+            "I can read star.",
+            "Please spell star."
           ],
-          "example": "I can spell star."
+          "example": "I see the word star."
         },
         {
           "id": "w24d3n06",
@@ -21983,15 +21983,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "steer",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er",
           "audioText": "steer",
           "examples": [
-            "I can spell steer.",
-            "Please say steer again.",
-            "I can use steer in a sentence."
+            "I see the word steer.",
+            "I can read steer.",
+            "Please spell steer."
           ],
-          "example": "I can spell steer."
+          "example": "I see the word steer."
         },
         {
           "id": "w24d3n07",
@@ -22001,15 +22001,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "stick",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "stick",
           "examples": [
-            "I can spell stick.",
-            "Please say stick again.",
-            "I can use stick in a sentence."
+            "I see the word stick.",
+            "I can read stick.",
+            "Please spell stick."
           ],
-          "example": "I can spell stick."
+          "example": "I see the word stick."
         },
         {
           "id": "w24d3n08",
@@ -22019,15 +22019,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "consider",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | consid-er",
           "audioText": "consider",
           "examples": [
-            "The word consider is important in this lesson.",
-            "I can spell consider slowly.",
-            "I can use consider in a sentence."
+            "The word consider is in my spelling list.",
+            "I say consider slowly and clearly.",
+            "I can learn consider step by step."
           ],
-          "example": "The word consider is important in this lesson."
+          "example": "The word consider is in my spelling list."
         },
         {
           "id": "w24d3n09",
@@ -22037,15 +22037,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "policy",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "policy",
           "examples": [
-            "The word policy is important in this lesson.",
-            "I can spell policy slowly.",
-            "I can use policy in a sentence."
+            "The word policy is in my spelling list.",
+            "I say policy slowly and clearly.",
+            "I can learn policy step by step."
           ],
-          "example": "The word policy is important in this lesson."
+          "example": "The word policy is in my spelling list."
         },
         {
           "id": "w24d3n10",
@@ -22055,15 +22055,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "restaurant",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | rest-aur-ant",
           "audioText": "restaurant",
           "examples": [
-            "The word restaurant is important in this lesson.",
-            "I can spell restaurant slowly.",
-            "I can use restaurant in a sentence."
+            "I go to the restaurant.",
+            "The restaurant is near my home.",
+            "We talk about the restaurant."
           ],
-          "example": "The word restaurant is important in this lesson."
+          "example": "I go to the restaurant."
         }
       ]
     },
@@ -22080,15 +22080,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "sticker",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | stick-er",
           "audioText": "sticker",
           "examples": [
-            "I can spell sticker.",
-            "Please say sticker again.",
-            "I can use sticker in a sentence."
+            "This is my sticker.",
+            "I put the sticker on the desk.",
+            "Please find the sticker."
           ],
-          "example": "I can spell sticker."
+          "example": "This is my sticker."
         },
         {
           "id": "w24d4n02",
@@ -22098,15 +22098,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "sticky",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sticky",
           "examples": [
-            "I can spell sticky.",
-            "Please say sticky again.",
-            "I can use sticky in a sentence."
+            "I see the word sticky.",
+            "I can read sticky.",
+            "Please spell sticky."
           ],
-          "example": "I can spell sticky."
+          "example": "I see the word sticky."
         },
         {
           "id": "w24d4n03",
@@ -22116,15 +22116,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "stock",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "stock",
           "examples": [
-            "I can spell stock.",
-            "Please say stock again.",
-            "I can use stock in a sentence."
+            "I see the word stock.",
+            "I can read stock.",
+            "Please spell stock."
           ],
-          "example": "I can spell stock."
+          "example": "I see the word stock."
         },
         {
           "id": "w24d4n04",
@@ -22138,11 +22138,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | stom-ach",
           "audioText": "stomach",
           "examples": [
-            "I can spell stomach.",
-            "Please say stomach again.",
-            "I can use stomach in a sentence."
+            "I see the word stomach.",
+            "I can read stomach.",
+            "Please spell stomach."
           ],
-          "example": "I can spell stomach."
+          "example": "I see the word stomach."
         },
         {
           "id": "w24d4n05",
@@ -22156,11 +22156,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "stop",
           "examples": [
-            "I can spell stop.",
-            "Please say stop again.",
-            "I can use stop in a sentence."
+            "I see the word stop.",
+            "I can read stop.",
+            "Please spell stop."
           ],
-          "example": "I can spell stop."
+          "example": "I see the word stop."
         },
         {
           "id": "w24d4n06",
@@ -22170,15 +22170,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "straw",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "straw",
           "examples": [
-            "I can spell straw.",
-            "Please say straw again.",
-            "I can use straw in a sentence."
+            "I see the word straw.",
+            "I can read straw.",
+            "Please spell straw."
           ],
-          "example": "I can spell straw."
+          "example": "I see the word straw."
         },
         {
           "id": "w24d4n07",
@@ -22188,15 +22188,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "string",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing",
           "audioText": "string",
           "examples": [
-            "I can spell string.",
-            "Please say string again.",
-            "I can use string in a sentence."
+            "I see the word string.",
+            "I can read string.",
+            "Please spell string."
           ],
-          "example": "I can spell string."
+          "example": "I see the word string."
         },
         {
           "id": "w24d4n08",
@@ -22206,15 +22206,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "smallpox",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | smallp-ox",
           "audioText": "smallpox",
           "examples": [
-            "The word smallpox is important in this lesson.",
-            "I can spell smallpox slowly.",
-            "I can use smallpox in a sentence."
+            "The word smallpox is in my spelling list.",
+            "I say smallpox slowly and clearly.",
+            "I can learn smallpox step by step."
           ],
-          "example": "The word smallpox is important in this lesson."
+          "example": "The word smallpox is in my spelling list."
         },
         {
           "id": "w24d4n09",
@@ -22224,15 +22224,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "contain",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | cont-ain",
           "audioText": "contain",
           "examples": [
-            "The word contain is important in this lesson.",
-            "I can spell contain slowly.",
-            "I can use contain in a sentence."
+            "The word contain is in my spelling list.",
+            "I say contain slowly and clearly.",
+            "I can learn contain step by step."
           ],
-          "example": "The word contain is important in this lesson."
+          "example": "The word contain is in my spelling list."
         },
         {
           "id": "w24d4n10",
@@ -22242,15 +22242,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "pollute",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | poll-ut-e",
           "audioText": "pollute",
           "examples": [
-            "The word pollute is important in this lesson.",
-            "I can spell pollute slowly.",
-            "I can use pollute in a sentence."
+            "The word pollute is in my spelling list.",
+            "I say pollute slowly and clearly.",
+            "I can learn pollute step by step."
           ],
-          "example": "The word pollute is important in this lesson."
+          "example": "The word pollute is in my spelling list."
         }
       ]
     },
@@ -22267,15 +22267,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "strong",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "strong",
           "examples": [
-            "I can spell strong.",
-            "Please say strong again.",
-            "I can use strong in a sentence."
+            "I see the word strong.",
+            "I can read strong.",
+            "Please spell strong."
           ],
-          "example": "I can spell strong."
+          "example": "I see the word strong."
         },
         {
           "id": "w24d5n02",
@@ -22285,15 +22285,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "studio",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "studio",
           "examples": [
-            "I can spell studio.",
-            "Please say studio again.",
-            "I can use studio in a sentence."
+            "I see the word studio.",
+            "I can read studio.",
+            "Please spell studio."
           ],
-          "example": "I can spell studio."
+          "example": "I see the word studio."
         },
         {
           "id": "w24d5n03",
@@ -22307,11 +22307,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "study",
           "examples": [
-            "I can spell study.",
-            "Please say study again.",
-            "I can use study in a sentence."
+            "I can study now.",
+            "Please study with me.",
+            "We study after class."
           ],
-          "example": "I can spell study."
+          "example": "I can study now."
         },
         {
           "id": "w24d5n04",
@@ -22321,15 +22321,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "stuff",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "stuff",
           "examples": [
-            "I can spell stuff.",
-            "Please say stuff again.",
-            "I can use stuff in a sentence."
+            "I see the word stuff.",
+            "I can read stuff.",
+            "Please spell stuff."
           ],
-          "example": "I can spell stuff."
+          "example": "I see the word stuff."
         },
         {
           "id": "w24d5n05",
@@ -22339,15 +22339,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "suit",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "suit",
           "examples": [
-            "I can spell suit.",
-            "Please say suit again.",
-            "I can use suit in a sentence."
+            "I see the word suit.",
+            "I can read suit.",
+            "Please spell suit."
           ],
-          "example": "I can spell suit."
+          "example": "I see the word suit."
         },
         {
           "id": "w24d5n06",
@@ -22361,11 +22361,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -er | summ-er",
           "audioText": "summer",
           "examples": [
-            "I can spell summer.",
-            "Please say summer again.",
-            "I can use summer in a sentence."
+            "I see the word summer.",
+            "I can read summer.",
+            "Please spell summer."
           ],
-          "example": "I can spell summer."
+          "example": "I see the word summer."
         },
         {
           "id": "w24d5n07",
@@ -22379,11 +22379,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "sun",
           "examples": [
-            "I can spell sun.",
-            "Please say sun again.",
-            "I can use sun in a sentence."
+            "I see the word sun.",
+            "I can read sun.",
+            "Please spell sun."
           ],
-          "example": "I can spell sun."
+          "example": "I see the word sun."
         },
         {
           "id": "w24d5n08",
@@ -22393,15 +22393,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "restore",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | rest-or-e",
           "audioText": "restore",
           "examples": [
-            "The word restore is important in this lesson.",
-            "I can spell restore slowly.",
-            "I can use restore in a sentence."
+            "The word restore is in my spelling list.",
+            "I say restore slowly and clearly.",
+            "I can learn restore step by step."
           ],
-          "example": "The word restore is important in this lesson."
+          "example": "The word restore is in my spelling list."
         },
         {
           "id": "w24d5n09",
@@ -22411,15 +22411,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "social",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "social",
           "examples": [
-            "The word social is important in this lesson.",
-            "I can spell social slowly.",
-            "I can use social in a sentence."
+            "The word social is in my spelling list.",
+            "I say social slowly and clearly.",
+            "I can learn social step by step."
           ],
-          "example": "The word social is important in this lesson."
+          "example": "The word social is in my spelling list."
         },
         {
           "id": "w24d5n10",
@@ -22429,15 +22429,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "control",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | contr-ol",
           "audioText": "control",
           "examples": [
-            "The word control is important in this lesson.",
-            "I can spell control slowly.",
-            "I can use control in a sentence."
+            "The word control is in my spelling list.",
+            "I say control slowly and clearly.",
+            "I can learn control step by step."
           ],
-          "example": "The word control is important in this lesson."
+          "example": "The word control is in my spelling list."
         }
       ]
     },
@@ -22454,15 +22454,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "sunny",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sunny",
           "examples": [
-            "I can spell sunny.",
-            "Please say sunny again.",
-            "I can use sunny in a sentence."
+            "I see the word sunny.",
+            "I can read sunny.",
+            "Please spell sunny."
           ],
-          "example": "I can spell sunny."
+          "example": "I see the word sunny."
         },
         {
           "id": "w25d1n02",
@@ -22472,15 +22472,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "supper",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | supp-er",
           "audioText": "supper",
           "examples": [
-            "I can spell supper.",
-            "Please say supper again.",
-            "I can use supper in a sentence."
+            "I see the word supper.",
+            "I can read supper.",
+            "Please spell supper."
           ],
-          "example": "I can spell supper."
+          "example": "I see the word supper."
         },
         {
           "id": "w25d1n03",
@@ -22490,15 +22490,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "surfer",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | surf-er",
           "audioText": "surfer",
           "examples": [
-            "I can spell surfer.",
-            "Please say surfer again.",
-            "I can use surfer in a sentence."
+            "I see the word surfer.",
+            "I can read surfer.",
+            "Please spell surfer."
           ],
-          "example": "I can spell surfer."
+          "example": "I see the word surfer."
         },
         {
           "id": "w25d1n04",
@@ -22508,15 +22508,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "surfing",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing | surf-ing",
           "audioText": "surfing",
           "examples": [
-            "I can spell surfing.",
-            "Please say surfing again.",
-            "I can use surfing in a sentence."
+            "I see the word surfing.",
+            "I can read surfing.",
+            "Please spell surfing."
           ],
-          "example": "I can spell surfing."
+          "example": "I see the word surfing."
         },
         {
           "id": "w25d1n05",
@@ -22526,15 +22526,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "swallow",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | swall-ow",
           "audioText": "swallow",
           "examples": [
-            "I can spell swallow.",
-            "Please say swallow again.",
-            "I can use swallow in a sentence."
+            "I see the word swallow.",
+            "I can read swallow.",
+            "Please spell swallow."
           ],
-          "example": "I can spell swallow."
+          "example": "I see the word swallow."
         },
         {
           "id": "w25d1n06",
@@ -22544,15 +22544,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "sweater",
           "level": "basic",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | sweat-er",
           "audioText": "sweater",
           "examples": [
-            "I can spell sweater.",
-            "Please say sweater again.",
-            "I can use sweater in a sentence."
+            "I see the word sweater.",
+            "I can read sweater.",
+            "Please spell sweater."
           ],
-          "example": "I can spell sweater."
+          "example": "I see the word sweater."
         },
         {
           "id": "w25d1n07",
@@ -22566,11 +22566,11 @@ window.YUMI_COURSE = {
           "pattern": "元音组合",
           "audioText": "sweet",
           "examples": [
-            "I can spell sweet.",
-            "Please say sweet again.",
-            "I can use sweet in a sentence."
+            "I feel sweet today.",
+            "The word sweet is useful.",
+            "Can you make a sentence with sweet?"
           ],
-          "example": "I can spell sweet."
+          "example": "I feel sweet today."
         },
         {
           "id": "w25d1n08",
@@ -22580,15 +22580,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "position",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "后缀 -tion/-sion | posi-tion",
           "audioText": "position",
           "examples": [
-            "The word position is important in this lesson.",
-            "I can spell position slowly.",
-            "I can use position in a sentence."
+            "The word position is in my spelling list.",
+            "I say position slowly and clearly.",
+            "I can learn position step by step."
           ],
-          "example": "The word position is important in this lesson."
+          "example": "The word position is in my spelling list."
         },
         {
           "id": "w25d1n09",
@@ -22598,15 +22598,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "result",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "result",
           "examples": [
-            "The word result is important in this lesson.",
-            "I can spell result slowly.",
-            "I can use result in a sentence."
+            "The word result is in my spelling list.",
+            "I say result slowly and clearly.",
+            "I can learn result step by step."
           ],
-          "example": "The word result is important in this lesson."
+          "example": "The word result is in my spelling list."
         },
         {
           "id": "w25d1n10",
@@ -22616,15 +22616,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "sodium",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sodium",
           "examples": [
-            "The word sodium is important in this lesson.",
-            "I can spell sodium slowly.",
-            "I can use sodium in a sentence."
+            "The word sodium is in my spelling list.",
+            "I say sodium slowly and clearly.",
+            "I can learn sodium step by step."
           ],
-          "example": "The word sodium is important in this lesson."
+          "example": "The word sodium is in my spelling list."
         }
       ]
     },
@@ -22645,11 +22645,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "swim",
           "examples": [
-            "I can spell swim.",
-            "Please say swim again.",
-            "I can use swim in a sentence."
+            "I can swim now.",
+            "Please swim with me.",
+            "We swim after class."
           ],
-          "example": "I can spell swim."
+          "example": "I can swim now."
         },
         {
           "id": "w25d2n02",
@@ -22659,15 +22659,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "swing",
           "level": "basic",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing",
           "audioText": "swing",
           "examples": [
-            "I can spell swing.",
-            "Please say swing again.",
-            "I can use swing in a sentence."
+            "I see the word swing.",
+            "I can read swing.",
+            "Please spell swing."
           ],
-          "example": "I can spell swing."
+          "example": "I see the word swing."
         },
         {
           "id": "w25d2n03",
@@ -22677,15 +22677,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "sword",
           "level": "basic",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sword",
           "examples": [
-            "I can spell sword.",
-            "Please say sword again.",
-            "I can use sword in a sentence."
+            "I see the word sword.",
+            "I can read sword.",
+            "Please spell sword."
           ],
-          "example": "I can spell sword."
+          "example": "I see the word sword."
         },
         {
           "id": "w25d2n04",
@@ -22695,15 +22695,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cooperation",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | coopera-tion",
           "audioText": "cooperation",
           "examples": [
-            "The word cooperation is important in this lesson.",
-            "I can spell cooperation slowly.",
-            "I can use cooperation in a sentence."
+            "The word cooperation is in my spelling list.",
+            "I say cooperation slowly and clearly.",
+            "I can learn cooperation step by step."
           ],
-          "example": "The word cooperation is important in this lesson."
+          "example": "The word cooperation is in my spelling list."
         },
         {
           "id": "w25d2n05",
@@ -22713,15 +22713,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "positive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | pos-it-iv-e",
           "audioText": "positive",
           "examples": [
-            "The word positive is important in this lesson.",
-            "I can spell positive slowly.",
-            "I can use positive in a sentence."
+            "I feel positive today.",
+            "The word positive is useful.",
+            "Can you make a sentence with positive?"
           ],
-          "example": "The word positive is important in this lesson."
+          "example": "I feel positive today."
         },
         {
           "id": "w25d2n06",
@@ -22731,15 +22731,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "revenge",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | rev-eng-e",
           "audioText": "revenge",
           "examples": [
-            "The word revenge is important in this lesson.",
-            "I can spell revenge slowly.",
-            "I can use revenge in a sentence."
+            "The word revenge is in my spelling list.",
+            "I say revenge slowly and clearly.",
+            "I can learn revenge step by step."
           ],
-          "example": "The word revenge is important in this lesson."
+          "example": "The word revenge is in my spelling list."
         },
         {
           "id": "w25d2n07",
@@ -22749,15 +22749,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "something",
           "level": "challenge",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "长词: 分音节背 | someth-ing",
           "audioText": "something",
           "examples": [
-            "The word something is important in this lesson.",
-            "I can spell something slowly.",
-            "I can use something in a sentence."
+            "The word something is in my spelling list.",
+            "I say something slowly and clearly.",
+            "I can learn something step by step."
           ],
-          "example": "The word something is important in this lesson."
+          "example": "The word something is in my spelling list."
         },
         {
           "id": "w25d2n08",
@@ -22767,15 +22767,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "copper",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | copp-er",
           "audioText": "copper",
           "examples": [
-            "The word copper is important in this lesson.",
-            "I can spell copper slowly.",
-            "I can use copper in a sentence."
+            "The word copper is in my spelling list.",
+            "I say copper slowly and clearly.",
+            "I can learn copper step by step."
           ],
-          "example": "The word copper is important in this lesson."
+          "example": "The word copper is in my spelling list."
         },
         {
           "id": "w25d2n09",
@@ -22785,15 +22785,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "possible",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "听音拼写 | poss-ible",
           "audioText": "possible",
           "examples": [
-            "The word possible is important in this lesson.",
-            "I can spell possible slowly.",
-            "I can use possible in a sentence."
+            "I feel possible today.",
+            "The word possible is useful.",
+            "Can you make a sentence with possible?"
           ],
-          "example": "The word possible is important in this lesson."
+          "example": "I feel possible today."
         },
         {
           "id": "w25d2n10",
@@ -22803,15 +22803,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "review",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "review",
           "examples": [
-            "The word review is important in this lesson.",
-            "I can spell review slowly.",
-            "I can use review in a sentence."
+            "The word review is in my spelling list.",
+            "I say review slowly and clearly.",
+            "I can learn review step by step."
           ],
-          "example": "The word review is important in this lesson."
+          "example": "The word review is in my spelling list."
         }
       ]
     },
@@ -22828,15 +22828,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "southern",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | south-ern",
           "audioText": "southern",
           "examples": [
-            "The word southern is important in this lesson.",
-            "I can spell southern slowly.",
-            "I can use southern in a sentence."
+            "The word southern is in my spelling list.",
+            "I say southern slowly and clearly.",
+            "I can learn southern step by step."
           ],
-          "example": "The word southern is important in this lesson."
+          "example": "The word southern is in my spelling list."
         },
         {
           "id": "w25d3n02",
@@ -22846,15 +22846,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "corridor",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | corr-id-or",
           "audioText": "corridor",
           "examples": [
-            "The word corridor is important in this lesson.",
-            "I can spell corridor slowly.",
-            "I can use corridor in a sentence."
+            "The word corridor is in my spelling list.",
+            "I say corridor slowly and clearly.",
+            "I can learn corridor step by step."
           ],
-          "example": "The word corridor is important in this lesson."
+          "example": "The word corridor is in my spelling list."
         },
         {
           "id": "w25d3n03",
@@ -22864,15 +22864,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "preschooler",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "长词: 分音节背 | preschool-er",
           "audioText": "preschooler",
           "examples": [
-            "The word preschooler is important in this lesson.",
-            "I can spell preschooler slowly.",
-            "I can use preschooler in a sentence."
+            "The word preschooler is in my spelling list.",
+            "I say preschooler slowly and clearly.",
+            "I can learn preschooler step by step."
           ],
-          "example": "The word preschooler is important in this lesson."
+          "example": "The word preschooler is in my spelling list."
         },
         {
           "id": "w25d3n04",
@@ -22882,15 +22882,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "rhubarb",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | rhub-arb",
           "audioText": "rhubarb",
           "examples": [
-            "The word rhubarb is important in this lesson.",
-            "I can spell rhubarb slowly.",
-            "I can use rhubarb in a sentence."
+            "The word rhubarb is in my spelling list.",
+            "I say rhubarb slowly and clearly.",
+            "I can learn rhubarb step by step."
           ],
-          "example": "The word rhubarb is important in this lesson."
+          "example": "The word rhubarb is in my spelling list."
         },
         {
           "id": "w25d3n05",
@@ -22900,15 +22900,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "spearhead",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | spearh-ead",
           "audioText": "spearhead",
           "examples": [
-            "The word spearhead is important in this lesson.",
-            "I can spell spearhead slowly.",
-            "I can use spearhead in a sentence."
+            "The word spearhead is in my spelling list.",
+            "I say spearhead slowly and clearly.",
+            "I can learn spearhead step by step."
           ],
-          "example": "The word spearhead is important in this lesson."
+          "example": "The word spearhead is in my spelling list."
         },
         {
           "id": "w25d3n06",
@@ -22918,15 +22918,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "counterproductive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | count-erpr-od-uct-iv-e ____  ____",
           "audioText": "counterproductive",
           "examples": [
-            "The word counterproductive is important in this lesson.",
-            "I can spell counterproductive slowly.",
-            "I can use counterproductive in a sentence."
+            "The word counterproductive is in my spelling list.",
+            "I say counterproductive slowly and clearly.",
+            "I can learn counterproductive step by step."
           ],
-          "example": "The word counterproductive is important in this lesson."
+          "example": "The word counterproductive is in my spelling list."
         },
         {
           "id": "w25d3n07",
@@ -22936,15 +22936,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "pressure",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | press-ur-e",
           "audioText": "pressure",
           "examples": [
-            "The word pressure is important in this lesson.",
-            "I can spell pressure slowly.",
-            "I can use pressure in a sentence."
+            "The word pressure is in my spelling list.",
+            "I say pressure slowly and clearly.",
+            "I can learn pressure step by step."
           ],
-          "example": "The word pressure is important in this lesson."
+          "example": "The word pressure is in my spelling list."
         },
         {
           "id": "w25d3n08",
@@ -22954,15 +22954,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "spillage",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | spill-ag-e",
           "audioText": "spillage",
           "examples": [
-            "The word spillage is important in this lesson.",
-            "I can spell spillage slowly.",
-            "I can use spillage in a sentence."
+            "The word spillage is in my spelling list.",
+            "I say spillage slowly and clearly.",
+            "I can learn spillage step by step."
           ],
-          "example": "The word spillage is important in this lesson."
+          "example": "The word spillage is in my spelling list."
         },
         {
           "id": "w25d3n09",
@@ -22972,15 +22972,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "countryside",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | countr-ys-id-e",
           "audioText": "countryside",
           "examples": [
-            "The word countryside is important in this lesson.",
-            "I can spell countryside slowly.",
-            "I can use countryside in a sentence."
+            "I go to the countryside.",
+            "The countryside is near my home.",
+            "We talk about the countryside."
           ],
-          "example": "The word countryside is important in this lesson."
+          "example": "I go to the countryside."
         },
         {
           "id": "w25d3n10",
@@ -22990,15 +22990,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "prison",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "prison",
           "examples": [
-            "The word prison is important in this lesson.",
-            "I can spell prison slowly.",
-            "I can use prison in a sentence."
+            "The word prison is in my spelling list.",
+            "I say prison slowly and clearly.",
+            "I can learn prison step by step."
           ],
-          "example": "The word prison is important in this lesson."
+          "example": "The word prison is in my spelling list."
         }
       ]
     },
@@ -23015,15 +23015,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "spinach",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | spin-ach",
           "audioText": "spinach",
           "examples": [
-            "The word spinach is important in this lesson.",
-            "I can spell spinach slowly.",
-            "I can use spinach in a sentence."
+            "The word spinach is in my spelling list.",
+            "I say spinach slowly and clearly.",
+            "I can learn spinach step by step."
           ],
-          "example": "The word spinach is important in this lesson."
+          "example": "The word spinach is in my spelling list."
         },
         {
           "id": "w25d4n02",
@@ -23033,15 +23033,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "courtyard",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | court-yard",
           "audioText": "courtyard",
           "examples": [
-            "The word courtyard is important in this lesson.",
-            "I can spell courtyard slowly.",
-            "I can use courtyard in a sentence."
+            "The word courtyard is in my spelling list.",
+            "I say courtyard slowly and clearly.",
+            "I can learn courtyard step by step."
           ],
-          "example": "The word courtyard is important in this lesson."
+          "example": "The word courtyard is in my spelling list."
         },
         {
           "id": "w25d4n03",
@@ -23051,15 +23051,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "private",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | priv-at-e",
           "audioText": "private",
           "examples": [
-            "The word private is important in this lesson.",
-            "I can spell private slowly.",
-            "I can use private in a sentence."
+            "The word private is in my spelling list.",
+            "I say private slowly and clearly.",
+            "I can learn private step by step."
           ],
-          "example": "The word private is important in this lesson."
+          "example": "The word private is in my spelling list."
         },
         {
           "id": "w25d4n04",
@@ -23069,15 +23069,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "splendid",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | splend-id",
           "audioText": "splendid",
           "examples": [
-            "The word splendid is important in this lesson.",
-            "I can spell splendid slowly.",
-            "I can use splendid in a sentence."
+            "The word splendid is in my spelling list.",
+            "I say splendid slowly and clearly.",
+            "I can learn splendid step by step."
           ],
-          "example": "The word splendid is important in this lesson."
+          "example": "The word splendid is in my spelling list."
         },
         {
           "id": "w25d4n05",
@@ -23087,15 +23087,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "create",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合",
           "audioText": "create",
           "examples": [
-            "The word create is important in this lesson.",
-            "I can spell create slowly.",
-            "I can use create in a sentence."
+            "I can create now.",
+            "Please create with me.",
+            "We create after class."
           ],
-          "example": "The word create is important in this lesson."
+          "example": "I can create now."
         },
         {
           "id": "w25d4n06",
@@ -23105,15 +23105,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "process",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | proc-ess",
           "audioText": "process",
           "examples": [
-            "The word process is important in this lesson.",
-            "I can spell process slowly.",
-            "I can use process in a sentence."
+            "The word process is in my spelling list.",
+            "I say process slowly and clearly.",
+            "I can learn process step by step."
           ],
-          "example": "The word process is important in this lesson."
+          "example": "The word process is in my spelling list."
         },
         {
           "id": "w25d4n07",
@@ -23123,15 +23123,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "sponge",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sponge",
           "examples": [
-            "The word sponge is important in this lesson.",
-            "I can spell sponge slowly.",
-            "I can use sponge in a sentence."
+            "The word sponge is in my spelling list.",
+            "I say sponge slowly and clearly.",
+            "I can learn sponge step by step."
           ],
-          "example": "The word sponge is important in this lesson."
+          "example": "The word sponge is in my spelling list."
         },
         {
           "id": "w25d4n08",
@@ -23141,15 +23141,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "creative",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | creat-iv-e",
           "audioText": "creative",
           "examples": [
-            "The word creative is important in this lesson.",
-            "I can spell creative slowly.",
-            "I can use creative in a sentence."
+            "The word creative is in my spelling list.",
+            "I say creative slowly and clearly.",
+            "I can learn creative step by step."
           ],
-          "example": "The word creative is important in this lesson."
+          "example": "The word creative is in my spelling list."
         },
         {
           "id": "w25d4n09",
@@ -23159,15 +23159,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "procurement",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | procure-ment",
           "audioText": "procurement",
           "examples": [
-            "The word procurement is important in this lesson.",
-            "I can spell procurement slowly.",
-            "I can use procurement in a sentence."
+            "The word procurement is in my spelling list.",
+            "I say procurement slowly and clearly.",
+            "I can learn procurement step by step."
           ],
-          "example": "The word procurement is important in this lesson."
+          "example": "The word procurement is in my spelling list."
         },
         {
           "id": "w25d4n10",
@@ -23181,11 +23181,11 @@ window.YUMI_COURSE = {
           "pattern": "后缀 -ing",
           "audioText": "spring",
           "examples": [
-            "The word spring is important in this lesson.",
-            "I can spell spring slowly.",
-            "I can use spring in a sentence."
+            "The word spring is in my spelling list.",
+            "I say spring slowly and clearly.",
+            "I can learn spring step by step."
           ],
-          "example": "The word spring is important in this lesson."
+          "example": "The word spring is in my spelling list."
         }
       ]
     },
@@ -23202,15 +23202,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "crocodile",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | croc-od-il-e",
           "audioText": "crocodile",
           "examples": [
-            "The word crocodile is important in this lesson.",
-            "I can spell crocodile slowly.",
-            "I can use crocodile in a sentence."
+            "I see a crocodile at the zoo.",
+            "The crocodile is in my picture.",
+            "The crocodile can move fast."
           ],
-          "example": "The word crocodile is important in this lesson."
+          "example": "I see a crocodile at the zoo."
         },
         {
           "id": "w25d5n02",
@@ -23220,15 +23220,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "product",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | prod-uct",
           "audioText": "product",
           "examples": [
-            "The word product is important in this lesson.",
-            "I can spell product slowly.",
-            "I can use product in a sentence."
+            "The word product is in my spelling list.",
+            "I say product slowly and clearly.",
+            "I can learn product step by step."
           ],
-          "example": "The word product is important in this lesson."
+          "example": "The word product is in my spelling list."
         },
         {
           "id": "w25d5n03",
@@ -23238,15 +23238,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "square",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "square",
           "examples": [
-            "The word square is important in this lesson.",
-            "I can spell square slowly.",
-            "I can use square in a sentence."
+            "The word square is in my spelling list.",
+            "I say square slowly and clearly.",
+            "I can learn square step by step."
           ],
-          "example": "The word square is important in this lesson."
+          "example": "The word square is in my spelling list."
         },
         {
           "id": "w25d5n04",
@@ -23256,15 +23256,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "cucumber",
           "level": "challenge",
-          "cn": "",
+          "cn": "……的人或物；比较级",
           "pattern": "后缀 -er | cucumb-er",
           "audioText": "cucumber",
           "examples": [
-            "The word cucumber is important in this lesson.",
-            "I can spell cucumber slowly.",
-            "I can use cucumber in a sentence."
+            "The word cucumber is in my spelling list.",
+            "I say cucumber slowly and clearly.",
+            "I can learn cucumber step by step."
           ],
-          "example": "The word cucumber is important in this lesson."
+          "example": "The word cucumber is in my spelling list."
         },
         {
           "id": "w25d5n05",
@@ -23274,15 +23274,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "progress",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | progr-ess",
           "audioText": "progress",
           "examples": [
-            "The word progress is important in this lesson.",
-            "I can spell progress slowly.",
-            "I can use progress in a sentence."
+            "The word progress is in my spelling list.",
+            "I say progress slowly and clearly.",
+            "I can learn progress step by step."
           ],
-          "example": "The word progress is important in this lesson."
+          "example": "The word progress is in my spelling list."
         },
         {
           "id": "w25d5n06",
@@ -23292,15 +23292,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "squeeze",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | squeez-e",
           "audioText": "squeeze",
           "examples": [
-            "The word squeeze is important in this lesson.",
-            "I can spell squeeze slowly.",
-            "I can use squeeze in a sentence."
+            "The word squeeze is in my spelling list.",
+            "I say squeeze slowly and clearly.",
+            "I can learn squeeze step by step."
           ],
-          "example": "The word squeeze is important in this lesson."
+          "example": "The word squeeze is in my spelling list."
         },
         {
           "id": "w25d5n07",
@@ -23310,15 +23310,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "culture",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | cult-ur-e",
           "audioText": "culture",
           "examples": [
-            "The word culture is important in this lesson.",
-            "I can spell culture slowly.",
-            "I can use culture in a sentence."
+            "The word culture is in my spelling list.",
+            "I say culture slowly and clearly.",
+            "I can learn culture step by step."
           ],
-          "example": "The word culture is important in this lesson."
+          "example": "The word culture is in my spelling list."
         },
         {
           "id": "w25d5n08",
@@ -23328,15 +23328,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "protection",
           "level": "challenge",
-          "cn": "",
+          "cn": "名词：动作或状态",
           "pattern": "长词: 分音节背 | protec-tion",
           "audioText": "protection",
           "examples": [
-            "The word protection is important in this lesson.",
-            "I can spell protection slowly.",
-            "I can use protection in a sentence."
+            "The word protection is in my spelling list.",
+            "I say protection slowly and clearly.",
+            "I can learn protection step by step."
           ],
-          "example": "The word protection is important in this lesson."
+          "example": "The word protection is in my spelling list."
         },
         {
           "id": "w25d5n09",
@@ -23346,15 +23346,15 @@ window.YUMI_COURSE = {
           "num": 9,
           "word": "stable",
           "level": "challenge",
-          "cn": "",
+          "cn": "可以……的",
           "pattern": "听音拼写",
           "audioText": "stable",
           "examples": [
-            "The word stable is important in this lesson.",
-            "I can spell stable slowly.",
-            "I can use stable in a sentence."
+            "The word stable is in my spelling list.",
+            "I say stable slowly and clearly.",
+            "I can learn stable step by step."
           ],
-          "example": "The word stable is important in this lesson."
+          "example": "The word stable is in my spelling list."
         },
         {
           "id": "w25d5n10",
@@ -23364,15 +23364,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "cupboard",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "元音组合 | cupb-oard",
           "audioText": "cupboard",
           "examples": [
-            "The word cupboard is important in this lesson.",
-            "I can spell cupboard slowly.",
-            "I can use cupboard in a sentence."
+            "The word cupboard is in my spelling list.",
+            "I say cupboard slowly and clearly.",
+            "I can learn cupboard step by step."
           ],
-          "example": "The word cupboard is important in this lesson."
+          "example": "The word cupboard is in my spelling list."
         }
       ]
     },
@@ -23389,15 +23389,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "prowess",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | prow-ess",
           "audioText": "prowess",
           "examples": [
-            "The word prowess is important in this lesson.",
-            "I can spell prowess slowly.",
-            "I can use prowess in a sentence."
+            "The word prowess is in my spelling list.",
+            "I say prowess slowly and clearly.",
+            "I can learn prowess step by step."
           ],
-          "example": "The word prowess is important in this lesson."
+          "example": "The word prowess is in my spelling list."
         },
         {
           "id": "w26d1n02",
@@ -23407,15 +23407,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "state",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "state",
           "examples": [
-            "The word state is important in this lesson.",
-            "I can spell state slowly.",
-            "I can use state in a sentence."
+            "The word state is in my spelling list.",
+            "I say state slowly and clearly.",
+            "I can learn state step by step."
           ],
-          "example": "The word state is important in this lesson."
+          "example": "The word state is in my spelling list."
         },
         {
           "id": "w26d1n03",
@@ -23425,15 +23425,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "cyclical",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | cycl-ic-al",
           "audioText": "cyclical",
           "examples": [
-            "The word cyclical is important in this lesson.",
-            "I can spell cyclical slowly.",
-            "I can use cyclical in a sentence."
+            "The word cyclical is in my spelling list.",
+            "I say cyclical slowly and clearly.",
+            "I can learn cyclical step by step."
           ],
-          "example": "The word cyclical is important in this lesson."
+          "example": "The word cyclical is in my spelling list."
         },
         {
           "id": "w26d1n04",
@@ -23443,15 +23443,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "purchase",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | purch-as-e",
           "audioText": "purchase",
           "examples": [
-            "The word purchase is important in this lesson.",
-            "I can spell purchase slowly.",
-            "I can use purchase in a sentence."
+            "The word purchase is in my spelling list.",
+            "I say purchase slowly and clearly.",
+            "I can learn purchase step by step."
           ],
-          "example": "The word purchase is important in this lesson."
+          "example": "The word purchase is in my spelling list."
         },
         {
           "id": "w26d1n05",
@@ -23461,15 +23461,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "storybook",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | stor-yb-ook",
           "audioText": "storybook",
           "examples": [
-            "The word storybook is important in this lesson.",
-            "I can spell storybook slowly.",
-            "I can use storybook in a sentence."
+            "The word storybook is in my spelling list.",
+            "I say storybook slowly and clearly.",
+            "I can learn storybook step by step."
           ],
-          "example": "The word storybook is important in this lesson."
+          "example": "The word storybook is in my spelling list."
         },
         {
           "id": "w26d1n06",
@@ -23483,11 +23483,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写",
           "audioText": "puzzle",
           "examples": [
-            "The word puzzle is important in this lesson.",
-            "I can spell puzzle slowly.",
-            "I can use puzzle in a sentence."
+            "The word puzzle is in my spelling list.",
+            "I say puzzle slowly and clearly.",
+            "I can learn puzzle step by step."
           ],
-          "example": "The word puzzle is important in this lesson."
+          "example": "The word puzzle is in my spelling list."
         },
         {
           "id": "w26d1n07",
@@ -23497,15 +23497,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "straighten",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | straight-en",
           "audioText": "straighten",
           "examples": [
-            "The word straighten is important in this lesson.",
-            "I can spell straighten slowly.",
-            "I can use straighten in a sentence."
+            "The word straighten is in my spelling list.",
+            "I say straighten slowly and clearly.",
+            "I can learn straighten step by step."
           ],
-          "example": "The word straighten is important in this lesson."
+          "example": "The word straighten is in my spelling list."
         },
         {
           "id": "w26d1n08",
@@ -23519,11 +23519,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | pyr-am-id",
           "audioText": "pyramid",
           "examples": [
-            "The word pyramid is important in this lesson.",
-            "I can spell pyramid slowly.",
-            "I can use pyramid in a sentence."
+            "The word pyramid is in my spelling list.",
+            "I say pyramid slowly and clearly.",
+            "I can learn pyramid step by step."
           ],
-          "example": "The word pyramid is important in this lesson."
+          "example": "The word pyramid is in my spelling list."
         },
         {
           "id": "w26d1n09",
@@ -23537,11 +23537,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | strawb-err-y",
           "audioText": "strawberry",
           "examples": [
-            "The word strawberry is important in this lesson.",
-            "I can spell strawberry slowly.",
-            "I can use strawberry in a sentence."
+            "I eat strawberry for lunch.",
+            "The strawberry is on the table.",
+            "Do you like strawberry?"
           ],
-          "example": "The word strawberry is important in this lesson."
+          "example": "I eat strawberry for lunch."
         },
         {
           "id": "w26d1n10",
@@ -23551,15 +23551,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "streamline",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | streaml-in-e",
           "audioText": "streamline",
           "examples": [
-            "The word streamline is important in this lesson.",
-            "I can spell streamline slowly.",
-            "I can use streamline in a sentence."
+            "The word streamline is in my spelling list.",
+            "I say streamline slowly and clearly.",
+            "I can learn streamline step by step."
           ],
-          "example": "The word streamline is important in this lesson."
+          "example": "The word streamline is in my spelling list."
         }
       ]
     },
@@ -23576,15 +23576,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "strive",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "strive",
           "examples": [
-            "The word strive is important in this lesson.",
-            "I can spell strive slowly.",
-            "I can use strive in a sentence."
+            "The word strive is in my spelling list.",
+            "I say strive slowly and clearly.",
+            "I can learn strive step by step."
           ],
-          "example": "The word strive is important in this lesson."
+          "example": "The word strive is in my spelling list."
         },
         {
           "id": "w26d2n02",
@@ -23594,15 +23594,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "structure",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | struct-ur-e",
           "audioText": "structure",
           "examples": [
-            "The word structure is important in this lesson.",
-            "I can spell structure slowly.",
-            "I can use structure in a sentence."
+            "The word structure is in my spelling list.",
+            "I say structure slowly and clearly.",
+            "I can learn structure step by step."
           ],
-          "example": "The word structure is important in this lesson."
+          "example": "The word structure is in my spelling list."
         },
         {
           "id": "w26d2n03",
@@ -23612,15 +23612,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "struggling",
           "level": "challenge",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "长词: 分音节背 | struggl-ing",
           "audioText": "struggling",
           "examples": [
-            "The word struggling is important in this lesson.",
-            "I can spell struggling slowly.",
-            "I can use struggling in a sentence."
+            "The word struggling is in my spelling list.",
+            "I say struggling slowly and clearly.",
+            "I can learn struggling step by step."
           ],
-          "example": "The word struggling is important in this lesson."
+          "example": "The word struggling is in my spelling list."
         },
         {
           "id": "w26d2n04",
@@ -23634,11 +23634,11 @@ window.YUMI_COURSE = {
           "pattern": "听音拼写 | stud-ent",
           "audioText": "student",
           "examples": [
-            "The word student is important in this lesson.",
-            "I can spell student slowly.",
-            "I can use student in a sentence."
+            "The word student is in my spelling list.",
+            "I say student slowly and clearly.",
+            "I can learn student step by step."
           ],
-          "example": "The word student is important in this lesson."
+          "example": "The word student is in my spelling list."
         },
         {
           "id": "w26d2n05",
@@ -23648,15 +23648,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "subtlety",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | subtl-et-y",
           "audioText": "subtlety",
           "examples": [
-            "The word subtlety is important in this lesson.",
-            "I can spell subtlety slowly.",
-            "I can use subtlety in a sentence."
+            "The word subtlety is in my spelling list.",
+            "I say subtlety slowly and clearly.",
+            "I can learn subtlety step by step."
           ],
-          "example": "The word subtlety is important in this lesson."
+          "example": "The word subtlety is in my spelling list."
         },
         {
           "id": "w26d2n06",
@@ -23666,15 +23666,15 @@ window.YUMI_COURSE = {
           "num": 6,
           "word": "subway",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "subway",
           "examples": [
-            "The word subway is important in this lesson.",
-            "I can spell subway slowly.",
-            "I can use subway in a sentence."
+            "I go to the subway.",
+            "The subway is near my home.",
+            "We talk about the subway."
           ],
-          "example": "The word subway is important in this lesson."
+          "example": "I go to the subway."
         },
         {
           "id": "w26d2n07",
@@ -23684,15 +23684,15 @@ window.YUMI_COURSE = {
           "num": 7,
           "word": "success",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | succ-ess",
           "audioText": "success",
           "examples": [
-            "The word success is important in this lesson.",
-            "I can spell success slowly.",
-            "I can use success in a sentence."
+            "The word success is in my spelling list.",
+            "I say success slowly and clearly.",
+            "I can learn success step by step."
           ],
-          "example": "The word success is important in this lesson."
+          "example": "The word success is in my spelling list."
         },
         {
           "id": "w26d2n08",
@@ -23702,15 +23702,15 @@ window.YUMI_COURSE = {
           "num": 8,
           "word": "suitcase",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | suitc-as-e",
           "audioText": "suitcase",
           "examples": [
-            "The word suitcase is important in this lesson.",
-            "I can spell suitcase slowly.",
-            "I can use suitcase in a sentence."
+            "This is my suitcase.",
+            "I put the suitcase on the desk.",
+            "Please find the suitcase."
           ],
-          "example": "The word suitcase is important in this lesson."
+          "example": "This is my suitcase."
         },
         {
           "id": "w26d2n09",
@@ -23724,11 +23724,11 @@ window.YUMI_COURSE = {
           "pattern": "长词: 分音节背 | sungl-ass-es",
           "audioText": "sunglasses",
           "examples": [
-            "The word sunglasses is important in this lesson.",
-            "I can spell sunglasses slowly.",
-            "I can use sunglasses in a sentence."
+            "The word sunglasses is in my spelling list.",
+            "I say sunglasses slowly and clearly.",
+            "I can learn sunglasses step by step."
           ],
-          "example": "The word sunglasses is important in this lesson."
+          "example": "The word sunglasses is in my spelling list."
         },
         {
           "id": "w26d2n10",
@@ -23738,15 +23738,15 @@ window.YUMI_COURSE = {
           "num": 10,
           "word": "supermarket",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | sup-erm-ark-et",
           "audioText": "supermarket",
           "examples": [
-            "The word supermarket is important in this lesson.",
-            "I can spell supermarket slowly.",
-            "I can use supermarket in a sentence."
+            "I go to the supermarket.",
+            "The supermarket is near my home.",
+            "We talk about the supermarket."
           ],
-          "example": "The word supermarket is important in this lesson."
+          "example": "I go to the supermarket."
         }
       ]
     },
@@ -23763,15 +23763,15 @@ window.YUMI_COURSE = {
           "num": 1,
           "word": "support",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | supp-ort",
           "audioText": "support",
           "examples": [
-            "The word support is important in this lesson.",
-            "I can spell support slowly.",
-            "I can use support in a sentence."
+            "The word support is in my spelling list.",
+            "I say support slowly and clearly.",
+            "I can learn support step by step."
           ],
-          "example": "The word support is important in this lesson."
+          "example": "The word support is in my spelling list."
         },
         {
           "id": "w26d3n02",
@@ -23781,15 +23781,15 @@ window.YUMI_COURSE = {
           "num": 2,
           "word": "sure",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写",
           "audioText": "sure",
           "examples": [
-            "The word sure is important in this lesson.",
-            "I can spell sure slowly.",
-            "I can use sure in a sentence."
+            "The word sure is in my spelling list.",
+            "I say sure slowly and clearly.",
+            "I can learn sure step by step."
           ],
-          "example": "The word sure is important in this lesson."
+          "example": "The word sure is in my spelling list."
         },
         {
           "id": "w26d3n03",
@@ -23799,15 +23799,15 @@ window.YUMI_COURSE = {
           "num": 3,
           "word": "surprise",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "听音拼写 | surpr-is-e",
           "audioText": "surprise",
           "examples": [
-            "The word surprise is important in this lesson.",
-            "I can spell surprise slowly.",
-            "I can use surprise in a sentence."
+            "The word surprise is in my spelling list.",
+            "I say surprise slowly and clearly.",
+            "I can learn surprise step by step."
           ],
-          "example": "The word surprise is important in this lesson."
+          "example": "The word surprise is in my spelling list."
         },
         {
           "id": "w26d3n04",
@@ -23817,15 +23817,15 @@ window.YUMI_COURSE = {
           "num": 4,
           "word": "swimming",
           "level": "challenge",
-          "cn": "",
+          "cn": "正在……；……的",
           "pattern": "后缀 -ing | swimm-ing",
           "audioText": "swimming",
           "examples": [
-            "The word swimming is important in this lesson.",
-            "I can spell swimming slowly.",
-            "I can use swimming in a sentence."
+            "The word swimming is in my spelling list.",
+            "I say swimming slowly and clearly.",
+            "I can learn swimming step by step."
           ],
-          "example": "The word swimming is important in this lesson."
+          "example": "The word swimming is in my spelling list."
         },
         {
           "id": "w26d3n05",
@@ -23835,15 +23835,15 @@ window.YUMI_COURSE = {
           "num": 5,
           "word": "systematic",
           "level": "challenge",
-          "cn": "",
+          "cn": "中文释义待确认",
           "pattern": "长词: 分音节背 | syst-em-at-ic",
           "audioText": "systematic",
           "examples": [
-            "The word systematic is important in this lesson.",
-            "I can spell systematic slowly.",
-            "I can use systematic in a sentence."
+            "The word systematic is in my spelling list.",
+            "I say systematic slowly and clearly.",
+            "I can learn systematic step by step."
           ],
-          "example": "The word systematic is important in this lesson."
+          "example": "The word systematic is in my spelling list."
         }
       ]
     }
@@ -23857,15 +23857,15 @@ window.YUMI_COURSE = {
       "num": 9,
       "word": "education",
       "level": "challenge",
-      "cn": "",
+      "cn": "名词：动作或状态",
       "pattern": "长词: 分音节背 | educa-tion",
       "audioText": "education",
       "examples": [
-        "The word education is important in this lesson.",
-        "I can spell education slowly.",
-        "I can use education in a sentence."
+        "The word education is in my spelling list.",
+        "I say education slowly and clearly.",
+        "I can learn education step by step."
       ],
-      "example": "The word education is important in this lesson.",
+      "example": "The word education is in my spelling list.",
       "seedWrongDateKey": "2026-06-02",
       "wrongCount": 1
     },
@@ -23881,11 +23881,11 @@ window.YUMI_COURSE = {
       "pattern": "听音拼写",
       "audioText": "about",
       "examples": [
-        "I can spell about.",
-        "Please say about again.",
-        "I can use about in a sentence."
+        "I see the word about.",
+        "I can read about.",
+        "Please spell about."
       ],
-      "example": "I can spell about.",
+      "example": "I see the word about.",
       "seedWrongDateKey": "2026-06-01",
       "wrongCount": 1
     },
@@ -23897,15 +23897,15 @@ window.YUMI_COURSE = {
       "num": 8,
       "word": "ability",
       "level": "challenge",
-      "cn": "",
+      "cn": "中文释义待确认",
       "pattern": "听音拼写 | ab-il-it-y",
       "audioText": "ability",
       "examples": [
-        "The word ability is important in this lesson.",
-        "I can spell ability slowly.",
-        "I can use ability in a sentence."
+        "The word ability is in my spelling list.",
+        "I say ability slowly and clearly.",
+        "I can learn ability step by step."
       ],
-      "example": "The word ability is important in this lesson.",
+      "example": "The word ability is in my spelling list.",
       "seedWrongDateKey": "2026-06-01",
       "wrongCount": 1
     },
@@ -23921,11 +23921,11 @@ window.YUMI_COURSE = {
       "pattern": "听音拼写",
       "audioText": "kettle",
       "examples": [
-        "I can spell kettle.",
-        "Please say kettle again.",
-        "I can use kettle in a sentence."
+        "This is my kettle.",
+        "I put the kettle on the desk.",
+        "Please find the kettle."
       ],
-      "example": "I can spell kettle.",
+      "example": "This is my kettle.",
       "seedWrongDateKey": "2026-06-02",
       "wrongCount": 1
     },
@@ -23941,11 +23941,11 @@ window.YUMI_COURSE = {
       "pattern": "听音拼写",
       "audioText": "rabbit",
       "examples": [
-        "I can spell rabbit.",
-        "Please say rabbit again.",
-        "I can use rabbit in a sentence."
+        "I see a rabbit at the zoo.",
+        "The rabbit is in my picture.",
+        "The rabbit can move fast."
       ],
-      "example": "I can spell rabbit.",
+      "example": "I see a rabbit at the zoo.",
       "seedWrongDateKey": "2026-06-03",
       "wrongCount": 1
     },
@@ -23957,15 +23957,15 @@ window.YUMI_COURSE = {
       "num": 6,
       "word": "umpire",
       "level": "basic",
-      "cn": "",
+      "cn": "裁判",
       "pattern": "听音拼写",
       "audioText": "umpire",
       "examples": [
-        "I can spell umpire.",
-        "Please say umpire again.",
-        "I can use umpire in a sentence."
+        "I see the word umpire.",
+        "I can read umpire.",
+        "Please spell umpire."
       ],
-      "example": "I can spell umpire.",
+      "example": "I see the word umpire.",
       "seedWrongDateKey": "2026-06-03",
       "wrongCount": 1
     },
@@ -23977,15 +23977,15 @@ window.YUMI_COURSE = {
       "num": 10,
       "word": "immersion",
       "level": "challenge",
-      "cn": "",
+      "cn": "名词：动作或状态",
       "pattern": "长词: 分音节背 | immer-sion",
       "audioText": "immersion",
       "examples": [
-        "The word immersion is important in this lesson.",
-        "I can spell immersion slowly.",
-        "I can use immersion in a sentence."
+        "The word immersion is in my spelling list.",
+        "I say immersion slowly and clearly.",
+        "I can learn immersion step by step."
       ],
-      "example": "The word immersion is important in this lesson.",
+      "example": "The word immersion is in my spelling list.",
       "seedWrongDateKey": "2026-06-03",
       "wrongCount": 1
     },
@@ -24001,11 +24001,11 @@ window.YUMI_COURSE = {
       "pattern": "长词: 分音节背 | hamburg-er",
       "audioText": "hamburger",
       "examples": [
-        "The word hamburger is important in this lesson.",
-        "I can spell hamburger slowly.",
-        "I can use hamburger in a sentence."
+        "I eat hamburger for lunch.",
+        "The hamburger is on the table.",
+        "Do you like hamburger?"
       ],
-      "example": "The word hamburger is important in this lesson.",
+      "example": "I eat hamburger for lunch.",
       "seedWrongDateKey": "2026-06-03",
       "wrongCount": 1
     }
