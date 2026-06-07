@@ -589,7 +589,32 @@ function seededNumber(seed) {
     setTimeout(() => layer.remove(), 1400);
   }
 
-  function showDaySummary(targetDateKey = null) {
+  
+  function openDialogSafely(id) {
+    const dlg = $(id);
+    if (!dlg) return;
+    try {
+      if (dlg.open) dlg.close();
+      dlg.showModal();
+    } catch (e) {
+      try {
+        dlg.setAttribute("open", "open");
+      } catch {}
+    }
+  }
+
+  function closeDialogSafely(id) {
+    const dlg = $(id);
+    if (!dlg) return;
+    try {
+      if (dlg.open) dlg.close();
+      else dlg.removeAttribute("open");
+    } catch {
+      try { dlg.removeAttribute("open"); } catch {}
+    }
+  }
+
+function showDaySummary(targetDateKey = null) {
     const dk = targetDateKey || (currentPlan ? currentPlan.dateKey : dateKey());
     const logs = getStore(KEYS.logs, []);
     const todayLogs = logs.filter(x => x.dateKey === dk);
@@ -622,7 +647,7 @@ function seededNumber(seed) {
       <div class="summary-reward">今日中奖积分：<strong>${reward}</strong> 分</div>
       <div class="muted">这个分数可以加到你的家庭积分系统里。</div>
     `;
-    $("daySummaryDialog").showModal();
+    openDialogSafely("daySummaryDialog");
   }
 
   function generateMathQuestions(dk = dateKey()) {
@@ -989,7 +1014,7 @@ function seededNumber(seed) {
           <button class="mini-action" data-summary-date="${esc(dk)}">查看这天总结</button>
         </div>`;
     }).join("");
-    $("historyDialog").showModal();
+    openDialogSafely("historyDialog");
   }
 
 function renderHeader() {
@@ -1521,6 +1546,23 @@ function renderDictation() {
 
   function bindEvents() {
     document.body.addEventListener("click", e => {
+      if (e.target.closest("#showHomeSummaryBtn")) {
+        e.preventDefault();
+        return showDaySummary();
+      }
+
+      if (e.target.closest("#showHistoryBtn")) {
+        e.preventDefault();
+        return showHistory();
+      }
+
+      const summaryDateBtn = e.target.closest("[data-summary-date]");
+      if (summaryDateBtn) {
+        e.preventDefault();
+        closeDialogSafely("historyDialog");
+        return showDaySummary(summaryDateBtn.dataset.summaryDate);
+      }
+
       if (e.target.id === "showHomeSummaryBtn") return showDaySummary();
       if (e.target.id === "showHistoryBtn") return showHistory();
       const summaryDateBtn = e.target.closest("[data-summary-date]");
@@ -1607,10 +1649,17 @@ function renderDictation() {
         renderAll();
       }
     });
+    
+    const homeSummaryBtn = $("showHomeSummaryBtn");
+    if (homeSummaryBtn) homeSummaryBtn.addEventListener("click", () => showDaySummary());
+
+    const historyBtn = $("showHistoryBtn");
+    if (historyBtn) historyBtn.addEventListener("click", () => showHistory());
+
     $("installHelpBtn").addEventListener("click", () => $("installDialog").showModal());
     $("closeInstallDialog").addEventListener("click", () => $("installDialog").close());
-    if ($("closeDaySummaryDialog")) $("closeDaySummaryDialog").addEventListener("click", () => $("daySummaryDialog").close());
-    if ($("closeHistoryDialog")) $("closeHistoryDialog").addEventListener("click", () => $("historyDialog").close());
+    if ($("closeDaySummaryDialog")) $("closeDaySummaryDialog").addEventListener("click", () => closeDialogSafely("daySummaryDialog"));
+    if ($("closeHistoryDialog")) $("closeHistoryDialog").addEventListener("click", () => closeDialogSafely("historyDialog"));
   }
 
   if ("serviceWorker" in navigator) {
