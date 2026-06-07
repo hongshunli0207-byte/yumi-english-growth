@@ -1563,11 +1563,6 @@ function renderDictation() {
         return showDaySummary(summaryDateBtn.dataset.summaryDate);
       }
 
-      if (e.target.id === "showHomeSummaryBtn") return showDaySummary();
-      if (e.target.id === "showHistoryBtn") return showHistory();
-      const summaryDateBtn = e.target.closest("[data-summary-date]");
-      if (summaryDateBtn) return showDaySummary(summaryDateBtn.dataset.summaryDate);
-
       const tab = e.target.closest(".tab");
       if (tab) return switchView(tab.dataset.view);
       const jump = e.target.closest("[data-jump]");
