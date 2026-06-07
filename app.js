@@ -8,6 +8,8 @@
     logs: "YUMI_PWA_DICTATION_LOGS",
     rewards: "YUMI_PWA_REWARD_LOGS",
     mathLogs: "YUMI_PWA_MATH_LOGS",
+    dictationSession: "YUMI_PWA_DICTATION_SESSION",
+    mathSession: "YUMI_PWA_MATH_SESSION",
     seeded: "YUMI_PWA_SEEDED_WRONGBOOK_V3_20260604",
     contentMigrated: "YUMI_PWA_CONTENT_MIGRATED_V6"
   };
@@ -471,7 +473,53 @@
   }
 
 
-  function seededNumber(seed) {
+  
+  function saveDictationSession() {
+    if (!dictationState || !currentPlan) return;
+    setStore(KEYS.dictationSession, {
+      dateKey: currentPlan.dateKey,
+      mode: currentPlan.mode,
+      index: dictationState.index || 0,
+      input: dictationState.input || "",
+      checked: !!dictationState.checked,
+      isRight: !!dictationState.isRight,
+      feedback: dictationState.feedback || "",
+      handwritingById: dictationState.handwritingById || {},
+      resultsById: dictationState.resultsById || {},
+      finished: !!dictationState.finished
+    });
+  }
+
+  function loadDictationSession() {
+    if (!currentPlan) return null;
+    const saved = getStore(KEYS.dictationSession, null);
+    if (!saved) return null;
+    if (saved.dateKey !== currentPlan.dateKey || saved.mode !== currentPlan.mode) return null;
+    return saved;
+  }
+
+  function saveMathSession() {
+    if (!mathState) return;
+    setStore(KEYS.mathSession, {
+      dateKey: dateKey(),
+      index: mathState.index || 0,
+      input: mathState.input || "",
+      checked: !!mathState.checked,
+      isRight: !!mathState.isRight,
+      feedback: mathState.feedback || "",
+      workById: mathState.workById || {},
+      resultsById: mathState.resultsById || {},
+      finished: !!mathState.finished
+    });
+  }
+
+  function loadMathSession() {
+    const saved = getStore(KEYS.mathSession, null);
+    if (!saved || saved.dateKey !== dateKey()) return null;
+    return saved;
+  }
+
+function seededNumber(seed) {
     let h = 2166136261;
     for (let i = 0; i < seed.length; i++) {
       h ^= seed.charCodeAt(i);
@@ -541,8 +589,8 @@
     setTimeout(() => layer.remove(), 1400);
   }
 
-  function showDaySummary() {
-    const dk = currentPlan ? currentPlan.dateKey : dateKey();
+  function showDaySummary(targetDateKey = null) {
+    const dk = targetDateKey || (currentPlan ? currentPlan.dateKey : dateKey());
     const logs = getStore(KEYS.logs, []);
     const todayLogs = logs.filter(x => x.dateKey === dk);
     const reward = todayRewardTotal(dk);
@@ -552,14 +600,24 @@
     const lastDictation = todayLogs[0];
     const dictLine = lastDictation
       ? `英语听写：${lastDictation.rightCount}/${lastDictation.total} 最终正确，曾经错过 ${lastDictation.wrongCount} 个。`
-      : "英语听写：今天还没有完成记录。";
+      : "英语听写：这一天还没有完成记录。";
+
+    const wrongWords = lastDictation && Array.isArray(lastDictation.results)
+      ? lastDictation.results.filter(r => r.hadWrong).map(r => r.word)
+      : [];
+
+    const wrongLine = wrongWords.length
+      ? `<div class="wrong-word-list"><strong>英语错词：</strong>${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>`
+      : `<div class="muted">英语错词：无记录或没有错词。</div>`;
 
     const mathLine = todayMath
       ? `数学：${todayMath.rightCount}/${todayMath.total} 最终正确，订正过 ${todayMath.wrongCount} 题。`
-      : "数学：今天还没有完成记录。";
+      : "数学：这一天还没有完成记录。";
 
     $("daySummaryContent").innerHTML = `
+      <div class="summary-date">${esc(dk)}</div>
       <div class="summary-line">${dictLine}</div>
+      ${wrongLine}
       <div class="summary-line">${mathLine}</div>
       <div class="summary-reward">今日中奖积分：<strong>${reward}</strong> 分</div>
       <div class="muted">这个分数可以加到你的家庭积分系统里。</div>
@@ -624,6 +682,8 @@
   function startMath() {
     const logs = getStore(KEYS.mathLogs, []);
     const old = logs.find(x => x.dateKey === dateKey());
+    const saved = loadMathSession();
+
     mathState = {
       index: 0,
       input: "",
@@ -636,12 +696,8 @@
       questions: generateMathQuestions(dateKey())
     };
 
-    if (old && old.results) {
-      old.results.forEach(r => {
-        mathState.resultsById[r.id] = r;
-      });
-    }
-
+    if (old && old.results) old.results.forEach(r => { mathState.resultsById[r.id] = r; });
+    if (saved) mathState = { ...mathState, ...saved, questions: generateMathQuestions(dateKey()) };
     renderMath();
   }
 
@@ -672,7 +728,7 @@
     if (old && !st.input) st.input = old.input || "";
 
     box.innerHTML = `
-      <div class="muted">第 ${st.index + 1} / ${st.questions.length} 题</div>
+      <div class="muted">第 ${st.index + 1} / ${st.questions.length} 题</div><div class="reward-mini">今日中奖：${todayRewardTotal()} 分</div>
       <span class="badge week">${q.title}</span>
       <div class="math-problem">${q.prompt}</div>
       <div class="math-hint">${q.hint}</div>
@@ -864,31 +920,28 @@
     st.checked = true;
     st.isRight = true;
     st.feedback = "right";
-    awardRandomPoints("math", q.prompt);
+    if (!previous.hadWrong && !previous.rewardChecked) {
+      const reward = awardRandomPoints("math", q.prompt);
+      st.resultsById[q.id] = { ...st.resultsById[q.id], rewardChecked: true, rewardPoints: reward };
+    }
     renderMath();
   }
 
   function nextMath() {
     const st = mathState;
+    if (!st) return;
     if (st.index + 1 >= st.questions.length) {
       st.finished = true;
       const results = Object.values(st.resultsById || {});
       const rightCount = results.filter(r => r.isRight).length;
       const wrongCount = results.filter(r => r.hadWrong).length;
       const logs = getStore(KEYS.mathLogs, []).filter(x => x.dateKey !== dateKey());
-      logs.unshift({
-        dateKey: dateKey(),
-        total: st.questions.length,
-        rightCount,
-        wrongCount,
-        results,
-        createdAt: new Date().toISOString()
-      });
+      logs.unshift({ dateKey: dateKey(), total: st.questions.length, rightCount, wrongCount, results, createdAt: new Date().toISOString() });
       setStore(KEYS.mathLogs, logs.slice(0, 100));
+      saveMathSession();
       renderMath();
       return;
     }
-
     st.index += 1;
     const q = st.questions[st.index];
     const old = (st.resultsById || {})[q.id];
@@ -896,6 +949,7 @@
     st.checked = !!(old && old.isRight);
     st.isRight = !!(old && old.isRight);
     st.feedback = st.checked ? "right" : "";
+    saveMathSession();
     renderMath();
   }
 
@@ -909,10 +963,36 @@
     st.checked = !!(old && old.isRight);
     st.isRight = !!(old && old.isRight);
     st.feedback = st.checked ? "right" : "";
+    saveMathSession();
     renderMath();
   }
 
-  function renderHeader() {
+  function showHistory() {
+    const logs = getStore(KEYS.logs, []);
+    const mathLogs = getStore(KEYS.mathLogs, []);
+    const rewards = getStore(KEYS.rewards, []);
+    const dates = Array.from(new Set([...logs.map(x => x.dateKey), ...mathLogs.map(x => x.dateKey), ...rewards.map(x => x.dateKey), dateKey()]))
+      .filter(Boolean).sort().reverse().slice(0, 14);
+
+    $("historyContent").innerHTML = dates.map(dk => {
+      const log = logs.find(x => x.dateKey === dk);
+      const math = mathLogs.find(x => x.dateKey === dk);
+      const reward = todayRewardTotal(dk);
+      const wrongWords = log && Array.isArray(log.results) ? log.results.filter(r => r.hadWrong).map(r => r.word) : [];
+      return `
+        <div class="history-item">
+          <div class="history-date">${esc(dk)}</div>
+          <div class="muted">英语：${log ? `${log.rightCount}/${log.total}，错词 ${wrongWords.length} 个` : "无完成记录"}</div>
+          ${wrongWords.length ? `<div class="history-wrongs">${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>` : ""}
+          <div class="muted">数学：${math ? `${math.rightCount}/${math.total}，订正 ${math.wrongCount} 题` : "无完成记录"}</div>
+          <div class="muted">中奖积分：${reward} 分</div>
+          <button class="mini-action" data-summary-date="${esc(dk)}">查看这天总结</button>
+        </div>`;
+    }).join("");
+    $("historyDialog").showModal();
+  }
+
+function renderHeader() {
     $("todayLine").textContent = currentPlan.dateKey;
     $("planTitle").textContent = currentPlan.title;
     $("planDesc").textContent = currentPlan.desc;
@@ -924,6 +1004,7 @@
     $("reviewCount").textContent = currentPlan.reviewWords.length;
     $("wrongCountHome").textContent = Object.keys(getWrongbook()).length;
     $("logCountHome").textContent = getStore(KEYS.logs, []).length;
+    if ($("rewardTodayHome")) $("rewardTodayHome").textContent = todayRewardTotal(currentPlan.dateKey);
     $("todayWords").innerHTML = currentPlan.words.length
       ? currentPlan.words.map(w => wordItem(w)).join("")
       : `<div class="empty">今天没有可复习错词。可以看看错题本，或下一个学习日继续新词。</div>`;
@@ -989,7 +1070,8 @@
   }
 
   function startDictation() {
-    dictationState = {
+    const saved = loadDictationSession();
+    const base = {
       index: 0,
       input: "",
       checked: false,
@@ -1000,11 +1082,10 @@
       finished: false,
       words: currentPlan.dictationWords
     };
+    dictationState = saved ? { ...base, ...saved, words: currentPlan.dictationWords } : base;
     renderDictation();
   }
 
-  
-  
   function setupStudyCanvas() {
     const canvas = $("studyCanvas");
     if (!canvas || !studyState || !currentPlan) return;
@@ -1258,7 +1339,7 @@ function renderDictation() {
     if (old && !st.input) st.input = old.input || "";
 
     box.innerHTML = `
-      <div class="muted">第 ${st.index + 1} / ${st.words.length} 个</div>
+      <div class="muted">第 ${st.index + 1} / ${st.words.length} 个</div><div class="reward-mini">今日中奖：${todayRewardTotal(currentPlan.dateKey)} 分</div>
       <div style="margin: 10px 0;">${badge(word)}</div><div class="dictation-mode-note">${currentPlan && currentPlan.mode === "saturday" ? "考试模式：只念单词" : "学习模式：例句 + 单词"}</div>
       <div class="dictation-audio-only">
         <div class="dictation-icon">🔊</div>
@@ -1331,6 +1412,7 @@ function renderDictation() {
       st.checked = false;
       st.isRight = false;
       st.feedback = "wrong";
+      saveDictationSession();
       renderDictation();
       return;
     }
@@ -1338,21 +1420,24 @@ function renderDictation() {
     st.checked = true;
     st.isRight = true;
     st.feedback = "right";
-    if (!previous.rewardChecked) {
+    if (!previous.hadWrong && !previous.rewardChecked) {
       const reward = awardRandomPoints("english", word.word);
       st.resultsById[word.id] = { ...st.resultsById[word.id], rewardChecked: true, rewardPoints: reward };
     }
+    saveDictationSession();
     renderDictation();
   }
 
   function nextDictation() {
     const st = dictationState;
+    if (!st) return;
     if (st.index + 1 >= st.words.length) {
       st.finished = true;
       const results = Object.values(st.resultsById || {});
       const rightCount = results.filter(r => r.isRight).length;
       const wrongCount = results.filter(r => r.hadWrong).length;
       saveLog({ dateKey: currentPlan.dateKey, weekKey: currentPlan.weekKey, mode: currentPlan.mode, title: currentPlan.title, total: st.words.length, rightCount, wrongCount, results });
+      saveDictationSession();
       renderAll(false);
       renderDictation();
       return;
@@ -1364,6 +1449,7 @@ function renderDictation() {
     st.checked = !!(old && old.isRight);
     st.isRight = !!(old && old.isRight);
     st.feedback = st.checked ? "right" : "";
+    saveDictationSession();
     renderDictation();
   }
 
@@ -1377,6 +1463,7 @@ function renderDictation() {
     st.checked = !!(old && old.isRight);
     st.isRight = !!(old && old.isRight);
     st.feedback = st.checked ? "right" : "";
+    saveDictationSession();
     renderDictation();
   }
 
@@ -1434,6 +1521,11 @@ function renderDictation() {
 
   function bindEvents() {
     document.body.addEventListener("click", e => {
+      if (e.target.id === "showHomeSummaryBtn") return showDaySummary();
+      if (e.target.id === "showHistoryBtn") return showHistory();
+      const summaryDateBtn = e.target.closest("[data-summary-date]");
+      if (summaryDateBtn) return showDaySummary(summaryDateBtn.dataset.summaryDate);
+
       const tab = e.target.closest(".tab");
       if (tab) return switchView(tab.dataset.view);
       const jump = e.target.closest("[data-jump]");
@@ -1518,6 +1610,7 @@ function renderDictation() {
     $("installHelpBtn").addEventListener("click", () => $("installDialog").showModal());
     $("closeInstallDialog").addEventListener("click", () => $("installDialog").close());
     if ($("closeDaySummaryDialog")) $("closeDaySummaryDialog").addEventListener("click", () => $("daySummaryDialog").close());
+    if ($("closeHistoryDialog")) $("closeHistoryDialog").addEventListener("click", () => $("historyDialog").close());
   }
 
   if ("serviceWorker" in navigator) {

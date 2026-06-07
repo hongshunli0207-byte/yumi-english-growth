@@ -314,3 +314,42 @@
 }
 .study-nav button[disabled] { opacity: .45; cursor: not-allowed; }
 @media (max-width: 700px) { .study-canvas { height: 220px; } }
+
+
+/* v12 stability summary reward */
+.reward-stat .stat-num { color: var(--primary); }
+.reward-mini {
+  display: inline-block;
+  margin: 8px 0 10px;
+  padding: 7px 12px;
+  border-radius: 999px;
+  background: #FFF7EC;
+  color: var(--primary-dark);
+  font-size: 14px;
+  font-weight: 900;
+}
+.wrong-word-list, .history-wrongs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0;
+}
+.wrong-word-list span, .history-wrongs span {
+  background: #F5EADC;
+  color: #6E4B30;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-weight: 850;
+}
+.summary-date, .history-date {
+  font-size: 20px;
+  font-weight: 950;
+  margin-bottom: 10px;
+}
+.history-item {
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(181, 106, 51, 0.14);
+}
+@media (min-width: 760px) {
+  .button-row { grid-template-columns: repeat(4, 1fr); }
+}
