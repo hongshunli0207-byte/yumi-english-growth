@@ -3,16 +3,16 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#13284a">
-  <title>Yumi Sky Run</title>
+  <meta name="theme-color" content="#102842">
+  <title>Yumi Crystal Run</title>
   <link rel="stylesheet" href="./sentence-quest.css">
 </head>
 <body>
   <main class="game-shell">
     <header class="top-bar">
       <div>
-        <p class="eyebrow">Animated trial game</p>
-        <h1>Yumi Sky Run</h1>
+        <p class="eyebrow">Playable trial game</p>
+        <h1>Yumi Crystal Run</h1>
       </div>
       <div class="score-board" aria-live="polite">
         <span id="stageCounter">Stage 1</span>
@@ -21,42 +21,48 @@
     </header>
 
     <section class="play-field" aria-live="polite">
-      <canvas id="gameCanvas" width="960" height="520" aria-label="Animated word adventure"></canvas>
+      <canvas id="gameCanvas" width="960" height="520" aria-label="Playable word runner"></canvas>
       <div class="stage-hud">
-        <div>
-          <p id="stageLabel" class="stage-label">Word Run</p>
+        <div class="word-card">
+          <p id="stageLabel" class="stage-label">Crystal Run</p>
           <h2 id="targetWord">under</h2>
           <p id="meaning" class="meaning">below something</p>
         </div>
-        <div id="wordTrail" class="word-trail"></div>
-      </div>
-    </section>
-
-    <section class="mission-grid">
-      <article class="mission-card">
-        <p class="label">Mission</p>
-        <p id="missionText" class="mission-text">Make one strong sentence to collect the sky crystal.</p>
-        <div id="starterBank" class="starter-bank" aria-label="sentence starters"></div>
-      </article>
-
-      <article class="rule-card">
-        <h3>Sentence Power</h3>
-        <div class="rule-list">
-          <span>Use the target word</span>
-          <span>8 to 10 words</span>
-          <span>Use the meaning, not spelling talk</span>
+        <div class="meter-card">
+          <span>Energy</span>
+          <strong id="energyText">0 / 3</strong>
+          <div class="meter"><i id="energyFill"></i></div>
         </div>
-      </article>
+      </div>
+      <div id="tapLayer" class="tap-layer" aria-hidden="true"></div>
     </section>
 
-    <section class="command-card">
+    <section class="action-bar">
+      <button id="startRunBtn" class="primary">Start Run</button>
+      <button id="jumpBtn" class="secondary">Jump</button>
+      <button id="speakPromptBtn" class="secondary">Hear Mission</button>
+    </section>
+
+    <section id="sentencePanel" class="command-card hidden">
+      <p class="label">Sentence skill</p>
+      <p id="missionText" class="mission-text">Use the target word in one real sentence.</p>
+      <div id="starterBank" class="starter-bank" aria-label="sentence starters"></div>
       <textarea id="sentenceInput" rows="3" placeholder="Say or type your sentence here..."></textarea>
       <div class="controls">
-        <button id="speakPromptBtn" class="secondary">Hear Mission</button>
         <button id="recordBtn" class="primary">Speak</button>
-        <button id="checkBtn" class="primary outline">Launch Sentence</button>
+        <button id="checkBtn" class="primary outline">Launch Skill</button>
       </div>
-      <p id="feedback" class="feedback">Ready when you are.</p>
+      <p id="feedback" class="feedback">Collect 3 crystals first.</p>
+    </section>
+
+    <section class="rule-card">
+      <h3>How This Trial Works</h3>
+      <div class="rule-list">
+        <span>Jump over blocks</span>
+        <span>Collect 3 crystals</span>
+        <span>Then say 1 sentence</span>
+        <span>Final: 5 words, 5 sentences</span>
+      </div>
     </section>
 
     <section class="log-card">
@@ -65,8 +71,8 @@
     </section>
 
     <section id="finishPanel" class="finish-panel hidden">
-      <h2>Sky Run complete</h2>
-      <p>You cleared 5 word stages and the final 5-word bridge.</p>
+      <h2>Crystal Run complete</h2>
+      <p>You cleared the action stages and finished the final 5-word sentence challenge.</p>
       <button id="restartBtn" class="primary">Play Again</button>
     </section>
   </main>
