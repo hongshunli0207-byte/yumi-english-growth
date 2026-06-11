@@ -9,6 +9,7 @@
     rewards: "YUMI_PWA_REWARD_LOGS",
     mathLogs: "YUMI_PWA_MATH_LOGS",
     dictationSession: "YUMI_PWA_DICTATION_SESSION",
+    studySession: "YUMI_PWA_STUDY_SESSION",
     mathSession: "YUMI_PWA_MATH_SESSION",
     seeded: "YUMI_PWA_SEEDED_WRONGBOOK_V3_20260604",
     contentMigrated: "YUMI_PWA_CONTENT_MIGRATED_V6"
@@ -454,6 +455,7 @@
     const ids = currentPlan.words.map(w => w.id);
     learned[currentPlan.dateKey] = Array.from(new Set([...(learned[currentPlan.dateKey] || []), ...ids]));
     setStore(KEYS.learned, learned);
+    localStorage.removeItem(KEYS.studySession);
     toast("今日学习完成");
     renderAll();
   }
@@ -493,6 +495,24 @@
   function loadDictationSession() {
     if (!currentPlan) return null;
     const saved = getStore(KEYS.dictationSession, null);
+    if (!saved) return null;
+    if (saved.dateKey !== currentPlan.dateKey || saved.mode !== currentPlan.mode) return null;
+    return saved;
+  }
+
+  function saveStudySession() {
+    if (!studyState || !currentPlan) return;
+    setStore(KEYS.studySession, {
+      dateKey: currentPlan.dateKey,
+      mode: currentPlan.mode,
+      index: studyState.index || 0,
+      handwritingById: studyState.handwritingById || {}
+    });
+  }
+
+  function loadStudySession() {
+    if (!currentPlan) return null;
+    const saved = getStore(KEYS.studySession, null);
     if (!saved) return null;
     if (saved.dateKey !== currentPlan.dateKey || saved.mode !== currentPlan.mode) return null;
     return saved;
@@ -1044,8 +1064,15 @@ function renderHeader() {
       return;
     }
 
-    if (!studyState || studyState.dateKey !== currentPlan.dateKey) {
-      studyState = { dateKey: currentPlan.dateKey, index: 0, handwritingById: {} };
+    if (!studyState || studyState.dateKey !== currentPlan.dateKey || studyState.mode !== currentPlan.mode) {
+      const saved = loadStudySession();
+      studyState = {
+        dateKey: currentPlan.dateKey,
+        mode: currentPlan.mode,
+        index: 0,
+        handwritingById: {},
+        ...(saved || {})
+      };
     }
 
     if (studyState.index >= words.length) studyState.index = words.length - 1;
@@ -1183,7 +1210,10 @@ function renderHeader() {
       e && e.preventDefault && e.preventDefault();
       drawing = false;
       last = null;
-      try { studyState.handwritingById[word.id] = canvas.toDataURL("image/png"); } catch {}
+      try {
+        studyState.handwritingById[word.id] = canvas.toDataURL("image/png");
+        saveStudySession();
+      } catch {}
     }
 
     canvas.addEventListener("pointerdown", startDraw);
@@ -1197,6 +1227,7 @@ function renderHeader() {
     const clearBtn = $("clearStudyHandwritingBtn");
     if (clearBtn) clearBtn.addEventListener("click", () => {
       delete studyState.handwritingById[word.id];
+      saveStudySession();
       drawPaper();
     });
 
@@ -1212,6 +1243,7 @@ function renderHeader() {
       return;
     }
     studyState.index += 1;
+    saveStudySession();
     renderStudy();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -1219,6 +1251,7 @@ function renderHeader() {
   function prevStudyWord() {
     if (!studyState || studyState.index <= 0) return;
     studyState.index -= 1;
+    saveStudySession();
     renderStudy();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
@@ -1581,8 +1614,16 @@ function renderDictation() {
       if (e.target.id === "prevDictationBtn") return prevDictation();
       if (e.target.id === "checkDictationBtn") return checkDictation();
       if (e.target.id === "nextDictationBtn") return nextDictation();
-      if (e.target.id === "prevStudyBtn") return prevStudyWord();
-      if (e.target.id === "nextStudyBtn") return nextStudyWord();
+      const prevStudyBtn = e.target.closest("#prevStudyBtn");
+      if (prevStudyBtn) {
+        e.preventDefault();
+        return prevStudyWord();
+      }
+      const nextStudyBtn = e.target.closest("#nextStudyBtn");
+      if (nextStudyBtn) {
+        e.preventDefault();
+        return nextStudyWord();
+      }
       if (e.target.id === "prevMathBtn") return prevMath();
       if (e.target.id === "checkMathBtn") return checkMath();
       if (e.target.id === "nextMathBtn") return nextMath();
