@@ -279,6 +279,13 @@
     education: ["Education helps children grow.", "Good education opens many doors.", "Reading is an important part of education."],
     hamburger: ["I ate a hamburger for lunch.", "The hamburger had cheese and lettuce.", "He ordered a hamburger at the cafe."],
     umpire: ["The umpire watched the game carefully.", "The umpire called the player safe.", "A fair umpire knows the rules."],
+
+    sale: ["The store has a big sale today.", "Mom bought shoes during the sale.", "This jacket is cheaper because it is on sale."],
+    tall: ["The tall tree reached above the roof.", "My brother is taller than me.", "A tall glass of water stood on the table."],
+    vein: ["A vein carries blood back to the heart.", "The nurse looked for a vein in his arm.", "A leaf has a thin vein down the middle."],
+    under: ["The cat is under the chair.", "Yumi put her shoes under the bed.", "The ball rolled under the table."],
+    rain: ["Rain fell softly on the window.", "We stayed inside because of the rain.", "The flowers grew after the rain."],
+    quilt: ["Grandma made a warm quilt for the bed.", "I pulled the quilt over my shoulders.", "The quilt has many colorful squares."],
     immersion: ["Language immersion helps students learn faster.", "The class used immersion to practice English.", "Immersion means using the language often."]
   };
 
@@ -292,6 +299,10 @@
       ex.includes("say " + w) ||
       ex.includes("learn " + w) ||
       ex.includes("spelling " + w) ||
+      ex.includes("word " + w) ||
+      ex.includes("sentence with " + w) ||
+      ex.includes("make a sentence with " + w) ||
+      ex.includes(w + " is useful") ||
       ex.includes(w + " is in my spelling list");
   }
 
@@ -308,16 +319,16 @@
     const shortWord = lower.length <= 5;
     if (shortWord) {
       return [
-        "I saw " + art + " " + lower + " in the picture.",
-        "Yumi talked about the " + lower + " in class.",
-        "The " + lower + " was important in the story."
+        "I saw " + art + " " + lower + " near the door.",
+        "Yumi pointed to the " + lower + " and smiled.",
+        "The " + lower + " was easy to find."
       ];
     }
 
     return [
-      "Yumi used " + target + " in a real sentence.",
-      "The meaning of " + target + " helped her understand the story.",
-      "She noticed " + target + " while reading carefully."
+      "Yumi noticed the " + lower + " during the story.",
+      "The " + lower + " helped explain what happened.",
+      "We talked about the " + lower + " after reading."
     ];
   }
 
