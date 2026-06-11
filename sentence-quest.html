@@ -1,66 +1,87 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#243B55">
-  <title>Yumi Sentence Quest</title>
+  <meta name="theme-color" content="#18324d">
+  <title>Yumi Word Run</title>
   <link rel="stylesheet" href="./sentence-quest.css">
 </head>
 <body>
-  <main class="quest-shell">
-    <header class="quest-top">
+  <main class="game-shell">
+    <header class="top-bar">
       <div>
-        <p class="eyebrow">5-word trial game</p>
-        <h1>Yumi Sentence Quest</h1>
+        <p class="eyebrow">5-word trial</p>
+        <h1>Yumi Word Run</h1>
       </div>
-      <div class="score-card">
+      <div class="score-board" aria-live="polite">
         <span id="wordCounter">1 / 5</span>
         <strong id="stars">0 stars</strong>
       </div>
     </header>
 
-    <section class="battle-panel" aria-live="polite">
-      <div class="mission-copy">
-        <p class="label">Target word</p>
-        <h2 id="targetWord">under</h2>
-        <p id="meaning" class="meaning">below something</p>
-        <p id="prompt" class="prompt">Say one sentence with under.</p>
+    <section class="stage-card" aria-live="polite">
+      <div class="world-sky">
+        <div class="cloud cloud-one"></div>
+        <div class="cloud cloud-two"></div>
+        <div class="sun"></div>
       </div>
-      <div class="monster-zone">
-        <div id="monster" class="monster" aria-hidden="true">
+      <div class="track" id="track">
+        <div class="lane-line"></div>
+        <div class="platform platform-one"></div>
+        <div class="platform platform-two"></div>
+        <div class="platform platform-three"></div>
+        <div id="avatar" class="avatar" aria-hidden="true">
+          <div class="avatar-face"></div>
+        </div>
+        <div id="gate" class="gate" aria-hidden="true">
           <span></span><span></span><span></span>
         </div>
-        <div class="hp-wrap">
-          <div class="hp-label"><span>Task energy</span><strong id="hpText">3 / 3</strong></div>
-          <div class="hp-bar"><div id="hpFill"></div></div>
-        </div>
+      </div>
+      <div class="power-row" aria-label="sentence power">
+        <span id="orb0" class="power-orb"></span>
+        <span id="orb1" class="power-orb"></span>
+        <span id="orb2" class="power-orb"></span>
       </div>
     </section>
 
-    <section class="sentence-panel">
-      <div class="rules">
-        <span>Use the target word</span>
-        <span>8-10 words</span>
-        <span>3 good sentences</span>
-      </div>
-      <textarea id="sentenceInput" rows="3" placeholder="Say or type your sentence here..."></textarea>
+    <section class="mission-grid">
+      <article class="mission-card">
+        <p class="label">Current gate word</p>
+        <h2 id="targetWord">under</h2>
+        <p id="meaning" class="meaning">below something</p>
+        <p id="missionText" class="mission-text">Build 3 sentence powers to open the gate.</p>
+      </article>
+
+      <article class="rule-card">
+        <h3>Power sentence rules</h3>
+        <div class="rule-list">
+          <span>Use the gate word</span>
+          <span>8 to 10 words</span>
+          <span>No repeated sentence</span>
+        </div>
+        <div class="starter-bank" id="starterBank" aria-label="starter words"></div>
+      </article>
+    </section>
+
+    <section class="command-card">
+      <textarea id="sentenceInput" rows="3" placeholder="Say or type your power sentence here..."></textarea>
       <div class="controls">
         <button id="speakPromptBtn" class="secondary">Hear Mission</button>
-        <button id="recordBtn" class="primary">Speak Sentence</button>
-        <button id="checkBtn" class="primary outline">Check</button>
+        <button id="recordBtn" class="primary">Speak</button>
+        <button id="checkBtn" class="primary outline">Fire Sentence</button>
       </div>
       <p id="feedback" class="feedback">Ready when you are.</p>
     </section>
 
-    <section class="progress-panel">
-      <h3>Sentences for this word</h3>
+    <section class="log-card">
+      <h3>Power sentences</h3>
       <ol id="sentenceList"></ol>
     </section>
 
     <section id="finishPanel" class="finish-panel hidden">
-      <h2>Quest complete</h2>
-      <p>You finished all 5 words. Tomorrow, try these again plus 5 new words.</p>
+      <h2>Run complete</h2>
+      <p>You opened all 5 gates. Tomorrow, replay these and add 5 new words.</p>
       <button id="restartBtn" class="primary">Play Again</button>
     </section>
   </main>
