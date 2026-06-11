@@ -253,6 +253,113 @@
     return `<span class="badge ${cls}">${label}</span>`;
   }
 
+
+  const EXAMPLE_OVERRIDES = {
+    about: ["I read a book about space.", "We talked about the weather.", "This story is about a brave girl."],
+    baby: ["The baby smiled at her mother.", "A baby needs a lot of sleep.", "Please be quiet while the baby sleeps."],
+    cage: ["The bird sat safely in its cage.", "She cleaned the cage for her hamster.", "The cage door was open."],
+    dad: ["My dad made breakfast this morning.", "Dad helped me fix my bike.", "I gave Dad a card."],
+    ear: ["My ear hurt after the loud noise.", "She whispered into my ear.", "A rabbit has long ears."],
+    face: ["Wash your face before bed.", "Her face lit up with a smile.", "The clown painted his face."],
+    game: ["We played a board game after dinner.", "The game was close until the end.", "Yumi learned the rules of the game."],
+    box: ["I put my toys in the box.", "The box was too heavy to lift.", "She opened the box carefully."],
+    ability: ["Reading every day builds your ability.", "She has the ability to solve hard problems.", "Practice improves spelling ability."],
+    apple: ["I ate a red apple for lunch.", "The apple fell from the tree.", "She sliced the apple into pieces."],
+    book: ["I borrowed a book from the library.", "The book has a funny story.", "Please put the book on the shelf."],
+    cat: ["The cat slept on the sofa.", "A black cat crossed the garden.", "The cat chased a toy mouse."],
+    dog: ["The dog wagged its tail.", "My dog likes long walks.", "The dog barked at the door."],
+    fish: ["The fish swam in the pond.", "We saw a gold fish in the tank.", "A fish needs clean water."],
+    milk: ["I poured milk into my cup.", "The baby drank warm milk.", "Please keep the milk cold."],
+    school: ["Yumi goes to school every morning.", "Our school has a big playground.", "I packed my bag for school."],
+    table: ["The bowl is on the table.", "We ate dinner at the table.", "Please clean the table."],
+    water: ["Drink water after exercise.", "The plant needs water.", "Cold water filled the glass."],
+    mother: ["My mother read me a story.", "Mother packed a snack for school.", "I helped my mother cook dinner."],
+    rabbit: ["The rabbit hopped across the grass.", "A rabbit likes fresh carrots.", "The rabbit hid under the bush."],
+    kettle: ["The kettle boiled water for tea.", "Dad put the kettle on the stove.", "The kettle made a soft whistle."],
+    education: ["Education helps children grow.", "Good education opens many doors.", "Reading is an important part of education."],
+    hamburger: ["I ate a hamburger for lunch.", "The hamburger had cheese and lettuce.", "He ordered a hamburger at the cafe."],
+    umpire: ["The umpire watched the game carefully.", "The umpire called the player safe.", "A fair umpire knows the rules."],
+    immersion: ["Language immersion helps students learn faster.", "The class used immersion to practice English.", "Immersion means using the language often."]
+  };
+
+  function isGenericExample(example, word) {
+    const ex = String(example || "").toLowerCase();
+    const w = String(word || "").toLowerCase();
+    return !ex ||
+      ex.includes("the word " + w) ||
+      ex.includes("read " + w) ||
+      ex.includes("spell " + w) ||
+      ex.includes("say " + w) ||
+      ex.includes("learn " + w) ||
+      ex.includes("spelling " + w) ||
+      ex.includes(w + " is in my spelling list");
+  }
+
+  function articleFor(word) {
+    return /^[aeiou]/i.test(String(word || "")) ? "an" : "a";
+  }
+
+  function buildMeaningExamples(word) {
+    const target = String(word.word || "word");
+    const lower = target.toLowerCase();
+    if (EXAMPLE_OVERRIDES[lower]) return EXAMPLE_OVERRIDES[lower];
+
+    const art = articleFor(lower);
+    const shortWord = lower.length <= 5;
+    if (shortWord) {
+      return [
+        "I saw " + art + " " + lower + " in the picture.",
+        "Yumi talked about the " + lower + " in class.",
+        "The " + lower + " was important in the story."
+      ];
+    }
+
+    return [
+      "Yumi used " + target + " in a real sentence.",
+      "The meaning of " + target + " helped her understand the story.",
+      "She noticed " + target + " while reading carefully."
+    ];
+  }
+
+  function getStudyExamples(word) {
+    const existing = (Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean))
+      .filter(ex => !isGenericExample(ex, word.word));
+    const combined = [...existing, ...buildMeaningExamples(word)];
+    return Array.from(new Set(combined.map(ex => String(ex || "").trim()).filter(Boolean))).slice(0, 3);
+  }
+
+  function heardStudyExamples(wordId) {
+    if (!studyState) return [];
+    studyState.examplesHeardById = studyState.examplesHeardById || {};
+    return studyState.examplesHeardById[wordId] || [];
+  }
+
+  function areStudyExamplesComplete(wordId, count) {
+    return heardStudyExamples(wordId).length >= count;
+  }
+
+  async function playStudyExample(index) {
+    if (!studyState || !currentPlan || studyState.examplePlayingKey) return;
+    const word = (currentPlan.words || [])[studyState.index];
+    if (!word) return;
+    const examples = getStudyExamples(word);
+    const text = examples[index];
+    if (!text) return;
+
+    studyState.examplePlayingKey = word.id + ":" + index;
+    renderStudy();
+    try {
+      await speak(text);
+      const heard = new Set(heardStudyExamples(word.id));
+      heard.add(index);
+      studyState.examplesHeardById[word.id] = Array.from(heard).sort((a, b) => a - b);
+      saveStudySession();
+    } finally {
+      if (studyState) studyState.examplePlayingKey = "";
+      renderStudy();
+    }
+  }
+
   function wordItem(word, withActions = false) {
     const examples = Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean);
     const exampleHtml = examples.length
@@ -263,7 +370,8 @@
     return `
       <div class="word-item">
         ${badge(word)}
-        <div class="word">${esc(word.word)}</div>
+        <div class="word">${esc(word.word)}</div>
+
         ${pattern}
         ${exampleHtml}
         ${withActions ? `
@@ -341,22 +449,25 @@
   }
 
   function speakBrowser(spoken, setting) {
-    if ("speechSynthesis" in window) {
-      window.speechSynthesis.cancel();
-      refreshVoices();
+    return new Promise(resolve => {
+      if ("speechSynthesis" in window) {
+        window.speechSynthesis.cancel();
+        refreshVoices();
 
-      let remaining = Math.max(1, setting.repeat || 1);
-      const playNext = () => {
-        remaining -= 1;
-        if (remaining <= 0) return;
-        setTimeout(() => speakOnce(spoken, setting, playNext), 260);
-      };
+        let remaining = Math.max(1, setting.repeat || 1);
+        const playNext = () => {
+          remaining -= 1;
+          if (remaining <= 0) { resolve(); return; }
+          setTimeout(() => speakOnce(spoken, setting, playNext), 260);
+        };
 
-      speakOnce(spoken, setting, playNext);
-    } else {
-      navigator.clipboard?.writeText(spoken);
-      toast("Word copied");
-    }
+        speakOnce(spoken, setting, playNext);
+      } else {
+        navigator.clipboard?.writeText(spoken);
+        toast("Word copied");
+        resolve();
+      }
+    });
   }
 
   async function speakElevenLabs(spoken, setting) {
@@ -416,12 +527,12 @@
       } catch (error) {
         console.warn("ElevenLabs TTS fallback:", error);
         toast("ElevenLabs failed. Using device speech instead.");
-        speakBrowser(spoken, setting);
+        await speakBrowser(spoken, setting);
         return;
       }
     }
 
-    speakBrowser(spoken, setting);
+    return speakBrowser(spoken, setting);
   }
 
 
@@ -431,7 +542,8 @@
 
   async function speakDictationPrompt(word) {
     const target = String(word.audioText || word.word || "").replace("/", " or ");
-    const example = Array.isArray(word.examples) && word.examples.length ? word.examples[0] : word.example;
+    const examples = getStudyExamples(word);
+    const example = examples[0] || word.example;
 
     // Weekday new words + Sunday/week wrong review: example → pause → target word.
     // Saturday weekly test: target word only, to keep the test strict.
@@ -505,7 +617,8 @@
       dateKey: currentPlan.dateKey,
       mode: currentPlan.mode,
       index: studyState.index || 0,
-      handwritingById: studyState.handwritingById || {}
+      handwritingById: studyState.handwritingById || {},
+      examplesHeardById: studyState.examplesHeardById || {}
     });
   }
 
@@ -650,8 +763,11 @@ function showDaySummary(targetDateKey = null) {
       ? lastDictation.results.filter(r => r.hadWrong).map(r => r.word)
       : [];
 
+    const wrongText = wrongWords.join("\n");
     const wrongLine = wrongWords.length
-      ? `<div class="wrong-word-list"><strong>Missed English words: </strong>${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>`
+      ? `<div class="wrong-word-list"><strong>Missed English words: </strong>${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>
+         <textarea id="wrongWordsCopyText" class="input" readonly rows="${Math.min(8, Math.max(3, wrongWords.length + 1))}">${esc(wrongText)}</textarea>
+         <button class="secondary full" id="copyWrongWordsBtn">Copy Missed Words</button>`
       : `<div class="muted">Missed English words: none recorded.</div>`;
 
     const mathLine = todayMath
@@ -1075,7 +1191,10 @@ function renderHeader() {
         mode: currentPlan.mode,
         index: 0,
         handwritingById: {},
-        ...(saved || {})
+        examplesHeardById: {},
+        examplePlayingKey: "",
+        ...(saved || {}),
+        examplePlayingKey: ""
       };
     }
 
@@ -1093,7 +1212,8 @@ function renderHeader() {
       <div class="card study-pager-card">
         <div class="study-progress">Word ${studyState.index + 1} of ${words.length}</div>
         ${badge(word)}
-        <div class="word study-big-word">${esc(word.word)}</div>
+        <div class="word study-big-word">${esc(word.word)}</div>
+
         ${pattern}
         ${exampleHtml}
 
@@ -1115,7 +1235,7 @@ function renderHeader() {
 
         <div class="study-nav">
           <button class="secondary" id="prevStudyBtn" ${studyState.index === 0 ? "disabled" : ""}>Previous</button>
-          <button class="primary" id="nextStudyBtn">${studyState.index + 1 >= words.length ? "Finish Study" : "Next"}</button>
+          <button class="primary" id="nextStudyBtn" ${examplesComplete ? "" : "disabled"}>${studyState.index + 1 >= words.length ? "Finish Study" : "Next"}</button>
         </div>
       </div>
     `;
@@ -1245,6 +1365,11 @@ function renderHeader() {
   function nextStudyWord() {
     if (!studyState || !currentPlan) return;
     const words = currentPlan.words || [];
+    const word = words[studyState.index];
+    if (word && !areStudyExamplesComplete(word.id, getStudyExamples(word).length)) {
+      toast("Listen to all three examples first.");
+      return;
+    }
     if (studyState.index + 1 >= words.length) {
       markLearned();
       switchView("home");
@@ -1604,6 +1729,21 @@ function renderDictation() {
         return showHistory();
       }
 
+      const copyWrongWordsBtn = e.target.closest("#copyWrongWordsBtn");
+      if (copyWrongWordsBtn) {
+        e.preventDefault();
+        const text = $("wrongWordsCopyText") ? $("wrongWordsCopyText").value : "";
+        if (text) navigator.clipboard?.writeText(text);
+        toast(text ? "Missed words copied" : "No missed words to copy");
+        return;
+      }
+
+      const studyExampleBtn = e.target.closest("[data-study-example-index]");
+      if (studyExampleBtn) {
+        e.preventDefault();
+        return playStudyExample(parseInt(studyExampleBtn.dataset.studyExampleIndex, 10));
+      }
+
       const summaryDateBtn = e.target.closest("[data-summary-date]");
       if (summaryDateBtn) {
         e.preventDefault();
@@ -1616,7 +1756,10 @@ function renderDictation() {
       const jump = e.target.closest("[data-jump]");
       if (jump) return switchView(jump.dataset.jump);
       const speakBtn = e.target.closest("[data-speak]");
-      if (speakBtn) return speak(speakBtn.dataset.speak);
+      if (speakBtn) {
+        if (studyState && studyState.examplePlayingKey) { toast("Wait for the example to finish."); return; }
+        return speak(speakBtn.dataset.speak);
+      }
       const wrongBtn = e.target.closest("[data-wrong]");
       if (wrongBtn) {
         const word = currentPlan.words.find(w => w.id === wrongBtn.dataset.wrong) || WORDS.find(w => w.id === wrongBtn.dataset.wrong);
