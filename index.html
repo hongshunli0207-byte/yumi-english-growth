@@ -1,41 +1,36 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#B56A33"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Yumi English"><link rel="manifest" href="./manifest.json"><link rel="apple-touch-icon" href="./assets/icon-192.png"><link rel="stylesheet" href="./style.css"><title>Yumi 英语成长打卡</title></head><body><div id="app"><header class="topbar"><div><div class="app-title">Yumi 英语成长 🌱</div><div id="todayLine" class="muted"></div></div><button class="small-btn" id="installHelpBtn">装到桌面</button></header><main class="container"><section class="hero card"><div><div id="planTitle" class="title">今日任务</div><div id="planDesc" class="subtitle"></div></div><div class="hero-badge"><span id="taskCount">0</span><small>词</small></div></section><nav class="tabs"><button class="tab active" data-view="home">今日</button><button class="tab" data-view="study">学习</button><button class="tab" data-view="dictation">听写</button><button class="tab" data-view="wrongbook">错题</button><button class="tab" data-view="stats">统计</button>
-        <button class="tab" data-view="math">数学</button></nav>
-
-      <section class="voice-panel card">
-        <div class="voice-title">发音设置</div>
-        <div class="voice-controls">
-          <label>
-            声音
-            <select id="ttsProvider">
-              <option value="elevenlabs" selected>真人发音</option>
-              <option value="browser">本机发音</option>
-            </select>
-          </label>
-          <label>
-            口音
-            <select id="voiceAccent">
-              <option value="en-US">美音</option>
-              <option value="en-GB">英音</option>
-            </select>
-          </label>
-          <label>
-            语速
-            <select id="voiceRate">
-              <option value="0.72">慢速</option>
-              <option value="0.82" selected>标准偏慢</option>
-              <option value="0.92">标准</option>
-            </select>
-          </label>
-          <label>
-            重复
-            <select id="voiceRepeat">
-              <option value="1">1遍</option>
-              <option value="2" selected>2遍</option>
-              <option value="3">3遍</option>
-            </select>
-          </label>
-        </div>
-        <div id="voiceName" class="muted voice-name">正在选择最自然的英语发音……</div>
-      </section>
-<section id="view-home" class="view active"><div class="grid"><div class="card stat-card"><div class="muted">今日新词</div><div id="newCount" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">复习错词</div><div id="reviewCount" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">错题本</div><div id="wrongCountHome" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">听写记录</div><div id="logCountHome" class="stat-num">0</div><div class="card stat-card reward-stat"><div class="muted">今日中奖积分</div><div id="rewardTodayHome" class="stat-num">0</div></div></div></div><div class="button-row"><button class="primary" data-jump="study">开始学习</button><button class="secondary" data-jump="dictation">开始听写</button><button class="secondary" id="showHomeSummaryBtn">今日总结</button><button class="secondary" id="showHistoryBtn">历史记录</button></div><div class="card"><div class="section-title">今日词单</div><div id="todayWords" class="word-list"></div></div></section><section id="view-study" class="view"><div class="card"><div class="section-title">单词卡片</div><p class="muted">先看中文和例句，点发音听读。不会的可以加入错题本。</p></div><div id="studyCards"></div><button id="finishStudyBtn" class="primary full">完成今日学习</button></section><section id="view-dictation" class="view"><div id="dictationBox" class="card"></div></section><section id="view-wrongbook" class="view"><div class="card"><div class="section-title">错题本</div><p class="muted">听写错误会自动保存。掌握后可移除。</p></div><div id="wrongbookList"></div></section><section id="view-math" class="view"><div class="card"><div class="section-title">数学说明</div><p class="muted">每天都有 8 道题，包括周六和周日；数学不进入英语错题本，也不进入英语周末错题复盘。</p></div><div class="card"><div class="section-title">今日数学 8 题</div><p class="muted">3 道个位数乘法 + 5 道三位数加减法，减法更多。每题可以在大手写板里列竖式。</p></div><div id="mathBox" class="card"></div></section><section id="view-stats" class="view"><div class="grid"><div class="card stat-card"><div class="muted">已打卡天数</div><div id="learnedDays" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">已学单词</div><div id="learnedWords" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">错题数量</div><div id="wrongCountStats" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">听写次数</div><div id="dictationTimes" class="stat-num">0</div></div></div><div class="card"><div class="section-title">最近听写</div><div id="recentLogs"></div></div><button id="resetBtn" class="danger full">清空本机学习数据</button></section></main><div id="toast" class="toast hidden"></div><dialog id="installDialog"><div class="dialog-title">添加到 iPad 主屏幕</div><p>在 Safari 打开本页面后，点击“分享”按钮，然后选择「添加到主屏幕」。</p><button class="primary full" id="closeInstallDialog">知道了</button></dialog></div><script src="./words.js"></script>
-  <script src="./course.js"></script><script src="./app.js"></script><dialog id="historyDialog"><div class="dialog-title">历史记录</div><div id="historyContent" class="summary-content"></div><button class="primary full" id="closeHistoryDialog">关闭</button></dialog></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#B56A33">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="Yumi English">
+  <link rel="manifest" href="./manifest.json">
+  <link rel="apple-touch-icon" href="./assets/icon-192.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Yumi English Growth</title>
+</head>
+<body>
+  <div id="app">
+    <header class="topbar"><div><div class="app-title">Yumi English Growth</div><div id="todayLine" class="muted"></div></div><button class="small-btn" id="installHelpBtn">Add to Home Screen</button></header>
+    <main class="container">
+      <section class="hero card"><div><div id="planTitle" class="title">Today's Plan</div><div id="planDesc" class="subtitle"></div></div><div class="hero-badge"><span id="taskCount">0</span><small>words</small></div></section>
+      <nav class="tabs"><button class="tab active" data-view="home">Today</button><button class="tab" data-view="study">Study</button><button class="tab" data-view="dictation">Dictation</button><button class="tab" data-view="wrongbook">Review</button><button class="tab" data-view="stats">Stats</button><button class="tab" data-view="math">Math</button></nav>
+      <section class="voice-panel card"><div class="voice-title">Audio Settings</div><div class="voice-controls"><label>Voice<select id="ttsProvider"><option value="elevenlabs" selected>ElevenLabs</option><option value="browser">Device Voice</option></select></label><label>Accent<select id="voiceAccent"><option value="en-US">US English</option><option value="en-GB">UK English</option></select></label><label>Speed<select id="voiceRate"><option value="0.72">Slow</option><option value="0.82" selected>Standard Slow</option><option value="0.92">Standard</option></select></label><label>Repeat<select id="voiceRepeat"><option value="1">1 time</option><option value="2" selected>2 times</option><option value="3">3 times</option></select></label></div><div id="voiceName" class="muted voice-name">Choosing the best available English voice...</div></section>
+      <section id="view-home" class="view active"><div class="grid"><div class="card stat-card"><div class="muted">New Words</div><div id="newCount" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">Review Words</div><div id="reviewCount" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">Review List</div><div id="wrongCountHome" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">Dictation Records</div><div id="logCountHome" class="stat-num">0</div></div><div class="card stat-card reward-stat"><div class="muted">Bonus Points Today</div><div id="rewardTodayHome" class="stat-num">0</div></div></div><div class="button-row"><button class="primary" data-jump="study">Start Study</button><button class="secondary" data-jump="dictation">Start Dictation</button><button class="secondary" id="showHomeSummaryBtn">Today Summary</button><button class="secondary" id="showHistoryBtn">History</button></div><div class="card"><div class="section-title">Today's Words</div><div id="todayWords" class="word-list"></div></div></section>
+      <section id="view-study" class="view"><div class="card"><div class="section-title">Word Card</div><p class="muted">Read the word and examples, then listen and practice writing it.</p></div><div id="studyCards"></div><button id="finishStudyBtn" class="primary full">Finish Today's Study</button></section>
+      <section id="view-dictation" class="view"><div id="dictationBox" class="card"></div></section>
+      <section id="view-wrongbook" class="view"><div class="card"><div class="section-title">Review List</div><p class="muted">Missed words are saved here automatically. Remove them when mastered.</p></div><div id="wrongbookList"></div></section>
+      <section id="view-math" class="view"><div class="card"><div class="section-title">Math Notes</div><p class="muted">There are 8 questions every day, including weekends. Math stays separate from English review.</p></div><div class="card"><div class="section-title">Today's 8 Math Questions</div><p class="muted">3 one-digit multiplication questions and 5 three-digit addition/subtraction questions. Use the large workspace for column work.</p></div><div id="mathBox" class="card"></div></section>
+      <section id="view-stats" class="view"><div class="grid"><div class="card stat-card"><div class="muted">Study Days</div><div id="learnedDays" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">Words Learned</div><div id="learnedWords" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">Review Words</div><div id="wrongCountStats" class="stat-num">0</div></div><div class="card stat-card"><div class="muted">Dictation Sessions</div><div id="dictationTimes" class="stat-num">0</div></div></div><div class="card"><div class="section-title">Recent Dictation</div><div id="recentLogs"></div></div><button id="resetBtn" class="danger full">Clear Local Learning Data</button></section>
+    </main>
+    <div id="toast" class="toast hidden"></div>
+    <dialog id="installDialog"><div class="dialog-title">Add to iPad Home Screen</div><p>Open this page in Safari, tap Share, then choose Add to Home Screen.</p><button class="primary full" id="closeInstallDialog">Got it</button></dialog>
+    <dialog id="daySummaryDialog"><div class="dialog-title">Today Summary</div><div id="daySummaryContent" class="summary-content"></div><button class="primary full" id="closeDaySummaryDialog">Close</button></dialog>
+    <dialog id="historyDialog"><div class="dialog-title">History</div><div id="historyContent" class="summary-content"></div><button class="primary full" id="closeHistoryDialog">Close</button></dialog>
+  </div>
+  <script src="./words.js"></script><script src="./course.js"></script><script src="./app.js"></script>
+</body>
+</html>

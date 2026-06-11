@@ -196,7 +196,7 @@
   function getPlan(date = new Date()) {
     const pos = getCoursePosition(date);
     const dk = dateKey(date);
-    const wk = `第 ${pos.week} 周`;
+    const wk = `Week ${pos.week}`;
 
     if (pos.dayOfWeek >= 1 && pos.dayOfWeek <= 5) {
       const courseDay = getCourseDay(pos.week, pos.dayIndex);
@@ -206,8 +206,8 @@
         mode: "weekday",
         dateKey: dk,
         weekKey: wk,
-        title: `${wk}${courseDay ? " " + courseDay.dayName : ""}：10 个新词 + 昨天全部错词`,
-        desc: "新词固定为 7 个基础词 + 3 个挑战词；昨天错了几个，今天就全部加入复习。",
+        title: `${wk}${courseDay ? " " + courseDay.dayName : ""}: 10 new words + all missed words from yesterday`,
+        desc: "Each weekday has 7 core words and 3 challenge words. Any words missed yesterday are added for review today.",
         newWords,
         reviewWords,
         words: [...newWords, ...reviewWords],
@@ -221,8 +221,8 @@
         mode: "saturday",
         dateKey: dk,
         weekKey: wk,
-        title: `${wk} 周六听写：本周 50 个新词`,
-        desc: "今天不学新词，只听写周一到周五的 35 个基础词 + 15 个挑战词。",
+        title: `${wk} Saturday Dictation: this week's 50 new words`,
+        desc: "No new words today. Dictate the 35 core words and 15 challenge words from Monday to Friday.",
         newWords: [],
         reviewWords: [],
         words: weekWords,
@@ -235,8 +235,8 @@
       mode: "sunday",
       dateKey: dk,
       weekKey: wk,
-      title: `${wk} 周日复盘：集中搞定本周错词`,
-      desc: "今天不学新词，只复习这一周听写或学习中错过的词。",
+      title: `${wk} Sunday Review: focus on this week's missed words`,
+      desc: "No new words today. Review the words missed during this week's study or dictation.",
       newWords: [],
       reviewWords: weekWrong,
       words: weekWrong,
@@ -245,32 +245,31 @@
   }
 
   function badge(word) {
-    let label = word.level === "challenge" ? "挑战词" : "基础词";
+    let label = word.level === "challenge" ? "Challenge" : "Core";
     let cls = word.level === "challenge" ? "challenge" : "";
-    if (word.taskType === "review") { label = "昨天错词"; cls = "review"; }
-    if (word.taskType === "weeklyDictation") { label = "周六听写"; cls = "week"; }
-    if (word.taskType === "weekWrong") { label = "本周错词"; cls = "review"; }
+    if (word.taskType === "review") { label = "Yesterday Missed"; cls = "review"; }
+    if (word.taskType === "weeklyDictation") { label = "Saturday Dictation"; cls = "week"; }
+    if (word.taskType === "weekWrong") { label = "This Week Missed"; cls = "review"; }
     return `<span class="badge ${cls}">${label}</span>`;
   }
 
   function wordItem(word, withActions = false) {
     const examples = Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean);
     const exampleHtml = examples.length
-      ? `<div class="examples"><div class="example-title">例句：</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
+      ? `<div class="examples"><div class="example-title">Examples:</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
       : "";
-    const pattern = word.pattern ? `<div class="muted">拼写提示：${esc(word.pattern)}</div>` : "";
+    const pattern = word.pattern ? `<div class="muted">Spelling hint: ${esc(word.pattern)}</div>` : "";
 
     return `
       <div class="word-item">
         ${badge(word)}
-        <div class="word">${esc(word.word)}</div>
-        <div class="cn">${esc(word.cn)}</div>
+        <div class="word">${esc(word.word)}</div>
         ${pattern}
         ${exampleHtml}
         ${withActions ? `
           <div class="card-actions">
-            <button class="mini-action" data-speak="${esc(word.audioText || word.word)}">🔊 发音</button>
-            <button class="mini-action" data-wrong="${esc(word.id)}">加入错题本</button>
+            <button class="mini-action" data-speak="${esc(word.audioText || word.word)}">🔊 Speak</button>
+            <button class="mini-action" data-wrong="${esc(word.id)}">Add to Review List</button>
           </div>
         ` : ""}
       </div>`;
@@ -312,7 +311,7 @@
     const voiceName = $("voiceName");
 
     if (setting.provider === "elevenlabs") {
-      if (voiceName) voiceName.textContent = "当前声音：ElevenLabs 真人发音；网络失败时自动切回本机发音。";
+      if (voiceName) voiceName.textContent = "Current voice: ElevenLabs. If the network fails, the app will use device speech.";
       return;
     }
 
@@ -324,8 +323,8 @@
 
     if (voiceName) {
       voiceName.textContent = selectedVoice
-        ? `当前声音：${selectedVoice.name}（${selectedVoice.lang}）`
-        : "当前设备没有可用的英语朗读声音";
+        ? `Current voice: ${selectedVoice.name} (${selectedVoice.lang})`
+        : "No English voice is available on this device";
     }
   }
 
@@ -356,7 +355,7 @@
       speakOnce(spoken, setting, playNext);
     } else {
       navigator.clipboard?.writeText(spoken);
-      toast("已复制单词");
+      toast("Word copied");
     }
   }
 
@@ -379,7 +378,7 @@
         const data = await response.json();
         detail = data.error || data.detail || "";
       } catch {}
-      throw new Error(detail || "ElevenLabs 发音失败");
+      throw new Error(detail || "ElevenLabs speech failed");
     }
 
     const blob = await response.blob();
@@ -416,7 +415,7 @@
         return;
       } catch (error) {
         console.warn("ElevenLabs TTS fallback:", error);
-        toast("真人发音失败，已切回本机发音");
+        toast("ElevenLabs failed. Using device speech instead.");
         speakBrowser(spoken, setting);
         return;
       }
@@ -456,7 +455,7 @@
     learned[currentPlan.dateKey] = Array.from(new Set([...(learned[currentPlan.dateKey] || []), ...ids]));
     setStore(KEYS.learned, learned);
     localStorage.removeItem(KEYS.studySession);
-    toast("今日学习完成");
+    toast("Study completed for today");
     renderAll();
   }
 
@@ -590,7 +589,7 @@ function seededNumber(seed) {
     layer.innerHTML = `
       <div class="reward-card">
         <div class="reward-stars">✨ ⭐ ✨</div>
-        <div class="reward-points">中奖 +${points} 分</div>
+        <div class="reward-points">Bonus +${points} pts</div>
       </div>
     `;
     document.body.appendChild(layer);
@@ -644,28 +643,28 @@ function showDaySummary(targetDateKey = null) {
 
     const lastDictation = todayLogs[0];
     const dictLine = lastDictation
-      ? `英语听写：${lastDictation.rightCount}/${lastDictation.total} 最终正确，曾经错过 ${lastDictation.wrongCount} 个。`
-      : "英语听写：这一天还没有完成记录。";
+      ? `English dictation: ${lastDictation.rightCount}/${lastDictation.total} correct after corrections; ${lastDictation.wrongCount} missed at least once.`
+      : "English dictation: no completed record for this day.";
 
     const wrongWords = lastDictation && Array.isArray(lastDictation.results)
       ? lastDictation.results.filter(r => r.hadWrong).map(r => r.word)
       : [];
 
     const wrongLine = wrongWords.length
-      ? `<div class="wrong-word-list"><strong>英语错词：</strong>${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>`
-      : `<div class="muted">英语错词：无记录或没有错词。</div>`;
+      ? `<div class="wrong-word-list"><strong>Missed English words: </strong>${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>`
+      : `<div class="muted">Missed English words: none recorded.</div>`;
 
     const mathLine = todayMath
-      ? `数学：${todayMath.rightCount}/${todayMath.total} 最终正确，订正过 ${todayMath.wrongCount} 题。`
-      : "数学：这一天还没有完成记录。";
+      ? `Math: ${todayMath.rightCount}/${todayMath.total} correct after corrections; ${todayMath.wrongCount} corrected.`
+      : "Math: no completed record for this day.";
 
     $("daySummaryContent").innerHTML = `
       <div class="summary-date">${esc(dk)}</div>
       <div class="summary-line">${dictLine}</div>
       ${wrongLine}
       <div class="summary-line">${mathLine}</div>
-      <div class="summary-reward">今日中奖积分：<strong>${reward}</strong> 分</div>
-      <div class="muted">这个分数可以加到你的家庭积分系统里。</div>
+      <div class="summary-reward">Bonus points today: <strong>${reward}</strong></div>
+      <div class="muted">Add these points to your family reward system.</div>
     `;
     openDialogSafely("daySummaryDialog");
   }
@@ -680,12 +679,12 @@ function showDaySummary(targetDateKey = null) {
       questions.push({
         id: `mul-${dk}-${i}`,
         type: "multiplication",
-        title: "个位数乘法",
+        title: "One-Digit Multiplication",
         a, b,
         op: "×",
         answer: a * b,
         prompt: `${a} × ${b} = ?`,
-        hint: "可以先想乘法口诀，再写答案。"
+        hint: "Think of the multiplication fact first, then write the answer."
       });
     }
 
@@ -696,12 +695,12 @@ function showDaySummary(targetDateKey = null) {
       questions.push({
         id: `sub-${dk}-${i}`,
         type: "subtraction",
-        title: "三位数/四位数退位减法",
+        title: "3- or 4-Digit Subtraction",
         a, b,
         op: "-",
         answer: a - b,
         prompt: `${a} - ${b} = ?`,
-        hint: "列竖式时，个位不够向十位借，十位不够向百位借，百位不够向千位借。"
+        hint: "Use column subtraction. Borrow from the next place when needed."
       });
     }
 
@@ -711,12 +710,12 @@ function showDaySummary(targetDateKey = null) {
       questions.push({
         id: `add-${dk}-${i}`,
         type: "addition",
-        title: "三位数进位加法",
+        title: "3-Digit Addition",
         a, b,
         op: "+",
         answer: a + b,
         prompt: `${a} + ${b} = ?`,
-        hint: "列竖式时，从个位开始算，满十向前一位进 1。"
+        hint: "Use column addition. Start with ones and carry when the sum reaches 10."
       });
     }
 
@@ -752,7 +751,7 @@ function showDaySummary(targetDateKey = null) {
     const st = mathState || { questions: [] };
 
     if (!st.questions.length) {
-      box.innerHTML = `<div class="empty">今天没有数学题。</div>`;
+      box.innerHTML = `<div class="empty">No math questions today.</div>`;
       return;
     }
 
@@ -761,9 +760,9 @@ function showDaySummary(targetDateKey = null) {
       const right = results.filter(r => r.isRight).length;
       const wrong = results.filter(r => r.hadWrong).length;
       box.innerHTML = `
-        <div class="section-title">数学完成啦 🎉</div>
-        <p class="muted">本次数学 ${st.questions.length} 题，最终正确 ${right} 题，订正过 ${wrong} 题。</p>
-        <button class="primary full" id="showDaySummaryBtn">查看今日总结</button>
+        <div class="section-title">Math Complete 🎉</div>
+        <p class="muted">This math session had ${st.questions.length} questions. ${right} correct after corrections; ${wrong} corrected.</p>
+        <button class="primary full" id="showDaySummaryBtn">View Today Summary</button>
       `;
       return;
     }
@@ -773,7 +772,7 @@ function showDaySummary(targetDateKey = null) {
     if (old && !st.input) st.input = old.input || "";
 
     box.innerHTML = `
-      <div class="muted">第 ${st.index + 1} / ${st.questions.length} 题</div><div class="reward-mini">今日中奖：${todayRewardTotal()} 分</div>
+      <div class="muted">Question ${st.index + 1} of ${st.questions.length}</div><div class="reward-mini">Bonus today: ${todayRewardTotal()} pts</div>
       <span class="badge week">${q.title}</span>
       <div class="math-problem">${q.prompt}</div>
       <div class="math-hint">${q.hint}</div>
@@ -781,22 +780,22 @@ function showDaySummary(targetDateKey = null) {
       <div class="math-work-card">
         <div class="handwriting-head">
           <div>
-            <div class="handwriting-title">竖式草稿区</div>
-            <div class="muted">在这里列竖式、写进位/退位过程。</div>
+            <div class="handwriting-title">Workspace</div>
+            <div class="muted">Use this space for column work, carrying, and borrowing.</div>
           </div>
-          <button class="mini-action" id="clearMathWorkBtn">清空</button>
+          <button class="mini-action" id="clearMathWorkBtn">Clear</button>
         </div>
         <canvas id="mathCanvas" class="math-canvas" data-question-id="${esc(q.id)}"></canvas>
       </div>
 
-      <input id="mathInput" class="input" inputmode="numeric" autocomplete="off" placeholder="请输入答案" value="${esc(st.input)}" />
+      <input id="mathInput" class="input" inputmode="numeric" autocomplete="off" placeholder="Enter answer" value="${esc(st.input)}" />
 
-      ${st.feedback === "wrong" ? `<div class="bad">还差一点。请看竖式再改正。</div><div class="muted">正确答案：${q.answer}</div>` : ""}
-      ${st.checked && st.isRight ? `<div class="ok">正确！</div>` : ""}
+      ${st.feedback === "wrong" ? `<div class="bad">Almost. Check your work and correct it.</div><div class="muted">Correct answer: ${q.answer}</div>` : ""}
+      ${st.checked && st.isRight ? `<div class="ok">Correct!</div>` : ""}
 
       <div class="dictation-nav">
-        <button class="secondary" id="prevMathBtn" ${st.index === 0 ? "disabled" : ""}>上一个</button>
-        ${st.checked && st.isRight ? `<button class="primary" id="nextMathBtn">${st.index + 1 >= st.questions.length ? "完成数学" : "下一个"}</button>` : `<button class="primary" id="checkMathBtn">${st.feedback === "wrong" ? "我改好了，再检查" : "提交"}</button>`}
+        <button class="secondary" id="prevMathBtn" ${st.index === 0 ? "disabled" : ""}>Previous</button>
+        ${st.checked && st.isRight ? `<button class="primary" id="nextMathBtn">${st.index + 1 >= st.questions.length ? "Finish Math" : "Next"}</button>` : `<button class="primary" id="checkMathBtn">${st.feedback === "wrong" ? "I fixed it. Check again" : "Submit"}</button>`}
       </div>
     `;
 
@@ -830,10 +829,16 @@ function showDaySummary(targetDateKey = null) {
     const ctx = canvas.getContext("2d");
     const dpr = window.devicePixelRatio || 1;
 
-    function resizeCanvas() {
+    function resizeCanvas(retry = 0) {
       const rect = canvas.getBoundingClientRect();
-      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
-      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+      if ((rect.width < 2 || rect.height < 2) && retry < 6) {
+        requestAnimationFrame(() => resizeCanvas(retry + 1));
+        return;
+      }
+      const cssWidth = Math.max(1, rect.width || canvas.clientWidth || 320);
+      const cssHeight = Math.max(1, rect.height || canvas.clientHeight || 180);
+      canvas.width = Math.floor(cssWidth * dpr);
+      canvas.height = Math.floor(cssHeight * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       redrawSaved();
     }
@@ -873,8 +878,7 @@ function showDaySummary(targetDateKey = null) {
         img.src = data;
       }
     }
-
-    resizeCanvas();
+    requestAnimationFrame(() => resizeCanvas());
 
     let drawing = false;
     let last = null;
@@ -1027,11 +1031,11 @@ function showDaySummary(targetDateKey = null) {
       return `
         <div class="history-item">
           <div class="history-date">${esc(dk)}</div>
-          <div class="muted">英语：${log ? `${log.rightCount}/${log.total}，错词 ${wrongWords.length} 个` : "无完成记录"}</div>
+          <div class="muted">English: ${log ? `${log.rightCount}/${log.total}, missed ${wrongWords.length}` : "no completed record"}</div>
           ${wrongWords.length ? `<div class="history-wrongs">${wrongWords.map(w => `<span>${esc(w)}</span>`).join("")}</div>` : ""}
-          <div class="muted">数学：${math ? `${math.rightCount}/${math.total}，订正 ${math.wrongCount} 题` : "无完成记录"}</div>
-          <div class="muted">中奖积分：${reward} 分</div>
-          <button class="mini-action" data-summary-date="${esc(dk)}">查看这天总结</button>
+          <div class="muted">Math: ${math ? `${math.rightCount}/${math.total}, corrected ${math.wrongCount}` : "no completed record"}</div>
+          <div class="muted">Bonus points: ${reward}</div>
+          <button class="mini-action" data-summary-date="${esc(dk)}">View Summary</button>
         </div>`;
     }).join("");
     openDialogSafely("historyDialog");
@@ -1052,14 +1056,14 @@ function renderHeader() {
     if ($("rewardTodayHome")) $("rewardTodayHome").textContent = todayRewardTotal(currentPlan.dateKey);
     $("todayWords").innerHTML = currentPlan.words.length
       ? currentPlan.words.map(w => wordItem(w)).join("")
-      : `<div class="empty">今天没有可复习错词。可以看看错题本，或下一个学习日继续新词。</div>`;
+      : `<div class="empty">No review words today. Check the review list or continue on the next study day.</div>`;
   }
 
   function renderStudy() {
     const words = currentPlan.words || [];
 
     if (!words.length) {
-      $("studyCards").innerHTML = `<div class="card empty">今天没有可学习或复习的词。</div>`;
+      $("studyCards").innerHTML = `<div class="card empty">No words to study or review today.</div>`;
       $("finishStudyBtn").style.display = "none";
       return;
     }
@@ -1081,44 +1085,43 @@ function renderHeader() {
     const word = words[studyState.index];
     const examples = Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean);
     const exampleHtml = examples.length
-      ? `<div class="examples"><div class="example-title">例句：</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
+      ? `<div class="examples"><div class="example-title">Examples:</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
       : "";
-    const pattern = word.pattern ? `<div class="muted">拼写提示：${esc(word.pattern)}</div>` : "";
+    const pattern = word.pattern ? `<div class="muted">Spelling hint: ${esc(word.pattern)}</div>` : "";
 
     $("studyCards").innerHTML = `
       <div class="card study-pager-card">
-        <div class="study-progress">第 ${studyState.index + 1} / ${words.length} 个</div>
+        <div class="study-progress">Word ${studyState.index + 1} of ${words.length}</div>
         ${badge(word)}
-        <div class="word study-big-word">${esc(word.word)}</div>
-        <div class="cn">${esc(word.cn)}</div>
+        <div class="word study-big-word">${esc(word.word)}</div>
         ${pattern}
         ${exampleHtml}
 
         <div class="card-actions">
-          <button class="mini-action" data-speak="${esc(word.audioText || word.word)}">🔊 单词发音</button>
-          <button class="mini-action" data-wrong="${esc(word.id)}">加入错题本</button>
+          <button class="mini-action" data-speak="${esc(word.audioText || word.word)}">🔊 Word Audio</button>
+          <button class="mini-action" data-wrong="${esc(word.id)}">Add to Review List</button>
         </div>
 
         <div class="study-handwriting-card">
           <div class="handwriting-head">
             <div>
-              <div class="handwriting-title">手写练习</div>
-              <div class="muted">在这里写一遍这个单词，加强拼写记忆。</div>
+              <div class="handwriting-title">Handwriting Practice</div>
+              <div class="muted">Write this word once to strengthen spelling memory.</div>
             </div>
-            <button class="mini-action" id="clearStudyHandwritingBtn">清空</button>
+            <button class="mini-action" id="clearStudyHandwritingBtn">Clear</button>
           </div>
           <canvas id="studyCanvas" class="study-canvas" data-word-id="${esc(word.id)}"></canvas>
         </div>
 
         <div class="study-nav">
-          <button class="secondary" id="prevStudyBtn" ${studyState.index === 0 ? "disabled" : ""}>上一个</button>
-          <button class="primary" id="nextStudyBtn">${studyState.index + 1 >= words.length ? "完成学习" : "下一个"}</button>
+          <button class="secondary" id="prevStudyBtn" ${studyState.index === 0 ? "disabled" : ""}>Previous</button>
+          <button class="primary" id="nextStudyBtn">${studyState.index + 1 >= words.length ? "Finish Study" : "Next"}</button>
         </div>
       </div>
     `;
 
     $("finishStudyBtn").style.display = "none";
-    setupStudyCanvas();
+    requestAnimationFrame(() => setupStudyCanvas());
   }
 
   function startDictation() {
@@ -1147,10 +1150,16 @@ function renderHeader() {
     const ctx = canvas.getContext("2d");
     const dpr = window.devicePixelRatio || 1;
 
-    function resizeCanvas() {
+    function resizeCanvas(retry = 0) {
       const rect = canvas.getBoundingClientRect();
-      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
-      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+      if ((rect.width < 2 || rect.height < 2) && retry < 6) {
+        requestAnimationFrame(() => resizeCanvas(retry + 1));
+        return;
+      }
+      const cssWidth = Math.max(1, rect.width || canvas.clientWidth || 320);
+      const cssHeight = Math.max(1, rect.height || canvas.clientHeight || 180);
+      canvas.width = Math.floor(cssWidth * dpr);
+      canvas.height = Math.floor(cssHeight * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       redrawSaved();
     }
@@ -1182,8 +1191,7 @@ function renderHeader() {
         img.src = data;
       }
     }
-
-    resizeCanvas();
+    requestAnimationFrame(() => resizeCanvas());
     let drawing = false;
     let last = null;
 
@@ -1264,10 +1272,16 @@ function renderHeader() {
     const ctx = canvas.getContext("2d");
     const dpr = window.devicePixelRatio || 1;
 
-    function resizeCanvas() {
+    function resizeCanvas(retry = 0) {
       const rect = canvas.getBoundingClientRect();
-      canvas.width = Math.max(1, Math.floor(rect.width * dpr));
-      canvas.height = Math.max(1, Math.floor(rect.height * dpr));
+      if ((rect.width < 2 || rect.height < 2) && retry < 6) {
+        requestAnimationFrame(() => resizeCanvas(retry + 1));
+        return;
+      }
+      const cssWidth = Math.max(1, rect.width || canvas.clientWidth || 320);
+      const cssHeight = Math.max(1, rect.height || canvas.clientHeight || 180);
+      canvas.width = Math.floor(cssWidth * dpr);
+      canvas.height = Math.floor(cssHeight * dpr);
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       redrawSaved();
     }
@@ -1310,8 +1324,7 @@ function renderHeader() {
         img.src = data;
       }
     }
-
-    resizeCanvas();
+    requestAnimationFrame(() => resizeCanvas());
 
     let drawing = false;
     let last = null;
@@ -1380,7 +1393,7 @@ function renderDictation() {
     const st = dictationState || { words: [] };
 
     if (!st.words.length) {
-      box.innerHTML = `<div class="section-title">今天没有可听写的词</div><p class="muted">如果是周日且本周没有错词，就可以休息一下。</p><button class="primary full" data-jump="home">回到首页</button>`;
+      box.innerHTML = `<div class="section-title">No words for dictation today</div><p class="muted">If it is Sunday and there are no missed words this week, take a break.</p><button class="primary full" data-jump="home">Back Home</button>`;
       return;
     }
 
@@ -1388,7 +1401,7 @@ function renderDictation() {
       const results = Object.values(st.resultsById || {});
       const right = results.filter(r => r.isRight).length;
       const wrong = results.filter(r => r.hadWrong).length;
-      box.innerHTML = `<div class="section-title">完成啦 🎉</div><p class="muted">本次听写 ${st.words.length} 个，最终正确 ${right} 个，曾经错过 ${wrong} 个。</p><button class="primary full" id="showDaySummaryBtn">查看今日总结</button><button class="secondary full" data-jump="wrongbook">查看错题本</button>`;
+      box.innerHTML = `<div class="section-title">Complete 🎉</div><p class="muted">This dictation had ${st.words.length} words. ${right} correct after corrections; ${wrong} missed at least once.</p><button class="primary full" id="showDaySummaryBtn">View Today Summary</button><button class="secondary full" data-jump="wrongbook">View Review List</button>`;
       return;
     }
 
@@ -1397,31 +1410,31 @@ function renderDictation() {
     if (old && !st.input) st.input = old.input || "";
 
     box.innerHTML = `
-      <div class="muted">第 ${st.index + 1} / ${st.words.length} 个</div><div class="reward-mini">今日中奖：${todayRewardTotal(currentPlan.dateKey)} 分</div>
-      <div style="margin: 10px 0;">${badge(word)}</div><div class="dictation-mode-note">${currentPlan && currentPlan.mode === "saturday" ? "考试模式：只念单词" : "学习模式：例句 + 单词"}</div>
+      <div class="muted">Word ${st.index + 1} of ${st.words.length}</div><div class="reward-mini">Bonus today: ${todayRewardTotal(currentPlan.dateKey)} pts</div>
+      <div style="margin: 10px 0;">${badge(word)}</div><div class="dictation-mode-note">${currentPlan && currentPlan.mode === "saturday" ? "Test mode: word only" : "Study mode: example + word"}</div>
       <div class="dictation-audio-only">
         <div class="dictation-icon">🔊</div>
-        <div class="muted">${currentPlan && currentPlan.mode === "saturday" ? "周六测试：只听单词，然后输入拼写" : "学习听写：先听例句，再听目标单词"}</div>
+        <div class="muted">${currentPlan && currentPlan.mode === "saturday" ? "Saturday test: listen to the word, then type the spelling" : "Study dictation: listen to the example first, then the target word"}</div>
       </div>
-      <button class="secondary full" id="playDictationPromptBtn">发音</button>
+      <button class="secondary full" id="playDictationPromptBtn">Play Audio</button>
 
       <div class="handwriting-card">
         <div class="handwriting-head">
           <div>
-            <div class="handwriting-title">手写板</div>
-            <div class="muted">可以用 Apple Pencil 或手指先写在这里，再输入拼写。</div>
+            <div class="handwriting-title">Handwriting Pad</div>
+            <div class="muted">Use Apple Pencil or your finger here before typing the spelling.</div>
           </div>
-          <button class="mini-action" id="clearHandwritingBtn">清空</button>
+          <button class="mini-action" id="clearHandwritingBtn">Clear</button>
         </div>
         <canvas id="handwritingCanvas" class="handwriting-canvas" data-word-id="${esc(word.id)}"></canvas>
       </div>
 
-      <input id="dictationInput" class="input" autocomplete="off" autocapitalize="none" placeholder="请输入英文拼写" value="${esc(st.input)}" />
-      ${st.feedback === "wrong" ? `<div class="bad">还差一点。请改正后再继续。</div><div class="muted">正确答案：${esc(word.word)}</div>` : ""}
-      ${st.checked && st.isRight ? `<div class="ok">正确！</div>` : ""}
+      <input id="dictationInput" class="input" autocomplete="off" autocapitalize="none" placeholder="Enter the spelling" value="${esc(st.input)}" />
+      ${st.feedback === "wrong" ? `<div class="bad">Almost. Correct it before moving on.</div><div class="muted">Correct answer: ${esc(word.word)}</div>` : ""}
+      ${st.checked && st.isRight ? `<div class="ok">Correct!</div>` : ""}
       <div class="dictation-nav">
-        <button class="secondary" id="prevDictationBtn" ${st.index === 0 ? "disabled" : ""}>上一个</button>
-        ${st.checked && st.isRight ? `<button class="primary" id="nextDictationBtn">${st.index + 1 >= st.words.length ? "完成" : "下一个"}</button>` : `<button class="primary" id="checkDictationBtn">${st.feedback === "wrong" ? "我改好了，再检查" : "提交"}</button>`}
+        <button class="secondary" id="prevDictationBtn" ${st.index === 0 ? "disabled" : ""}>Previous</button>
+        ${st.checked && st.isRight ? `<button class="primary" id="nextDictationBtn">${st.index + 1 >= st.words.length ? "Finish" : "Next"}</button>` : `<button class="primary" id="checkDictationBtn">${st.feedback === "wrong" ? "I fixed it. Check again" : "Submit"}</button>`}
       </div>
     `;
 
@@ -1443,7 +1456,7 @@ function renderDictation() {
       });
     }
 
-    setupHandwritingCanvas();
+    requestAnimationFrame(() => setupHandwritingCanvas());
   }
 
   function checkDictation() {
@@ -1536,13 +1549,13 @@ function renderDictation() {
       ? items.map(w => `
         <div class="card">
           ${wordItem(w, false)}
-          <div class="muted">错误次数：${w.wrongCount || 0}${w.lastWrongDateKey ? "｜最近：" + w.lastWrongDateKey : ""}</div>
+          <div class="muted">Mistakes: ${w.wrongCount || 0}${w.lastWrongDateKey ? " | Latest: " + w.lastWrongDateKey : ""}</div>
           <div class="card-actions">
-            <button class="mini-action" data-speak="${esc(w.audioText || w.word)}">🔊 发音</button>
-            <button class="mini-action" data-remove-wrong="${esc(w.id)}">我掌握了，移除</button>
+            <button class="mini-action" data-speak="${esc(w.audioText || w.word)}">🔊 Speak</button>
+            <button class="mini-action" data-remove-wrong="${esc(w.id)}">Mastered, Remove</button>
           </div>
         </div>`).join("")
-      : `<div class="card empty">目前没有错题，漂亮！</div>`;
+      : `<div class="card empty">No review words yet. Nice work!</div>`;
   }
 
   function renderStats() {
@@ -1556,8 +1569,8 @@ function renderDictation() {
     $("wrongCountStats").textContent = wrongCount;
     $("dictationTimes").textContent = logs.length;
     $("recentLogs").innerHTML = logs.length
-      ? logs.slice(0, 10).map(log => `<div class="word-item"><strong>${esc(log.title || log.dateKey)}</strong><div class="muted">${esc(log.dateKey)}｜正确 ${log.rightCount} / ${log.total}，错误 ${log.wrongCount}</div></div>`).join("")
-      : `<div class="empty">还没有听写记录。</div>`;
+      ? logs.slice(0, 10).map(log => `<div class="word-item"><strong>${esc(log.title || log.dateKey)}</strong><div class="muted">${esc(log.dateKey)} | Correct ${log.rightCount} / ${log.total}, missed ${log.wrongCount}</div></div>`).join("")
+      : `<div class="empty">No dictation records yet.</div>`;
   }
 
   function renderAll(rebuildPlan = true) {
@@ -1572,6 +1585,8 @@ function renderDictation() {
   function switchView(view) {
     $$(".tab").forEach(t => t.classList.toggle("active", t.dataset.view === view));
     $$(".view").forEach(v => v.classList.toggle("active", v.id === `view-${view}`));
+    if (view === "study") requestAnimationFrame(() => renderStudy());
+    if (view === "study") requestAnimationFrame(() => renderStudy());
     if (view === "dictation") startDictation();
     if (view === "math") startMath();
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -1605,7 +1620,7 @@ function renderDictation() {
       const wrongBtn = e.target.closest("[data-wrong]");
       if (wrongBtn) {
         const word = currentPlan.words.find(w => w.id === wrongBtn.dataset.wrong) || WORDS.find(w => w.id === wrongBtn.dataset.wrong);
-        if (word) { addWrong(word, ""); toast("已加入错题本"); renderAll(false); }
+        if (word) { addWrong(word, ""); toast("Added to review list"); renderAll(false); }
         return;
       }
       const removeBtn = e.target.closest("[data-remove-wrong]");
@@ -1642,7 +1657,7 @@ function renderDictation() {
       providerEl.addEventListener("change", e => {
         setStore(VOICE_KEYS.provider, e.target.value);
         refreshVoices();
-        toast(e.target.value === "elevenlabs" ? "已切换为真人发音" : "已切换为本机发音");
+        toast(e.target.value === "elevenlabs" ? "Switched to ElevenLabs" : "Switched to device speech");
       });
     }
 
@@ -1651,7 +1666,7 @@ function renderDictation() {
       accentEl.addEventListener("change", e => {
         setStore(VOICE_KEYS.accent, e.target.value);
         refreshVoices();
-        toast("发音口音已更新");
+        toast("Accent updated");
       });
     }
 
@@ -1659,7 +1674,7 @@ function renderDictation() {
       rateEl.value = getStore(VOICE_KEYS.rate, "0.82");
       rateEl.addEventListener("change", e => {
         setStore(VOICE_KEYS.rate, e.target.value);
-        toast("语速已更新");
+        toast("Speed updated");
       });
     }
 
@@ -1667,7 +1682,7 @@ function renderDictation() {
       repeatEl.value = getStore(VOICE_KEYS.repeat, "2");
       repeatEl.addEventListener("change", e => {
         setStore(VOICE_KEYS.repeat, e.target.value);
-        toast("重复次数已更新");
+        toast("Repeat count updated");
       });
     }
 
@@ -1678,9 +1693,9 @@ function renderDictation() {
       setTimeout(refreshVoices, 1500);
     }
     $("resetBtn").addEventListener("click", () => {
-      if (confirm("确认清空本机学习数据？这会删除打卡、错题和听写记录。")) {
+      if (confirm("Clear all local learning data? This will delete check-ins, review words, and dictation records.")) {
         Object.values(KEYS).forEach(k => localStorage.removeItem(k));
-        toast("已清空");
+        toast("Cleared");
         seedInitialWrongbook();
         renderAll();
       }
