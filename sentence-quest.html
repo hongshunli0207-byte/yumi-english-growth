@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#243B55">
+  <title>Yumi Sentence Quest</title>
+  <link rel="stylesheet" href="./sentence-quest.css">
+</head>
+<body>
+  <main class="quest-shell">
+    <header class="quest-top">
+      <div>
+        <p class="eyebrow">5-word trial game</p>
+        <h1>Yumi Sentence Quest</h1>
+      </div>
+      <div class="score-card">
+        <span id="wordCounter">1 / 5</span>
+        <strong id="stars">0 stars</strong>
+      </div>
+    </header>
+
+    <section class="battle-panel" aria-live="polite">
+      <div class="mission-copy">
+        <p class="label">Target word</p>
+        <h2 id="targetWord">under</h2>
+        <p id="meaning" class="meaning">below something</p>
+        <p id="prompt" class="prompt">Say one sentence with under.</p>
+      </div>
+      <div class="monster-zone">
+        <div id="monster" class="monster" aria-hidden="true">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="hp-wrap">
+          <div class="hp-label"><span>Task energy</span><strong id="hpText">3 / 3</strong></div>
+          <div class="hp-bar"><div id="hpFill"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sentence-panel">
+      <div class="rules">
+        <span>Use the target word</span>
+        <span>8-10 words</span>
+        <span>3 good sentences</span>
+      </div>
+      <textarea id="sentenceInput" rows="3" placeholder="Say or type your sentence here..."></textarea>
+      <div class="controls">
+        <button id="speakPromptBtn" class="secondary">Hear Mission</button>
+        <button id="recordBtn" class="primary">Speak Sentence</button>
+        <button id="checkBtn" class="primary outline">Check</button>
+      </div>
+      <p id="feedback" class="feedback">Ready when you are.</p>
+    </section>
+
+    <section class="progress-panel">
+      <h3>Sentences for this word</h3>
+      <ol id="sentenceList"></ol>
+    </section>
+
+    <section id="finishPanel" class="finish-panel hidden">
+      <h2>Quest complete</h2>
+      <p>You finished all 5 words. Tomorrow, try these again plus 5 new words.</p>
+      <button id="restartBtn" class="primary">Play Again</button>
+    </section>
+  </main>
+
+  <script src="./sentence-quest.js"></script>
+</body>
+</html>
