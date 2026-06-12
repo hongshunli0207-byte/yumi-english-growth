@@ -1,4 +1,4 @@
-const CACHE_NAME = "yumi-english-growth-pwa-v23-ai-reader";
+const CACHE_NAME = "yumi-english-growth-pwa-v24-progress-guard";
 const ASSETS = [
   "./",
   "./index.html",

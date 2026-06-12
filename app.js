@@ -572,16 +572,65 @@
   function normalize(str) { return String(str || "").trim().toLowerCase().replace(/\s+/g, "").replace(/-/g, ""); }
   function checkAnswer(input, word) { return normalize(input) === normalize(word.word); }
 
+  function planWordIds(plan = currentPlan) {
+    return (plan && Array.isArray(plan.words) ? plan.words : []).map(w => w.id).filter(Boolean);
+  }
+
+  function planSignature(plan = currentPlan) {
+    return planWordIds(plan).join("|");
+  }
+
+  function readLearnedEntry(entry) {
+    if (Array.isArray(entry)) return { ids: entry, signature: "" };
+    if (entry && typeof entry === "object") return { ids: entry.ids || [], signature: entry.signature || "" };
+    return { ids: [], signature: "" };
+  }
+
+  function isPlanCompleted(plan = currentPlan) {
+    if (!plan) return false;
+    const learned = getStore(KEYS.learned, {});
+    const saved = readLearnedEntry(learned[plan.dateKey]);
+    const ids = planWordIds(plan);
+    if (!ids.length) return false;
+    const savedSet = new Set(saved.ids);
+    const hasAllWords = ids.every(id => savedSet.has(id));
+    return hasAllWords && saved.signature === planSignature(plan);
+  }
+
+  function clearTodayProgressIfStale(plan = currentPlan) {
+    if (!plan) return;
+    const today = dateKey();
+    if (plan.dateKey !== today) return;
+    const marker = "YUMI_PWA_PROGRESS_GUARD_" + today;
+    if (localStorage.getItem(marker)) return;
+
+    const learned = getStore(KEYS.learned, {});
+    if (learned[plan.dateKey] && !isPlanCompleted(plan)) {
+      delete learned[plan.dateKey];
+      setStore(KEYS.learned, learned);
+    }
+
+    const dictation = getStore(KEYS.dictationSession, null);
+    if (dictation && dictation.dateKey === plan.dateKey && dictation.finished) { localStorage.removeItem(KEYS.dictationSession); dictationState = null; }
+
+    const math = getStore(KEYS.mathSession, null);
+    if (math && math.dateKey === plan.dateKey && math.finished) { localStorage.removeItem(KEYS.mathSession); mathState = null; }
+
+    localStorage.setItem(marker, "1");
+  }
   function markLearned() {
     const learned = getStore(KEYS.learned, {});
-    const ids = currentPlan.words.map(w => w.id);
-    learned[currentPlan.dateKey] = Array.from(new Set([...(learned[currentPlan.dateKey] || []), ...ids]));
+    const ids = planWordIds(currentPlan);
+    learned[currentPlan.dateKey] = {
+      ids: Array.from(new Set(ids)),
+      signature: planSignature(currentPlan),
+      completedAt: new Date().toISOString()
+    };
     setStore(KEYS.learned, learned);
     localStorage.removeItem(KEYS.studySession);
     toast("Study completed for today");
     renderAll();
   }
-
   function saveLog(log) {
     const logs = getStore(KEYS.logs, []);
     logs.unshift({ ...log, createdAt: new Date().toISOString() });
@@ -1696,8 +1745,9 @@ function renderDictation() {
 
   function renderStats() {
     const learned = getStore(KEYS.learned, {});
-    const learnedDays = Object.keys(learned).length;
-    const learnedWords = new Set(Object.values(learned).flat()).size;
+    const learnedEntries = Object.values(learned).map(readLearnedEntry);
+    const learnedDays = learnedEntries.filter(entry => entry.ids.length).length;
+    const learnedWords = new Set(learnedEntries.flatMap(entry => entry.ids)).size;
     const wrongCount = Object.keys(getWrongbook()).length;
     const logs = getStore(KEYS.logs, []);
     $("learnedDays").textContent = learnedDays;
@@ -1711,6 +1761,7 @@ function renderDictation() {
 
   function renderAll(rebuildPlan = true) {
     if (rebuildPlan || !currentPlan) currentPlan = getPlan();
+    clearTodayProgressIfStale(currentPlan);
     renderHeader();
     renderHome();
     renderStudy();
