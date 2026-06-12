@@ -7,6 +7,7 @@ const PORT = Number(process.env.PORT || 3000);
 const ROOT_DIR = __dirname;
 const LIBRARY_DIR = process.env.YUMI_LIBRARY_DIR ||
   "F:\\\u6865\u6881\u4e66\\1_\u6865\u6881\u4e66\u301047\u5957\u3011\\33.\u79d1\u666e\u539f\u7248learning ladders1-3\u7ea7\u5168\u5957\u7535\u5b50\u7248pdf30\u4e2a+\u97f3\u989129\u4e2a";
+const LIBRARY_INDEX = process.env.YUMI_LIBRARY_INDEX || path.join(ROOT_DIR, "data", "library-index.json");
 const DEFAULT_OPENAI_API_KEY = process.env.OPENAI_API_KEY || "";
 let runtimeOpenAIKey = "";
 const TEXT_MODEL = process.env.OPENAI_TEXT_MODEL || "gpt-4.1-mini";
@@ -142,8 +143,27 @@ function scanLibrary(limit = 5) {
 }
 
 let cachedBooks = null;
+function getIndexedBooks() {
+  if (!fs.existsSync(LIBRARY_INDEX)) return null;
+  const index = JSON.parse(fs.readFileSync(LIBRARY_INDEX, "utf8"));
+  if (!Array.isArray(index.books)) return null;
+  return index.books
+    .filter(book => book.pdf && book.audio && book.pdf.path && book.audio.path)
+    .map((book, index) => ({
+      id: book.id || `book-${index + 1}`,
+      title: book.title,
+      level: book.level,
+      pdfUrl: `/api/file?kind=pdf&id=${encodeURIComponent(book.id || `book-${index + 1}`)}`,
+      audioUrl: `/api/file?kind=audio&id=${encodeURIComponent(book.id || `book-${index + 1}`)}`,
+      pdfName: book.pdf.name,
+      audioName: book.audio.name,
+      pdfPath: book.pdf.path,
+      audioPath: book.audio.path
+    }));
+}
+
 function getBooks() {
-  if (!cachedBooks) cachedBooks = scanLibrary(5);
+  if (!cachedBooks) cachedBooks = getIndexedBooks() || scanLibrary(5);
   return cachedBooks;
 }
 
@@ -556,7 +576,7 @@ const server = http.createServer((req, res) => {
   if (url.pathname === "/api/books") {
     try {
       cachedBooks = null;
-      sendJson(res, 200, { libraryDir: LIBRARY_DIR, books: getBooks(), aiReady: Boolean(getOpenAIKey()) });
+      sendJson(res, 200, { libraryDir: LIBRARY_DIR, libraryIndex: LIBRARY_INDEX, books: getBooks(), aiReady: Boolean(getOpenAIKey()) });
     } catch (err) {
       sendJson(res, 500, { error: err.message });
     }
