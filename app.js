@@ -129,6 +129,55 @@
     localStorage.setItem(KEYS.contentMigrated, "1");
   }
 
+
+  function findWordByResult(result) {
+    const id = result && result.id;
+    const wordText = String((result && result.word) || "").toLowerCase();
+    let found = null;
+    (COURSE.schedule || []).some(day => {
+      found = (day.words || []).find(w => w.id === id || String(w.word || "").toLowerCase() === wordText);
+      return !!found;
+    });
+    return found || (WORDS || []).find(w => w.id === id || String(w.word || "").toLowerCase() === wordText) || null;
+  }
+
+  function restoreWrongbookFromLogs() {
+    const logs = getStore(KEYS.logs, []);
+    if (!Array.isArray(logs) || !logs.length) return;
+    const wrongbook = getWrongbook();
+    let changed = false;
+
+    logs.forEach(log => {
+      const logDateKey = log.dateKey || dateKey(new Date(log.createdAt || Date.now()));
+      (log.results || []).forEach(result => {
+        if (!result || !result.hadWrong) return;
+        const fresh = findWordByResult(result);
+        const id = result.id || (fresh && fresh.id) || ("log_" + result.word);
+        const old = wrongbook[id] || { ...(fresh || result), id, wrongCount: 0, history: [] };
+        old.word = old.word || result.word;
+        old.level = old.level || result.level || (fresh && fresh.level);
+        old.cn = old.cn || result.cn || (fresh && fresh.cn);
+        old.pattern = old.pattern || (fresh && fresh.pattern);
+        old.examples = old.examples || (fresh && fresh.examples);
+        old.example = old.example || (fresh && fresh.example);
+        old.audioText = old.audioText || (fresh && fresh.audioText) || result.word;
+        old.history = old.history || [];
+        const alreadyLogged = old.history.some(h => h.dateKey === logDateKey && h.source === "dictation-log");
+        if (!alreadyLogged) {
+          old.history.unshift({ input: result.input || "", date: log.createdAt || new Date().toISOString(), dateKey: logDateKey, source: "dictation-log" });
+          old.history = old.history.slice(0, 50);
+          old.wrongCount = Math.max(old.wrongCount || 0, old.history.length);
+          changed = true;
+        }
+        old.lastWrongDateKey = old.lastWrongDateKey && old.lastWrongDateKey > logDateKey ? old.lastWrongDateKey : logDateKey;
+        old.lastWrongAt = old.lastWrongAt || log.createdAt || new Date().toISOString();
+        wrongbook[id] = old;
+      });
+    });
+
+    if (changed) setWrongbook(wrongbook);
+  }
+
   function removeWrong(id) {
     const wrongbook = getWrongbook();
     delete wrongbook[id];
@@ -1927,6 +1976,7 @@ function renderDictation() {
 
   seedInitialWrongbook();
   migrateWordContent();
+  restoreWrongbookFromLogs();
   bindEvents();
   renderAll();
 })();

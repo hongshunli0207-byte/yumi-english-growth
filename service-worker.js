@@ -1,4 +1,4 @@
-const CACHE_NAME = "yumi-english-growth-pwa-v26-remove-reader";
+const CACHE_NAME = "yumi-english-growth-pwa-v27-restore-wrongbook";
 const ASSETS = [
   "./",
   "./index.html",
