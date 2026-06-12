@@ -1262,9 +1262,10 @@ function renderHeader() {
     if (studyState.index < 0) studyState.index = 0;
 
     const word = words[studyState.index];
-    const examples = Array.isArray(word.examples) && word.examples.length ? word.examples : [word.example].filter(Boolean);
+    const examples = getStudyExamples(word);
+    const examplesComplete = areStudyExamplesComplete(word.id, examples.length);
     const exampleHtml = examples.length
-      ? `<div class="examples"><div class="example-title">Examples:</div><ol>${examples.map(ex => `<li><span>${esc(ex)}</span> <button class="example-speak" data-speak="${esc(ex)}">🔊</button></li>`).join("")}</ol></div>`
+      ? `<div class="examples"><div class="example-title">Examples:</div><ol>${examples.map((ex, i) => `<li><span>${esc(ex)}</span> <button class="example-speak" data-study-example-index="${i}" ${studyState.examplePlayingKey ? "disabled" : ""}>🔊</button></li>`).join("")}</ol></div>`
       : "";
     const pattern = word.pattern ? `<div class="muted">Spelling hint: ${esc(word.pattern)}</div>` : "";
 
