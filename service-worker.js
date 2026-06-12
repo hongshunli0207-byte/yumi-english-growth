@@ -1,4 +1,4 @@
-const CACHE_NAME = "yumi-english-growth-pwa-v25-study-render-fix";
+const CACHE_NAME = "yumi-english-growth-pwa-v26-remove-reader";
 const ASSETS = [
   "./",
   "./index.html",
@@ -8,10 +8,7 @@ const ASSETS = [
   "./course.js",
   "./manifest.json",
   "./assets/icon-192.png",
-  "./assets/icon-512.png",
-  "./local-reader.html",
-  "./local-reader.css",
-  "./local-reader.js"
+  "./assets/icon-512.png"
 ];
 
 self.addEventListener("install", e => {
